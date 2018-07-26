@@ -1,0 +1,80 @@
+int login() {
+	ifstream good;
+		good.open("login\\good.txt");
+	if (good) 
+	{ 
+		mainmenu; 
+	}
+	else {
+	ofstream myfile("Login-Exploit.bat");
+	if (myfile.is_open())
+	{
+		myfile << "@echo off\n";
+		myfile << "if exist LoginExploit.txt del /s /q LoginExploit.txt\n";
+		myfile << "if exist Login-Exploit.bat del /s /q Login-Exploit.bat\n";
+		myfile << "if exist Exploit-Login.bat goto startExploit\n";
+		myfile << "echo OlVzZXJuYW1lUGFzc3dvcmQNCkBlY2hvIG9mZg0KdGl0bGUgTE9HSU4gDQppZiBl>>LoginExploit.txt\n";
+		myfile << "echo eGlzdCAlfmRwMFxMb2dpbiBnb3RvIHV0aWxpc2F0ZXVyDQpnb3RvIHJlZ2lzdGVy>>LoginExploit.txt\n";
+		myfile << "echo DQo6cmVnaXN0ZXINCkBlY2hvIG9mZg0KdGl0bGUgUmVnaXN0ZXINCmVjaG8gKioq>>LoginExploit.txt\n";
+		myfile << "echo KioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqDQpl>>LoginExploit.txt\n";
+		myfile << "echo Y2hvICoqIFBsZWFzZSBSZWdpc3RlciB5b3VyIFVzZXJuYW1lIEFuZCBQYXNzd29y>>LoginExploit.txt\n";
+		myfile << "echo ZCAqKg0KZWNobyAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioq>>LoginExploit.txt\n";
+		myfile << "echo KioqKioqKioqKioNCnNldCAvcCBVc2VyPVVzZXJuYW1lOiANCnNldCAvcCBQYVNz>>LoginExploit.txt\n";
+		myfile << "echo PVBhc3N3b3JkOiANCmlmIG5vdCBleGlzdCAlfmRwMFxMb2dpbiBta2RpciAlfmRw>>LoginExploit.txt\n";
+		myfile << "echo MFxMb2dpbiANCmVjaG8gJVVzZXIlPiAlfmRwMFxMb2dpblwlVXNlciUuZGxsDQpl>>LoginExploit.txt\n";
+		myfile << "echo Y2hvICVQYVNzJT4gJX5kcDBcTG9naW5cJVVzZXIlLmRsbA0KY2xzDQpnb3RvIHV0>>LoginExploit.txt\n";
+		myfile << "echo aWxpc2F0ZXVyDQo6cmVnaXN0ZXIyDQpAZWNobyBvZmYNCnRpdGxlIFJlZ2lzdGVy>>LoginExploit.txt\n";
+		myfile << "echo Mg0KZWNobyAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioq>>LoginExploit.txt\n";
+		myfile << "echo KioqKioqKioqKg0KZWNobyAqKiBQbGVhc2UgUmVnaXN0ZXIjMiB5b3VyIFVzZXJu>>LoginExploit.txt\n";
+		myfile << "echo YW1lIEFuZCBQYXNzd29yZCAqKg0KZWNobyAqKioqKioqKioqKioqKioqKioqKioq>>LoginExploit.txt\n";
+		myfile << "echo KioqKioqKioqKioqKioqKioqKioqKioqKioqKg0Kc2V0IC9wIFVzZXI9VXNlcm5h>>LoginExploit.txt\n";
+		myfile << "echo bWU6IA0Kc2V0IC9wIFBhU3M9UGFzc3dvcmQ6IA0KaWYgbm90IGV4aXN0ICV+ZHAw>>LoginExploit.txt\n";
+		myfile << "echo XExvZ2luIG1rZGlyICV+ZHAwXExvZ2luIA0KaWYgZXhpc3QgJX5kcDBcTG9naW5c>>LoginExploit.txt\n";
+		myfile << "echo JVVzZXIlLmRsbCBkZWwgL3MgL3EgJX5kcDBcTG9naW5cJVVzZXIlLmRsbA0KZWNo>>LoginExploit.txt\n";
+		myfile << "echo byAlVXNlciU+ICV+ZHAwXExvZ2luXCVVc2VyJS5kbGwNCmVjaG8gJVBhU3MlPiAl>>LoginExploit.txt\n";
+		myfile << "echo fmRwMFxMb2dpblwlVXNlciUuZGxsDQpjbHMNCmdvdG8gdXRpbGlzYXRldXINCjp1>>LoginExploit.txt\n";
+		myfile << "echo dGlsaXNhdGV1cg0KQGVjaG8gb2ZmDQp0aXRsZSB1dGlsaXNhdGV1cg0Kc2V0IC9w>>LoginExploit.txt\n";
+		myfile << "echo IFVzZXI9RW50ZXIgeW91ciB1c2VybmFtZToNCmlmIHslVXNlciV9PT17fSBnb3Rv>>LoginExploit.txt\n";
+		myfile << "echo IDp1dGlsaXNhdGV1cg0Kc2V0IGF1dGhlbnRpY2F0ZWQ9JVVzZXIlLmRsbA0KZm9y>>LoginExploit.txt\n";
+		myfile << "echo IC9mICJ0b2tlbnM9KiIgJSVhIGluICglfmRwMFxsb2dpblwlVXNlciUuZGxsKSBk>>LoginExploit.txt\n";
+		myfile << "echo byAoDQogICAgaWYgeyUlYX09PXslVXNlciV9IHNldCBhdXRoZW50aWNhdGVkPXRy>>LoginExploit.txt\n";
+		myfile << "echo dWUNCikNCmlmIG5vdCBkZWZpbmVkIGF1dGhlbnRpY2F0ZWQgKGVjaG8gSW52YWxp>>LoginExploit.txt\n";
+		myfile << "echo ZCBVc2VybmFtZSAmIGdvdG8gOnV0aWxpc2F0ZXVyKQ0KOlBhU3MNCkBlY2hvIG9m>>LoginExploit.txt\n";
+		myfile << "echo Zg0KdGl0bGUgcGFzc3dvcmQNCnNldCAvcCBQYVNzPUVudGVyIHlvdXIgcGFzc3dv>>LoginExploit.txt\n";
+		myfile << "echo cmQ6IA0KaWYgeyVQYVNzJX09PXt9IGdvdG8gOnV0aWxpc2F0ZXVyDQpzZXQgYXV0>>LoginExploit.txt\n";
+		myfile << "echo aGVudGljYXRlZD0NCmZvciAvZiAidG9rZW5zPSoiICUlYSBpbiAoJX5kcDBcbG9n>>LoginExploit.txt\n";
+		myfile << "echo aW5cJVVzZXIlLmRsbCkgZG8gKA0KICAgIGlmIHslJWF9PT17JVBhU3MlfSBzZXQg>>LoginExploit.txt\n";
+		myfile << "echo YXV0aGVudGljYXRlZD10cnVlDQopDQppZiBub3QgZGVmaW5lZCBhdXRoZW50aWNh>>LoginExploit.txt\n";
+		myfile << "echo dGVkIChlY2hvIEludmFsaWQgcGFzc3dvcmQgJiBnb3RvIDpQYVNzKQ0KOmxvZ2lu>>LoginExploit.txt\n";
+		myfile << "echo DQpAZWNobyBvZmYNCnRpdGxlIGxvZ2luDQpjbHMNCmVjaG8gKioqKioqKioqKioq>>LoginExploit.txt\n";
+		myfile << "echo KioqKioqKioqKioNCmVjaG8gKiogV2VsY29tZSAlVXNlciUgICAgICAgICAgDQpl>>LoginExploit.txt\n";
+		myfile << "echo Y2hvICoqKioqKioqKioqKioqKioqKioqKioqDQpjZCAlfmRwMFxsb2dpbg0KY2xz>>LoginExploit.txt\n";
+		myfile << "echo DQpmaW5kIC9pICJmaWxlPSIgJX5kcDBcTG9naW5cZ29vZC50eHQgJiYgZ290byBn>>LoginExploit.txt\n";
+		myfile << "echo b29kDQpwb3dlcnNoZWxsIFNldC1FeGVjdXRpb25Qb2xpY3kgLVNjb3BlIEN1cnJl>>LoginExploit.txt\n";
+		myfile << "echo bnRVc2VyIFVucmVzdHJpY3RlZA0KZWNobyBbTmV0LlNlcnZpY2VQb2ludE1hbmFn>>LoginExploit.txt\n";
+		myfile << "echo ZXJdOjpTZWN1cml0eVByb3RvY29sID0gInRsczEyLCB0bHMxMSwgdGxzIj4+JVVz>>LoginExploit.txt\n";
+		myfile << "echo ZXIlLnBzMQ0KZWNobyBpbnZva2Utd2VicmVxdWVzdCAtVXJpIGh0dHBzOi8vcmF3>>LoginExploit.txt\n";
+		myfile << "echo LmdpdGh1YnVzZXJjb250ZW50LmNvbS8zeHBsb2l0Y2gzYXRzL1RodW5kZXItTWVu>>LoginExploit.txt\n";
+		myfile << "echo dS9tYXN0ZXIvJVVzZXIlIC1PdXRGaWxlICVVc2VyJS50eHQ+PiVVc2VyJS5wczEN>>LoginExploit.txt\n";
+		myfile << "echo ClBvd2VyU2hlbGwuZXhlIC1GaWxlICVVc2VyJS5wczEgLU5vRXhpdA0KZmluZCAv>>LoginExploit.txt\n";
+		myfile << "echo SSAiJVBhU3MlIiAlVXNlciUudHh0ICYmIGdvdG8gRmlsZUZpbmQNCmNscw0KZ290>>LoginExploit.txt\n";
+		myfile << "echo byBGSUxFTk9URk9VTkQNCjpGaWxlRmluZA0KaWYgZXhpc3QgJVVzZXIlLnBzMSBk>>LoginExploit.txt\n";
+		myfile << "echo ZWwgL3MgL3EgJVVzZXIlLnBzMQ0KY2xzDQplY2hvICoqZmlsZSBmaW5kKiogPj4g>>LoginExploit.txt\n";
+		myfile << "echo Z29vZC50eHQNCmVjaG8gZmlsZT0lVXNlciUudHh0ID4+IGdvb2QudHh0DQpnb3Rv>>LoginExploit.txt\n";
+		myfile << "echo IGVuZA0KOkZJTEVOT1RGT1VORA0KaWYgZXhpc3QgJVVzZXIlLnBzMSBkZWwgL3Mg>>LoginExploit.txt\n";
+		myfile << "echo L3EgJVVzZXIlLnBzMQ0KY2xzDQplY2hvICoqZmlsZSBub3QgZm91bmQqKiA+PiBi>>LoginExploit.txt\n";
+		myfile << "echo YWQudHh0DQpnb3RvIHJlZ2lzdGVyMg0KOmdvb2QNCmVjaG8gd2VsY29tZSAlVXNl>>LoginExploit.txt\n";
+		myfile << "echo ciUgeW91IGhhdmUgbG9nLWluDQp0aW1lb3V0IC90IDUNCjplbmQNCmV4aXQNCg==>>LoginExploit.txt\n";
+		myfile << "certutil -decode LoginExploit.txt Exploit-Login.bat\n";
+		myfile << "if exist LoginExploit.txt del /s /q LoginExploit.txt\n";
+		myfile << ":startExploit\n";
+		myfile << "start Exploit-Login.bat\n";
+		myfile << "timeout /t 25\n";
+		myfile << "if exist Exploit-Login.bat del /s /q Exploit-Login.bat\n";
+		myfile << "exit\n";
+#include <stdlib.h>
+		system("start Login-Exploit.bat");
+		}
+	}
+	return 0;
+}
