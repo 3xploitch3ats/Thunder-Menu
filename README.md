@@ -12,4 +12,6 @@ https://github.com/3xploitch3ats/Thunder-Menu/blob/v2/ExploitMenu.dll
 
 https://github.com/3xploitch3ats/Thunder-Menu/raw/v2/ThunderMenu.exe
 
+# the free username and password is Thunder and Menu
+
 https://thunder-menu.com
