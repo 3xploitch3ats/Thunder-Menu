@@ -1,5 +1,5 @@
 # Thunder-Menu
-	int ConsoleKey{ VK_MULTIPLY }; this is the key start for open the menu in Options.h
+	int ConsoleKey{ VK_MULTIPLY }; this is the key 106 star for open the menu in Options.h
 
 https://www.mediafire.com/file/dnoxdsrujsset4m/CyberEngineTweaks-compiled.zip/file
 
