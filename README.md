@@ -1,19 +1,13 @@
 # Thunder-Menu
 	int ConsoleKey{ VK_MULTIPLY }; this is the key 106 star for open the menu in Options.h
-
-https://www.mediafire.com/file/dnoxdsrujsset4m/CyberEngineTweaks-compiled.zip/file
-
-https://www.mediafire.com/file/gsdmzy91pv1u1f4/CyberEngineTweaks-github.zip/file
-
-https://www.mediafire.com/file/lfxg08vvwoikz7x/CyberEngineTweaks-xmake.zip/file
-
-https://github.com/3xploitch3ats/Thunder-Menu/tree/CyberPunk2077
+# Cyberpunk 1.6
+https://www.mediafire.com/file/opb01vpug2o09lv/CyberEngineTweaks-compiled2.zip/file
+https://www.mediafire.com/file/iznmbgwx5mss946/CyberEngineTweaks-xmake2.zip/file
+https://www.mediafire.com/file/jf735uz88st745i/CyberEngineTweaks-github2.zip/file
 
 https://github.com/3xploitch3ats/Thunder-Menu/raw/CyberPunk2077/CYBER.zip
 
-https://www.mediafire.com/file/dm8eb1ijkh8hyle/CyberEngineTweaks-master.zip/file
-
-https://github.com/3xploitch3ats/Thunder-Menu/raw/CyberPunk2077/CyberEngineTweaks-master.zip
+https://github.com/3xploitch3ats/Thunder-Menu/tree/CyberPunk2077
 
 https://github.com/yamashi/CyberEngineTweaks
 
