@@ -12,3 +12,5 @@ https://github.com/3xploitch3ats/Thunder-Menu/tree/CyberPunk2077
 https://github.com/yamashi/CyberEngineTweaks
 
 https://thunder-menu.com
+
+https://pastebin.com/NeK7atnr
