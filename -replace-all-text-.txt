@@ -1,0 +1,35 @@
+```c
+#emptyline
+(Get-Content cyberpropp.txt) | 
+Where-Object{$_.length -gt 0} | 
+Set-Content cyberpropp.txt 
+
+#beginofline
+(Get-Content cyberpropp.txt) | 
+Foreach-Object {$_ -replace "^", "(char*)"""} | 
+Set-Content cyberpropp.txt 
+
+#endofline
+(Get-Content cyberpropp.txt) | 
+Foreach-Object {$_ -replace "$", ""","} | 
+Set-Content cyberpropp.txt 
+
+#replace+line
+(Get-Content cyberpropp.txt) | 
+Foreach-Object {$_ -replace "{ std", "{
+std"} | 
+Set-Content cyberpropp.txt 
+
+#replace-text-in-all-files-that-will-contain-the-folder
+$hash.'../luaembed/etc/'
+$hash1.''
+$exclude = @("*log*", "*bak*")
+$include = @("*h*", "*cpp*")
+$files = Get-ChildItem -Path "C:\Users\jason\Desktop\replace-test\rep" -Recurse -include $include -exclude $exclude
+foreach ($file in $configFiles)
+{
+    (Get-Content $file.PSPath) |
+    Foreach-Object { $_ -replace $hash, $hash1 } |
+    Set-Content -LiteralPath $file.PSPath -Force 
+}
+```
