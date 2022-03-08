@@ -1,0 +1,1849 @@
+#EXTM3U
+#EXTINF:0,FR: TF1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/612
+#EXTINF:0,FR: TF1 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56327
+#EXTINF:0,FR: FRANCE 2
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/613
+#EXTINF:0,FR: FRANCE 2 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56268
+#EXTINF:0,FR: FRANCE 3
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/614
+#EXTINF:0,FR: FRANCE 3 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56269
+#EXTINF:0,FR: FRANCE 4
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/615
+#EXTINF:0,FR: FRANCE 4 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56270
+#EXTINF:0,FR: FRANCE 5
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/616
+#EXTINF:0,FR: FRANCE 5 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56271
+#EXTINF:0,FR: FRANCE O
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/604
+#EXTINF:0,FR: M6
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/617
+#EXTINF:0,FR: M6 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56281
+#EXTINF:0,FR: ARTE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10282
+#EXTINF:0,FR: TF1 SERIES FILM
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4281
+#EXTINF:0,FR: TF1 SERIES FILMS FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56329
+#EXTINF:0,FR: PARIS PREMIERE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4911
+#EXTINF:0,FR: PARIS PREMIERE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56304
+#EXTINF:0,FR: TMC
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4304
+#EXTINF:0,FR: TMC FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56333
+#EXTINF:0,FR: TV BREIZH
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4903
+#EXTINF:0,FR: TV BREIZH FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56336
+#EXTINF:0,FR: CANAL+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/630
+#EXTINF:0,FR: CANAL+ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56236
+#EXTINF:0,FR: CANAL+ CINEMA
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/631
+#EXTINF:0,FR: CANAL+ CINEMA FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56233
+#EXTINF:0,FR: CANAL+ FAMILY
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/633
+#EXTINF:0,FR: CANAL+ FAMILY FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56235
+#EXTINF:0,FR: CANAL+ DECALE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/632
+#EXTINF:0,FR: CANAL+ DECALE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56234
+#EXTINF:0,FR: CANAL+ SERIES
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/634
+#EXTINF:0,FR: CANAL+ SERIES FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56237
+#EXTINF:0,FR: CANAL+  SPORT
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/629
+#EXTINF:0,FR: CANAL+ SPORT FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56238
+#EXTINF:0,FR: 6TER
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4947
+#EXTINF:0,FR: 6TER FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56216
+#EXTINF:0,FR: OCS MAX
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4291
+#EXTINF:0,FR: OCS MAX FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56299
+#EXTINF:0,FR: OCS CHOC
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4288
+#EXTINF:0,FR: OCS CHOC FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56296
+#EXTINF:0,FR: OCS CITY
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4289
+#EXTINF:0,FR: OCS CITY FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56297
+#EXTINF:0,FR: OCS GEANT
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/8300
+#EXTINF:0,FR: OCS GEANT FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56298
+#EXTINF:0,FR: CINE+ PREMIER
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/3893
+#EXTINF:0,FR: CINE+ PREMIER FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56245
+#EXTINF:0,FR: CINE+ EMOTION
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4268
+#EXTINF:0,FR: CINE+ EMOTION FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56247
+#EXTINF:0,FR: CINE+ FRISSON
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4270
+#EXTINF:0,FR: CINE+ FRISSON FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56244
+#EXTINF:0,FR: CINE+ FAMIZ
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4272
+#EXTINF:0,FR: CINE+ FAMIZ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56243
+#EXTINF:0,FR: CINE+ CLASSIC
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4271
+#EXTINF:0,FR: CINE+ CLASSIC FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56246
+#EXTINF:0,FR: CINE+  CLUB
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15363
+#EXTINF:0,FR:  POLAR+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/3896
+#EXTINF:0,FR:  POLAR+ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56309
+#EXTINF:0,FR: ACTION
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4267
+#EXTINF:0,FR: ACTION FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56221
+#EXTINF:0,FR: TCM CINEMA
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10161
+#EXTINF:0,FR: TCM CINEMA FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56323
+#EXTINF:0,FR: PARAMOUNT
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10181
+#EXTINF:0,FR: PARAMOUNT CHANNEL FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56302
+#EXTINF:0,FR: TOONAMI
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10191
+#EXTINF:0,FR: Syfy
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4302
+#EXTINF:0,FR: SYFY FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56322
+#EXTINF:0,FR: 13eme rue
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4266
+#EXTINF:0,FR: COMEDIE+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4274
+#EXTINF:0,FR: COMEDIE+ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56248
+#EXTINF:0,FR: AB1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/3894
+#EXTINF:0,FR: AB1 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56219
+#EXTINF:0,FR: AB3
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/11798
+#EXTINF:0,FR: AB3 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56220
+#EXTINF:0,FR: TFX
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4286
+#EXTINF:0,FR: TFX FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56330
+#EXTINF:0,FR: Serie Club
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4298
+#EXTINF:0,FR: SERIE CLUB FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56319
+#EXTINF:0,FR: TEVA
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4303
+#EXTINF:0,FR: TEVA FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56326
+#EXTINF:0,FR: W9
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/598
+#EXTINF:0,FR: C8
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/593
+#EXTINF:0,FR: C8 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56232
+#EXTINF:0,FR: CSTAR
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4275
+#EXTINF:0,FR: NUMERO 23
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4913
+#EXTINF:0,FR: RTL 9
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10172
+#EXTINF:0,FR: RTL9 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56316
+#EXTINF:0,FR: beIN SPORT 1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/635
+#EXTINF:0,FR: BEIN SPORTS 1 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56225
+#EXTINF:0,FR: beIN SPORT 2
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/636
+#EXTINF:0,FR: BEIN SPORTS 2 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56226
+#EXTINF:0,FR: beIN SPORT 3
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/637
+#EXTINF:0,FR: BEIN SPORTS 3 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56227
+#EXTINF:0,FR: beIN  MAX 4
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4954
+#EXTINF:0,FR: beIN  MAX 5
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4953
+#EXTINF:0,FR: beIN  MAX 6
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4952
+#EXTINF:0,FR: beIN  MAX 7
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4951
+#EXTINF:0,FR: beIN  MAX 8
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4950
+#EXTINF:0,FR: beIN  MAX 9
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4949
+#EXTINF:0,FR: beIN  MAX 10
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4948
+#EXTINF:0,FR: FOOT +
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4280
+#EXTINF:0,FR: FOOT+ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56265
+#EXTINF:0,FR: LUXE TV HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4282
+#EXTINF:0,FR: LEQUIPE 21
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4922
+#EXTINF:0,FR: L EQUIPE 21 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56280
+#EXTINF:0,FR: INFOSPORT+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10207
+#EXTINF:0,FR: INFOSPORT+ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56278
+#EXTINF:0,FR: Eurosport 1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4357
+#EXTINF:0,FR: EUROSPORT 1 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56261
+#EXTINF:0,FR: Eurosport 2
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4356
+#EXTINF:0,FR: EUROSPORT 2 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56262
+#EXTINF:0,FR: AB Moteurs
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4946
+#EXTINF:0,FR: Equidia live
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4935
+#EXTINF:0,FR: GOLF CHANNEL
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10212
+#EXTINF:0,FR: GOLF CHANNEL FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56275
+#EXTINF:0,FR: GOLF+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10211
+#EXTINF:0,FR: GOLF+ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56274
+#EXTINF:0,FR: RMC SPORT NEWS
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/44979
+#EXTINF:0,FR: RMC SPORT 1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4299
+#EXTINF:0,FR: RMC SPORT 1 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56311
+#EXTINF:0,FR: RMC SPORT 2
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4300
+#EXTINF:0,FR: RMC SPORT 2 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56312
+#EXTINF:0,FR: RMC SPORT 3
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4355
+#EXTINF:0,FR: RMC SPORT 3 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56313
+#EXTINF:0,FR: RMC SPORT 4
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10163
+#EXTINF:0,FR: RMC SPORT 4 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56314
+#EXTINF:0,FR: RMC SPORT 5
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15354
+#EXTINF:0,FR: RMC SPORT 6
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15345
+#EXTINF:0,FR: RMC SPORT ACCESS 1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/44986
+#EXTINF:0,FR: RMC SPORT ACCESS 2
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/44985
+#EXTINF:0,FR: RMC DECOUVERTE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10288
+#EXTINF:0,FR: RMC DECOUVERTE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56310
+#EXTINF:0,FR: RMC STORY
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/36495
+#EXTINF:0,FR: PLANETE+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/596
+#EXTINF:0,FR: PLANETE +  FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56306
+#EXTINF:0,FR: PLANETE+  A&E
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10176
+#EXTINF:0,FR: PLANETE+ A&E  FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56307
+#EXTINF:0,FR: PLANETE+ CI
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10175
+#EXTINF:0,FR: PLANETE+ CI  FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56308
+#EXTINF:0,FR: NATIONAL GEOGRAPHIC
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/590
+#EXTINF:0,FR: NATIONAL GEOGRAPHIC FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56287
+#EXTINF:0,FR: NATIONAL GEOGRAPHIC WILD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4284
+#EXTINF:0,FR: NATIONAL GEO WILD FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56286
+#EXTINF:0,FR: DISCOVERY
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10241
+#EXTINF:0,FR: DISCOVERY FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56250
+#EXTINF:0,FR: DISCOVERY SCIENCE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4277
+#EXTINF:0,FR: DISCOVERY SCIENCE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56252
+#EXTINF:0,FR: Discovery investigation
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10240
+#EXTINF:0,FR: DISCOVERY INVESTIGATION FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56251
+#EXTINF:0,FR: USHUAIA TV
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10151
+#EXTINF:0,FR: SCIENCE ET VIE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10169
+#EXTINF:0,FR: SCIENCE ET VIE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56317
+#EXTINF:0,FR: TOUTE LHISTOIRE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10154
+#EXTINF:0,FR: TOUTE L HISTOIRE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56335
+#EXTINF:0,FR: Histoire
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4348
+#EXTINF:0,FR: HISTOIRE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56277
+#EXTINF:0,FR: ANIMAUX
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/597
+#EXTINF:0,FR: ANIMAUX FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56223
+#EXTINF:0,FR: CHASSE PECHE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10256
+#EXTINF:0,FR: CHASSE ET PECHE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56241
+#EXTINF:0,FR: SEASONS
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4772
+#EXTINF:0,FR: SEASON FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56318
+#EXTINF:0,FR: CHERIE 25
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4941
+#EXTINF:0,FR: CHERIE 25 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56242
+#EXTINF:0,FR: MTV
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10198
+#EXTINF:0,FR: M6 MUSIC
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10203
+#EXTINF:0,FR: MCM
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4918
+#EXTINF:0,FR: NRJ Hits
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4915
+#EXTINF:0,FR: NRJ12
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10190
+#EXTINF:0,FR: NRJ 12 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56295
+#EXTINF:0,FR: RFM TV
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10174
+#EXTINF:0,FR: Trace Urban
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4905
+#EXTINF:0,FR: Disney
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4937
+#EXTINF:0,FR: DISNEY FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56254
+#EXTINF:0,FR: Disney Junior
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4364
+#EXTINF:0,FR: DISNEY JUNIOR FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56256
+#EXTINF:0,FR: BOOMERANG
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/628
+#EXTINF:0,FR: BOOMERANG FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56231
+#EXTINF:0,FR: CARTOON NETWORK
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4899
+#EXTINF:0,FR: CARTOON NETWORK FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56240
+#EXTINF:0,FR: NICKELODEON
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10193
+#EXTINF:0,FR: NICKELODEON FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56289
+#EXTINF:0,FR: Nickelodeon Junior
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4366
+#EXTINF:0,FR: NICKELODEON4-TEEN FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56291
+#EXTINF:0,FR: BOING
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10270
+#EXTINF:0,FR: TELETOON+1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10160
+#EXTINF:0,FR: TELETOON+1 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56324
+#EXTINF:0,FR: TELETOON+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/595
+#EXTINF:0,FR: TELETOON+  FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56325
+#EXTINF:0,FR: MEZZO LIVE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10200
+#EXTINF:0,FR: Brava
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4942
+#EXTINF:0,FR: E! Entertainment
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10155
+#EXTINF:0,FR: Canal J
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4368
+#EXTINF:0,FR: J-ONE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10206
+#EXTINF:0,FR: Gulli
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/609
+#EXTINF:0,FR: PIWI+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10178
+#EXTINF:0,FR: Tiji
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10157
+#EXTINF:0,FR: MANGAS
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10202
+#EXTINF:0,FR: Game One
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4360
+#EXTINF:0,FR: LCI
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4923
+#EXTINF:0,FR: BFM TV
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4943
+#EXTINF:0,FR: Euronews
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4933
+#EXTINF:0,FR: FRANCE INFO
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4928
+#EXTINF:0,FR: CNEWS
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/602
+#EXTINF:0,FR: FRANCE 24
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10218
+#EXTINF:0,FR: CRIME DISTRICT
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10244
+#EXTINF:0,FR: BFM BUSINESS
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15349
+#EXTINF:0,FR: LCP
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15351
+#EXTINF:0,FR: MCM TOP
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/11799
+#EXTINF:0,FR: MTV HITS
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15355
+#EXTINF:0,FR: TREK
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15356
+#EXTINF:0,FR: TV 5 MONDE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15350
+#EXTINF:0,FR: Canal Play 1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4776
+#EXTINF:0,FR: Canal Play 2
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4775
+#EXTINF:0,FR: Canal Play 3
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4774
+#EXTINF:0,FR: Canal Play 4
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4773
+#EXTINF:0,FR: Canal Play 5
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/16225
+#EXTINF:0,FR: Canal Play 6
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/16224
+#EXTINF:0,FR: Canal Play 7
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/16223
+#EXTINF:0,FR: Paramount Channel Decale
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/36496
+#EXTINF:0,FR: SUNDANCE TV FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56321
+#EXTINF:0,FR: TIJI FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56331
+#EXTINF:0,FR: ALTICE STUDIO FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56222
+#EXTINF:0,FR: BET TV FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56228
+#EXTINF:0,FR: BFM PARIS FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56229
+#EXTINF:0,FR: CANAL J FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56239
+#EXTINF:0,FR: E! ENTERTAINMENT FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56258
+#EXTINF:0,FR: ES1 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56260
+#EXTINF:0,FR: AB EXPLORE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56266
+#EXTINF:0,FR: ALTICE STUDIO
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56267
+#EXTINF:0,FR: GAME ONE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56273
+#EXTINF:0,FR: GULLI FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56276
+#EXTINF:0,FR: J-ONE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56279
+#EXTINF:0,FR: MUSEUM FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56284
+#EXTINF:0,FR: NOLLYWOOD FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56292
+#EXTINF:0,FR: NOVELAS FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56294
+#EXTINF:0,FR: PIWI+ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56305
+#EXTINF:0,FR: PARAMOUNT DECALE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56303
+#EXTINF:0,FR: Orange Cinema 1 HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71932
+#EXTINF:0,FR: Orange Cinema 3 HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71934
+#EXTINF:0,FR: Orange Cinema 4 HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71935
+#EXTINF:0,FR: Orange Cinema Aventure HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71936
+#EXTINF:0,FR: Orange Cinema HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71937
+#EXTINF:0,13_EME_RUE_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/13_EME_RUE_HD.m3u
+#EXTINF:0,3ABNFrancais.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/3ABNFrancais.m3u
+#EXTINF:0,6TER_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/6TER_HD.m3u
+#EXTINF:0,A.LA.CARTE.1.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/A.LA.CARTE.1.m3u
+#EXTINF:0,A.LA.CARTE.3.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/A.LA.CARTE.3.m3u
+#EXTINF:0,A2i_Music.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/A2i_Music.m3u
+#EXTINF:0,A2i_Religion.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/A2i_Religion.m3u
+#EXTINF:0,A2i_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/A2i_TV.m3u
+#EXTINF:0,AB1.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/AB1.m3u
+#EXTINF:0,AB3.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/AB3.m3u
+#EXTINF:0,AB_Moteur_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/AB_Moteur_HD.m3u
+#EXTINF:0,ACTION.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/ACTION.m3u
+#EXTINF:0,ALTICE_STUDIO_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/ALTICE_STUDIO_HD.m3u
+#EXTINF:0,A_LA_CARTE_10.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/A_LA_CARTE_10.m3u
+#EXTINF:0,A_LA_CARTE_5.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/A_LA_CARTE_5.m3u
+#EXTINF:0,A_LA_CARTE_7.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/A_LA_CARTE_7.m3u
+#EXTINF:0,A_LA_CARTE_8.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/A_LA_CARTE_8.m3u
+#EXTINF:0,A_LA_CARTE_9.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/A_LA_CARTE_9.m3u
+#EXTINF:0,Acht_Belgium (1).m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Acht_Belgium%20(1).m3u
+#EXTINF:0,Acht_Belgium.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Acht_Belgium.m3u
+#EXTINF:0,Alsace20.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Alsace20.m3u
+#EXTINF:0,Alsace_20.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Alsace_20.m3u
+#EXTINF:0,Amazing_Discoveries_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Amazing_Discoveries_TV.m3u
+#EXTINF:0,Asylum.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Asylum.m3u
+#EXTINF:0,BET.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BET.m3u
+#EXTINF:0,BE_CINE_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BE_CINE_HD.m3u
+#EXTINF:0,BE_CURIOUS_TV_FHD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BE_CURIOUS_TV_FHD.m3u
+#EXTINF:0,BFMGrandLille.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BFMGrandLille.m3u
+#EXTINF:0,BFMGrandLittoral.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BFMGrandLittoral.m3u
+#EXTINF:0,BFMLyon.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BFMLyon.m3u
+#EXTINF:0,BFMParis.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BFMParis.m3u
+#EXTINF:0,BFM_Grand_Lille.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BFM_Grand_Lille.m3u
+#EXTINF:0,BFM_Grand_Littoral.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BFM_Grand_Littoral.m3u
+#EXTINF:0,BFM_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BFM_TV.m3u
+#EXTINF:0,BOOMERANG_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BOOMERANG_HD.m3u
+#EXTINF:0,BeIN_SPORTS_2_FHD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BeIN_SPORTS_2_FHD.m3u
+#EXTINF:0,Bein_Sports_1_HD_backup.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Bein_Sports_1_HD_backup.m3u
+#EXTINF:0,BelRTL.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BelRTL.m3u
+#EXTINF:0,BipTV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BipTV.m3u
+#EXTINF:0,Bip_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Bip_TV.m3u
+#EXTINF:0,Bloomberg_TV_en.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Bloomberg_TV_en.m3u
+#EXTINF:0,BossBrothersTV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/BossBrothersTV.m3u
+#EXTINF:0,CANAL_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CANAL_HD.m3u
+#EXTINF:0,CANAL_J.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CANAL_J.m3u
+#EXTINF:0,CANAL_PLAY_2.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CANAL_PLAY_2.m3u
+#EXTINF:0,CANAL_PLAY_3.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CANAL_PLAY_3.m3u
+#EXTINF:0,CANAL_PLAY_4.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CANAL_PLAY_4.m3u
+#EXTINF:0,CANAL_PLAY_5.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CANAL_PLAY_5.m3u
+#EXTINF:0,CANAL_PLAY_6.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CANAL_PLAY_6.m3u
+#EXTINF:0,CANAL__FHD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CANAL__FHD.m3u
+#EXTINF:0,CA_Vie_FR_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CA_Vie_FR_HD.m3u
+#EXTINF:0,CBC_News.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CBC_News.m3u
+#EXTINF:0,CGTNFrancais.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CGTNFrancais.m3u
+#EXTINF:0,CGTNFrance.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CGTNFrance.m3u
+#EXTINF:0,CGTN_France.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CGTN_France.m3u
+#EXTINF:0,CHERIE_25_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CHERIE_25_HD.m3u
+#EXTINF:0,CINE_CLASSIC.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CINE_CLASSIC.m3u
+#EXTINF:0,CINE_CLASSIC_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CINE_CLASSIC_HD.m3u
+#EXTINF:0,CINE_EMOTION.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CINE_EMOTION.m3u
+#EXTINF:0,CINE_EMOTION_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CINE_EMOTION_HD.m3u
+#EXTINF:0,CINE_FAMIZ.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CINE_FAMIZ.m3u
+#EXTINF:0,CINE_FRISSON.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CINE_FRISSON.m3u
+#EXTINF:0,CINE_FRISSON_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CINE_FRISSON_HD.m3u
+#EXTINF:0,CINE_FX.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CINE_FX.m3u
+#EXTINF:0,CINE_POLAR.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CINE_POLAR.m3u
+#EXTINF:0,CINE_PREMIER.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CINE_PREMIER.m3u
+#EXTINF:0,CINE_PREMIER_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CINE_PREMIER_HD.m3u
+#EXTINF:0,CNews_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CNews_HD.m3u
+#EXTINF:0,COMEDIE_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/COMEDIE_HD.m3u
+#EXTINF:0,CRIME_DISTRICT_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CRIME_DISTRICT_HD.m3u
+#EXTINF:0,CSTAR_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CSTAR_HD.m3u
+#EXTINF:0,Canada_canal_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Canada_canal_0.iptvcat.com.m3u8
+#EXTINF:0,Canada_montreal_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Canada_montreal_0.iptvcat.com.m3u8
+#EXTINF:0,Canada_music_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Canada_music_0.iptvcat.com.m3u8
+#EXTINF:0,Canada_quebec_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Canada_quebec_0.iptvcat.com.m3u8
+#EXTINF:0,Canada_rdi_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Canada_rdi_0.iptvcat.com.m3u8
+#EXTINF:0,CanalSavoir.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/CanalSavoir.m3u
+#EXTINF:0,Canal_Cinema.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Canal_Cinema.m3u
+#EXTINF:0,Canal_Decale.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Canal_Decale.m3u
+#EXTINF:0,Canal_Family.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Canal_Family.m3u
+#EXTINF:0,Canal_Savoir.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Canal_Savoir.m3u
+#EXTINF:0,Canal_Series.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Canal_Series.m3u
+#EXTINF:0,Canal_Sport.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Canal_Sport.m3u
+#EXTINF:0,Canal_Sport_FHD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Canal_Sport_FHD.m3u
+#EXTINF:0,Cartoon_Network_FHD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Cartoon_Network_FHD.m3u
+#EXTINF:0,Cartoon_Network_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Cartoon_Network_HD.m3u
+#EXTINF:0,Chasse_et_Peche.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Chasse_et_Peche.m3u
+#EXTINF:0,Cine_Famiz_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Cine_Famiz_HD.m3u
+#EXTINF:0,Cine_Premier_FHD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Cine_Premier_FHD.m3u
+#EXTINF:0,ClubbingTV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/ClubbingTV.m3u
+#EXTINF:0,Comedie_.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Comedie_.m3u
+#EXTINF:0,D5TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/D5TV.m3u
+#EXTINF:0,D8.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/D8.m3u
+#EXTINF:0,DISCOVERY.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/DISCOVERY.m3u
+#EXTINF:0,DISNEY_CHANNEL.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/DISNEY_CHANNEL.m3u
+#EXTINF:0,DISNEY_CHANNEL_FHD_1080.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/DISNEY_CHANNEL_FHD_1080.m3u
+#EXTINF:0,DISNEY_CINEMA.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/DISNEY_CINEMA.m3u
+#EXTINF:0,DISNEY_CINEMA_FHD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/DISNEY_CINEMA_FHD.m3u
+#EXTINF:0,DieuTV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/DieuTV.m3u
+#EXTINF:0,Dieu_TV_-_github.com--Free-IPTV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Dieu_TV_-_github.com--Free-IPTV.m3u
+#EXTINF:0,Discovery_Investigation_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Discovery_Investigation_HD.m3u
+#EXTINF:0,Discovery_Science_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Discovery_Science_HD.m3u
+#EXTINF:0,Disney_XD_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Disney_XD_HD.m3u
+#EXTINF:0,EET_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/EET_TV.m3u
+#EXTINF:0,EMCI_TV (1).m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/EMCI_TV%20(1).m3u
+#EXTINF:0,EMCI_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/EMCI_TV.m3u
+#EXTINF:0,EMCI_TV_.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/EMCI_TV_.m3u
+#EXTINF:0,EQUIDIA_LIFE.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/EQUIDIA_LIFE.m3u
+#EXTINF:0,EQUIDIA_live.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/EQUIDIA_live.m3u
+#EXTINF:0,EURONEWS.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/EURONEWS.m3u
+#EXTINF:0,EUROSPORT2.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/EUROSPORT2.m3u
+#EXTINF:0,E_Entertainment.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/E_Entertainment.m3u
+#EXTINF:0,Europe_francais_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Europe_francais_0.iptvcat.com.m3u8
+#EXTINF:0,Europe_french_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Europe_french_0.iptvcat.com.m3u8
+#EXTINF:0,Eurosport_1.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Eurosport_1.m3u
+#EXTINF:0,Eurosport_2.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Eurosport_2.m3u
+#EXTINF:0,FOOT_24.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/FOOT_24.m3u
+#EXTINF:0,FR-M3u-List-3-04-03-2022.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/FR-M3u-List-3-04-03-2022.m3u
+#EXTINF:0,FRANCE_24.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/FRANCE_24.m3u
+#EXTINF:0,FRANCE_2_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/FRANCE_2_HD.m3u
+#EXTINF:0,FRANCE_3.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/FRANCE_3.m3u
+#EXTINF:0,Fashion_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Fashion_TV.m3u
+#EXTINF:0,Filmrise_True_Crime.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Filmrise_True_Crime.m3u
+#EXTINF:0,Filmrise_free_movies.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Filmrise_free_movies.m3u
+#EXTINF:0,Football_daily.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Football_daily.m3u
+#EXTINF:0,France2Hd.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/France2Hd.m3u
+#EXTINF:0,France3HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/France3HD.m3u
+#EXTINF:0,France4HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/France4HD.m3u
+#EXTINF:0,France5HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/France5HD.m3u
+#EXTINF:0,FranceInfo.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/FranceInfo.m3u
+#EXTINF:0,France_02_FHD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/France_02_FHD.m3u
+#EXTINF:0,France_24 (1).m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/France_24%20(1).m3u
+#EXTINF:0,France_24_English.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/France_24_English.m3u
+#EXTINF:0,France_24_Francais.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/France_24_Francais.m3u
+#EXTINF:0,France_4_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/France_4_HD.m3u
+#EXTINF:0,France_5_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/France_5_HD.m3u
+#EXTINF:0,France_O_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/France_O_HD.m3u
+#EXTINF:0,France_music_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/France_music_0.iptvcat.com.m3u8
+#EXTINF:0,Francophonie (1).m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Francophonie%20(1).m3u
+#EXTINF:0,Francophonie.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Francophonie.m3u
+#EXTINF:0,Francophonie_24.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Francophonie_24.m3u
+#EXTINF:0,Fuel_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Fuel_TV.m3u
+#EXTINF:0,Fuel_TV_.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Fuel_TV_.m3u
+#EXTINF:0,GAME_ONE.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/GAME_ONE.m3u
+#EXTINF:0,GOLF_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/GOLF_HD.m3u
+#EXTINF:0,GULLI_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/GULLI_HD.m3u
+#EXTINF:0,Global_News_National.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Global_News_National.m3u
+#EXTINF:0,Global_Toronto.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Global_Toronto.m3u
+#EXTINF:0,Grand_Lille_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Grand_Lille_TV.m3u
+#EXTINF:0,Gulli.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Gulli.m3u
+#EXTINF:0,GurSikh_Sabha_TV_Scarborough.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/GurSikh_Sabha_TV_Scarborough.m3u
+#EXTINF:0,HD1_FHD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/HD1_FHD.m3u
+#EXTINF:0,ICI_Montreal (1).m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/ICI_Montreal%20(1).m3u
+#EXTINF:0,ICI_Montreal.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/ICI_Montreal.m3u
+#EXTINF:0,ICI_RDI.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/ICI_RDI.m3u
+#EXTINF:0,ICI_RDI_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/ICI_RDI_HD.m3u
+#EXTINF:0,ICI_Tele_HD (1).m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/ICI_Tele_HD%20(1).m3u
+#EXTINF:0,ICI_Tele_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/ICI_Tele_HD.m3u
+#EXTINF:0,ILTV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/ILTV.m3u
+#EXTINF:0,INFOSPORT.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/INFOSPORT.m3u
+#EXTINF:0,Ici_RDI (1).m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Ici_RDI%20(1).m3u
+#EXTINF:0,Insight_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Insight_TV.m3u
+#EXTINF:0,InstantSage.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/InstantSage.m3u
+#EXTINF:0,Inwonder.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Inwonder.m3u
+#EXTINF:0,J_One.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/J_One.m3u
+#EXTINF:0,Juste_pour_Rire.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Juste_pour_Rire.m3u
+#EXTINF:0,KTO (1).m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/KTO%20(1).m3u
+#EXTINF:0,KTO.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/KTO.m3u
+#EXTINF:0,LA_TROIS_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/LA_TROIS_HD.m3u
+#EXTINF:0,LCI.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/LCI.m3u
+#EXTINF:0,LEQUIPE_21.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/LEQUIPE_21.m3u
+#EXTINF:0,LN24_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/LN24_HD.m3u
+#EXTINF:0,La_Chaine_Normande (1).m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/La_Chaine_Normande%20(1).m3u
+#EXTINF:0,La_Chaine_Normande.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/La_Chaine_Normande.m3u
+#EXTINF:0,La_Deux.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/La_Deux.m3u
+#EXTINF:0,La_Deux_Belgium.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/La_Deux_Belgium.m3u
+#EXTINF:0,La_Tele.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/La_Tele.m3u
+#EXTINF:0,La_Trois_Belgium.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/La_Trois_Belgium.m3u
+#EXTINF:0,La_Une_Belgium.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/La_Une_Belgium.m3u
+#EXTINF:0,La_Une_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/La_Une_HD.m3u
+#EXTINF:0,Legislative_Assembly_of_Ontario.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Legislative_Assembly_of_Ontario.m3u
+#EXTINF:0,Loupe.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Loupe.m3u
+#EXTINF:0,M6_FHD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/M6_FHD.m3u
+#EXTINF:0,M6_International.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/M6_International.m3u
+#EXTINF:0,MAISONS_DE_STAR.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/MAISONS_DE_STAR.m3u
+#EXTINF:0,MCM.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/MCM.m3u
+#EXTINF:0,MDL.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/MDL.m3u
+#EXTINF:0,MTV_Catfish.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/MTV_Catfish.m3u
+#EXTINF:0,Mangas.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Mangas.m3u
+#EXTINF:0,Montreal_Greek_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Montreal_Greek_TV.m3u
+#EXTINF:0,Motorvision_.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Motorvision_.m3u
+#EXTINF:0,Motorvision_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Motorvision_TV.m3u
+#EXTINF:0,MyComedy.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/MyComedy.m3u
+#EXTINF:0,My_TV_Channel.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/My_TV_Channel.m3u
+#EXTINF:0,NICKELODEON_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/NICKELODEON_HD.m3u
+#EXTINF:0,NICKELODEON_JUNIOR.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/NICKELODEON_JUNIOR.m3u
+#EXTINF:0,NT1.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/NT1.m3u
+#EXTINF:0,NTV_Afrique.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/NTV_Afrique.m3u
+#EXTINF:0,NUMERO_23_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/NUMERO_23_HD.m3u
+#EXTINF:0,Nat_Geo_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Nat_Geo_HD.m3u
+#EXTINF:0,Nat_Geo_Wild_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Nat_Geo_Wild_HD.m3u
+#EXTINF:0,National_geo_wild.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/National_geo_wild.m3u
+#EXTINF:0,Nick_Jr.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Nick_Jr.m3u
+#EXTINF:0,No_Tele_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/No_Tele_HD.m3u
+#EXTINF:0,Noovo.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Noovo.m3u
+#EXTINF:0,Now_This.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Now_This.m3u
+#EXTINF:0,OCS_CITY.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/OCS_CITY.m3u
+#EXTINF:0,OCS_GEANT.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/OCS_GEANT.m3u
+#EXTINF:0,OCS_MAX.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/OCS_MAX.m3u
+#EXTINF:0,ONE_GOLF.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/ONE_GOLF.m3u
+#EXTINF:0,Ontario_Parliamentary_Network_EN.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Ontario_Parliamentary_Network_EN.m3u
+#EXTINF:0,Ontario_Parliamentary_Network_FR.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Ontario_Parliamentary_Network_FR.m3u
+#EXTINF:0,Orange_Cinema_1_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Orange_Cinema_1_HD.m3u
+#EXTINF:0,Orange_Cinema_3_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Orange_Cinema_3_HD.m3u
+#EXTINF:0,Orange_Cinema_4_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Orange_Cinema_4_HD.m3u
+#EXTINF:0,Orange_Cinema_Aventure_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Orange_Cinema_Aventure_HD.m3u
+#EXTINF:0,Orange_Cinema_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Orange_Cinema_HD.m3u
+#EXTINF:0,Orange_Documentaire_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Orange_Documentaire_HD.m3u
+#EXTINF:0,Outside_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Outside_TV.m3u
+#EXTINF:0,PARAMOUNT_CHANNEL_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/PARAMOUNT_CHANNEL_HD.m3u
+#EXTINF:0,PARIS_PREMIERE_HD (1).m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/PARIS_PREMIERE_HD%20(1).m3u
+#EXTINF:0,PARIS_PREMIERE_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/PARIS_PREMIERE_HD.m3u
+#EXTINF:0,PIWI_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/PIWI_HD.m3u
+#EXTINF:0,PLANETE_AE_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/PLANETE_AE_HD.m3u
+#EXTINF:0,PLANETE_CI_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/PLANETE_CI_HD.m3u
+#EXTINF:0,PLANETE_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/PLANETE_HD.m3u
+#EXTINF:0,Pardesi_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pardesi_TV.m3u
+#EXTINF:0,Pickx_Sports_7_FR_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pickx_Sports_7_FR_HD.m3u
+#EXTINF:0,Pickx_Sports_7_NL_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pickx_Sports_7_NL_HD.m3u
+#EXTINF:0,Players_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Players_TV.m3u
+#EXTINF:0,Plug_RTL_Belgium.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Plug_RTL_Belgium.m3u
+#EXTINF:0,Plug_RTL_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Plug_RTL_HD.m3u
+#EXTINF:0,Plus_Belle_la_Vie.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Plus_Belle_la_Vie.m3u
+#EXTINF:0,PlutoTVCineRetro.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/PlutoTVCineRetro.m3u
+#EXTINF:0,PlutoTVThePetCollective.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/PlutoTVThePetCollective.m3u
+#EXTINF:0,PlutoTVTortuesNinjaTV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/PlutoTVTortuesNinjaTV.m3u
+#EXTINF:0,Pluto_TV_Action.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Action.m3u
+#EXTINF:0,Pluto_TV_Action_Sports.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Action_Sports.m3u
+#EXTINF:0,Pluto_TV_Animaux.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Animaux.m3u
+#EXTINF:0,Pluto_TV_Anime_All_Day.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Anime_All_Day.m3u
+#EXTINF:0,Pluto_TV_BET_Classics.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_BET_Classics.m3u
+#EXTINF:0,Pluto_TV_Bob_leponge.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Bob_leponge.m3u
+#EXTINF:0,Pluto_TV_Catfish.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Catfish.m3u
+#EXTINF:0,Pluto_TV_Cine.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Cine.m3u
+#EXTINF:0,Pluto_TV_Cine_.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Cine_.m3u
+#EXTINF:0,Pluto_TV_Cine_Retro.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Cine_Retro.m3u
+#EXTINF:0,Pluto_TV_Cinema.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Cinema.m3u
+#EXTINF:0,Pluto_TV_Classic_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Classic_TV.m3u
+#EXTINF:0,Pluto_TV_Comedie.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Comedie.m3u
+#EXTINF:0,Pluto_TV_Crime (1).m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Crime%20(1).m3u
+#EXTINF:0,Pluto_TV_Crime.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Crime.m3u
+#EXTINF:0,Pluto_TV_Cuisine.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Cuisine.m3u
+#EXTINF:0,Pluto_TV_Dating.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Dating.m3u
+#EXTINF:0,Pluto_TV_Dora_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Dora_TV.m3u
+#EXTINF:0,Pluto_TV_Dossiers_FBI.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Dossiers_FBI.m3u
+#EXTINF:0,Pluto_TV_Drama (1).m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Drama%20(1).m3u
+#EXTINF:0,Pluto_TV_Drama.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Drama.m3u
+#EXTINF:0,Pluto_TV_Extreme.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Extreme.m3u
+#EXTINF:0,Pluto_TV_FailArmy.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_FailArmy.m3u
+#EXTINF:0,Pluto_TV_Gaming_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Gaming_TV.m3u
+#EXTINF:0,Pluto_TV_Helene_et_les_garcons.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Helene_et_les_garcons.m3u
+#EXTINF:0,Pluto_TV_Inside.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Inside.m3u
+#EXTINF:0,Pluto_TV_Investigation.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Investigation.m3u
+#EXTINF:0,Pluto_TV_Junior.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Junior.m3u
+#EXTINF:0,Pluto_TV_Kids_Animation.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Kids_Animation.m3u
+#EXTINF:0,Pluto_TV_Kids_Collection.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Kids_Collection.m3u
+#EXTINF:0,Pluto_TV_Kids_Series (1).m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Kids_Series%20(1).m3u
+#EXTINF:0,Pluto_TV_Kids_Series.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Kids_Series.m3u
+#EXTINF:0,Pluto_TV_Le_miel_et_les_abeilles.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Le_miel_et_les_abeilles.m3u
+#EXTINF:0,Pluto_TV_Le_miracle_de_lamour.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Le_miracle_de_lamour.m3u
+#EXTINF:0,Pluto_TV_Les_Cordier.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Les_Cordier.m3u
+#EXTINF:0,Pluto_TV_Les_Nouveaux_Detectives.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Les_Nouveaux_Detectives.m3u
+#EXTINF:0,Pluto_TV_Les_Nouveaux_Detectives_.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Les_Nouveaux_Detectives_.m3u
+#EXTINF:0,Pluto_TV_Les_filles_da_cote.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Les_filles_da_cote.m3u
+#EXTINF:0,Pluto_TV_Live_in_Concert.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Live_in_Concert.m3u
+#EXTINF:0,Pluto_TV_Louis_La_Brocante.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Louis_La_Brocante.m3u
+#EXTINF:0,Pluto_TV_MADE.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_MADE.m3u
+#EXTINF:0,Pluto_TV_MTV_Classic.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_MTV_Classic.m3u
+#EXTINF:0,Pluto_TV_Nature.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Nature.m3u
+#EXTINF:0,Pluto_TV_Paranormal.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Paranormal.m3u
+#EXTINF:0,Pluto_TV_People_are_Awesome.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_People_are_Awesome.m3u
+#EXTINF:0,Pluto_TV_Plus_Belle_La_Vie.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Plus_Belle_La_Vie.m3u
+#EXTINF:0,Pluto_TV_Plus_Belle_La_Vie_.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Plus_Belle_La_Vie_.m3u
+#EXTINF:0,Pluto_TV_Romance.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Romance.m3u
+#EXTINF:0,Pluto_TV_Sports.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Sports.m3u
+#EXTINF:0,Pluto_TV_TEEN_SERIES.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_TEEN_SERIES.m3u
+#EXTINF:0,Pluto_TV_TROL.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_TROL.m3u
+#EXTINF:0,Pluto_TV_Telenovela.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Telenovela.m3u
+#EXTINF:0,Pluto_TV_Yoga.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_Yoga.m3u
+#EXTINF:0,Pluto_TV_iCarly.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Pluto_TV_iCarly.m3u
+#EXTINF:0,Prime_Asia_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Prime_Asia_TV.m3u
+#EXTINF:0,Prime_Canada_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Prime_Canada_TV.m3u
+#EXTINF:0,QVTV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/QVTV.m3u
+#EXTINF:0,RMC_1.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/RMC_1.m3u
+#EXTINF:0,RMC_Sport_2.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/RMC_Sport_2.m3u
+#EXTINF:0,RMC_Sport_3.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/RMC_Sport_3.m3u
+#EXTINF:0,RTL-TVi_BE.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/RTL-TVi_BE.m3u
+#EXTINF:0,RTL9.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/RTL9.m3u
+#EXTINF:0,RTL_TVI_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/RTL_TVI_HD.m3u
+#EXTINF:0,RTS_Deux.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/RTS_Deux.m3u
+#EXTINF:0,RTS_Un.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/RTS_Un.m3u
+#EXTINF:0,Radio_Contact.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Radio_Contact.m3u
+#EXTINF:0,Radio_Contact_-_github.com--Free-IPTV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Radio_Contact_-_github.com--Free-IPTV.m3u
+#EXTINF:0,SCIENCES__VIE.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/SCIENCES__VIE.m3u
+#EXTINF:0,SCIENCE_ET_VIE_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/SCIENCE_ET_VIE_HD.m3u
+#EXTINF:0,SERIE_CLUB.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/SERIE_CLUB.m3u
+#EXTINF:0,Salt__Light_Television.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Salt__Light_Television.m3u
+#EXTINF:0,Sardari_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Sardari_TV.m3u
+#EXTINF:0,Seasons.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Seasons.m3u
+#EXTINF:0,Series_Club_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Series_Club_HD.m3u
+#EXTINF:0,Sofy_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Sofy_TV.m3u
+#EXTINF:0,Sofy_TV_.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Sofy_TV_.m3u
+#EXTINF:0,Super_Ecran_1.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Super_Ecran_1.m3u
+#EXTINF:0,Super_Ecran_2.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Super_Ecran_2.m3u
+#EXTINF:0,Super_Ecran_3.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Super_Ecran_3.m3u
+#EXTINF:0,Super_Ecran_4.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Super_Ecran_4.m3u
+#EXTINF:0,Syfy_FHD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Syfy_FHD.m3u
+#EXTINF:0,Syfy_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Syfy_HD.m3u
+#EXTINF:0,TAG_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TAG_TV.m3u
+#EXTINF:0,TCM_CINEMA.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TCM_CINEMA.m3u
+#EXTINF:0,TELETOON__FHD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TELETOON__FHD.m3u
+#EXTINF:0,TEVA-TMC.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TEVA-TMC.m3u
+#EXTINF:0,TF1_FHD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TF1_FHD.m3u
+#EXTINF:0,TF1_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TF1_HD.m3u
+#EXTINF:0,TIPIK_VISION_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TIPIK_VISION_HD.m3u
+#EXTINF:0,TMZ_-_github.com_--_Free-IPTV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TMZ_-_github.com_--_Free-IPTV.m3u
+#EXTINF:0,TOUTE_L_HISTOIRE.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TOUTE_L_HISTOIRE.m3u
+#EXTINF:0,TREK_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TREK_HD.m3u
+#EXTINF:0,TV5_MONDE.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TV5_MONDE.m3u
+#EXTINF:0,TV78.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TV78.m3u
+#EXTINF:0,TV7_Colmar.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TV7_Colmar.m3u
+#EXTINF:0,TVM3.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TVM3.m3u
+#EXTINF:0,TVO_Kids.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TVO_Kids.m3u
+#EXTINF:0,TVR.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TVR.m3u
+#EXTINF:0,TVR_-_github.com_--_Free-IPTV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TVR_-_github.com_--_Free-IPTV.m3u
+#EXTINF:0,TV_BREIZH_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TV_BREIZH_HD.m3u
+#EXTINF:0,Tamil_Vision_TV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Tamil_Vision_TV.m3u
+#EXTINF:0,TebeSud.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/TebeSud.m3u
+#EXTINF:0,Tele_Louange.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Tele_Louange.m3u
+#EXTINF:0,Tele_Quebec.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Tele_Quebec.m3u
+#EXTINF:0,Tele_Quebec_.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Tele_Quebec_.m3u
+#EXTINF:0,Teva.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Teva.m3u
+#EXTINF:0,The_Shopping_Channel.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/The_Shopping_Channel.m3u
+#EXTINF:0,Toronto_360.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Toronto_360.m3u
+#EXTINF:0,Tva.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Tva.m3u
+#EXTINF:0,USHUAIA_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/USHUAIA_HD.m3u
+#EXTINF:0,VBS.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/VBS.m3u
+#EXTINF:0,Vision_4.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Vision_4.m3u
+#EXTINF:0,W9.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/W9.m3u
+#EXTINF:0,Weatherspy.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/Weatherspy.m3u
+#EXTINF:0,World_Poker_Tour.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/World_Poker_Tour.m3u
+#EXTINF:0,a_la_carte_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/a_la_carte_0.iptvcat.com.m3u8
+#EXTINF:0,beINS_PORTS_2HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/beINS_PORTS_2HD.m3u
+#EXTINF:0,beIN_SPORTS1_HD.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/beIN_SPORTS1_HD.m3u
+#EXTINF:0,beIN_SPORTS_2_backup.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/beIN_SPORTS_2_backup.m3u
+#EXTINF:0,ca-m3u-bestfreeiptv-06-03-22-backuplist2.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/ca-m3u-bestfreeiptv-06-03-22-backuplist2.m3u
+#EXTINF:0,dieu_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/dieu_0.iptvcat.com.m3u8
+#EXTINF:0,eScapes.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/eScapes.m3u
+#EXTINF:0,france24.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/france24.m3u
+#EXTINF:0,god_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/god_0.iptvcat.com.m3u8
+#EXTINF:0,iCarly.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/iCarly.m3u
+#EXTINF:0,i_Tele.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/i_Tele.m3u
+#EXTINF:0,lcn_nouvelle_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/lcn_nouvelle_0.iptvcat.com.m3u8
+#EXTINF:0,monde_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/monde_0.iptvcat.com.m3u8
+#EXTINF:0,mtv_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/mtv_0.iptvcat.com.m3u8
+#EXTINF:0,mtv_music_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/mtv_music_0.iptvcat.com.m3u8
+#EXTINF:0,music_plus_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/music_plus_0.iptvcat.com.m3u8
+#EXTINF:0,orange_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/orange_0.iptvcat.com.m3u8
+#EXTINF:0,paris_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/paris_0.iptvcat.com.m3u8
+#EXTINF:0,rmc_decouverte.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/rmc_decouverte.m3u
+#EXTINF:0,super_ecran_0.iptvcat.com.m3u8
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/super_ecran_0.iptvcat.com.m3u8
+#EXTINF:0,viaMATELE.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/viaMATELE.m3u
+#EXTINF:0,viaMirabelle.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/viaMirabelle.m3u
+#EXTINF:0,viaMoselleTV.m3u
+#EXTVLCOPT:file-caching=300
+file-to-add-in-vlc/viaMoselleTV.m3u
