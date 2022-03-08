@@ -1,0 +1,2686 @@
+#EXTM3U
+#EXTINF:0,FR: TF1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/612
+#EXTINF:0,FR: TF1 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56327
+#EXTINF:0,FR: FRANCE 2
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/613
+#EXTINF:0,FR: FRANCE 2 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56268
+#EXTINF:0,FR: FRANCE 3
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/614
+#EXTINF:0,FR: FRANCE 3 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56269
+#EXTINF:0,FR: FRANCE 4
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/615
+#EXTINF:0,FR: FRANCE 4 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56270
+#EXTINF:0,FR: FRANCE 5
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/616
+#EXTINF:0,FR: FRANCE 5 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56271
+#EXTINF:0,FR: FRANCE O
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/604
+#EXTINF:0,FR: M6
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/617
+#EXTINF:0,FR: M6 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56281
+#EXTINF:0,FR: ARTE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10282
+#EXTINF:0,FR: TF1 SERIES FILM
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4281
+#EXTINF:0,FR: TF1 SERIES FILMS FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56329
+#EXTINF:0,FR: PARIS PREMIERE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4911
+#EXTINF:0,FR: PARIS PREMIERE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56304
+#EXTINF:0,FR: TMC
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4304
+#EXTINF:0,FR: TMC FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56333
+#EXTINF:0,FR: TV BREIZH
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4903
+#EXTINF:0,FR: TV BREIZH FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56336
+#EXTINF:0,FR: CANAL+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/630
+#EXTINF:0,FR: CANAL+ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56236
+#EXTINF:0,FR: CANAL+ CINEMA
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/631
+#EXTINF:0,FR: CANAL+ CINEMA FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56233
+#EXTINF:0,FR: CANAL+ FAMILY
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/633
+#EXTINF:0,FR: CANAL+ FAMILY FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56235
+#EXTINF:0,FR: CANAL+ DECALE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/632
+#EXTINF:0,FR: CANAL+ DECALE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56234
+#EXTINF:0,FR: CANAL+ SERIES
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/634
+#EXTINF:0,FR: CANAL+ SERIES FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56237
+#EXTINF:0,FR: CANAL+  SPORT
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/629
+#EXTINF:0,FR: CANAL+ SPORT FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56238
+#EXTINF:0,FR: 6TER
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4947
+#EXTINF:0,FR: 6TER FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56216
+#EXTINF:0,FR: OCS MAX
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4291
+#EXTINF:0,FR: OCS MAX FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56299
+#EXTINF:0,FR: OCS CHOC
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4288
+#EXTINF:0,FR: OCS CHOC FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56296
+#EXTINF:0,FR: OCS CITY
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4289
+#EXTINF:0,FR: OCS CITY FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56297
+#EXTINF:0,FR: OCS GEANT
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/8300
+#EXTINF:0,FR: OCS GEANT FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56298
+#EXTINF:0,FR: CINE+ PREMIER
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/3893
+#EXTINF:0,FR: CINE+ PREMIER FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56245
+#EXTINF:0,FR: CINE+ EMOTION
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4268
+#EXTINF:0,FR: CINE+ EMOTION FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56247
+#EXTINF:0,FR: CINE+ FRISSON
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4270
+#EXTINF:0,FR: CINE+ FRISSON FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56244
+#EXTINF:0,FR: CINE+ FAMIZ
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4272
+#EXTINF:0,FR: CINE+ FAMIZ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56243
+#EXTINF:0,FR: CINE+ CLASSIC
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4271
+#EXTINF:0,FR: CINE+ CLASSIC FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56246
+#EXTINF:0,FR: CINE+  CLUB
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15363
+#EXTINF:0,FR:  POLAR+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/3896
+#EXTINF:0,FR:  POLAR+ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56309
+#EXTINF:0,FR: ACTION
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4267
+#EXTINF:0,FR: ACTION FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56221
+#EXTINF:0,FR: TCM CINEMA
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10161
+#EXTINF:0,FR: TCM CINEMA FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56323
+#EXTINF:0,FR: PARAMOUNT
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10181
+#EXTINF:0,FR: PARAMOUNT CHANNEL FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56302
+#EXTINF:0,FR: TOONAMI
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10191
+#EXTINF:0,FR: Syfy
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4302
+#EXTINF:0,FR: SYFY FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56322
+#EXTINF:0,FR: 13eme rue
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4266
+#EXTINF:0,FR: COMEDIE+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4274
+#EXTINF:0,FR: COMEDIE+ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56248
+#EXTINF:0,FR: AB1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/3894
+#EXTINF:0,FR: AB1 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56219
+#EXTINF:0,FR: AB3
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/11798
+#EXTINF:0,FR: AB3 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56220
+#EXTINF:0,FR: TFX
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4286
+#EXTINF:0,FR: TFX FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56330
+#EXTINF:0,FR: Serie Club
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4298
+#EXTINF:0,FR: SERIE CLUB FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56319
+#EXTINF:0,FR: TEVA
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4303
+#EXTINF:0,FR: TEVA FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56326
+#EXTINF:0,FR: W9
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/598
+#EXTINF:0,FR: C8
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/593
+#EXTINF:0,FR: C8 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56232
+#EXTINF:0,FR: CSTAR
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4275
+#EXTINF:0,FR: NUMERO 23
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4913
+#EXTINF:0,FR: RTL 9
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10172
+#EXTINF:0,FR: RTL9 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56316
+#EXTINF:0,FR: beIN SPORT 1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/635
+#EXTINF:0,FR: BEIN SPORTS 1 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56225
+#EXTINF:0,FR: beIN SPORT 2
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/636
+#EXTINF:0,FR: BEIN SPORTS 2 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56226
+#EXTINF:0,FR: beIN SPORT 3
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/637
+#EXTINF:0,FR: BEIN SPORTS 3 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56227
+#EXTINF:0,FR: beIN  MAX 4
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4954
+#EXTINF:0,FR: beIN  MAX 5
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4953
+#EXTINF:0,FR: beIN  MAX 6
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4952
+#EXTINF:0,FR: beIN  MAX 7
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4951
+#EXTINF:0,FR: beIN  MAX 8
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4950
+#EXTINF:0,FR: beIN  MAX 9
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4949
+#EXTINF:0,FR: beIN  MAX 10
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4948
+#EXTINF:0,FR: FOOT +
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4280
+#EXTINF:0,FR: FOOT+ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56265
+#EXTINF:0,FR: LUXE TV HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4282
+#EXTINF:0,FR: LEQUIPE 21
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4922
+#EXTINF:0,FR: L EQUIPE 21 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56280
+#EXTINF:0,FR: INFOSPORT+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10207
+#EXTINF:0,FR: INFOSPORT+ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56278
+#EXTINF:0,FR: Eurosport 1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4357
+#EXTINF:0,FR: EUROSPORT 1 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56261
+#EXTINF:0,FR: Eurosport 2
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4356
+#EXTINF:0,FR: EUROSPORT 2 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56262
+#EXTINF:0,FR: AB Moteurs
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4946
+#EXTINF:0,FR: Equidia live
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4935
+#EXTINF:0,FR: GOLF CHANNEL
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10212
+#EXTINF:0,FR: GOLF CHANNEL FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56275
+#EXTINF:0,FR: GOLF+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10211
+#EXTINF:0,FR: GOLF+ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56274
+#EXTINF:0,FR: RMC SPORT NEWS
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/44979
+#EXTINF:0,FR: RMC SPORT 1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4299
+#EXTINF:0,FR: RMC SPORT 1 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56311
+#EXTINF:0,FR: RMC SPORT 2
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4300
+#EXTINF:0,FR: RMC SPORT 2 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56312
+#EXTINF:0,FR: RMC SPORT 3
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4355
+#EXTINF:0,FR: RMC SPORT 3 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56313
+#EXTINF:0,FR: RMC SPORT 4
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10163
+#EXTINF:0,FR: RMC SPORT 4 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56314
+#EXTINF:0,FR: RMC SPORT 5
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15354
+#EXTINF:0,FR: RMC SPORT 6
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15345
+#EXTINF:0,FR: RMC SPORT ACCESS 1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/44986
+#EXTINF:0,FR: RMC SPORT ACCESS 2
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/44985
+#EXTINF:0,FR: RMC DECOUVERTE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10288
+#EXTINF:0,FR: RMC DECOUVERTE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56310
+#EXTINF:0,FR: RMC STORY
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/36495
+#EXTINF:0,FR: PLANETE+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/596
+#EXTINF:0,FR: PLANETE +  FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56306
+#EXTINF:0,FR: PLANETE+  A&E
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10176
+#EXTINF:0,FR: PLANETE+ A&E  FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56307
+#EXTINF:0,FR: PLANETE+ CI
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10175
+#EXTINF:0,FR: PLANETE+ CI  FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56308
+#EXTINF:0,FR: NATIONAL GEOGRAPHIC
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/590
+#EXTINF:0,FR: NATIONAL GEOGRAPHIC FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56287
+#EXTINF:0,FR: NATIONAL GEOGRAPHIC WILD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4284
+#EXTINF:0,FR: NATIONAL GEO WILD FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56286
+#EXTINF:0,FR: DISCOVERY
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10241
+#EXTINF:0,FR: DISCOVERY FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56250
+#EXTINF:0,FR: DISCOVERY SCIENCE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4277
+#EXTINF:0,FR: DISCOVERY SCIENCE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56252
+#EXTINF:0,FR: Discovery investigation
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10240
+#EXTINF:0,FR: DISCOVERY INVESTIGATION FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56251
+#EXTINF:0,FR: USHUAIA TV
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10151
+#EXTINF:0,FR: SCIENCE ET VIE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10169
+#EXTINF:0,FR: SCIENCE ET VIE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56317
+#EXTINF:0,FR: TOUTE LHISTOIRE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10154
+#EXTINF:0,FR: TOUTE L HISTOIRE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56335
+#EXTINF:0,FR: Histoire
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4348
+#EXTINF:0,FR: HISTOIRE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56277
+#EXTINF:0,FR: ANIMAUX
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/597
+#EXTINF:0,FR: ANIMAUX FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56223
+#EXTINF:0,FR: CHASSE PECHE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10256
+#EXTINF:0,FR: CHASSE ET PECHE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56241
+#EXTINF:0,FR: SEASONS
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4772
+#EXTINF:0,FR: SEASON FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56318
+#EXTINF:0,FR: CHERIE 25
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4941
+#EXTINF:0,FR: CHERIE 25 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56242
+#EXTINF:0,FR: MTV
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10198
+#EXTINF:0,FR: M6 MUSIC
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10203
+#EXTINF:0,FR: MCM
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4918
+#EXTINF:0,FR: NRJ Hits
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4915
+#EXTINF:0,FR: NRJ12
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10190
+#EXTINF:0,FR: NRJ 12 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56295
+#EXTINF:0,FR: RFM TV
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10174
+#EXTINF:0,FR: Trace Urban
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4905
+#EXTINF:0,FR: Disney
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4937
+#EXTINF:0,FR: DISNEY FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56254
+#EXTINF:0,FR: Disney Junior
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4364
+#EXTINF:0,FR: DISNEY JUNIOR FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56256
+#EXTINF:0,FR: BOOMERANG
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/628
+#EXTINF:0,FR: BOOMERANG FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56231
+#EXTINF:0,FR: CARTOON NETWORK
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4899
+#EXTINF:0,FR: CARTOON NETWORK FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56240
+#EXTINF:0,FR: NICKELODEON
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10193
+#EXTINF:0,FR: NICKELODEON FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56289
+#EXTINF:0,FR: Nickelodeon Junior
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4366
+#EXTINF:0,FR: NICKELODEON4-TEEN FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56291
+#EXTINF:0,FR: BOING
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10270
+#EXTINF:0,FR: TELETOON+1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10160
+#EXTINF:0,FR: TELETOON+1 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56324
+#EXTINF:0,FR: TELETOON+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/595
+#EXTINF:0,FR: TELETOON+  FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56325
+#EXTINF:0,FR: MEZZO LIVE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10200
+#EXTINF:0,FR: Brava
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4942
+#EXTINF:0,FR: E! Entertainment
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10155
+#EXTINF:0,FR: Canal J
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4368
+#EXTINF:0,FR: J-ONE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10206
+#EXTINF:0,FR: Gulli
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/609
+#EXTINF:0,FR: PIWI+
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10178
+#EXTINF:0,FR: Tiji
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10157
+#EXTINF:0,FR: MANGAS
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10202
+#EXTINF:0,FR: Game One
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4360
+#EXTINF:0,FR: LCI
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4923
+#EXTINF:0,FR: BFM TV
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4943
+#EXTINF:0,FR: Euronews
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4933
+#EXTINF:0,FR: FRANCE INFO
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4928
+#EXTINF:0,FR: CNEWS
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/602
+#EXTINF:0,FR: FRANCE 24
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10218
+#EXTINF:0,FR: CRIME DISTRICT
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10244
+#EXTINF:0,FR: BFM BUSINESS
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15349
+#EXTINF:0,FR: LCP
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15351
+#EXTINF:0,FR: MCM TOP
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/11799
+#EXTINF:0,FR: MTV HITS
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15355
+#EXTINF:0,FR: TREK
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15356
+#EXTINF:0,FR: TV 5 MONDE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15350
+#EXTINF:0,FR: Canal Play 1
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4776
+#EXTINF:0,FR: Canal Play 2
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4775
+#EXTINF:0,FR: Canal Play 3
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4774
+#EXTINF:0,FR: Canal Play 4
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4773
+#EXTINF:0,FR: Canal Play 5
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/16225
+#EXTINF:0,FR: Canal Play 6
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/16224
+#EXTINF:0,FR: Canal Play 7
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/16223
+#EXTINF:0,FR: Paramount Channel Decale
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/36496
+#EXTINF:0,FR: SUNDANCE TV FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56321
+#EXTINF:0,FR: TIJI FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56331
+#EXTINF:0,FR: ALTICE STUDIO FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56222
+#EXTINF:0,FR: BET TV FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56228
+#EXTINF:0,FR: BFM PARIS FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56229
+#EXTINF:0,FR: CANAL J FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56239
+#EXTINF:0,FR: E! ENTERTAINMENT FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56258
+#EXTINF:0,FR: ES1 FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56260
+#EXTINF:0,FR: AB EXPLORE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56266
+#EXTINF:0,FR: ALTICE STUDIO
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56267
+#EXTINF:0,FR: GAME ONE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56273
+#EXTINF:0,FR: GULLI FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56276
+#EXTINF:0,FR: J-ONE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56279
+#EXTINF:0,FR: MUSEUM FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56284
+#EXTINF:0,FR: NOLLYWOOD FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56292
+#EXTINF:0,FR: NOVELAS FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56294
+#EXTINF:0,FR: PIWI+ FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56305
+#EXTINF:0,FR: PARAMOUNT DECALE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56303
+#EXTINF:0,FR: Orange Cinema 1 HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71932
+#EXTINF:0,FR: Orange Cinema 3 HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71934
+#EXTINF:0,FR: Orange Cinema 4 HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71935
+#EXTINF:0,FR: Orange Cinema Aventure HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71936
+#EXTINF:0,FR: Orange Cinema HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71937
+#EXTINF:0,FR: 13 EME RUE HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4961
+#EXTINF:30,3ABN Français (720p)
+#EXTVLCOPT:file-caching=300
+https://moiptvhls-i.akamaihd.net/hls/live/652314/secure/master.m3u8
+#EXTINF:0,FR: 6TER HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/248
+#EXTINF:0,FR:A.LA.CARTE.1
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1561
+#EXTINF:0,FR: A.LA.CARTE.3
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1562
+#EXTINF:0,A2i Music
+#EXTVLCOPT:file-caching=300
+https://stream.sen-gt.com/A2iMusic/myStream/chunklist_w652109108.m3u8
+#EXTINF:0,A2i Religion
+#EXTVLCOPT:file-caching=300
+https://stream.sen-gt.com/A2iReligion/myStream/chunklist_w672043691.m3u8
+#EXTINF:28,A2i TV
+#EXTVLCOPT:file-caching=300
+https://stream.sen-gt.com/A2itv/myStream/chunklist_w1124459956.m3u8
+#EXTINF:0,FR: AB1
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4966
+#EXTINF:0,FR: AB3
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4968
+#EXTINF:0,FR: AB Moteur HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4976
+#EXTINF:0,FR: ACTION
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4973
+#EXTINF:0,FR: ALTICE STUDIO HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17197
+#EXTINF:0,FR: A LA CARTE 10
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1554
+#EXTINF:0,FR: A LA CARTE 5
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1559
+#EXTINF:0,FR: A LA CARTE 7
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1557
+#EXTINF:0,FR: A LA CARTE 8
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1556
+#EXTINF:0,FR: A LA CARTE 9
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1555
+#EXTINF:0,BE: Acht Belgium
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/5085
+#EXTINF:0,BE: Acht Belgium
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/5085
+#EXTINF:32,Alsace 20 (720p)
+#EXTVLCOPT:file-caching=300
+http://live.alsace20.fr/live/alsace20/ngrp:alsace20_all/playlist.m3u8
+#EXTINF:30,Alsace 20
+#EXTVLCOPT:file-caching=300
+http://live.alsace20.fr/live/alsace20/ngrp:alsace20_all/playlist.m3u8
+#EXTINF:29,Amazing Discoveries TV
+#EXTVLCOPT:file-caching=300
+https://uni01rtmp.tulix.tv/amazingdtv/amazingdtv/playlist.m3u8
+#EXTINF:53,Asylum
+#EXTVLCOPT:file-caching=300
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-theasylum/CDN/playlist.m3u8
+#EXTINF:0,FR: BET
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17199
+#EXTINF:0,|BE| BE CINE HD [FR]
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/37643
+#EXTINF:0,FR: BE CURIOUS TV FHD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8327
+#EXTINF:0,BFM Grand Lille (720p)
+#EXTVLCOPT:file-caching=300
+https://live.creacast.com/grandlilletv/smil:grandlilletv.smil/playlist.m3u8
+#EXTINF:0,BFM Grand Littoral (720p)
+#EXTVLCOPT:file-caching=300
+https://live.creacast.com/grandlittoral/smil:grandlittoral.smil/playlist.m3u8
+#EXTINF:0,BFM Lyon (720p)
+#EXTVLCOPT:file-caching=300
+https://bfmlyon-lh.akamaihd.net/i/BFMLYON_ESYTLS@797041/index_1100_av-p.m3u8?sd=10&rebase=on
+#EXTINF:0,BFM Paris (480p)
+#EXTVLCOPT:file-caching=300
+https://bfmparishdslive-lh.akamaihd.net/i/BFMPARIS_ESYTLS@429747/index_1100_av-p.m3u8?sd=10&rebase=on
+#EXTINF:0,BFM Grand Lille
+#EXTVLCOPT:file-caching=300
+https://live.creacast.com/grandlilletv/smil:grandlilletv.smil/playlist.m3u8
+#EXTINF:0,BFM Grand Littoral
+#EXTVLCOPT:file-caching=300
+https://live.creacast.com/grandlittoral/smil:grandlittoral.smil/playlist.m3u8
+#EXTINF:0,FR: BFM TV
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1549
+#EXTINF:0,FR: BOOMERANG HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/5863
+#EXTINF:0,FR: BeIN SPORTS 2 FHD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8309
+#EXTINF:0,FR: Bein Sports 1 HD backup
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8803
+#EXTINF:3580,Bel RTL (720p)
+#EXTVLCOPT:file-caching=300
+https://bel-lh.akamaihd.net/i/BEL_1@321282/master.m3u8
+#EXTINF:0,BipTV
+#EXTVLCOPT:file-caching=300
+https://biptv.tv/live/biptvstream_orig/index.m3u8
+#EXTINF:0,Bip TV
+#EXTVLCOPT:file-caching=300
+https://biptv.tv/live/biptvstream_orig/index.m3u8
+#EXTINF:60,Bloomberg TV+ (en)
+#EXTVLCOPT:file-caching=300
+https://bloomberg-bloombergtv-1-fr.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:24,Boss Brothers TV (720p)
+#EXTVLCOPT:file-caching=300
+http://51.254.199.122:8080/bossbrothersTV/index.m3u8
+#EXTINF:0,FR: CANAL+ HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/250
+#EXTINF:0,FR: CANAL J
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1545
+#EXTINF:0,FR: CANAL PLAY 2
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3748
+#EXTINF:0,FR: CANAL PLAY 3
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3747
+#EXTINF:0,FR: CANAL PLAY 4
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3746
+#EXTINF:0,FR: CANAL PLAY 5
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3745
+#EXTINF:0,FR: CANAL PLAY 6
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3744
+#EXTINF:0,FR: CANAL +  FHD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8326
+#EXTINF:0,CA Vie (FR) HD
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/182210.ts?checkedby:iptvcat.com
+#EXTINF:0,CBC News
+#EXTVLCOPT:file-caching=300
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-cbcnews/CDN/master.m3u8
+#EXTINF:0,CGTN Français (720p)
+#EXTVLCOPT:file-caching=300
+https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
+#EXTINF:0,CGTN France
+#EXTVLCOPT:file-caching=300
+http://livefr.cgtn.com/1000f/prog_index.m3u8
+#EXTINF:60,CGTN France
+#EXTVLCOPT:file-caching=300
+http://livefr.cgtn.com/1000f/prog_index.m3u8
+#EXTINF:0,FR: CHERIE 25 HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4958
+#EXTINF:0,FR: CINE CLASSIC
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3739
+#EXTINF:0,FR: CINE CLASSIC HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3733
+#EXTINF:0,FR: CINE EMOTION
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4971
+#EXTINF:0,FR: CINE EMOTION HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3738
+#EXTINF:0,FR: CINE FAMIZ
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3737
+#EXTINF:0,FR: CINE FRISSON
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3736
+#EXTINF:0,FR: CINE FRISSON HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4970
+#EXTINF:0,FR: CINE FX
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/256
+#EXTINF:0,FR: CINE POLAR
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3735
+#EXTINF:0,FR: CINE PREMIER
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/257
+#EXTINF:0,FR: CINE PREMIER HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3734
+#EXTINF:0,FR: CNews HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17072
+#EXTINF:0,FR: COMEDIE  HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1539
+#EXTINF:0,FR: CRIME DISTRICT HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8805
+#EXTINF:0,FR: CSTAR HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4992
+#EXTINF:0,CA (FR) Canal V
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/182228.ts?checkedby:iptvcat.com
+#EXTINF:0,CA Canal D (FR) HD
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/181838.ts?checkedby:iptvcat.com
+#EXTINF:0,CA Canal Savoir
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/181840.ts?checkedby:iptvcat.com
+#EXTINF:0,CA LCN (FR) Le Canal Nouvelles HD
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/181998.ts?checkedby:iptvcat.com
+#EXTINF:0,CANAL D
+#EXTVLCOPT:file-caching=300
+http://tv.fullytv.com:8080/lisa1/1lisa/1100898?checkedby:iptvcat.com
+#EXTINF:0,CINECANAL
+#EXTVLCOPT:file-caching=300
+http://bbiptv.net:8000/tridenour82@yahoo.com/Ride82nour/922?checkedby:iptvcat.com
+#EXTINF:0,Canal D (FR)
+#EXTVLCOPT:file-caching=300
+http://orbyt.xyz:8080/LydiaClaiborne01/4t8tJ93c7MYM/80858?checkedby:iptvcat.com
+#EXTINF:0,Canal Vie (French)
+#EXTVLCOPT:file-caching=300
+http://portal.m1n2.me:80/zXig8cj4uJ/ysKHL7knP9/68661?checkedby:iptvcat.com
+#EXTINF:0,CA (FR) ICI Radio-Canada Tele Montreal HD (B)
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/1805808.ts?checkedby:iptvcat.com
+#EXTINF:0,CA CBC Montreal
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/181850.ts?checkedby:iptvcat.com
+#EXTINF:0,CA CBC Montreal HD (D)
+#EXTVLCOPT:file-caching=300
+http://fortv.cc:8080/rose/rose123/57387?checkedby:iptvcat.com
+#EXTINF:0,CA CITY MONTREAL
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/181876.ts?checkedby:iptvcat.com
+#EXTINF:0,CA CTV MONTREAL
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/181908.ts?checkedby:iptvcat.com
+#EXTINF:0,CA CTV Montreal HD (B)
+#EXTVLCOPT:file-caching=300
+http://fortv.cc:8080/rose/rose123/47234?checkedby:iptvcat.com
+#EXTINF:0,CA GLOBAL MONTREAL
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/1012949.ts?checkedby:iptvcat.com
+#EXTINF:0,CA Global News Montreal
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/1041741.ts?checkedby:iptvcat.com
+#EXTINF:0,CA ICI Montreal (FR)
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/181985.ts?checkedby:iptvcat.com
+#EXTINF:0,CA Montreal Greek TV
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/182014.ts?checkedby:iptvcat.com
+#EXTINF:0,CA TVA MONTREAL (fr)
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/514068.ts?checkedby:iptvcat.com
+#EXTINF:0,CBC Montreal
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22617?checkedby:iptvcat.com
+#EXTINF:0,CITY TV MONTREAL
+#EXTVLCOPT:file-caching=300
+http://bbiptv.net:8000/tridenour82@yahoo.com/Ride82nour/2746?checkedby:iptvcat.com
+#EXTINF:0,EMCI TV Montreal (Opt-2)
+#EXTVLCOPT:file-caching=300
+https://emci-td-hls.akamaized.net/hls/live/2007264/emcitdhls/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0,ICI MONTREAL
+#EXTVLCOPT:file-caching=300
+http://tv.fullytv.com:8080/lisa1/1lisa/1092276?checkedby:iptvcat.com
+#EXTINF:0,ICI Montreal
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22620?checkedby:iptvcat.com
+#EXTINF:0,Montreal Greek TV
+#EXTVLCOPT:file-caching=300
+http://94.130.180.175:8081/live/greektv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0,TVA MONTREAL
+#EXTVLCOPT:file-caching=300
+http://tv.fullytv.com:8080/lisa1/1lisa/1092271?checkedby:iptvcat.com
+#EXTINF:0,CA MUCH_MUSIC
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/182019.ts?checkedby:iptvcat.com
+#EXTINF:0,NICK MUSIC HD
+#EXTVLCOPT:file-caching=300
+http://bbiptv.net:8000/tridenour82@yahoo.com/Ride82nour/4132?checkedby:iptvcat.com
+#EXTINF:0,CA (FR) ICI Radio-Canada Tele Quebec HD (B)
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/1805809.ts?checkedby:iptvcat.com
+#EXTINF:0,CA (FR) ICI Tele Quebec HD
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/182241.ts?checkedby:iptvcat.com
+#EXTINF:0,CA (FR) L'Assemblee nationale du Quebec HD
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/182245.ts?checkedby:iptvcat.com
+#EXTINF:0,CA TELE QUEBEC (FR) HD
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/182206.ts?checkedby:iptvcat.com
+#EXTINF:0,CA TV5 (FR) Quebec
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/182196.ts?checkedby:iptvcat.com
+#EXTINF:0,CA TVA Quebec City HD
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/1157205.ts?checkedby:iptvcat.com
+#EXTINF:0,CA (FR) ICI RDI HD
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/182230.ts?checkedby:iptvcat.com
+#EXTINF:0,CA ICI RDI
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/181987.ts?checkedby:iptvcat.com
+#EXTINF:0,ICI RDI
+#EXTVLCOPT:file-caching=300
+https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0,ICI RDI
+#EXTVLCOPT:file-caching=300
+https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master_2500.m3u8?checkedby:iptvcat.com
+#EXTINF:0,RDI
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22621?checkedby:iptvcat.com
+#EXTINF:0,Canal Savoir
+#EXTVLCOPT:file-caching=300
+https://hls.savoir.media/live/stream.m3u8
+#EXTINF:0,FR: Canal  Cinema
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/255
+#EXTINF:0,FR: Canal  Decale
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/254
+#EXTINF:0,FR: Canal  Family
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/253
+#EXTINF:0,Canal Savoir
+#EXTVLCOPT:file-caching=300
+https://hls.savoir.media/live/stream.m3u8
+#EXTINF:0,FR: Canal  Series
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/252
+#EXTINF:0,FR: Canal  Sport
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/251
+#EXTINF:0,FR: Canal  Sport FHD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8311
+#EXTINF:0,FR: Cartoon Network FHD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8312
+#EXTINF:0,FR:  Cartoon Network HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1547
+#EXTINF:0,FR: Chasse et Peche
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3742
+#EXTINF:0,FR: Cine Famiz HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4972
+#EXTINF:0,FR: Cine Premier FHD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8321
+#EXTINF:0,Clubbing TV
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/600ad8f86e1eba00081da3ce/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8ae1b0-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=97358d7c-5219-43db-bcda-c5057f0bc369&serverSideAds=false
+#EXTINF:0,FR: Comedie +
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4964
+#EXTINF:0,D5TV
+#EXTVLCOPT:file-caching=300
+http://live.creacast.com/d5tv/smil:d5tv.smil/playlist.m3u8
+#EXTINF:0,FR: D8
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/243
+#EXTINF:0,FR: DISCOVERY
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3732
+#EXTINF:0,FR: DISNEY CHANNEL
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1544
+#EXTINF:0,FR: DISNEY CHANNEL FHD 1080
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/6975
+#EXTINF:0,FR: DISNEY CINEMA
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1543
+#EXTINF:0,FR: DISNEY CINEMA FHD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8315
+#EXTINF:0,Dieu TV (1080p)
+#EXTVLCOPT:file-caching=300
+https://katapy.hs.llnwd.net/dieutvwza1/DIEUTVLIVE/smil:dieutv.smil/playlist.m3u8
+#EXTINF:300,Dieu TV - github.com/Free-IPTV
+#EXTVLCOPT:file-caching=300
+https://katapy.hs.llnwd.net/dieutvwza1/DIEUTVLIVE/smil:dieutv.smil/playlist.m3u8
+#EXTINF:0,FR: Discovery Investigation HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8389
+#EXTINF:0,FR: Discovery Science HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1528
+#EXTINF:0,FR: Disney XD HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1553
+#EXTINF:36,EET TV
+#EXTVLCOPT:file-caching=300
+https://eu.streamjo.com/eetlive/eettv.m3u8
+#EXTINF:60,EMCI TV
+#EXTVLCOPT:file-caching=300
+https://emci-fr-hls.akamaized.net/hls/live/2007265/emcifrhls/04.m3u8
+#EXTINF:60,EMCI TV (1080p)
+#EXTVLCOPT:file-caching=300
+https://emci-fr-hls.akamaized.net/hls/live/2007265/emcifrhls/index.m3u8
+#EXTINF:0,EMCI TV
+#EXTVLCOPT:file-caching=300
+https://emci-fr-hls.akamaized.net/hls/live/2007265/emcifrhls/04.m3u8
+#EXTINF:0,FR: EQUIDIA LIFE
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8238
+#EXTINF:0,FR: EQUIDIA live
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4990
+#EXTINF:0,FR : EURONEWS
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1550
+#EXTINF:0,FR: EUROSPORT2
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1542
+#EXTINF:0,FR: E! Entertainment
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8516
+#EXTINF:15,Kanal 9 en Français (1080p)
+#EXTVLCOPT:file-caching=300
+https://livehd.vedge.infomaniak.com/livecast/livehd/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0,Kanal 9 en Français (1080p)
+#EXTVLCOPT:file-caching=300
+https://edge.vedge.infomaniak.com/livecast/ik:livehd/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0,french 1
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3715?checkedby:iptvcat.com
+#EXTINF:0,french Sport 2
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3713?checkedby:iptvcat.com
+#EXTINF:0,french decouverte
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1536?checkedby:iptvcat.com
+#EXTINF:0,FR: Eurosport 1
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1541
+#EXTINF:0,FR: Eurosport 2
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4975
+#EXTINF:0,FR: FOOT+ 24
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/16098
+#EXTINF:0,|FR| TF1 HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2341
+#EXTINF:0,|FR| AB 1
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2447
+#EXTINF:0,|FR| AB 3
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2446
+#EXTINF:0,|FR| Action
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2445
+#EXTINF:0,|FR| France 2
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2394
+#EXTINF:0,|FR| France 3
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2393
+#EXTINF:0,|FR| France 4
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2392
+#EXTINF:0,|FR| France 5
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2391
+#EXTINF:0,|FR| France Info
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2390
+#EXTINF:0,|FR| M6 HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2380
+#EXTINF:0,|FR| SYFY HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2345
+#EXTINF:0,|FR| TFX HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2339
+#EXTINF:0,|FR| 6ter HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2449
+#EXTINF:0,|FR| W9 HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2330
+#EXTINF:0,|FR| C8 HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2427
+#EXTINF:0,|FR| CStar HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2408
+#EXTINF:0,|FR| 13eme Rue
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2450
+#EXTINF:0,|FR| TCM Cinema
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2344
+#EXTINF:0,|FR| Serie Club
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2347
+#EXTINF:0,|FR| Canal+ Sport
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2422
+#EXTINF:0,|FR| Canal+ Series
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2423
+#EXTINF:0,|FR| Canal+ Family
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2424
+#EXTINF:0,|FR| Canal+ Cinema
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2425
+#EXTINF:0,|FR| Ushuaïa
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2332
+#EXTINF:0,|FR| TREK
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2334
+#EXTINF:0,|FR| Toute histoire
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2335
+#EXTINF:0,|FR| Toonami
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2336
+#EXTINF:0,|FR| TMC HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2337
+#EXTINF:0,|FR| Tiji HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2338
+#EXTINF:0,|FR| TF1 SERIES-FILMS
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2340
+#EXTINF:0,|FR| Teva HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2342
+#EXTINF:0,|FR| TéléTOON
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2343
+#EXTINF:0,|FR| Seasons HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2348
+#EXTINF:0,|FR| Science et Vie
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2349
+#EXTINF:0,|FR| RTL 9
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2350
+#EXTINF:0,|FR| Comedie+
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2410
+#EXTINF:0,|FR| Ciné Premier
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2412
+#EXTINF:0,|FR| Ciné Frisson
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2413
+#EXTINF:0,|FR| Ciné Famiz
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2414
+#EXTINF:0,|FR| Ciné Emotion
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2415
+#EXTINF:0,|FR| Ciné Club
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2416
+#EXTINF:0,|FR| Ciné Classic
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2417
+#EXTINF:0,|FR| Planete+
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2360
+#EXTINF:0,|FR| Planete+ CI
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2358
+#EXTINF:0,|FR| Planete+ A&E
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2359
+#EXTINF:0,|FR| Paris Premiere
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2362
+#EXTINF:0,|FR| Paramount channel
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2363
+#EXTINF:0,|FR| OCS Max
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2365
+#EXTINF:0,|FR| OCS Geants
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2366
+#EXTINF:0,|FR| OCS City
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2367
+#EXTINF:0,|FR| OCS Choc
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2368
+#EXTINF:0,|FR| NRJ 12
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2369
+#EXTINF:0,|FR| NRJ Hits
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2370
+#EXTINF:0,|FR| MCM TOP
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2377
+#EXTINF:0,|FR| MCM HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2378
+#EXTINF:0,|FR| Mangas HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2379
+#EXTINF:0,|FR| LCI HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2382
+#EXTINF:0,|FR| J One
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2383
+#EXTINF:0,|FR| Game One
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2388
+#EXTINF:0,|FR| Euro Sport 2
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2395
+#EXTINF:0,|FR| Equipe 21
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2396
+#EXTINF:0,|FR| Equidia Live
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2397
+#EXTINF:0,|FR| E! Entertaiment
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2398
+#EXTINF:0,|FR| Boing
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2430
+#EXTINF:0,|FR| Piwi+ HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2361
+#EXTINF:0,|FR| Gulli
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2385
+#EXTINF:0,|FR| Boomerang
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2429
+#EXTINF:0,|FR| Cartoon Network
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2420
+#EXTINF:0,|FR| Disney Junior
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2400
+#EXTINF:0,|FR| Disney Cinema
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2401
+#EXTINF:0,|FR| Disney Channel
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2403
+#EXTINF:0,|FR| Nick Junior
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2372
+#EXTINF:0,|FR| Nickelodeon
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2373
+#EXTINF:0,|FR| Nick 4 Teens
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2374
+#EXTINF:0,|FR| Crime District
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2409
+#EXTINF:0,|FR| BFM TV
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2431
+#EXTINF:0,|FR| CNews HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2411
+#EXTINF:0,|FR| Cherie 25
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2418
+#EXTINF:0,|FR| Canal J
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2421
+#EXTINF:0,|FR| Canal+
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2426
+#EXTINF:0,|FR| Info Sport
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2384
+#EXTINF:0,|FR| Golf Channel
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2386
+#EXTINF:0,|FR| Rmc Story
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2351
+#EXTINF:0,|FR| RMC Sport 1
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2355
+#EXTINF:0,|FR| RMC Sport 2
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2354
+#EXTINF:0,|FR| RMC Sport 3
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2353
+#EXTINF:0,|FR| RMC Sport 4
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2352
+#EXTINF:0,|FR| beIN SPORTS 2
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2439
+#EXTINF:0,|FR| beIN SPORTS 3
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2438
+#EXTINF:0,|FR| beIN SPORTS 4
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2437
+#EXTINF:0,|FR| beIN SPORTS 5
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2436
+#EXTINF:0,|FR| beIN SPORTS 6
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2435
+#EXTINF:0,|FR| beIN SPORTS 7
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2434
+#EXTINF:0,|FR| beIN SPORTS 10
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2440
+#EXTINF:0,|FR| ARTE
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2442
+#EXTINF:0,|FR| Animaux
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2443
+#EXTINF:0,|FR| Chasse & Pêche
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2419
+#EXTINF:0,|FR| NAT GEO HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2375
+#EXTINF:0,|FR| NAT GEO WILD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2376
+#EXTINF:0,|FR| Discovery HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2407
+#EXTINF:0,|FR| Discovery Science
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2404
+#EXTINF:0,|FR| TV Breizh
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2405
+#EXTINF:0,|FR| Altice Studio
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2444
+#EXTINF:0,FR: FRANCE 24
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1551
+#EXTINF:0,FR: FRANCE 2 HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/528
+#EXTINF:0,FR: FRANCE 3
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/529
+#EXTINF:60,Fashion TV
+#EXTVLCOPT:file-caching=300
+https://fashiontv-fashiontv-loriginal-fr.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:0,Filmrise True Crime
+#EXTVLCOPT:file-caching=300
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisecrime/CDN/playlist.m3u8
+#EXTINF:0,Filmrise free movies
+#EXTVLCOPT:file-caching=300
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisefreemovies/CDN/playlist.m3u8
+#EXTINF:54,Football daily
+#EXTVLCOPT:file-caching=300
+https://dai2-xumo.fubo.tv/amagi_hls_data_xumo1212A-footballdaily/CDN/master.m3u8
+#EXTINF:0,FRANCE 2 HD
+#EXTVLCOPT:file-caching=300
+http://w.bs-share.com:8000/00/233441437392897/36181?checkedby:iptvcat.com
+#EXTINF:0,FRANCE 3 HD
+#EXTVLCOPT:file-caching=300
+http://w.bs-share.com:8000/00/233441437392897/36182?checkedby:iptvcat.com
+#EXTINF:0,FRANCE 4 HD
+#EXTVLCOPT:file-caching=300
+http://w.bs-share.com:8000/00/233441437392897/36183?checkedby:iptvcat.com
+#EXTINF:0,FRANCE 5 HD
+#EXTVLCOPT:file-caching=300
+http://w.bs-share.com:8000/00/233441437392897/36184?checkedby:iptvcat.com
+#EXTINF:30,Franceinfo (720p) [Not 24/7]
+#EXTVLCOPT:file-caching=300
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/franceinfo/live
+#EXTINF:0,FR: France 02 FHD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8341
+#EXTINF:60,France 24
+#EXTVLCOPT:file-caching=300
+https://static.france24.com/live/F24_FR_HI_HLS/live_tv.m3u8
+#EXTINF:100,France 24 English
+#EXTVLCOPT:file-caching=300
+http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
+#EXTINF:0,France 24 Français (1080p)
+#EXTVLCOPT:file-caching=300
+https://static.france24.com/live/F24_FR_HI_HLS/live_tv.m3u8
+#EXTINF:0,FR: France 4  HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/530
+#EXTINF:0,FR: France 5 HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/531
+#EXTINF:0,FR: France O  HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/532
+#EXTINF:0,M6 MUSIC
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10203?checkedby:iptvcat.com
+#EXTINF:32,Francophonie
+#EXTVLCOPT:file-caching=300
+http://mv2.tvfrancophonie.org/live/Stream1/media_b776739_w671289549.m3u8
+#EXTINF:0,Francophonie (360p)
+#EXTVLCOPT:file-caching=300
+http://mv2.tvfrancophonie.org/live/Stream1/playlist.m3u8
+#EXTINF:0,Francophonie 24
+#EXTVLCOPT:file-caching=300
+http://mv2.tvfrancophonie.org/live/Stream1/media_b776739_w671289549.m3u8
+#EXTINF:60,Fuel TV
+#EXTVLCOPT:file-caching=300
+https://fueltv-fueltv-8-fr.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:0,Fuel TV
+#EXTVLCOPT:file-caching=300
+https://fueltv-fueltv-1-ca.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:0,FR: GAME ONE
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4967
+#EXTINF:0,FR: GOLF+ HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8093
+#EXTINF:0,FR: GULLI HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4957
+#EXTINF:30,Global News National
+#EXTVLCOPT:file-caching=300
+https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
+#EXTINF:0,Global Toronto
+#EXTVLCOPT:file-caching=300
+https://live.corusdigitaldev.com/groupd/live/8970c668-40cd-4ca9-8c4d-25fd04f619b5/live.isml/master.m3u8
+#EXTINF:0,Grand Lille TV (720p)
+#EXTVLCOPT:file-caching=300
+http://str81.creacast.com/grandlilletv/smil:grandlilletv.smil/playlist.m3u8
+#EXTINF:0,Gulli (540p)
+#EXTVLCOPT:file-caching=300
+https://d13anarbtxy8c5.cloudfront.net/6play/short/clr/gulli/sdindex.m3u8
+#EXTINF:0,GurSikh Sabha TV Scarborough
+#EXTVLCOPT:file-caching=300
+http://cdn12.henico.net:8080/live/gsctv/index.m3u8
+#EXTINF:0,FR: HD1 FHD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8328
+#EXTINF:50,ICI Montreal
+#EXTVLCOPT:file-caching=300
+https://ici-i.akamaihd.net/hls/live/873426/ICI-Live-Stream/master.m3u8
+#EXTINF:0,ICI Montreal (720p)
+#EXTVLCOPT:file-caching=300
+https://ici-i.akamaihd.net/hls/live/873426/ICI-Live-Stream/master.m3u8
+#EXTINF:0,ICI RDI [1]
+#EXTVLCOPT:file-caching=300
+https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master_2500.m3u8
+#EXTINF:60,ICI RDI HD
+#EXTVLCOPT:file-caching=300
+https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
+#EXTINF:0,ICI Tele HD
+#EXTVLCOPT:file-caching=300
+https://rcavlive.akamaized.net/hls/live/696615/xcancbft/master.m3u8
+#EXTINF:60,ICI Tele Ontario (720p)
+#EXTVLCOPT:file-caching=300
+https://rcavlive.akamaized.net/hls/live/696615/xcancbft/master.m3u8
+#EXTINF:0,ILTV
+#EXTVLCOPT:file-caching=300
+https://str81.creacast.com/iltv/high/playlist.m3u8
+#EXTINF:0,FR: INFOSPORT
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4978
+#EXTINF:0,Ici RDI (720p)
+#EXTVLCOPT:file-caching=300
+https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
+#EXTINF:60,Insight TV
+#EXTVLCOPT:file-caching=300
+https://insighttv-samsung-canada.amagi.tv/playlist.m3u8
+#EXTINF:0,Instant Saga
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60549e98061b5f000776866a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8ba501-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=e11c2399-2d50-4607-be2c-d35d72152bbe&serverSideAds=false
+#EXTINF:60,Inwonder
+#EXTVLCOPT:file-caching=300
+https://inwonder-samsung-canada.amagi.tv/playlist.m3u8
+#EXTINF:0,FR: J One
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17198
+#EXTINF:0,Juste pour Rire
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60afa1508284e60007163c08/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35fcc6e0-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=a8b6a6bb-4f8c-438e-a638-d4cfa72ae69a&serverSideAds=false
+#EXTINF:1780,KTO
+#EXTVLCOPT:file-caching=300
+https://livehdkto-lh.akamaihd.net/i/LiveStream_1@178944/master.m3u8
+#EXTINF:1780,KTO (404p)
+#EXTVLCOPT:file-caching=300
+https://livehdkto-lh.akamaihd.net/i/LiveStream_1@178944/master.m3u8
+#EXTINF:0,|BE| LA TROIS HD [FR]
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/37611
+#EXTINF:0,FR: LCI
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4955
+#EXTINF:0,FR: L'EQUIPE 21
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4977
+#EXTINF:0,|BE| LN24 HD [FR]
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/37617
+#EXTINF:0,La Chaine Normande
+#EXTVLCOPT:file-caching=300
+http://live.lachainenormande.fr/live/lcn/livestream/playlist.m3u8
+#EXTINF:0,La Chaîne normande (LCN) (576p)
+#EXTVLCOPT:file-caching=300
+http://live.lachainenormande.fr/live/lcn/livestream/playlist.m3u8
+#EXTINF:0,FR: La Deux
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3731
+#EXTINF:0,BE: La Deux Belgium
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/5093
+#EXTINF:0,La Télé (1080p)
+#EXTVLCOPT:file-caching=300
+https://latele.vedge.infomaniak.com/livecast/latele/playlist.m3u8
+#EXTINF:0,BE: La Trois Belgium
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/5094
+#EXTINF:0,BE: La Une Belgium
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/5092
+#EXTINF:0,|BE| La Une HD [FR]
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/37610
+#EXTINF:30,Legislative Assembly of Ontario
+#EXTVLCOPT:file-caching=300
+http://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8
+#EXTINF:25,Loupe
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/604f8d6c7877d40007791af0/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8b08c1-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5b9651e5-80c9-45f6-b3a0-499e9abe049a&serverSideAds=false
+#EXTINF:0,FR: M6 FHD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8337
+#EXTINF:60,M6 International (1080p)
+#EXTVLCOPT:file-caching=300
+https://shls-m6-int-prod-dub.shahid.net/out/v1/587631773e55495a8aa3dd4050318f6e/index.m3u8
+#EXTINF:25,CRIBS : MAISONS DE STAR
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/602cf8963b4bc90007454541/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8b08c0-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5043513f-eb20-46fd-8286-9e9ba240e6f9&serverSideAds=false
+#EXTINF:0,FR: MCM
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/9162
+#EXTINF:30,MDL
+#EXTVLCOPT:file-caching=300
+http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8
+#EXTINF:25,MTV Catfish+
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ff5ed0bb61f1200072ca4cd/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8a1e61-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=0698157f-70d9-4890-978e-e648d753b321&serverSideAds=false
+#EXTINF:0,FR: Mangas
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3728
+#EXTINF:0,Montreal Greek TV
+#EXTVLCOPT:file-caching=300
+http://94.130.180.175:8081/live/greektv/playlist.m3u8
+#EXTINF:54,Motorvision
+#EXTVLCOPT:file-caching=300
+https://dai2-xumo.fubo.tv/amagi_hls_data_xumo1212A-motorvisiontv/CDN/master.m3u8
+#EXTINF:0,Motorvision TV
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60817e1aa6997500072d0d6d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35fc51b0-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=ede55dfe-45a7-4aa8-a283-7b8008be8d2e&serverSideAds=false
+#EXTINF:0,MyComedy
+#EXTVLCOPT:file-caching=300
+https://live.creacast.com/mycomedy/smil:mycomedy.smil/playlist.m3u8
+#EXTINF:30,My TV Channel (576p)
+#EXTVLCOPT:file-caching=300
+http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8
+#EXTINF:0,FR: NICKELODEON HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/5862
+#EXTINF:0,FR: NICKELODEON JUNIOR
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1533
+#EXTINF:0,FR:NT1
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/244
+#EXTINF:16,NTV Afrique (1080p)
+#EXTVLCOPT:file-caching=300
+https://strhlslb01.streamakaci.tv/str_ntv_ntv/str_ntv_ntv_multi/playlist.m3u8
+#EXTINF:0,FR: NUMERO 23 HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1527
+#EXTINF:0,FR:  Nat Geo HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1535
+#EXTINF:0,FR:  Nat Geo Wild  HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1534
+#EXTINF:0,FR: National geo wild
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3727
+#EXTINF:0,FR: Nick Jr
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/9161
+#EXTINF:0,|BE| No Télé HD [FR]
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/37652
+#EXTINF:120,Noovo [4]
+#EXTVLCOPT:file-caching=300
+https://pe-ak-lp04a-9c9media.akamaized.net/live/NOOVO/p/dash/00000001/f481c583dbd06b6c/manifest.mpd
+#EXTINF:52,Now This
+#EXTVLCOPT:file-caching=300
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-nowthis/CDN/master.m3u8
+#EXTINF:0,FR: OCS CITY
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/261
+#EXTINF:0,FR: OCS GEANT
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/260
+#EXTINF:0,FR: OCS MAX
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/259
+#EXTINF:0,ONE GOLF
+#EXTVLCOPT:file-caching=300
+http://162.250.201.58:6211/pk/ONEGOLF/tracks-v1a1/mono.m3u8
+#EXTINF:30,Ontario Parliamentary Network (EN)
+#EXTVLCOPT:file-caching=300
+http://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8
+#EXTINF:30,Ontario Parliamentary Network (FR)
+#EXTVLCOPT:file-caching=300
+http://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-fr/playlist.m3u8
+#EXTINF:0,FR: Orange Cinema 1 HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17295
+#EXTINF:0,FR: Orange Cinema 3 HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17293
+#EXTINF:0,FR: Orange Cinema 4 HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17292
+#EXTINF:0,FR: Orange Cinema Aventure HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17289
+#EXTINF:0,FR: Orange Cinema HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17288
+#EXTINF:0,FR: Orange Documentaire HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17285
+#EXTINF:54,Outside TV
+#EXTVLCOPT:file-caching=300
+https://outside-tv-samsung-ca.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:0,FR: PARAMOUNT CHANNEL HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1537
+#EXTINF:0,FR: PARIS PREMIERE HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4959
+#EXTINF:0,FR: PARIS PREMIERE  HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1538
+#EXTINF:0,FR: PIWI HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4988
+#EXTINF:0,FR: PLANETE A&E HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4983
+#EXTINF:0,FR: PLANETE CI HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4982
+#EXTINF:0,FR: PLANETE  HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4981
+#EXTINF:0,Pardesi TV
+#EXTVLCOPT:file-caching=300
+http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8
+#EXTINF:0,|BE| Pickx+ Sports 7 FR HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/37552
+#EXTINF:0,|BE| Pickx+ Sports 7 NL HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/37551
+#EXTINF:0,Players TV
+#EXTVLCOPT:file-caching=300
+https://playerstv-samsungca.amagi.tv/playlist.m3u8
+#EXTINF:0,BE: Plug RTL Belgium
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/5095
+#EXTINF:0,|BE| Plug RTL HD [FR]
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/37599
+#EXTINF:25,Plus Belle la Vie+
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5fff211667854f00079a9b5b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8abaa0-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=353eca77-9a84-4a7e-a1d5-97ac79861272&serverSideAds=false
+#EXTINF:30,Pluto TV Ciné Rétro
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f8ed168f72fcd0007e56269/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+#EXTINF:0,Pluto TV The Pet Collective
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecd336d64c9000754cdf1/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Tortues Ninja TV
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecc1b37867f00071469e9/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Action
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed1ff5c39700007e2204a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Action Sports
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5db867744f229f0009266784/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+#EXTINF:0,Pluto TV Animaux
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60925a44f0350600075a1fdc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35fc78c1-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5cc06a56-861b-4448-84df-34ad224ceaa7&serverSideAds=false
+#EXTINF:0,Pluto TV Animé All Day
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed52a62fa750007733239/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV BET Classics
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f92b5ba040eaa0007074d0a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Bob l'éponge
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ffc8c345822750007e167de/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Catfish
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8eb66537867f0007146953/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Ciné
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed0f17564a300082b676a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Ciné
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f8ed0f17564a300082b676a/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+#EXTINF:0,Pluto TV Ciné Rétro
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed168f72fcd0007e56269/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Cinéma
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed0f17564a300082b676a/master.m3u8?deviceDNT=0&deviceId=071492b1-cafd-427b-81d4-f532808c8397_d6a39913ac3adbd2&deviceMake=samsung&deviceModel=SM-N976N&deviceType=android%2Csamsung%2Cmobile&deviceVersion=7.1.2_25&marketingRegion=FR&sid=b90a2c1a-a2ce-4601-a02d-abe73477534&appVersion=5.4.0
+#EXTINF:25,Pluto TV Classic TV
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e46ae801f347500099d461a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35f76fb0-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=2fac39a7-56bc-492e-ae1e-3f6fb6cef1bc&serverSideAds=false
+#EXTINF:0,Pluto TV Comédie
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8eb91bb9b9e7000817e67f/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Crime+
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ffebbeabd18520007b37709/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8a9391-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=fc31112d-4925-4f44-b50f-ddf0ca08e7c7&serverSideAds=false
+#EXTINF:0,Pluto TV Crime
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed4dbf6bb0800071ffbcb/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Cuisine
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed48146ba9e00078424b6/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Dating
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6092544e7639460007d4835e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35fc78c0-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5a2b1311-2550-464b-8060-15765b30c4f8&serverSideAds=false
+#EXTINF:25,Pluto TV Dora TV
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecb9524419b0007365a1c/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Dossiers FBI
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8edad922b10b000753bc37/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Drama+
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ffebb618f6cb4000728082c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8a9390-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=7eed86a2-2fee-402b-9978-ecaffe0235c0&serverSideAds=false
+#EXTINF:25,Pluto TV Drama
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed2d1c34c2300073bf02c/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Extrême
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed327f9e9b0000761141e/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV FailArmy
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecd9169d2d4000864a974/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Gaming TV
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8eccd81062c300078a11df/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Hélène et les garçons
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/604f8de01b479400078fb1e7/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8b2fd0-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=65d7f2cc-e6f8-4e43-9cb5-1de8d1f71f71&serverSideAds=false
+#EXTINF:0,Pluto TV Inside
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed3892ed7bb000741a1d2/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Investigation
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f914f4b36d67d0007a91a04/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Junior
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecb336537e8000764a17f/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Kids Animation
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8eba14a4ffb8000764e950/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Kids Collection
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f92b625c1ffbc0007e60c37/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Kids Séries+
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ff5ebe299d30c0007b1f12a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c89d040-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=8f06f039-4f3e-499b-a415-5cf7148a64d7&serverSideAds=false
+#EXTINF:25,Pluto TV Kids Séries
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8eb99ff17815000784a3b0/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Le miel et les abeilles
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60549a8d8f1b53000768bc52/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8b56e0-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=9dcb446c-ad5a-4171-a84f-d144607d7b33&serverSideAds=false
+#EXTINF:25,Pluto TV Le miracle de l'amour
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60549c238c3f21000753d3e0/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8b56e1-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=af1cb1d2-a877-4020-81af-3f89e475eb94&serverSideAds=false
+#EXTINF:25,Pluto TV Les Cordier
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed80fa09f120007c8daa5/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Les Nouveaux Detectives
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8edb6df1ebb800072edf10/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Les Nouveaux Detectives
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8edb6df1ebb800072edf10/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:25,Pluto TV Les filles d'à côté
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60549d97cd7b090007c73314/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8ba500-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=0e7a9749-ec3d-4fea-9861-01e153b22e40&serverSideAds=false
+#EXTINF:25,Pluto TV Live in Concert
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6080411af03506000759916e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35fbb571-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=9c6d294f-660b-47ef-bc20-1961faf21c6a&serverSideAds=false
+#EXTINF:25,Pluto TV Louis La Brocante
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed6d569d2d4000864a976/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV MADE
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8eb71a26ed8300076433f9/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV MTV Classic
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f92b56a367e170007cd43f4/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Nature
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed58b2db26f0007b4aa73/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Paranormal
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed9461b35690007a0bc3a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV People are Awesome
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed0720dc198000728f9d3/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Plus Belle La Vie
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed5fba4ffb8000764ea01/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Plus Belle La Vie
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f8ed5fba4ffb8000764ea01/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+#EXTINF:0,Pluto TV Romance
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60812fc8539963000707d1e1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8bf321-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=7ebb5004-1cd6-44bb-990a-082fdcdcba6d&serverSideAds=false
+#EXTINF:0,Pluto TV Sports
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6081310e48d3200007afaf3b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8bf322-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=0727f4fb-ea0b-4814-bb58-fdf3c4534220&serverSideAds=false
+#EXTINF:0,Pluto TV TEEN SERIES
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8eb7e3d2ed18000746d09a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV TROL
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8eb8a8b2619a000710605c/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Telenovela
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f914f9dccb4de0007df8bc4/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Pluto TV Yoga
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60803e541a829e0008e91641/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35fbb570-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=ca55bef6-f2a6-488a-be5d-c7ba24d93cdd&serverSideAds=false
+#EXTINF:0,Pluto TV iCarly
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecc7aa44d9c00081fca29/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,Prime Asia TV
+#EXTVLCOPT:file-caching=300
+http://primeasia.dyndns.tv:8080/Live_web_250/tracks-v1a1/mono.m3u8
+#EXTINF:24,Prime Canada TV
+#EXTVLCOPT:file-caching=300
+http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/chunks.m3u8
+#EXTINF:30,QVTV
+#EXTVLCOPT:file-caching=300
+https://qvmstream.tulix.tv/720p/720p/chunklist_w1600218747.m3u8
+#EXTINF:0,FR: RMC 1
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3715
+#EXTINF:0,FR: RMC Sport 2
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3713
+#EXTINF:0,FR: RMC Sport 3
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3714
+#EXTINF:3580,RTL-TVi (720p)
+#EXTVLCOPT:file-caching=300
+https://rtltvi-lh.akamaihd.net/i/TVI_1@319659/master.m3u8
+#EXTINF:0,FR: RTL9
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/246
+#EXTINF:0,|BE| RTL TVI HD [FR]
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/37584
+#EXTINF:0,FR: RTS Deux
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3721
+#EXTINF:0,FR: RTS Un
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3720
+#EXTINF:3580,Radio Contact (720p)
+#EXTVLCOPT:file-caching=300
+https://contact-lh.akamaihd.net/i/CONTACT_1@321283/master.m3u8
+#EXTINF:3580,Radio Contact - github.com/Free-IPTV
+#EXTVLCOPT:file-caching=300
+https://contact-lh.akamaihd.net/i/CONTACT_1@321283/master.m3u8
+#EXTINF:0,FR: SCIENCES & VIE
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4986
+#EXTINF:0,FR: SCIENCE ET VIE HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4987
+#EXTINF:0,FR: SERIE CLUB
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/3719
+#EXTINF:24,Salt + Light Television
+#EXTVLCOPT:file-caching=300
+https://zm6gdaxeyn93-hls-live.5centscdn.com/slworld/d65ce2bdd03471fde0a1dc5e01d793bb.sdp/index.m3u8
+#EXTINF:30,Sardari TV
+#EXTVLCOPT:file-caching=300
+http://158.69.124.9:1935/sardaritv/sardaritv/playlist.m3u8
+#EXTINF:0,FR: Seasons
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/9440
+#EXTINF:0,FR: Series Club HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4962
+#EXTINF:60,Sofy TV (720p)
+#EXTVLCOPT:file-caching=300
+https://sofytv-samsungfr.amagi.tv/playlist.m3u8
+#EXTINF:60,Sofy TV
+#EXTVLCOPT:file-caching=300
+https://sofytv-samsungfr.amagi.tv/playlist.m3u8
+#EXTINF:0,CA: Super Ecran 1
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22624
+#EXTINF:0,CA: Super Ecran 2
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22625
+#EXTINF:0,CA: Super Ecran 3
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22626
+#EXTINF:0,CA: Super Ecran 4
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22628
+#EXTINF:0,FR: Syfy FHD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8331
+#EXTINF:0,FR: Syfy HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4963
+#EXTINF:0,TAG TV
+#EXTVLCOPT:file-caching=300
+http://cdn11.live247stream.com/tag/tv/playlist.m3u8
+#EXTINF:0,FR:TCM CINEMA
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4974
+#EXTINF:0,FR: TELETOON + FHD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1548
+#EXTINF:0,FR: TEVA/TMC
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/245
+#EXTINF:0,FR: TF1 FHD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/8342
+#EXTINF:0,FR: TF1 HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/241
+#EXTINF:0,|BE| TIPIK VISION HD [FR]
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/37574
+#EXTINF:56,TMZ  - github.com/Free-IPTV
+#EXTVLCOPT:file-caching=300
+https://dai2.xumo.com/amagi_hls_data_xumo1234A-tmz/CDN/master.m3u8
+#EXTINF:0,FR: TOUTE L HISTOIRE
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4984
+#EXTINF:0,FR: TREK HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1526
+#EXTINF:0,FR:TV5 MONDE
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1552
+#EXTINF:0,TV78 (720p)
+#EXTVLCOPT:file-caching=300
+https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8
+#EXTINF:30,TV7 Colmar
+#EXTVLCOPT:file-caching=300
+https://tv7.hdr-tv.com/live/tv7/livestream/playlist.m3u8
+#EXTINF:0,TVM3 (1080p)
+#EXTVLCOPT:file-caching=300
+https://tvm3.vedge.infomaniak.com/livecast/tvm3/playlist.m3u8
+#EXTINF:0,TVO Kids
+#EXTVLCOPT:file-caching=300
+https://bcsecurelivehls-i.akamaihd.net/hls/live/623607/15364602001/tvokids/master.m3u8
+#EXTINF:0,TVR (Bretagne) (720p)
+#EXTVLCOPT:file-caching=300
+https://streamtv.cdn.dvmr.fr/TVR/ngrp:tvr.stream_all/master.m3u8
+#EXTINF:0,TVR - github.com/Free-IPTV
+#EXTVLCOPT:file-caching=300
+https://streamtv.cdn.dvmr.fr/TVR/ngrp:tvr.stream_all/master.m3u8
+#EXTINF:0,FR: TV BREIZH HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4965
+#EXTINF:24,Tamil Vision TV
+#EXTVLCOPT:file-caching=300
+http://live.tamilvision.tv:8081/TVI/HD/playlist.m3u8
+#EXTINF:0,TébéSud
+#EXTVLCOPT:file-caching=300
+https://edge-live-ger1.ovstream.com/hls/10/index.m3u8
+#EXTINF:30,Tele Louange
+#EXTVLCOPT:file-caching=300
+https://5790d294af2dc.streamlock.net/8124/8124/chunklist.m3u8
+#EXTINF:18,Télé Québec [5]
+#EXTVLCOPT:file-caching=300
+https://bcovlive-a.akamaihd.net/575d86160eb143458d51f7ab187a4e68/us-east-1/6101674910001/playlist.m3u8
+#EXTINF:18,Tele Quebec
+#EXTVLCOPT:file-caching=300
+https://bcovlive-a.akamaihd.net/575d86160eb143458d51f7ab187a4e68/us-east-1/6101674910001/playlist.m3u8
+#EXTINF:0,FR: Teva
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4960
+#EXTINF:30,The Shopping Channel
+#EXTVLCOPT:file-caching=300
+http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
+#EXTINF:24,Toronto 360
+#EXTVLCOPT:file-caching=300
+http://toronto3.live247stream.com/toronto360/tv/playlist.m3u8
+#EXTINF:60,TVA [Geo-blocked]
+#EXTVLCOPT:file-caching=300
+https://tvalive-nondai.akamaized.net/Content/HLS/Live/channel(a7315e07-037c-12a8-bdc8-da7bd513da9d)/index.m3u8
+#EXTINF:0,FR: USHUAIA  HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1531
+#EXTINF:0,VBS
+#EXTVLCOPT:file-caching=300
+http://uni6rtmp.tulix.tv:1935/vbstv/vbsabr.smil/chunklist_w530158239_b1228800.m3u8
+#EXTINF:30,Vision 4 (480p)
+#EXTVLCOPT:file-caching=300
+https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/vision4/hls_video/index.m3u8
+#EXTINF:0,FR: W9
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/341
+#EXTINF:36,Weatherspy
+#EXTVLCOPT:file-caching=300
+https://jukin-weatherspy-2-ca.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:0,World Poker Tour
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecfb9db6c180007a6d1b0/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:0,A LA CARTE 10
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1554?checkedby:iptvcat.com
+#EXTINF:0,A LA CARTE 5
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1559?checkedby:iptvcat.com
+#EXTINF:0,A LA CARTE 7
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1557?checkedby:iptvcat.com
+#EXTINF:0,A LA CARTE 8
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1556?checkedby:iptvcat.com
+#EXTINF:0,A.LA.CARTE.1
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1561?checkedby:iptvcat.com
+#EXTINF:0,A.LA.CARTE.3
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1562?checkedby:iptvcat.com
+#EXTINF:0,FR: beINS PORTS 2HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/445
+#EXTINF:0,FR: beIN SPORTS1 HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/444
+#EXTINF:0,FR: beIN SPORTS 2 backup
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/16105
+#EXTINF:0,CA: AMC HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22572
+#EXTINF:0,CA: BNN HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22573
+#EXTINF:0,CA: Bravo TV HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22574
+#EXTINF:0,CA: CBC HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22576
+#EXTINF:0,CA: CBC Charlottetown HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22577
+#EXTINF:0,CA: CBC MONTEREAL
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22578
+#EXTINF:0,CA: CBC Toronto
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22579
+#EXTINF:0,CA: CBC Ottawa HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22580
+#EXTINF:0,CA: CBC
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22581
+#EXTINF:0,CA: CBC Toronto HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22582
+#EXTINF:0,CA: CBC Windsor HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22584
+#EXTINF:0,CA: CHCH HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22586
+#EXTINF:0,CA: City FHD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22587
+#EXTINF:0,CA: CP24 HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22589
+#EXTINF:0,CA: CPAC HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22590
+#EXTINF:0,CA: CTV News Live Events 3 HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22591
+#EXTINF:0,CA: Discovery Science
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22592
+#EXTINF:0,CA: Disney HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22593
+#EXTINF:0,CA: CTV News Live Events 4 HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22594
+#EXTINF:0,CA: Disney JR HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22595
+#EXTINF:0,CA: E! Entertainment HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22596
+#EXTINF:0,CA: FOX HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22598
+#EXTINF:0,CA: FX FHD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22599
+#EXTINF:0,CA: SHOWCASE HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22600
+#EXTINF:0,CA: FXX
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22601
+#EXTINF:0,CA: Global FHD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22602
+#EXTINF:0,CA: HBO 1
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22603
+#EXTINF:0,CA: HBO 2 HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22604
+#EXTINF:0,CA: Lifetime FHD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22605
+#EXTINF:0,CA: National Geographic HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22606
+#EXTINF:0,CA: Peachtree HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22608
+#EXTINF:0,CA: Slice HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22609
+#EXTINF:0,CA: Treehouse
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22610
+#EXTINF:0,CA: TLC HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22611
+#EXTINF:0,CA: TSN 5 HD
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22616
+#EXTINF:0,CA: CBC Montreal
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22617
+#EXTINF:0,CA: Casa
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22618
+#EXTINF:0,CA: Disney
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22619
+#EXTINF:0,CA: ICI Montreal
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22620
+#EXTINF:0,CA: RDI
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22621
+#EXTINF:0,CA: RDS Info
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22623
+#EXTINF:0,CA: Super Ecran 1
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22624
+#EXTINF:0,CA: Super Ecran 2
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22625
+#EXTINF:0,CA: Super Ecran 3
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22626
+#EXTINF:0,CA: Super Ecran 4
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22628
+#EXTINF:0,CA: Zeste
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22629
+#EXTINF:0,CA: TMN 2
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22630
+#EXTINF:0,CA: VRAK TV
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22631
+#EXTINF:0,CA: TV5 Quebec
+#EXTVLCOPT:file-caching=300
+http://ultra-premium-pro.xyz:8080/Bruno/Bruno/22633
+#EXTINF:300,Dieu TV (1080p)
+#EXTVLCOPT:file-caching=300
+https://katapy.hs.llnwd.net/dieutvwza1/DIEUTVLIVE/smil:dieutv.smil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:59,eScapes
+#EXTVLCOPT:file-caching=300
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-escapes/CDN/master.m3u8
+#EXTINF:60,France 24 Français (1080p)
+#EXTVLCOPT:file-caching=300
+https://static.france24.com/live/F24_FR_HI_HLS/live_tv.m3u8
+#EXTINF:10800,GOD (English)
+#EXTVLCOPT:file-caching=300
+https://zypelive-lh.akamaihd.net/i/default_1@710958/index_720_av-p.m3u8?F38b1dF4=5c62c7772121531184000bb0&6pLKMQ3y=Sqi3Ng90&video_id=5beee6138c550014a2005e28&sd=10&dw=10800&rebase=on&hdntl=exp=1550063865~acl=%2f*%40710958%2f*~data=hdntl~hmac=67c07b0001ef3855f7fd25b90658e8ed154f72809df8b83feac9ed04e6eab88a&checkedby:iptvcat.com
+#EXTINF:0,GOD (English)
+#EXTVLCOPT:file-caching=300
+https://zypelive-lh.akamaihd.net/i/default_1@710958/index_720_av-p.m3u8?checkedby:iptvcat.com
+#EXTINF:0,GOD TV
+#EXTVLCOPT:file-caching=300
+https://zypelive-lh.akamaihd.net/i/default_1@745545/index_720_av-p.m3u8?checkedby:iptvcat.com
+#EXTINF:0,GOD TV
+#EXTVLCOPT:file-caching=300
+https://zypelive-lh.akamaihd.net/i/default_1@745545/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0,GOD TV
+#EXTVLCOPT:file-caching=300
+https://zypelive-lh.akamaihd.net/i/default_1@710958/master.m3u8?checkedby:iptvcat.com
+#EXTINF:25,iCarly+
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ff5ed9ba24f6a00074a9b91/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8a4570-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=0432d921-f53e-4dfe-8afd-2d0b3fb750f3&serverSideAds=false
+#EXTINF:0,FR: i Tele
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/4956
+#EXTINF:0,CA LCN (FR) Le Canal Nouvelles HD
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/181998.ts?checkedby:iptvcat.com
+#EXTINF:0,TV 5 MONDE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15350?checkedby:iptvcat.com
+#EXTINF:0,TV5 MONDE
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1552?checkedby:iptvcat.com
+#EXTINF:0,DSTV: TV5 Monde Afrique
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/3027?checkedby:iptvcat.com
+#EXTINF:0,MAR.2M MONDE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/14982?checkedby:iptvcat.com
+#EXTINF:0,MTV Kosova
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/19458?checkedby:iptvcat.com
+#EXTINF:0,MTV 80s
+#EXTVLCOPT:file-caching=300
+http://78.83.191.18:8000/play/a06q?checkedby:iptvcat.com
+#EXTINF:0,CA MTV
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/182016.ts?checkedby:iptvcat.com
+#EXTINF:0,CA MTV 2
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/182017.ts?checkedby:iptvcat.com
+#EXTINF:0,MTV
+#EXTVLCOPT:file-caching=300
+http://bbiptv.net:8000/tridenour82@yahoo.com/Ride82nour/1016?checkedby:iptvcat.com
+#EXTINF:0,MTV
+#EXTVLCOPT:file-caching=300
+http://bbiptv.net:8000/tridenour82@yahoo.com/Ride82nour/1738?checkedby:iptvcat.com
+#EXTINF:0,MTV
+#EXTVLCOPT:file-caching=300
+http://fortv.cc:8080/rose/rose123/57446?checkedby:iptvcat.com
+#EXTINF:0,MTV 2
+#EXTVLCOPT:file-caching=300
+http://fortv.cc:8080/rose/rose123/57447?checkedby:iptvcat.com
+#EXTINF:0,MTV 2 HD
+#EXTVLCOPT:file-caching=300
+http://bbiptv.net:8000/tridenour82@yahoo.com/Ride82nour/494?checkedby:iptvcat.com
+#EXTINF:0,MTV CLASSIC SD
+#EXTVLCOPT:file-caching=300
+http://bbiptv.net:8000/tridenour82@yahoo.com/Ride82nour/1516?checkedby:iptvcat.com
+#EXTINF:0,MTV HD
+#EXTVLCOPT:file-caching=300
+http://fortv.cc:8080/rose/rose123/57368?checkedby:iptvcat.com
+#EXTINF:0,MTV LIVE SD
+#EXTVLCOPT:file-caching=300
+http://bbiptv.net:8000/tridenour82@yahoo.com/Ride82nour/1517?checkedby:iptvcat.com
+#EXTINF:0,MTV U SD
+#EXTVLCOPT:file-caching=300
+http://bbiptv.net:8000/tridenour82@yahoo.com/Ride82nour/1518?checkedby:iptvcat.com
+#EXTINF:0,MTV WEST HD
+#EXTVLCOPT:file-caching=300
+http://bbiptv.net:8000/tridenour82@yahoo.com/Ride82nour/4135?checkedby:iptvcat.com
+#EXTINF:0,MTV
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/10198?checkedby:iptvcat.com
+#EXTINF:0,MTV Catfish+
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ff5ed0bb61f1200072ca4cd/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8a1e61-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=0698157f-70d9-4890-978e-e648d753b321&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0,MTV Classics+
+#EXTVLCOPT:file-caching=300
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ff5ec5500d4c70007341c7c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8a1e60-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=de18fdd4-d30a-4263-8ecc-df902150744d&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0,MTV HITS
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/15355?checkedby:iptvcat.com
+#EXTINF:0,MTV
+#EXTVLCOPT:file-caching=300
+http://local.ultrach.com:8080/bekira/bekira/96524?checkedby:iptvcat.com
+#EXTINF:0,MTV Catfish
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5db6a697d5f34a000934cd13/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=f1438745-0586-11eb-82fe-0242ac110002&deviceId=5db6a697d5f34a000934cd13&deviceVersion=DNT&appVersion=DNT&deviceDNT=1&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0,MTV Catfish+
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e7b855972c36600076b7ddd/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=4433ef8f-a215-466e-a65b-405518cd6e6c&deviceId=5e7b855972c36600076b7ddd&deviceVersion=DNT&appVersion=DNT&deviceDNT=1&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0,MTV Cribs
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ea815a515d149000748ee9b/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=fb612cc2-0587-11eb-97af-0242ac110002&deviceId=5ea815a515d149000748ee9b&deviceVersion=DNT&appVersion=DNT&deviceDNT=1&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0,MTV Cribs+
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5efb54eaa5714d000744b6a0/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=f664f477-078c-4957-bc9a-51f90e3d9ce7&deviceId=5efb54eaa5714d000744b6a0&deviceVersion=DNT&appVersion=DNT&deviceDNT=1&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0,MTV Dating
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5caf330ea5068259a32320fd/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=4c740197-0587-11eb-a18c-0242ac110002&deviceId=5caf330ea5068259a32320fd&deviceVersion=DNT&appVersion=DNT&deviceDNT=1&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0,MTV FHD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/7247?checkedby:iptvcat.com
+#EXTINF:0,MTV HD
+#EXTVLCOPT:file-caching=300
+http://iptv.watchhd.cc:5050/kelevra321/UWqjWR89sRNT/2622.ts?checkedby:iptvcat.com
+#EXTINF:0,MTV HD DE
+#EXTVLCOPT:file-caching=300
+http://showflix.org:5890/123456789/123456789/1344?checkedby:iptvcat.com
+#EXTINF:0,MTV HEVC
+#EXTVLCOPT:file-caching=300
+http://local.ultrach.com:8080/bekira/bekira/96369?checkedby:iptvcat.com
+#EXTINF:0,MTV Teen Mom
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cffcf5686dfe15595fb3f56/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=7ca1fec5-0587-11eb-aeab-0242ac110002&deviceId=5cffcf5686dfe15595fb3f56&deviceVersion=DNT&appVersion=DNT&deviceDNT=1&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0,MTV The Hills
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d00e86bf0bac55fe7f75736/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=a934c097-0587-11eb-8b9f-0242ac110002&deviceId=5d00e86bf0bac55fe7f75736&deviceVersion=DNT&appVersion=DNT&deviceDNT=1&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0,MTV The Shores
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5caf32c2a5068259a32320fc/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=d49824ea-0587-11eb-82fe-0242ac110002&deviceId=5caf32c2a5068259a32320fc&deviceVersion=DNT&appVersion=DNT&deviceDNT=1&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0,MTV pluto.tv
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5caf325764025859afdd6c4d/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=1b711cc8-0587-11eb-9df2-0242ac110002&deviceId=5caf325764025859afdd6c4d&deviceVersion=DNT&appVersion=DNT&deviceDNT=1&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0,MTV pluto.tv+
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcebe53d352330009e56f5b/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=b3be0889-389b-4ef9-a876-b3d589aa6cd9&deviceId=5dcebe53d352330009e56f5b&deviceVersion=DNT&appVersion=DNT&deviceDNT=1&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0,NICK/MTV
+#EXTVLCOPT:file-caching=300
+http://local.ultrach.com:8080/bekira/bekira/96457?checkedby:iptvcat.com
+#EXTINF:0,MTV Indies
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/5879?checkedby:iptvcat.com
+#EXTINF:0,MTV HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/32872?checkedby:iptvcat.com
+#EXTINF:0,MTV HD +2H
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/32873?checkedby:iptvcat.com
+#EXTINF:0,MTV Brand New
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/35929?checkedby:iptvcat.com
+#EXTINF:0,MTV HD
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2471?checkedby:iptvcat.com
+#EXTINF:0,MTV HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17763?checkedby:iptvcat.com
+#EXTINF:0,MTV Music 24
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/35892?checkedby:iptvcat.com
+#EXTINF:0,MTV Music 24
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17765?checkedby:iptvcat.com
+#EXTINF:0,MTV live NL
+#EXTVLCOPT:file-caching=300
+http://showflix.org:5890/123456789/123456789/1016?checkedby:iptvcat.com
+#EXTINF:0,MTV POLSKA
+#EXTVLCOPT:file-caching=300
+http://1tv1.net:8080/omnia2021/123456/71083?checkedby:iptvcat.com
+#EXTINF:0,MTV POLSKA
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71083?checkedby:iptvcat.com
+#EXTINF:0,MTV POLSKA
+#EXTVLCOPT:file-caching=300
+http://1tv1.net:8080/euro2021/123456/71083?checkedby:iptvcat.com
+#EXTINF:0,MTV Polska HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/19146?checkedby:iptvcat.com
+#EXTINF:0,CMTV
+#EXTVLCOPT:file-caching=300
+http://1tv1.net:8080/euro2021/123456/4086?checkedby:iptvcat.com
+#EXTINF:0,CMTV
+#EXTVLCOPT:file-caching=300
+http://1tv1.net:8080/omnia2021/123456/4086?checkedby:iptvcat.com
+#EXTINF:0,CMTV HD PT
+#EXTVLCOPT:file-caching=300
+http://showflix.org:5890/123456789/123456789/1033?checkedby:iptvcat.com
+#EXTINF:0,MTV Music 24
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/35892?checkedby:iptvcat.com
+#EXTINF:0,MTV Music 24
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17765?checkedby:iptvcat.com
+#EXTINF:0,DSTV: MTV Music 24
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/3020?checkedby:iptvcat.com
+#EXTINF:0,Pluto TV MTV Music Made in Spain (720p) [Not 24/7]
+#EXTVLCOPT:file-caching=300
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60a26a056d55b30007918d5a/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&serverSideAds=false&tags=ROKU_CONTENT_TAGS&checkedby:iptvcat.com
+#EXTINF:0,MTV MUSIC
+#EXTVLCOPT:file-caching=300
+http://hdlocal.de:8080/super-media.giize.com/f42atTxKXp/9694?checkedby:iptvcat.com
+#EXTINF:0,UK MTV Music
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/189975.ts?checkedby:iptvcat.com
+#EXTINF:0,Platinium: MTV MUSIC
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/37490?checkedby:iptvcat.com
+#EXTINF:0,MUSIC PLUS
+#EXTVLCOPT:file-caching=300
+http://79.172.214.45:10190/stream.m3u8?checkedby:iptvcat.com
+#EXTINF:0,Orange Cinema 1 HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17295?checkedby:iptvcat.com
+#EXTINF:0,Orange Cinema 1 HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71932?checkedby:iptvcat.com
+#EXTINF:0,Orange Cinema 3 HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17293?checkedby:iptvcat.com
+#EXTINF:0,Orange Cinema 3 HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71934?checkedby:iptvcat.com
+#EXTINF:0,Orange Cinema 4 HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17292?checkedby:iptvcat.com
+#EXTINF:0,Orange Cinema 4 HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71935?checkedby:iptvcat.com
+#EXTINF:0,Orange Cinema Action HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17290?checkedby:iptvcat.com
+#EXTINF:0,Orange Cinema Aventure HD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/71936?checkedby:iptvcat.com
+#EXTINF:0,Orange Cinema Aventure HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17289?checkedby:iptvcat.com
+#EXTINF:0,Orange Cinema HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17288?checkedby:iptvcat.com
+#EXTINF:0,Orange Documentaire HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/17285?checkedby:iptvcat.com
+#EXTINF:0,Orange TV
+#EXTVLCOPT:file-caching=300
+http://otv3.ocfl.net:1936/OrangeTV/smil:OrangeTV.smil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0,BFM PARIS FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56229?checkedby:iptvcat.com
+#EXTINF:0,BFM Paris (480p)
+#EXTVLCOPT:file-caching=300
+https://bfmparishdslive-lh.akamaihd.net/i/BFMPARIS_ESYTLS@429747/index_1100_av-p.m3u8?checkedby:iptvcat.com
+#EXTINF:0,Fashion TV Paris
+#EXTVLCOPT:file-caching=300
+http://fash1043.cloudycdn.services/slive/_definst_/ftv_paris_adaptive.smil/chunklist_b680000_t64MzYwcA==.m3u8?checkedby:iptvcat.com
+#EXTINF:0,PARIS PREMIERE
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/4911?checkedby:iptvcat.com
+#EXTINF:0,PARIS PREMIERE  HD
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1538?checkedby:iptvcat.com
+#EXTINF:0,PARIS PREMIERE FHD
+#EXTVLCOPT:file-caching=300
+http://stariptv.org:8080/wael2021/123456/56304?checkedby:iptvcat.com
+#EXTINF:0,PARIS PREMIERE HD
+#EXTVLCOPT:file-caching=300
+http://w.bs-share.com:8000/00/233441437392897/36274?checkedby:iptvcat.com
+#EXTINF:0,Paris Premiere
+#EXTVLCOPT:file-caching=300
+http://red.ipfox.org:8080/1234/12345678/2362?checkedby:iptvcat.com
+#EXTINF:0,Fashion TV Paris
+#EXTVLCOPT:file-caching=300
+https://rebroadcast.mytvtogo.net/mytvtogo/rebroadcastfashiontvparis/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0,BFM Paris (480p)
+#EXTVLCOPT:file-caching=300
+https://bfmparishdslive-lh.akamaihd.net/i/BFMPARIS_ESYTLS@429747/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0,BFM Paris (480p)
+#EXTVLCOPT:file-caching=300
+https://bfmparishdslive-lh.akamaihd.net/i/BFMPARIS_ESYTLS@429747/index_1100_av-p.m3u8?rebase=on&sd=10&checkedby:iptvcat.com
+#EXTINF:0,Fashion TV Paris (1080p)
+#EXTVLCOPT:file-caching=300
+http://fash1043.cloudycdn.services/slive/ftv_paris_adaptive.smil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0,FR: rmc decouverte
+#EXTVLCOPT:file-caching=300
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/1536
+#EXTINF:0,CA SUPER ECRAN 1
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/182247.ts?checkedby:iptvcat.com
+#EXTINF:0,CA SUPER ECRAN 2
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/1007896.ts?checkedby:iptvcat.com
+#EXTINF:0,CA SUPER ECRAN 3
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/518093.ts?checkedby:iptvcat.com
+#EXTINF:0,CA SUPER ECRAN 4
+#EXTVLCOPT:file-caching=300
+http://ky-iptv.com:80/testtest/testtest/1007898.ts?checkedby:iptvcat.com
+#EXTINF:78,viàMATÉLÉ [Not 24/7]
+#EXTVLCOPT:file-caching=300
+https://streamer01.myvideoplace.tv/streamer02/hls/MATL_VLOC_PAD_100919_medium/index.m3u8
+#EXTINF:30,viaMirabelle
+#EXTVLCOPT:file-caching=300
+https://live.creacast.com/mirabelletv/smil:mirabelletv.smil/playlist.m3u8
+#EXTINF:30,viàMoselleTV (720p)
+#EXTVLCOPT:file-caching=300
+https://live.creacast.com/mirabelletv/smil:mirabelletv.smil/playlist.m3u8
