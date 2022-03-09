@@ -2,7 +2,7 @@
 #EXTINF:0,FR: TF1
 #EXTVLCOPT:file-caching=300
 #EXTVLCOPT:network-caching=1000
-http://stariptv.org:8080/wael2021/123456/612
+http://stariptv.org:8080/wael2021/123456/612.m3u8
 #EXTINF:0,FR: TF1 FHD
 #EXTVLCOPT:file-caching=300
 #EXTVLCOPT:network-caching=1000
