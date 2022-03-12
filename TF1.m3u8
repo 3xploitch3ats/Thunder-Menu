@@ -1,0 +1,4 @@
+#EXTM3U
+#EXTINF:0,612
+#EXTVLCOPT:network-caching=1000
+http://stariptv.org:8080/wael2021/123456/612
