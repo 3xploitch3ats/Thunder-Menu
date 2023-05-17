@@ -1,0 +1,1715 @@
+Address: 0x7ff788a1c550
+Address - Imagebase: 0x80ac550
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff780c5a175
+Xref Address - Imagebase: 0x2ea175
+Function: __int64 __fastcall sub_7FF780C5A0F0(__int64 a1, __int64 a2)
+
+Address: 0x7ff788a1c748
+Address - Imagebase: 0x80ac748
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff780e44355
+Xref Address - Imagebase: 0x4d4355
+Function: char __fastcall sub_7FF780E44150(__int64 a1, __int64 a2, __int64 a3, unsigned int a4)
+
+Address: 0x7ff788a1e870
+Address - Imagebase: 0x80ae870
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff780e8fb07
+Xref Address - Imagebase: 0x51fb07
+Function: char __fastcall sub_7FF780E8F8E0(__int64 a1, __int64 *a2, __int64 a3, float *a4)
+
+Address: 0x7ff788a1e8b0
+Address - Imagebase: 0x80ae8b0
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff780ef5505
+Xref Address - Imagebase: 0x585505
+Function: void __fastcall sub_7FF780EF5320(__int64 a1, float a2, float a3)
+
+Address: 0x7ff788a1e950
+Address - Imagebase: 0x80ae950
+Value: 0x2bca2875f4373fff
+String: ÿ?7ôu(Ê+
+
+Xref Address: 0x7ff780ffb771
+Xref Address - Imagebase: 0x68b771
+Function: __int64 __fastcall sub_7FF780FFB6D0(__int64 *a1, float a2)
+
+Address: 0x7ff788a1ed38
+Address - Imagebase: 0x80aed38
+Value: 0xaa1e191979c280f3
+String: ó€Âyª
+
+Xref Address: 0x7ff7814df93a
+Xref Address - Imagebase: 0xb6f93a
+Function: __int64 __fastcall sub_7FF7814DF920(__int64 a1, __int64 a2)
+
+Address: 0x7ff788a31b29
+Address - Imagebase: 0x80c1b29
+Value: 0xda00000000000000
+String: ÚÚÚÚÚÚÚÚ
+
+Address: 0x7ff788a37000
+Address - Imagebase: 0x80c7000
+Value: 0x2a8409f3ba5c3167
+String: g1\ºó„*
+
+Xref Address: 0x7ff784b4d822
+Xref Address - Imagebase: 0x41dd822
+Function: void *__fastcall sub_7FF784BCFE10(__int64 a1, __int64 a2)
+
+Address: 0x7ff788a37218
+Address - Imagebase: 0x80c7218
+Value: 0xe550f1370efc9a34
+String: 4šü7ñPå
+
+Xref Address: 0x7ff780fc32c5
+Xref Address - Imagebase: 0x6532c5
+Function: void __fastcall sub_7FF780FC3040(__int64 a1, float a2)
+
+Address: 0x7ff788a37298
+Address - Imagebase: 0x80c7298
+Value: 0xe82c9aa70663f4c7
+String: Çôc§š,è
+
+Xref Address: 0x7ff789476ffb
+Xref Address - Imagebase: 0x8b06ffb
+Function: void __fastcall sub_7FF789476FFB()
+
+Address: 0x7ff788a372e8
+Address - Imagebase: 0x80c72e8
+Value: 0x97fa74cedc80c2c9
+String: ÉÂ€ÜÎtú—
+
+Address: 0x7ff788a37420
+Address - Imagebase: 0x80c7420
+Value: 0x72a83897cb8c8036
+String: 6€ŒË—8¨r
+
+Address: 0x7ff788a37498
+Address - Imagebase: 0x80c7498
+Value: 0xe82c9aa70663f2c7
+String: Çòc§š,è
+
+Address: 0x7ff788a375e8
+Address - Imagebase: 0x80c75e8
+Value: 0x5423cfd61f597ed1
+String: Ñ~YÖÏ#T
+
+Xref Address: 0x7ff781597bc4
+Xref Address - Imagebase: 0xc27bc4
+Function: void __fastcall sub_7FF781597BC4(__int64 a1, __int64 a2, __int64 a3, __int64 a4)
+
+Address: 0x7ff788a37628
+Address - Imagebase: 0x80c7628
+Value: 0x39545c47a9348c23
+String: #Œ4©G\T9
+
+Xref Address: 0x7ff7896d9b57
+Xref Address - Imagebase: 0x8d69b57
+Function: void sub_7FF7896D9B53()
+
+Address: 0x7ff788a376c0
+Address - Imagebase: 0x80c76c0
+Value: 0xff4118dd0cd572f2
+String: òrÕÝAÿ
+
+Address: 0x7ff788a37700
+Address - Imagebase: 0x80c7700
+Value: 0x32ff3e90a2270104
+String: '¢
+
+Address: 0x7ff788a37788
+Address - Imagebase: 0x80c7788
+Value: 0x3b0266882810e2ca
+String: Êâ(ˆf;
+
+Xref Address: 0x7ff7898f2fa9
+Xref Address - Imagebase: 0x8f82fa9
+Function: __int64 __fastcall sub_7FF7898F2FA9(__int64 a1, __int64 a2, __int64 a3)
+
+Address: 0x7ff788a377e8
+Address - Imagebase: 0x80c77e8
+Value: 0x5423cfd61f597cd1
+String: Ñ|YÖÏ#T
+
+Xref Address: 0x7ff780fc3352
+Xref Address - Imagebase: 0x653352
+Function: void __fastcall sub_7FF780FC3040(__int64 a1, float a2)
+
+Address: 0x7ff788a377f0
+Address - Imagebase: 0x80c77f0
+Value: 0xaa11a7e7435e726c
+String: lr^Cç§ª
+
+Xref Address: 0x7ff7813b6521
+Xref Address - Imagebase: 0xa46521
+Function: // positive sp value has been detected, the output may be wrong!
+
+Address: 0x7ff788a37858
+Address - Imagebase: 0x80c7858
+Value: 0x2ce52f79482527b0
+String: °'%Hy/å,
+
+Address: 0x7ff788a379a0
+Address - Imagebase: 0x80c79a0
+Value: 0x47603cd87cb50b08
+String: µ|Ø<`G
+
+Xref Address: 0x7ff780ee597c
+Xref Address - Imagebase: 0x57597c
+Function: void __fastcall sub_7FF780EE58F0(__int64 a1, double a2)
+
+Address: 0x7ff788a379e8
+Address - Imagebase: 0x80c79e8
+Value: 0x5423cfd61f5972d1
+String: ÑrYÖÏ#T
+
+Xref Address: 0x7ff7813baf64
+Xref Address - Imagebase: 0xa4af64
+Function: // positive sp value has been detected, the output may be wrong!
+
+Address: 0x7ff788a37a98
+Address - Imagebase: 0x80c7a98
+Value: 0xe82c9aa70663fcc7
+String: Çüc§š,è
+
+Xref Address: 0x7ff781192384
+Xref Address - Imagebase: 0x822384
+Function: __int64 __fastcall sub_7FF781192384(__int64 a1, __int64 a2, __int64 a3)
+
+Address: 0x7ff788a37cb0
+Address - Imagebase: 0x80c7cb0
+Value: 0xfd05e35d997b6c7b
+String: {l{™]ãý
+
+Xref Address: 0x7ff781172046
+Xref Address - Imagebase: 0x802046
+Function: __int64 __fastcall sub_7FF781171E70(__int64 a1, __int64 a2)
+
+Address: 0x7ff788a37ce8
+Address - Imagebase: 0x80c7ce8
+Value: 0x97fa74cedc80ccc9
+String: ÉÌ€ÜÎtú—
+
+Address: 0x7ff788a37cf0
+Address - Imagebase: 0x80c7cf0
+Value: 0xcbfd7a6b22b2a4e0
+String: à¤²"kzýË
+
+Address: 0x7ff788a37dc0
+Address - Imagebase: 0x80c7dc0
+Value: 0x84767bc577e21aea
+String: êâwÅ{v„
+
+Xref Address: 0x7ff7811a4b50
+Xref Address - Imagebase: 0x834b50
+Function: signed __int64 __fastcall sub_7FF7811A4B50(unsigned int a1)
+
+Address: 0x7ff788a37dd0
+Address - Imagebase: 0x80c7dd0
+Value: 0xa11dfefb3773241a
+String: $s7ûþ¡
+
+Address: 0x7ff788a37de0
+Address - Imagebase: 0x80c7de0
+Value: 0xa8471fb4a7576b92
+String: ’kW§´G¨
+
+Address: 0x7ff788a37ee0
+Address - Imagebase: 0x80c7ee0
+Value: 0x2ff4698520e41ea3
+String: £ä …iô/
+
+Xref Address: 0x7ff7832aa6d0
+Xref Address - Imagebase: 0x293a6d0
+Function: signed __int64 __fastcall sub_7FF78969FB3D(unsigned int a1)
+
+Address: 0x7ff788a37f08
+Address - Imagebase: 0x80c7f08
+Value: 0x197fdf441de1440a
+String: DáDß
+
+Xref Address: 0x7ff7820a5610
+Xref Address - Imagebase: 0x1735610
+Function: signed __int64 __fastcall sub_7FF7820A561A(unsigned int a1, __int64 a2, signed __int64 a3, __int64 a4)
+
+Address: 0x7ff788a37f18
+Address - Imagebase: 0x80c7f18
+Value: 0x865f97db6df3f1d8
+String: ØñómÛ—_†
+
+Address: 0x7ff788a393fc
+Address - Imagebase: 0x80c93fc
+Value: 0xffff00ffff00ffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780ae40f0
+Xref Address - Imagebase: 0x1740f0
+Function: __int64 sub_7FF780AE40F0()
+
+Address: 0x7ff788a39408
+Address - Imagebase: 0x80c9408
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff782e430f5
+Xref Address - Imagebase: 0x24d30f5
+Function: __int64 __fastcall sub_7FF782E42A90(__int64 a1, __int64 a2)
+
+Address: 0x7ff788a39420
+Address - Imagebase: 0x80c9420
+Value: 0x3f8000003f800000
+String: €€€?€€€?
+
+Xref Address: 0x7ff781408a52
+Xref Address - Imagebase: 0xa98a52
+Function: __int64 __fastcall sub_7FF781408960(_QWORD *a1, __int64 a2, __int64 a3, _QWORD *a4)
+
+Address: 0x7ff788a3942c
+Address - Imagebase: 0x80c942c
+Value: 0x3f80000000000000
+String: €€€€€€€?
+
+Xref Address: 0x7ff780c68896
+Xref Address - Imagebase: 0x2f8896
+Function: void **__fastcall sub_7FF780C687E0(__int64 a1)
+
+Address: 0x7ff788a39448
+Address - Imagebase: 0x80c9448
+Value: 0x3f80000000000000
+String: €€€€€€€?
+
+Xref Address: 0x7ff78122f84d
+Xref Address - Imagebase: 0x8bf84d
+Function: __int64 __fastcall sub_7FF78122F4C0(__int64 a1)
+
+Address: 0x7ff788a396c0
+Address - Imagebase: 0x80c96c0
+Value: 0x3d99999a000a940f
+String: ”šš™™=
+
+Xref Address: 0x7ff780bf8e37
+Xref Address - Imagebase: 0x288e37
+Function: void sub_7FF780BF8E00()
+
+Address: 0x7ff788a3dc60
+Address - Imagebase: 0x80cdc60
+Value: 0x3fa1111111111111
+String: ¡?
+
+Xref Address: 0x7ff780bfb25b
+Xref Address - Imagebase: 0x28b25b
+Function: Decompilation failed
+
+Address: 0x7ff788a3dc68
+Address - Imagebase: 0x80cdc68
+Value: 0x3f916e5f80000000
+String: €€€€_n‘?
+
+Xref Address: 0x7ff780c02c43
+Xref Address - Imagebase: 0x292c43
+Function: __int64 __fastcall sub_7FF780C02810(__int64 a1, __int64 a2, __int64 a3, __int64 a4, int a5, int a6, int a7, int a8, int a9, int a10, int a11, int a12, int a13, int a14, int a15, int a16, int a17, int a18, int a19, int a20, int a21, int a22, int a23, int a24, int a25, int a26, int a27, int a28, int a29, int a30, int a31, int a32, int a33, int a34, int a35, __int64 a36)
+
+Address: 0x7ff788a3e6b8
+Address - Imagebase: 0x80ce6b8
+Value: 0x3fc999999999999a
+String: š™™™™™É?
+
+Xref Address: 0x7ff78206313a
+Xref Address - Imagebase: 0x16f313a
+Function: int __fastcall sub_7FF7820630D0(_QWORD *a1, char a2)
+
+Address: 0x7ff788a43100
+Address - Imagebase: 0x80d3100
+Value: 0x2000800c20202000
+String: €
+
+Xref Address: 0x7ff7821470f7
+Xref Address - Imagebase: 0x17d70f7
+Function: char __fastcall sub_7FF782147060(__int64 a1, __int64 a2)
+
+Address: 0x7ff788a43880
+Address - Imagebase: 0x80d3880
+Value: 0x4284000042840000
+String: „„„B„„„B
+
+Xref Address: 0x7ff7821f648c
+Xref Address - Imagebase: 0x188648c
+Function: __int64 *__fastcall sub_7FF7821F63D0(__int64 a1, __int64 *a2)
+
+Address: 0x7ff788a45010
+Address - Imagebase: 0x80d5010
+Value: 0x4100000041400000
+String: @@@AAAAA
+
+Xref Address: 0x7ff7822bed92
+Xref Address - Imagebase: 0x194ed92
+Function: __int64 __fastcall sub_7FF7822BC4A0(__int64 a1, char a2)
+
+Address: 0x7ff788a45130
+Address - Imagebase: 0x80d5130
+Value: 0x4180000041800000
+String: €€€A€€€A
+
+Address: 0x7ff788a456a0
+Address - Imagebase: 0x80d56a0
+Value: 0x3f0020083d802008
+String:  €= ??
+
+Xref Address: 0x7ff783a86017
+Xref Address - Imagebase: 0x3116017
+Function: __int64 __fastcall sub_7FF783A859B0(__int64 a1, __int64 a2, _QWORD *a3)
+
+Address: 0x7ff788a45da0
+Address - Imagebase: 0x80d5da0
+Value: 0xbff0000000000000
+String: ððððððð¿
+
+Xref Address: 0x7ff7825135ae
+Xref Address - Imagebase: 0x1ba35ae
+Function: void __fastcall sub_7FF782513420(__int64 a1)
+
+Address: 0x7ff788a4b530
+Address - Imagebase: 0x80db530
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff780a8b5f0
+Xref Address - Imagebase: 0x11b5f0
+Function: __int64 sub_7FF780A8B5F0()
+
+Address: 0x7ff788a4b610
+Address - Imagebase: 0x80db610
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff782c520ca
+Xref Address - Imagebase: 0x22e20ca
+Function: char __fastcall sub_7FF782C51F40(__int64 a1, __int64 a2)
+
+Address: 0x7ff788a4b690
+Address - Imagebase: 0x80db690
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff782c75116
+Xref Address - Imagebase: 0x2305116
+Function: __int64 __fastcall sub_7FF782C75110(__int64 a1)
+
+Address: 0x7ff788a4b780
+Address - Imagebase: 0x80db780
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff782d134be
+Xref Address - Imagebase: 0x23a34be
+Function: _QWORD *__fastcall sub_7FF782D13460(__int64 a1, _QWORD *a2, _QWORD *a3)
+
+Address: 0x7ff788a4dc18
+Address - Imagebase: 0x80ddc18
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff782defcab
+Xref Address - Imagebase: 0x247fcab
+Function: __int64 __fastcall sub_7FF782DEFB70(__int64 a1, __int64 *a2, __int64 a3)
+
+Address: 0x7ff788a4dc38
+Address - Imagebase: 0x80ddc38
+Value: 0x4180000041800000
+String: €€€A€€€A
+
+Xref Address: 0x7ff782dfd3c7
+Xref Address - Imagebase: 0x248d3c7
+Function: char __fastcall sub_7FF782DFD320(__int64 a1, __int64 *a2, int a3, __int64 a4, char a5, int a6)
+
+Address: 0x7ff788a4dd00
+Address - Imagebase: 0x80ddd00
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff782e407ef
+Xref Address - Imagebase: 0x24d07ef
+Function: _BOOL8 __fastcall sub_7FF782E40770(_DWORD *a1, __int64 a2, double a3, __int64 a4, __int64 a5)
+
+Address: 0x7ff788a4de18
+Address - Imagebase: 0x80dde18
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff782ec7102
+Xref Address - Imagebase: 0x2557102
+Function: __int64 __fastcall sub_7FF782EC70F0(__int64 a1, __int64 a2)
+
+Address: 0x7ff788a4e0f0
+Address - Imagebase: 0x80de0f0
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff782f28f8b
+Xref Address - Imagebase: 0x25b8f8b
+Function: __int64 *__fastcall sub_7FF782F28EF0(__int64 a1, __int64 *a2)
+
+Address: 0x7ff788a4e720
+Address - Imagebase: 0x80de720
+Value: 0x3f800000bf800000
+String: €€€¿€€€?
+
+Xref Address: 0x7ff7826b7c0b
+Xref Address - Imagebase: 0x1d47c0b
+Function: __int64 __fastcall sub_7FF7826B78D0(__int64 a1, __int64 a2, unsigned __int64 a3, __int64 a4)
+
+Address: 0x7ff788a50488
+Address - Imagebase: 0x80e0488
+Value: 0x447a0000447a0000
+String: zzzDzzzD
+
+Xref Address: 0x7ff7830d0528
+Xref Address - Imagebase: 0x2760528
+Function: unsigned __int64 __fastcall sub_7FF7830D04A0(unsigned __int64 a1)
+
+Address: 0x7ff788a53310
+Address - Imagebase: 0x80e3310
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff78369dfea
+Xref Address - Imagebase: 0x2d2dfea
+Function: __int64 __fastcall sub_7FF78369DF50(__int64 a1, __int64 a2, __int64 a3)
+
+Address: 0x7ff788a68448
+Address - Imagebase: 0x80f8448
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff78424ca46
+Xref Address - Imagebase: 0x38dca46
+Function: __int64 __fastcall sub_7FF78424CA40(__int64 a1)
+
+Address: 0x7ff788a6dceb
+Address - Imagebase: 0x80fdceb
+Value: 0x800000000000007f
+String: €€€€€€€
+
+Address: 0x7ff788a7006a
+Address - Imagebase: 0x810006a
+Value: 0x3e0b000000000000
+String: >
+
+Address: 0x7ff788a74510
+Address - Imagebase: 0x8104510
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff78473c121
+Xref Address - Imagebase: 0x3dcc121
+Function: __int64 __fastcall sub_7FF78473B990(__int64 a1, __int64 *a2, char a3, __int128 *a4, __int64 a5, __int64 a6, int a7, __int64 a8)
+
+Address: 0x7ff788a78520
+Address - Imagebase: 0x8108520
+Value: 0x40a000000000001c
+String: @
+
+Xref Address: 0x7ff7849864a8
+Xref Address - Imagebase: 0x40164a8
+Function: __int64 __fastcall sub_7FF784986490(__int64 a1, __int64 a2)
+
+Address: 0x7ff788a78528
+Address - Imagebase: 0x8108528
+Value: 0x40a0000000000008
+String: @
+
+Xref Address: 0x7ff7849864b3
+Xref Address - Imagebase: 0x40164b3
+Function: __int64 __fastcall sub_7FF784986490(__int64 a1, __int64 a2)
+
+Address: 0x7ff788a78530
+Address - Imagebase: 0x8108530
+Value: 0x40a000000000000e
+String: @
+
+Xref Address: 0x7ff7849864be
+Xref Address - Imagebase: 0x40164be
+Function: __int64 __fastcall sub_7FF784986490(__int64 a1, __int64 a2)
+
+Address: 0x7ff788a78538
+Address - Imagebase: 0x8108538
+Value: 0x40a000000000001b
+String: @
+
+Xref Address: 0x7ff7849864c9
+Xref Address - Imagebase: 0x40164c9
+Function: __int64 __fastcall sub_7FF784986490(__int64 a1, __int64 a2)
+
+Address: 0x7ff788a78540
+Address - Imagebase: 0x8108540
+Value: 0x40a000000000000d
+String: @
+
+Xref Address: 0x7ff7849864d4
+Xref Address - Imagebase: 0x40164d4
+Function: __int64 __fastcall sub_7FF784986490(__int64 a1, __int64 a2)
+
+Address: 0x7ff788a7bc73
+Address - Imagebase: 0x810bc73
+Value: 0x7fffff7f7fffff7f
+String: ÿÿÿÿ
+
+Address: 0x7ff788a84be0
+Address - Imagebase: 0x8114be0
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff7851c0618
+Xref Address - Imagebase: 0x4850618
+Function: __int64 __fastcall sub_7FF7851C03D0(_QWORD *a1, __int64 a2, __int64 a3)
+
+Address: 0x7ff788a84d50
+Address - Imagebase: 0x8114d50
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff78520b4be
+Xref Address - Imagebase: 0x489b4be
+Function: char __fastcall sub_7FF78520B300(__int64 a1, __int64 a2, __int64 a3)
+
+Address: 0x7ff788a8a808
+Address - Imagebase: 0x811a808
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff785617111
+Xref Address - Imagebase: 0x4ca7111
+Function: bool __fastcall sub_7FF7856170F0(__int64 *a1)
+
+Address: 0x7ff788a923e0
+Address - Imagebase: 0x81223e0
+Value: 0xffffd5c687b155db
+String: ÛU±‡ÆÕÿÿ
+
+Xref Address: 0x7ff785bec900
+Xref Address - Imagebase: 0x527c900
+Function: !void __cdecl __noreturn _report_gsfailure(uintptr_t StackCookie)!
+
+Address: 0x7ff788a923f8
+Address - Imagebase: 0x81223f8
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff785becb20
+Xref Address - Imagebase: 0x527cb20
+Function: !int __cdecl _isa_available_init()!
+
+Address: 0x7ff788a934ab
+Address - Imagebase: 0x81234ab
+Value: 0x73823d3f72e3d43f
+String: ?Ôãr?=‚s
+
+Address: 0x7ff788a9567a
+Address - Imagebase: 0x812567a
+Value: 0x63883e85f15d3e85
+String: …>]ñ…>ˆc
+
+Address: 0x7ff788a9a720
+Address - Imagebase: 0x812a720
+Value: 0x3fe26bb1bbb55516
+String: Uµ»±kâ?
+
+Xref Address: 0x7ff785cf6229
+Xref Address - Imagebase: 0x5386229
+Function: __int64 __fastcall sub_7FF785CF6100(__int64 a1, __int64 a2)
+
+Address: 0x7ff788a9a988
+Address - Imagebase: 0x812a988
+Value: 0x3f00000042200000
+String: B????
+
+Address: 0x7ff788a9ab00
+Address - Imagebase: 0x812ab00
+Value: 0x7fffffffffffffff
+String: ÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff785d28125
+Xref Address - Imagebase: 0x53b8125
+Function: __int64 __fastcall sub_7FF785D280B0(__int64 a1, unsigned __int64 a2, unsigned int *a3, int a4, float a5, float *a6, _BYTE *a7)
+
+Address: 0x7ff788a9ac00
+Address - Imagebase: 0x812ac00
+Value: 0x3f8000003f800000
+String: €€€?€€€?
+
+Xref Address: 0x7ff785d2cea5
+Xref Address - Imagebase: 0x53bcea5
+Function: char __fastcall sub_7FF785D2C630(__int64 a1, signed int *a2, unsigned int *a3, int a4, float a5, int a6, int a7, int a8, float *a9)
+
+Address: 0x7ff788ac1d68
+Address - Imagebase: 0x8151d68
+Value: 0x41713b9874bdb99f
+String: Ÿ¹½t˜;qA
+
+Xref Address: 0x7ff780c02d07
+Xref Address - Imagebase: 0x292d07
+Function: __int64 __fastcall sub_7FF780C02810(__int64 a1, __int64 a2, __int64 a3, __int64 a4, int a5, int a6, int a7, int a8, int a9, int a10, int a11, int a12, int a13, int a14, int a15, int a16, int a17, int a18, int a19, int a20, int a21, int a22, int a23, int a24, int a25, int a26, int a27, int a28, int a29, int a30, int a31, int a32, int a33, int a34, int a35, __int64 a36)
+
+Address: 0x7ff788af66ac
+Address - Imagebase: 0x81866ac
+Value: 0x81eeb56000007ff7
+String: ÷```µî
+
+Address: 0x7ff788b00d88
+Address - Imagebase: 0x8190d88
+Value: 0x3e7ad7f29abcaf48
+String: H¯¼šò×z>
+
+Xref Address: 0x7ff780bf4843
+Xref Address - Imagebase: 0x284843
+Function: void __fastcall sub_7FF780BF4700(void *a1)
+
+Address: 0x7ff788b00d90
+Address - Imagebase: 0x8190d90
+Value: 0x3e7ad7f29abcaf48
+String: H¯¼šò×z>
+
+Xref Address: 0x7ff7820a5858
+Xref Address - Imagebase: 0x1735858
+Function: double sub_7FF7820A5820()
+
+Address: 0x7ff788b104e8
+Address - Imagebase: 0x81a04e8
+Value: 0x3fc251d9eb000000
+String: ëëëëÙQÂ?
+
+Xref Address: 0x7ff782028d19
+Xref Address - Imagebase: 0x16b8d19
+Function: _BOOL8 __fastcall sub_7FF782028B20(char a1, _BYTE *a2, int *a3, __int64 a4, int a5)
+
+Address: 0x7ff788b20508
+Address - Imagebase: 0x81b0508
+Value: 0x41713b9874bdb47c
+String: |´½t˜;qA
+
+Xref Address: 0x7ff780bfb230
+Xref Address - Imagebase: 0x28b230
+Function: Decompilation failed
+
+Address: 0x7ff788b20510
+Address - Imagebase: 0x81b0510
+Value: 0x41713b987477fafe
+String: þúwt˜;qA
+
+Xref Address: 0x7ff7825c11d8
+Xref Address - Imagebase: 0x1c511d8
+Function: char __fastcall sub_7FF7825C0CF0(__int64 a1, __int64 a2)
+
+Address: 0x7ff788b20528
+Address - Imagebase: 0x81b0528
+Value: 0x40c7c665c9115800
+String: XXÉeÆÇ@
+
+Xref Address: 0x7ff783450a48
+Xref Address - Imagebase: 0x2ae0a48
+Function: void __fastcall sub_7FF783450580(float *a1)
+
+Address: 0x7ff788b20a08
+Address - Imagebase: 0x81b0a08
+Value: 0x4171389f1ac0be1b
+String: ¾ÀŸ8qA
+
+Xref Address: 0x7ff780a2aca9
+Xref Address - Imagebase: 0xbaca9
+Function: void sub_7FF780A2ACA0()
+
+Address: 0x7ff788b23c5c
+Address - Imagebase: 0x81b3c5c
+Value: 0xfa5987e9f1a296b8
+String: ¸–¢ñé‡Yú
+
+Address: 0x7ff788b2d408
+Address - Imagebase: 0x81bd408
+Value: 0x4171389fa804a4c5
+String: Å¤¨Ÿ8qA
+
+Xref Address: 0x7ff782063132
+Xref Address - Imagebase: 0x16f3132
+Function: int __fastcall sub_7FF7820630D0(_QWORD *a1, char a2)
+
+Address: 0x7ff788b39b90
+Address - Imagebase: 0x81c9b90
+Value: 0x40c7cbda4e100000
+String: NÚËÇ@
+
+Xref Address: 0x7ff7820b19eb
+Xref Address - Imagebase: 0x17419eb
+Function: char sub_7FF7820B18E0()
+
+Address: 0x7ff788b39b98
+Address - Imagebase: 0x81c9b98
+Value: 0x40d851b400000000
+String: ´´´´´QØ@
+
+Xref Address: 0x7ff7820b19cb
+Xref Address - Imagebase: 0x17419cb
+Function: char sub_7FF7820B18E0()
+
+Address: 0x7ff788b3c5cc
+Address - Imagebase: 0x81cc5cc
+Value: 0xffffffff0007a5ee
+String: î¥ÿÿÿÿÿ
+
+Xref Address: 0x7ff780a2ec00
+Xref Address - Imagebase: 0xbec00
+Function: void sub_7FF780A2EC00()
+
+Address: 0x7ff788b41e78
+Address - Imagebase: 0x81d1e78
+Value: 0x3f8000003f800000
+String: €€€?€€€?
+
+Address: 0x7ff788b46920
+Address - Imagebase: 0x81d6920
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a3d9f2
+Xref Address - Imagebase: 0xcd9f2
+Function: int sub_7FF780A3D830()
+
+Address: 0x7ff788b46b20
+Address - Imagebase: 0x81d6b20
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a3dd82
+Xref Address - Imagebase: 0xcdd82
+Function: int sub_7FF780A3DBC0()
+
+Address: 0x7ff788b46d20
+Address - Imagebase: 0x81d6d20
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a3eb82
+Xref Address - Imagebase: 0xceb82
+Function: int sub_7FF780A3E9C0()
+
+Address: 0x7ff788b46f20
+Address - Imagebase: 0x81d6f20
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a3e7e4
+Xref Address - Imagebase: 0xce7e4
+Function: int sub_7FF780A3E6D0()
+
+Address: 0x7ff788b47120
+Address - Imagebase: 0x81d7120
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a3ee64
+Xref Address - Imagebase: 0xcee64
+Function: int sub_7FF780A3ED50()
+
+Address: 0x7ff788b47320
+Address - Imagebase: 0x81d7320
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a3fc12
+Xref Address - Imagebase: 0xcfc12
+Function: int sub_7FF780A3FA50()
+
+Address: 0x7ff788b47520
+Address - Imagebase: 0x81d7520
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a406c2
+Xref Address - Imagebase: 0xd06c2
+Function: int sub_7FF780A40500()
+
+Address: 0x7ff788b478a0
+Address - Imagebase: 0x81d78a0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a40332
+Xref Address - Imagebase: 0xd0332
+Function: int sub_7FF780A40170()
+
+Address: 0x7ff788b47aa0
+Address - Imagebase: 0x81d7aa0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a409a4
+Xref Address - Imagebase: 0xd09a4
+Function: int sub_7FF780A40890()
+
+Address: 0x7ff788b47ca0
+Address - Imagebase: 0x81d7ca0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a40c94
+Xref Address - Imagebase: 0xd0c94
+Function: int sub_7FF780A40B80()
+
+Address: 0x7ff788b47ea0
+Address - Imagebase: 0x81d7ea0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a40f84
+Xref Address - Imagebase: 0xd0f84
+Function: int sub_7FF780A40E70()
+
+Address: 0x7ff788b480a0
+Address - Imagebase: 0x81d80a0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a41322
+Xref Address - Imagebase: 0xd1322
+Function: int sub_7FF780A41160()
+
+Address: 0x7ff788b482a0
+Address - Imagebase: 0x81d82a0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a3f4e4
+Xref Address - Imagebase: 0xcf4e4
+Function: int sub_7FF780A3F3D0()
+
+Address: 0x7ff788b484a0
+Address - Imagebase: 0x81d84a0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a3f202
+Xref Address - Imagebase: 0xcf202
+Function: int sub_7FF780A3F040()
+
+Address: 0x7ff788b486a0
+Address - Imagebase: 0x81d86a0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a3f882
+Xref Address - Imagebase: 0xcf882
+Function: int sub_7FF780A3F6C0()
+
+Address: 0x7ff788b488a0
+Address - Imagebase: 0x81d88a0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a3ffa2
+Xref Address - Imagebase: 0xcffa2
+Function: int sub_7FF780A3FDE0()
+
+Address: 0x7ff788b48aa0
+Address - Imagebase: 0x81d8aa0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a3e50d
+Xref Address - Imagebase: 0xce50d
+Function: int sub_7FF780A3E2C0()
+
+Address: 0x7ff788b48c0c
+Address - Imagebase: 0x81d8c0c
+Value: 0x824b26f000000000
+String: ððððð&K‚
+
+Address: 0x7ff788b48ca0
+Address - Imagebase: 0x81d8ca0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a3e0f2
+Xref Address - Imagebase: 0xce0f2
+Function: int sub_7FF780A3DF50()
+
+Address: 0x7ff788b4ee7a
+Address - Imagebase: 0x81dee7a
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Address: 0x7ff788b5483f
+Address - Imagebase: 0x81e483f
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Address: 0x7ff788b58110
+Address - Imagebase: 0x81e8110
+Value: 0x41713b9874a7834c
+String: Lƒ§t˜;qA
+
+Xref Address: 0x7ff782553d52
+Xref Address - Imagebase: 0x1be3d52
+Function: void sub_7FF782553CC0()
+
+Address: 0x7ff788b58120
+Address - Imagebase: 0x81e8120
+Value: 0x41713b9874774f3c
+String: <Owt˜;qA
+
+Xref Address: 0x7ff782553d34
+Xref Address - Imagebase: 0x1be3d34
+Function: void sub_7FF782553CC0()
+
+Address: 0x7ff788b5a140
+Address - Imagebase: 0x81ea140
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a496a6
+Xref Address - Imagebase: 0xd96a6
+Function: int sub_7FF780A49460()
+
+Address: 0x7ff788b5a390
+Address - Imagebase: 0x81ea390
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a49a12
+Xref Address - Imagebase: 0xd9a12
+Function: int sub_7FF780A49870()
+
+Address: 0x7ff788b5a5e0
+Address - Imagebase: 0x81ea5e0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a48834
+Xref Address - Imagebase: 0xd8834
+Function: int sub_7FF780A48720()
+
+Address: 0x7ff788b5a660
+Address - Imagebase: 0x81ea660
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a48bac
+Xref Address - Imagebase: 0xd8bac
+Function: int sub_7FF780A48A10()
+
+Address: 0x7ff788b5a6e0
+Address - Imagebase: 0x81ea6e0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a48f0c
+Xref Address - Imagebase: 0xd8f0c
+Function: int sub_7FF780A48D70()
+
+Address: 0x7ff788b5a760
+Address - Imagebase: 0x81ea760
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a49292
+Xref Address - Imagebase: 0xd9292
+Function: int sub_7FF780A490D0()
+
+Address: 0x7ff788b5aae0
+Address - Imagebase: 0x81eaae0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a4a084
+Xref Address - Imagebase: 0xda084
+Function: int sub_7FF780A49F70()
+
+Address: 0x7ff788b5ab60
+Address - Imagebase: 0x81eab60
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a49da8
+Xref Address - Imagebase: 0xd9da8
+Function: int sub_7FF780A49BE0()
+
+Address: 0x7ff788b5c28b
+Address - Imagebase: 0x81ec28b
+Value: 0xffffff0000000000
+String: ÿÿÿÿÿÿÿÿ
+
+Address: 0x7ff788b65c2d
+Address - Imagebase: 0x81f5c2d
+Value: 0xf7825d33a000007f
+String: 3]‚÷
+
+Address: 0x7ff788b6ac80
+Address - Imagebase: 0x81fac80
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a51832
+Xref Address - Imagebase: 0xe1832
+Function: int sub_7FF780A51690()
+
+Address: 0x7ff788b6c350
+Address - Imagebase: 0x81fc350
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a51b14
+Xref Address - Imagebase: 0xe1b14
+Function: int sub_7FF780A51A00()
+
+Address: 0x7ff788b72630
+Address - Imagebase: 0x8202630
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a55804
+Xref Address - Imagebase: 0xe5804
+Function: int sub_7FF780A556F0()
+
+Address: 0x7ff788b7f440
+Address - Imagebase: 0x820f440
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a5b3b2
+Xref Address - Imagebase: 0xeb3b2
+Function: int sub_7FF780A5B1F0()
+
+Address: 0x7ff788b7f4c4
+Address - Imagebase: 0x820f4c4
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a5b74c
+Xref Address - Imagebase: 0xeb74c
+Function: int sub_7FF780A5B580()
+
+Address: 0x7ff788b80460
+Address - Imagebase: 0x8210460
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a5ac04
+Xref Address - Imagebase: 0xeac04
+Function: int sub_7FF780A5AAF0()
+
+Address: 0x7ff788b804e0
+Address - Imagebase: 0x82104e0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a5a922
+Xref Address - Imagebase: 0xea922
+Function: int sub_7FF780A5A760()
+
+Address: 0x7ff788b80c30
+Address - Imagebase: 0x8210c30
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a5b026
+Xref Address - Imagebase: 0xeb026
+Function: int sub_7FF780A5ADE0()
+
+Address: 0x7ff788b8a630
+Address - Imagebase: 0x821a630
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a60282
+Xref Address - Imagebase: 0xf0282
+Function: int sub_7FF780A600C0()
+
+Address: 0x7ff788b932c0
+Address - Imagebase: 0x82232c0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a64132
+Xref Address - Imagebase: 0xf4132
+Function: int sub_7FF780A63F70()
+
+Address: 0x7ff788b937f0
+Address - Imagebase: 0x82237f0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a644c2
+Xref Address - Imagebase: 0xf44c2
+Function: int sub_7FF780A64300()
+
+Address: 0x7ff788b94800
+Address - Imagebase: 0x8224800
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a63d94
+Xref Address - Imagebase: 0xf3d94
+Function: int sub_7FF780A63C80()
+
+Address: 0x7ff788bb2000
+Address - Imagebase: 0x8242000
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a6ef32
+Xref Address - Imagebase: 0xfef32
+Function: int sub_7FF780A6ED70()
+
+Address: 0x7ff788bb29d0
+Address - Imagebase: 0x82429d0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a6f2c2
+Xref Address - Imagebase: 0xff2c2
+Function: int sub_7FF780A6F100()
+
+Address: 0x7ff788bb2c10
+Address - Imagebase: 0x8242c10
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a6f5a4
+Xref Address - Imagebase: 0xff5a4
+Function: int sub_7FF780A6F490()
+
+Address: 0x7ff788bb85f0
+Address - Imagebase: 0x82485f0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a724b2
+Xref Address - Imagebase: 0x1024b2
+Function: int sub_7FF780A72310()
+
+Address: 0x7ff788bbdb94
+Address - Imagebase: 0x824db94
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a743ce
+Xref Address - Imagebase: 0x1043ce
+Function: int sub_7FF780A742B0()
+
+Address: 0x7ff788bc4f90
+Address - Imagebase: 0x8254f90
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a78414
+Xref Address - Imagebase: 0x108414
+Function: int sub_7FF780A78300()
+
+Address: 0x7ff788bc5c80
+Address - Imagebase: 0x8255c80
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a78136
+Xref Address - Imagebase: 0x108136
+Function: int sub_7FF780A77EF0()
+
+Address: 0x7ff788bc6030
+Address - Imagebase: 0x8256030
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a78b48
+Xref Address - Imagebase: 0x108b48
+Function: int sub_7FF780A78980()
+
+Address: 0x7ff788bc60b0
+Address - Imagebase: 0x82560b0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a787b8
+Xref Address - Imagebase: 0x1087b8
+Function: int sub_7FF780A785F0()
+
+Address: 0x7ff788bca760
+Address - Imagebase: 0x825a760
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a7bb04
+Xref Address - Imagebase: 0x10bb04
+Function: int sub_7FF780A7B9F0()
+
+Address: 0x7ff788bd00e0
+Address - Imagebase: 0x82600e0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a7d7c4
+Xref Address - Imagebase: 0x10d7c4
+Function: int sub_7FF780A7D6B0()
+
+Address: 0x7ff788bd5328
+Address - Imagebase: 0x8265328
+Value: 0x3f8000003f800000
+String: €€€?€€€?
+
+Xref Address: 0x7ff782b0dc0c
+Xref Address - Imagebase: 0x219dc0c
+Function: __int64 __fastcall sub_7FF782B0DB60(__int64 a1, __int64 a2, double a3)
+
+Address: 0x7ff788bd7838
+Address - Imagebase: 0x8267838
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff780a8b5fe
+Xref Address - Imagebase: 0x11b5fe
+Function: __int64 sub_7FF780A8B5F0()
+
+Address: 0x7ff788bd7858
+Address - Imagebase: 0x8267858
+Value: 0x7f7fffff7f7fffff
+String: ÿÿÿÿ
+
+Xref Address: 0x7ff780a8b62e
+Xref Address - Imagebase: 0x11b62e
+Function: __int64 sub_7FF780A8B620()
+
+Address: 0x7ff788bd9e80
+Address - Imagebase: 0x8269e80
+Value: 0x41713b9874a78367
+String: gƒ§t˜;qA
+
+Xref Address: 0x7ff782d3fd69
+Xref Address - Imagebase: 0x23cfd69
+Function: __int64 __fastcall sub_7FF782D3FD20(_QWORD *a1)
+
+Address: 0x7ff788bdbbf8
+Address - Imagebase: 0x826bbf8
+Value: 0x4414dd5b798dff80
+String: €ÿ
+
+Xref Address: 0x7ff7898cefa2
+Xref Address - Imagebase: 0x8f5efa2
+Function: __int64 __fastcall sub_7FF7896C3E5C()
+
+Address: 0x7ff788bdbc00
+Address - Imagebase: 0x826bc00
+Value: 0x6f42c941a79a92bc
+String: ¼’š§AÉBo
+
+Xref Address: 0x7ff7898cefa9
+Xref Address - Imagebase: 0x8f5efa9
+Function: __int64 __fastcall sub_7FF7896C3E5C()
+
+Address: 0x7ff788bdd820
+Address - Imagebase: 0x826d820
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a95fa2
+Xref Address - Imagebase: 0x125fa2
+Function: int sub_7FF780A95DE0()
+
+Address: 0x7ff788bdf058
+Address - Imagebase: 0x826f058
+Value: 0x3fffadb7c368ff6f
+String: oÿhÃ·ÿ?
+
+Xref Address: 0x7ff780a98175
+Xref Address - Imagebase: 0x128175
+Function: __int64 sub_7FF780A98160()
+
+Address: 0x7ff788be02a0
+Address - Imagebase: 0x82702a0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a9a8b2
+Xref Address - Imagebase: 0x12a8b2
+Function: int sub_7FF780A9A6F0()
+
+Address: 0x7ff788be0320
+Address - Imagebase: 0x8270320
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a9a522
+Xref Address - Imagebase: 0x12a522
+Function: int sub_7FF780A9A360()
+
+Address: 0x7ff788be0d40
+Address - Imagebase: 0x8270d40
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a9bc02
+Xref Address - Imagebase: 0x12bc02
+Function: int sub_7FF780A9BA60()
+
+Address: 0x7ff788be0dc0
+Address - Imagebase: 0x8270dc0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a9b522
+Xref Address - Imagebase: 0x12b522
+Function: int sub_7FF780A9B2D0()
+
+Address: 0x7ff788be0e40
+Address - Imagebase: 0x8270e40
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a9b892
+Xref Address - Imagebase: 0x12b892
+Function: int sub_7FF780A9B6F0()
+
+Address: 0x7ff788be31d0
+Address - Imagebase: 0x82731d0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a9cc24
+Xref Address - Imagebase: 0x12cc24
+Function: int sub_7FF780A9CB10()
+
+Address: 0x7ff788be8d20
+Address - Imagebase: 0x8278d20
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780a9fd40
+Xref Address - Imagebase: 0x12fd40
+Function: int sub_7FF780A9FC80()
+
+Address: 0x7ff788beb350
+Address - Imagebase: 0x827b350
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa2774
+Xref Address - Imagebase: 0x132774
+Function: int sub_7FF780AA2660()
+
+Address: 0x7ff788beb6b0
+Address - Imagebase: 0x827b6b0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa2b96
+Xref Address - Imagebase: 0x132b96
+Function: int sub_7FF780AA2950()
+
+Address: 0x7ff788bebb90
+Address - Imagebase: 0x827bb90
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa3ad4
+Xref Address - Imagebase: 0x133ad4
+Function: int sub_7FF780AA39C0()
+
+Address: 0x7ff788bebc10
+Address - Imagebase: 0x827bc10
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa37f8
+Xref Address - Imagebase: 0x1337f8
+Function: int sub_7FF780AA3630()
+
+Address: 0x7ff788bebc90
+Address - Imagebase: 0x827bc90
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa3454
+Xref Address - Imagebase: 0x133454
+Function: int sub_7FF780AA3340()
+
+Address: 0x7ff788bebed0
+Address - Imagebase: 0x827bed0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa4774
+Xref Address - Imagebase: 0x134774
+Function: int sub_7FF780AA4660()
+
+Address: 0x7ff788bebf50
+Address - Imagebase: 0x827bf50
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa4b18
+Xref Address - Imagebase: 0x134b18
+Function: int sub_7FF780AA4950()
+
+Address: 0x7ff788bec150
+Address - Imagebase: 0x827c150
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa413c
+Xref Address - Imagebase: 0x13413c
+Function: int sub_7FF780AA3FA0()
+
+Address: 0x7ff788bec4d0
+Address - Imagebase: 0x827c4d0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa449c
+Xref Address - Imagebase: 0x13449c
+Function: int sub_7FF780AA4300()
+
+Address: 0x7ff788bec850
+Address - Imagebase: 0x827c850
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa3dc4
+Xref Address - Imagebase: 0x133dc4
+Function: int sub_7FF780AA3CB0()
+
+Address: 0x7ff788bee830
+Address - Imagebase: 0x827e830
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa5ef2
+Xref Address - Imagebase: 0x135ef2
+Function: int sub_7FF780AA5D30()
+
+Address: 0x7ff788beed40
+Address - Imagebase: 0x827ed40
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa67f4
+Xref Address - Imagebase: 0x1367f4
+Function: int sub_7FF780AA66E0()
+
+Address: 0x7ff788bef890
+Address - Imagebase: 0x827f890
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa7ef4
+Xref Address - Imagebase: 0x137ef4
+Function: int sub_7FF780AA7DE0()
+
+Address: 0x7ff788bef910
+Address - Imagebase: 0x827f910
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa8292
+Xref Address - Imagebase: 0x138292
+Function: int sub_7FF780AA80D0()
+
+Address: 0x7ff788bef990
+Address - Imagebase: 0x827f990
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa7c16
+Xref Address - Imagebase: 0x137c16
+Function: int sub_7FF780AA79D0()
+
+Address: 0x7ff788bf0440
+Address - Imagebase: 0x8280440
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa8f64
+Xref Address - Imagebase: 0x138f64
+Function: int sub_7FF780AA8E50()
+
+Address: 0x7ff788bf0540
+Address - Imagebase: 0x8280540
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aa8c88
+Xref Address - Imagebase: 0x138c88
+Function: int sub_7FF780AA8AC0()
+
+Address: 0x7ff788bfd5b0
+Address - Imagebase: 0x828d5b0
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780aafba2
+Xref Address - Imagebase: 0x13fba2
+Function: int sub_7FF780AAF9E0()
+
+Address: 0x7ff788bfda68
+Address - Imagebase: 0x828da68
+Value: 0x403105bc20000000
+String: ¼1@
+
+Xref Address: 0x7ff780c02d61
+Xref Address - Imagebase: 0x292d61
+Function: __int64 __fastcall sub_7FF780C02810(__int64 a1, __int64 a2, __int64 a3, __int64 a4, int a5, int a6, int a7, int a8, int a9, int a10, int a11, int a12, int a13, int a14, int a15, int a16, int a17, int a18, int a19, int a20, int a21, int a22, int a23, int a24, int a25, int a26, int a27, int a28, int a29, int a30, int a31, int a32, int a33, int a34, int a35, __int64 a36)
+
+Address: 0x7ff788bfda70
+Address - Imagebase: 0x828da70
+Value: 0x401489d493e00000
+String: ààà“Ô‰@
+
+Xref Address: 0x7ff7813c89f7
+Xref Address - Imagebase: 0xa589f7
+Function: __int64 __fastcall sub_7FF7813C8960(__int64 a1, char a2, char a3, char a4, _QWORD *a5)
+
+Address: 0x7ff788bfe730
+Address - Imagebase: 0x828e730
+Value: 0x41713b9874bdb47c
+String: |´½t˜;qA
+
+Xref Address: 0x7ff78345069b
+Xref Address - Imagebase: 0x2ae069b
+Function: void __fastcall sub_7FF783450580(float *a1)
+
+Address: 0x7ff788bfee70
+Address - Imagebase: 0x828ee70
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780ab1c94
+Xref Address - Imagebase: 0x141c94
+Function: int sub_7FF780AB1B80()
+
+Address: 0x7ff788bff070
+Address - Imagebase: 0x828f070
+Value: 0xffffffffffffffff
+String: ÿÿÿÿÿÿÿÿ
+
+Xref Address: 0x7ff780ab2032
+Xref Address - Imagebase: 0x142032
+Function: int sub_7FF780AB1E70()
+
+Address: 0x7ff788c155e8
+Address - Imagebase: 0x82a55e8
+Value: 0x3f80000000000000
+String: €€€€€€€?
+
+Xref Address: 0x7ff783d02d32
+Xref Address - Imagebase: 0x3392d32
+Function: bool __fastcall sub_7FF783D02900(__m128 *a1, __int64 a2)
+
+Address: 0x7ff788c26338
+Address - Imagebase: 0x82b6338
+Value: 0xbf80000000000000
+String: €€€€€€€¿
+
+Xref Address: 0x7ff784225b4a
+Xref Address - Imagebase: 0x38b5b4a
+Function: __int64 __fastcall sub_7FF784225B10(__int64 a1)
+
+Address: 0x7ff788c2ea25
+Address - Imagebase: 0x82bea25
+Value: 0xd43c860570000000
+String: pppp†<Ô
+
+Address: 0x7ff788c36590
+Address - Imagebase: 0x82c6590
+Value: 0x1c3f145fb573ae82
+String: ‚®sµ_?
+
+Xref Address: 0x7ff7846ab907
+Xref Address - Imagebase: 0x3d3b907
+Function: __int64 *sub_7FF7846AB8E0()
+
+Address: 0x7ff788c365a0
+Address - Imagebase: 0x82c65a0
+Value: 0x11796e41677f4610
+String: FgAny
+
+Xref Address: 0x7ff7846ab977
+Xref Address - Imagebase: 0x3d3b977
+Function: __int64 *sub_7FF7846AB950()
+
+Address: 0x7ff788c81410
+Address - Imagebase: 0x8311410
+Value: 0xffffff8000000002
+String: €€€€ÿÿÿ
+
+Xref Address: 0x7ff7854c1d08
+Xref Address - Imagebase: 0x4b51d08
+Function: void __fastcall sub_7FF7854C1CE0(__int64 a1, __int64 *a2, int *a3)
+
+Address: 0x7ff788c81420
+Address - Imagebase: 0x8311420
+Value: 0xffffff8000000002
+String: €€€€ÿÿÿ
+
+Xref Address: 0x7ff7854cc950
+Xref Address - Imagebase: 0x4b5c950
+Function: __int64 __fastcall sub_7FF7854CC930(unsigned int a1, char a2)
+
+Address: 0x7ff788c842c0
+Address - Imagebase: 0x83142c0
+Value: 0xfffffffffeac48b4
+String: ´H¬þÿÿÿÿ
+
+Xref Address: 0x7ff7859850f6
+Xref Address - Imagebase: 0x50150f6
+Function: __int64 __fastcall sub_7FF785985080(__int64 *a1, struct AK::MemoryMgr::GlobalStats *a2)
+
+Address: 0x7ff788c84d28
+Address - Imagebase: 0x8314d28
+Value: 0x41713b91754273c8
+String: ÈsBu‘;qA
+
+Xref Address: 0x7ff785993b29
+Xref Address - Imagebase: 0x5023b29
+Function: __m128 sub_7FF785993AE0()
+
+Address: 0x7ff788c8cc18
+Address - Imagebase: 0x831cc18
+Value: 0x890da539784955fa
+String: úUIx9¥‰
+
+Xref Address: 0x7ff785bec36c
+Xref Address - Imagebase: 0x527c36c
+Function: __int64 __scrt_initialize_thread_safe_statics(void)
+
+Address: 0x7ff788c8cc20
+Address - Imagebase: 0x831cc20
+Value: 0xb0c47039784955fa
+String: úUIx9pÄ°
+
+Xref Address: 0x7ff785bec379
+Xref Address - Imagebase: 0x527c379
+Function: __int64 __scrt_initialize_thread_safe_statics(void)
+
+Address: 0x7ff788c8d298
+Address - Imagebase: 0x831d298
+Value: 0x5bf4e63e86572359
+String: Y#W†>æô[
+
+Xref Address: 0x7ff785befddf
+Xref Address - Imagebase: 0x527fddf
+Function: void __fastcall sub_7FF785BEFDD0(__int64 a1)
+
+Address: 0x7ff788c8d4cc
+Address - Imagebase: 0x831d4cc
+Value: 0x3f80000000000000
+String: €€€€€€€?
+
+Xref Address: 0x7ff785bfbc35
+Xref Address - Imagebase: 0x528bc35
+Function: // positive sp value has been detected, the output may be wrong!
+
