@@ -1,0 +1,4545 @@
+lea Address: 0x7ff66ea31833
+lea Address - Imagebase: 0x141833
+lea sub Hex View: 48 83 EC 28 E8 43 5C 11 00 48 8B C8 E8 1B 6F AA
+mov Address: 0x7ff66ea31843
+mov value: 00007FF67254FAA0
+call Address: 0x7ff66ea3183e
+mov ASM: mov     rcx, cs:off_7FF67254FAA0
+
+
+lea Address: 0x7ff66ea31f29
+lea Address - Imagebase: 0x141f29
+lea sub Hex View: 48 83 EC 28 E8 87 6D D1 FF 48 8B C8 E8 5F 80 6A
+mov Address: 0x7ff66ea31f39
+mov value: 00007FF67254FAA0
+call Address: 0x7ff66ea31f34
+mov ASM: mov     rcx, cs:off_7FF67254FAA0
+
+
+lea Address: 0x7ff66ebfd9f8
+lea Address - Imagebase: 0x30d9f8
+lea sub Hex View: 48 83 EC 28 48 85 C9 74 0B 4C 8B 01 BA 01 00 00
+mov Address: 0x7ff66ebfda18
+mov value: 00007FF672790600
+call Address: 0x7ff66ebfda13
+mov ASM: mov     rbx, cs:qword_7FF672790600
+
+
+lea Address: 0x7ff66ee422e2
+lea Address - Imagebase: 0x5522e2
+lea sub Hex View: 48 83 EC 38 8B 44 24 60 C6 44 24 28 01 89 44 24
+mov Address: 0x7ff66ee42306
+mov value: 00007FF6727DDA38
+call Address: 0x7ff66ee42301
+mov ASM: mov     r8, cs:qword_7FF6727DDA38
+
+
+lea Address: 0x7ff66ef319d9
+lea Address - Imagebase: 0x6419d9
+lea sub Hex View: 48 83 EC 28 48 85 C9 74 0B 4C 8B 01 BA 01 00 00
+mov Address: 0x7ff66ef319e8
+mov value: 00007FF67298F628
+call Address: 0x7ff66ef319e3
+mov ASM: mov     al, cs:byte_7FF67298F628
+
+
+lea Address: 0x7ff66ef4ee1f
+lea Address - Imagebase: 0x65ee1f
+lea sub Hex View: 48 83 EC 28 48 85 C9 74 0B 4C 8B 01 BA 01 00 00
+mov Address: 0x7ff66ef4ee2b
+mov value: 00007FF6729EE8D8
+call Address: 0x7ff66ef4ee26
+mov ASM: mov     al, cs:byte_7FF6729EE8D8
+
+
+lea Address: 0x7ff66ef4ee73
+lea Address - Imagebase: 0x65ee73
+lea sub Hex View: 48 83 EC 28 48 85 C9 74 0B 4C 8B 01 BA 01 00 00
+mov Address: 0x7ff66ef4ee7f
+mov value: 00007FF6729EE968
+call Address: 0x7ff66ef4ee7a
+mov ASM: mov     al, cs:byte_7FF6729EE968
+
+
+lea Address: 0x7ff66ef4eec7
+lea Address - Imagebase: 0x65eec7
+lea sub Hex View: 48 83 EC 28 48 85 C9 74 0B 4C 8B 01 BA 01 00 00
+mov Address: 0x7ff66ef4eed3
+mov value: 00007FF67276FB28
+call Address: 0x7ff66ef4eece
+mov ASM: mov     rcx, cs:qword_7FF67276FB28
+
+
+lea Address: 0x7ff66f11a834
+lea Address - Imagebase: 0x82a834
+lea sub Hex View: 48 83 EC 28 41 B0 01 48 8D 4C 24 38 BA 40 00 00
+mov Address: 0x7ff66f11a847
+mov value: 00007FF673130358
+call Address: 0x7ff66f11a841
+mov ASM: mov     rcx, cs:qword_7FF673130358
+
+
+lea Address: 0x7ff66f1fff55
+lea Address - Imagebase: 0x90ff55
+lea sub Hex View: 48 83 EC 28 8B 02 48 8D 54 24 30 48 8B 09 89 44
+mov Address: 0x7ff66f1fff81
+mov value: 00007FF672788790
+call Address: 0x7ff66f1fff7c
+mov ASM: mov     rcx, cs:qword_7FF672788790
+
+
+lea Address: 0x7ff66f785d80
+lea Address - Imagebase: 0xe95d80
+lea sub Hex View: 48 83 EC 28 48 85 C9 74 0B 4C 8B 01 BA 01 00 00
+mov Address: 0x7ff66f785d8f
+mov value: 00007FF673125608
+call Address: 0x7ff66f785d8a
+mov ASM: mov     al, cs:byte_7FF673125608
+
+
+lea Address: 0x7ff66f85d73a
+lea Address - Imagebase: 0xf6d73a
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 41 83 78 20 00 F3 41 0F
+mov Address: 0x7ff66f85d741
+mov value: 6BC5104E68CBEFE8
+call Address: 0x7ff66f85d735
+mov ASM: mov     rcx, 6BC5104E68CBEFE8h
+
+
+lea Address: 0x7ff66f85dc41
+lea Address - Imagebase: 0xf6dc41
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 20 44 8B 48
+mov Address: 0x7ff66f85dc48
+mov value: 07706C4CC9C6CC9E
+call Address: 0x7ff66f85dc3c
+mov ASM: mov     rcx, 7706C4CC9C6CC9Eh
+
+
+lea Address: 0x7ff66f85e2da
+lea Address - Imagebase: 0xf6e2da
+lea sub Hex View: 48 83 EC 28 48 8B 0D 09 95 C4 04 E8 48 73 04 02
+mov Address: 0x7ff66f85e2e1
+mov value: 7455CD705F7E933E
+call Address: 0x7ff66f85e2d5
+mov ASM: mov     rcx, 7455CD705F7E933Eh
+
+
+lea Address: 0x7ff66f85e412
+lea Address - Imagebase: 0xf6e412
+lea sub Hex View: 48 83 EC 48 48 8B 51 10 45 33 C0 44 88 44 24 30
+mov Address: 0x7ff66f85e419
+mov value: 6B17C62C9635D2DC
+call Address: 0x7ff66f85e40d
+mov ASM: mov     rcx, 6B17C62C9635D2DCh
+
+
+lea Address: 0x7ff66f85e439
+lea Address - Imagebase: 0xf6e439
+lea sub Hex View: 48 83 EC 48 48 8B 51 10 45 33 C0 C6 44 24 30 01
+mov Address: 0x7ff66f85e440
+mov value: 3B3CAD6166916D87
+call Address: 0x7ff66f85e434
+mov ASM: mov     rcx, 3B3CAD6166916D87h
+
+
+lea Address: 0x7ff66f85e634
+lea Address - Imagebase: 0xf6e634
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 45 33 C0 44 39 42 20 0F
+mov Address: 0x7ff66f85e63b
+mov value: 8530AD776CD72B12
+call Address: 0x7ff66f85e62f
+mov ASM: mov     rcx, 8530AD776CD72B12h
+
+
+lea Address: 0x7ff66f85e7e1
+lea Address - Imagebase: 0xf6e7e1
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 33 C9 48 8B 10 E8 1A 07
+mov Address: 0x7ff66f85e7e8
+mov value: F232C2C546AC16D0
+call Address: 0x7ff66f85e7dc
+mov ASM: mov     rcx, 0F232C2C546AC16D0h
+
+
+lea Address: 0x7ff66f85e808
+lea Address - Imagebase: 0xf6e808
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 33 D2 48 8B 08 E8 3E 29
+mov Address: 0x7ff66f85e80f
+mov value: 1E6F9A9FE1A99F36
+call Address: 0x7ff66f85e803
+mov ASM: mov     rcx, 1E6F9A9FE1A99F36h
+
+
+lea Address: 0x7ff66f85e940
+lea Address - Imagebase: 0xf6e940
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 83 79 20 00 8B 41 28 44
+mov Address: 0x7ff66f85e947
+mov value: 7FF4944CC209192D
+call Address: 0x7ff66f85e93b
+mov ASM: mov     rcx, 7FF4944CC209192Dh
+
+
+lea Address: 0x7ff66f85e967
+lea Address - Imagebase: 0xf6e967
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 BA FE FF FF FF 48 8D 0D
+mov Address: 0x7ff66f85e96e
+mov value: 67C540AA08E4A6F5
+call Address: 0x7ff66f85e962
+mov ASM: mov     rcx, 67C540AA08E4A6F5h
+
+
+lea Address: 0x7ff66f85e9dc
+lea Address - Imagebase: 0xf6e9dc
+lea sub Hex View: 48 83 EC 48 48 8B 49 10 83 79 38 00 48 8D 51 08
+mov Address: 0x7ff66f85e9e3
+mov value: CCE219C922737BFA
+call Address: 0x7ff66f85e9d7
+mov ASM: mov     rcx, 0CCE219C922737BFAh
+
+
+lea Address: 0x7ff66f85ea03
+lea Address - Imagebase: 0xf6ea03
+lea sub Hex View: 48 83 EC 28 4C 8B 41 10 48 8D 0D 91 B0 D0 04 49
+mov Address: 0x7ff66f85ea0a
+mov value: 0F2A2175734926D8
+call Address: 0x7ff66f85e9fe
+mov ASM: mov     rcx, 0F2A2175734926D8h
+
+
+lea Address: 0x7ff66f85eaed
+lea Address - Imagebase: 0xf6eaed
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 48 8D 0D 85 CF D0 04 83
+mov Address: 0x7ff66f85eaf4
+mov value: CE5D0FFE83939AF1
+call Address: 0x7ff66f85eae8
+mov ASM: mov     rcx, 0CE5D0FFE83939AF1h
+
+
+lea Address: 0x7ff66f85eb3b
+lea Address - Imagebase: 0xf6eb3b
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 83 7A 40 00 4D 8D 42
+mov Address: 0x7ff66f85eb42
+mov value: DCF5BA95BBF0FABA
+call Address: 0x7ff66f85eb36
+mov ASM: mov     rcx, 0DCF5BA95BBF0FABAh
+
+
+lea Address: 0x7ff66f85ec4c
+lea Address - Imagebase: 0xf6ec4c
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 33 D2 48 8B 08 E8 8A 23
+mov Address: 0x7ff66f85ec53
+mov value: 531A78D6BF27014B
+call Address: 0x7ff66f85ec47
+mov ASM: mov     rcx, 531A78D6BF27014Bh
+
+
+lea Address: 0x7ff66f85ee47
+lea Address - Imagebase: 0xf6ee47
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 35 6E A1 FF 48
+mov Address: 0x7ff66f85ee4e
+mov value: 0FAF7171BF613B80
+call Address: 0x7ff66f85ee42
+mov ASM: mov     rcx, 0FAF7171BF613B80h
+
+
+lea Address: 0x7ff66f85ee6e
+lea Address - Imagebase: 0xf6ee6e
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 41 83 78 20 00 F3 41 0F
+mov Address: 0x7ff66f85ee75
+mov value: BC9AE166038A5CEC
+call Address: 0x7ff66f85ee69
+mov ASM: mov     rcx, 0BC9AE166038A5CECh
+
+
+lea Address: 0x7ff66f85f300
+lea Address - Imagebase: 0xf6f300
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 48 8B 10 48 85 D2 74 14
+mov Address: 0x7ff66f85f307
+mov value: 399D2D3B33F1B8EB
+call Address: 0x7ff66f85f2fb
+mov ASM: mov     rcx, 399D2D3B33F1B8EBh
+
+
+lea Address: 0x7ff66f85f966
+lea Address - Imagebase: 0xf6f966
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 48 8B 10 48 85 D2 74 1A
+mov Address: 0x7ff66f85f96d
+mov value: EF21A9EF089A2668
+call Address: 0x7ff66f85f961
+mov ASM: mov     rcx, 0EF21A9EF089A2668h
+
+
+lea Address: 0x7ff66f85faec
+lea Address - Imagebase: 0xf6faec
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 41 83 78 08 00 41 8B 40
+mov Address: 0x7ff66f85faf3
+mov value: ABDB4863D3D72021
+call Address: 0x7ff66f85fae7
+mov ASM: mov     rcx, 0ABDB4863D3D72021h
+
+
+lea Address: 0x7ff66f85fcc0
+lea Address - Imagebase: 0xf6fcc0
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 4D 8B 4A 18
+mov Address: 0x7ff66f85fcc7
+mov value: 448F2647DD6F2E27
+call Address: 0x7ff66f85fcbb
+mov ASM: mov     rcx, 448F2647DD6F2E27h
+
+
+lea Address: 0x7ff66f8600b6
+lea Address - Imagebase: 0xf700b6
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 48 8B 41 38 F3 0F 10 41
+mov Address: 0x7ff66f8600bd
+mov value: 5AE0CB5F35F034FD
+call Address: 0x7ff66f8600b1
+mov ASM: mov     rcx, 5AE0CB5F35F034FDh
+
+
+lea Address: 0x7ff66f860410
+lea Address - Imagebase: 0xf70410
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 48 8B 08 48 85 C9 74 0E
+mov Address: 0x7ff66f860417
+mov value: 9B1FC259187C97C0
+call Address: 0x7ff66f86040b
+mov ASM: mov     rcx, 9B1FC259187C97C0h
+
+
+lea Address: 0x7ff66f8609b6
+lea Address - Imagebase: 0xf709b6
+lea sub Hex View: 48 83 EC 48 48 8B 49 10 48 8D 05 85 3A 4E 02 48
+mov Address: 0x7ff66f8609bd
+mov value: 16AF9B4EEAC3B305
+call Address: 0x7ff66f8609b1
+mov ASM: mov     rcx, 16AF9B4EEAC3B305h
+
+
+lea Address: 0x7ff66f860b3c
+lea Address - Imagebase: 0xf70b3c
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 33 C9 48 8B 10 E8 EA 15
+mov Address: 0x7ff66f860b43
+mov value: 74C333E34DF74E8A
+call Address: 0x7ff66f860b37
+mov ASM: mov     rcx, 74C333E34DF74E8Ah
+
+
+lea Address: 0x7ff66f860b76
+lea Address - Imagebase: 0xf70b76
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 33 C0 41 39 40 20 41 0F
+mov Address: 0x7ff66f860b7d
+mov value: 33281167E4942E4F
+call Address: 0x7ff66f860b71
+mov ASM: mov     rcx, 33281167E4942E4Fh
+
+
+lea Address: 0x7ff66f860b9d
+lea Address - Imagebase: 0xf70b9d
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 28 45 8B
+mov Address: 0x7ff66f860ba4
+mov value: 8C7C7FF7CF0E5153
+call Address: 0x7ff66f860b98
+mov ASM: mov     rcx, 8C7C7FF7CF0E5153h
+
+
+lea Address: 0x7ff66f860de6
+lea Address - Imagebase: 0xf70de6
+lea sub Hex View: 48 83 EC 58 4C 8B 51 10 41 83 7A 68 00 4D 8D 42
+mov Address: 0x7ff66f860ded
+mov value: A47BBFFFB83D4D0A
+call Address: 0x7ff66f860de1
+mov ASM: mov     rcx, 0A47BBFFFB83D4D0Ah
+
+
+lea Address: 0x7ff66f860ef7
+lea Address - Imagebase: 0xf70ef7
+lea sub Hex View: 48 83 EC 28 E8 1B 6F 21 FF C6 80 09 0E 00 00 01
+mov Address: 0x7ff66f860efe
+mov value: FC3F638BE2B6BB02
+call Address: 0x7ff66f860ef2
+mov ASM: mov     rcx, 0FC3F638BE2B6BB02h
+
+
+lea Address: 0x7ff66f860f93
+lea Address - Imagebase: 0xf70f93
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 30 00 4D 8D 4A
+mov Address: 0x7ff66f860f9a
+mov value: DFC1E4A44C0324CA
+call Address: 0x7ff66f860f8e
+mov ASM: mov     rcx, 0DFC1E4A44C0324CAh
+
+
+lea Address: 0x7ff66f861119
+lea Address - Imagebase: 0xf71119
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 48 4D 8D 42 20
+mov Address: 0x7ff66f861120
+mov value: F1F57F9D230F9CD1
+call Address: 0x7ff66f861114
+mov ASM: mov     rcx, 0F1F57F9D230F9CD1h
+
+
+lea Address: 0x7ff66f8611dc
+lea Address - Imagebase: 0xf711dc
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 45 8B 4A 18
+mov Address: 0x7ff66f8611e3
+mov value: 8B15AE2987C1AC8F
+call Address: 0x7ff66f8611d7
+mov ASM: mov     rcx, 8B15AE2987C1AC8Fh
+
+
+lea Address: 0x7ff66f86144c
+lea Address - Imagebase: 0xf7144c
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 28 45 8B
+mov Address: 0x7ff66f861453
+mov value: E296208C273BD7F0
+call Address: 0x7ff66f861447
+mov ASM: mov     rcx, 0E296208C273BD7F0h
+
+
+lea Address: 0x7ff66f861842
+lea Address - Imagebase: 0xf71842
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 95 DF 51 FF 48
+mov Address: 0x7ff66f861849
+mov value: 82E41D6ADE924FCA
+call Address: 0x7ff66f86183d
+mov ASM: mov     rcx, 82E41D6ADE924FCAh
+
+
+lea Address: 0x7ff66f861a3d
+lea Address - Imagebase: 0xf71a3d
+lea sub Hex View: 48 83 EC 28 E8 6B 6F 21 FF C6 80 7B 0D 00 00 01
+mov Address: 0x7ff66f861a44
+mov value: 3C8F74E8FE751614
+call Address: 0x7ff66f861a38
+mov ASM: mov     rcx, 3C8F74E8FE751614h
+
+
+lea Address: 0x7ff66f861c38
+lea Address - Imagebase: 0xf71c38
+lea sub Hex View: 48 83 EC 28 E8 5F 6A 21 FF 80 88 11 06 00 00 08
+mov Address: 0x7ff66f861c3f
+mov value: 8910C24B7E0046EC
+call Address: 0x7ff66f861c33
+mov ASM: mov     rcx, 8910C24B7E0046ECh
+
+
+lea Address: 0x7ff66f861dbe
+lea Address - Imagebase: 0xf71dbe
+lea sub Hex View: 48 83 EC 28 E8 3F 5C 21 FF C6 80 F6 0E 00 00 01
+mov Address: 0x7ff66f861dc5
+mov value: 7E40A01B11398FCB
+call Address: 0x7ff66f861db9
+mov ASM: mov     rcx, 7E40A01B11398FCBh
+
+
+lea Address: 0x7ff66f862007
+lea Address - Imagebase: 0xf72007
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 8B 41 30 44 8B 49 28 44
+mov Address: 0x7ff66f86200e
+mov value: FA33B8C69A4A6A0F
+call Address: 0x7ff66f862002
+mov ASM: mov     rcx, 0FA33B8C69A4A6A0Fh
+
+
+lea Address: 0x7ff66f86202e
+lea Address - Imagebase: 0xf7202e
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 38 49 8D 52 08
+mov Address: 0x7ff66f862035
+mov value: 90FB951648851733
+call Address: 0x7ff66f862029
+mov ASM: mov     rcx, 90FB951648851733h
+
+
+lea Address: 0x7ff66f862055
+lea Address - Imagebase: 0xf72055
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 38 49 8D 52 08
+mov Address: 0x7ff66f86205c
+mov value: E2B2BB7DAC280515
+call Address: 0x7ff66f862050
+mov ASM: mov     rcx, 0E2B2BB7DAC280515h
+
+
+lea Address: 0x7ff66f86207c
+lea Address - Imagebase: 0xf7207c
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 38 49 8D 52 08
+mov Address: 0x7ff66f862083
+mov value: C40551D65F2BF297
+call Address: 0x7ff66f862077
+mov ASM: mov     rcx, 0C40551D65F2BF297h
+
+
+lea Address: 0x7ff66f8620a3
+lea Address - Imagebase: 0xf720a3
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 8B 42 40 49 8D 52 08
+mov Address: 0x7ff66f8620aa
+mov value: D1F7F32640ADFD12
+call Address: 0x7ff66f86209e
+mov ASM: mov     rcx, 0D1F7F32640ADFD12h
+
+
+lea Address: 0x7ff66f862388
+lea Address - Imagebase: 0xf72388
+lea sub Hex View: 48 83 EC 28 E8 17 25 21 FF C6 80 F4 0E 00 00 01
+mov Address: 0x7ff66f86238f
+mov value: 3C486E334520579D
+call Address: 0x7ff66f862383
+mov ASM: mov     rcx, 3C486E334520579Dh
+
+
+lea Address: 0x7ff66f862424
+lea Address - Imagebase: 0xf72424
+lea sub Hex View: 48 83 EC 28 E8 77 6A 21 FF 80 88 12 06 00 00 01
+mov Address: 0x7ff66f86242b
+mov value: A5929C2E57AC90D1
+call Address: 0x7ff66f86241f
+mov ASM: mov     rcx, 0A5929C2E57AC90D1h
+
+
+lea Address: 0x7ff66f86244b
+lea Address - Imagebase: 0xf7244b
+lea sub Hex View: 48 83 EC 28 E8 4B 57 21 FF 48 8B C8 48 83 C4 28
+mov Address: 0x7ff66f862452
+mov value: 634F4A0562CF19B8
+call Address: 0x7ff66f862446
+mov ASM: mov     rcx, 634F4A0562CF19B8h
+
+
+lea Address: 0x7ff66f8627f3
+lea Address - Imagebase: 0xf727f3
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 F3 0F 10 50 10 F3 0F 10
+mov Address: 0x7ff66f8627fa
+mov value: 3B8E3AD9677CE12B
+call Address: 0x7ff66f8627ee
+mov ASM: mov     rcx, 3B8E3AD9677CE12Bh
+
+
+lea Address: 0x7ff66f862841
+lea Address - Imagebase: 0xf72841
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 ED DC 51 FF 48
+mov Address: 0x7ff66f862848
+mov value: B85C13E0BF1F2A1C
+call Address: 0x7ff66f86283c
+mov ASM: mov     rcx, 0B85C13E0BF1F2A1Ch
+
+
+lea Address: 0x7ff66f862868
+lea Address - Imagebase: 0xf72868
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 83 78 18 00 F3 0F 10 48
+mov Address: 0x7ff66f86286f
+mov value: 066167C63111D8CF
+call Address: 0x7ff66f862863
+mov ASM: mov     rcx, 66167C63111D8CFh
+
+
+lea Address: 0x7ff66f86301e
+lea Address - Imagebase: 0xf7301e
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 48 8B 41 28 4C 8B 49 18
+mov Address: 0x7ff66f863025
+mov value: 90338AD4A784E455
+call Address: 0x7ff66f863019
+mov ASM: mov     rcx, 90338AD4A784E455h
+
+
+lea Address: 0x7ff66f863809
+lea Address - Imagebase: 0xf73809
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 20 F3 0F 10
+mov Address: 0x7ff66f863810
+mov value: 8FB98B719AA0075A
+call Address: 0x7ff66f863804
+mov ASM: mov     rcx, 8FB98B719AA0075Ah
+
+
+lea Address: 0x7ff66f8638f3
+lea Address - Imagebase: 0xf738f3
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 B2 01 8B 08 E8 4F B8 09
+mov Address: 0x7ff66f8638fa
+mov value: CBD9EC60495C728C
+call Address: 0x7ff66f8638ee
+mov ASM: mov     rcx, 0CBD9EC60495C728Ch
+
+
+lea Address: 0x7ff66f86391a
+lea Address - Imagebase: 0xf7391a
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 B2 01 8B 08 E8 6B 90 09
+mov Address: 0x7ff66f863921
+mov value: 72B7F65F11FC8896
+call Address: 0x7ff66f863915
+mov ASM: mov     rcx, 72B7F65F11FC8896h
+
+
+lea Address: 0x7ff66f864043
+lea Address - Imagebase: 0xf74043
+lea sub Hex View: 48 83 EC 28 E8 77 83 22 FF 48 8D 88 28 2D 00 00
+mov Address: 0x7ff66f86404a
+mov value: 4E42CA5BCD45444A
+call Address: 0x7ff66f86403e
+mov ASM: mov     rcx, 4E42CA5BCD45444Ah
+
+
+lea Address: 0x7ff66f86427a
+lea Address - Imagebase: 0xf7427a
+lea sub Hex View: 48 83 EC 28 83 3D 05 C9 B2 03 01 74 0C 48 8D 0D
+mov Address: 0x7ff66f864281
+mov value: 9AA46BADAD0E27ED
+call Address: 0x7ff66f864275
+mov ASM: mov     rcx, 9AA46BADAD0E27EDh
+
+
+lea Address: 0x7ff66f86471e
+lea Address - Imagebase: 0xf7471e
+lea sub Hex View: 48 83 EC 28 4C 8B 51 10 4C 8D 44 24 30 41 8B 42
+mov Address: 0x7ff66f864725
+mov value: EE97A05C05F16E41
+call Address: 0x7ff66f864719
+mov ASM: mov     rcx, 0EE97A05C05F16E41h
+
+
+lea Address: 0x7ff66f86482f
+lea Address - Imagebase: 0xf7482f
+lea sub Hex View: 48 83 EC 28 4C 8B 49 10 4C 8D 44 24 30 41 8B 41
+mov Address: 0x7ff66f864836
+mov value: 0AE7138D0541F2DE
+call Address: 0x7ff66f86482a
+mov ASM: mov     rcx, 0AE7138D0541F2DEh
+
+
+lea Address: 0x7ff66f864a40
+lea Address - Imagebase: 0xf74a40
+lea sub Hex View: 48 83 EC 28 48 8B 51 10 4C 8D 44 24 30 48 8D 0D
+mov Address: 0x7ff66f864a47
+mov value: BFC83DA249BEFCC9
+call Address: 0x7ff66f864a3b
+mov ASM: mov     rcx, 0BFC83DA249BEFCC9h
+
+
+lea Address: 0x7ff66f864ab5
+lea Address - Imagebase: 0xf74ab5
+lea sub Hex View: 48 83 EC 28 48 8B 51 10 4C 8D 44 24 30 48 8D 0D
+mov Address: 0x7ff66f864abc
+mov value: 9D6E10A41D6ED6EC
+call Address: 0x7ff66f864ab0
+mov ASM: mov     rcx, 9D6E10A41D6ED6ECh
+
+
+lea Address: 0x7ff66f864b78
+lea Address - Imagebase: 0xf74b78
+lea sub Hex View: 48 83 EC 28 48 8B 51 10 4C 8D 44 24 30 48 8D 0D
+mov Address: 0x7ff66f864b7f
+mov value: 20209529689E0953
+call Address: 0x7ff66f864b73
+mov ASM: mov     rcx, 20209529689E0953h
+
+
+lea Address: 0x7ff66f864bed
+lea Address - Imagebase: 0xf74bed
+lea sub Hex View: 48 83 EC 28 48 8B 51 10 4C 8D 44 24 30 48 8D 0D
+mov Address: 0x7ff66f864bf4
+mov value: A3BD6FF95E713EE5
+call Address: 0x7ff66f864be8
+mov ASM: mov     rcx, 0A3BD6FF95E713EE5h
+
+
+lea Address: 0x7ff66f88656a
+lea Address - Imagebase: 0xf9656a
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 41 83 78 28 00 F3 41 0F
+mov Address: 0x7ff66f886571
+mov value: BD94CECFB2D65119
+call Address: 0x7ff66f886565
+mov ASM: mov     rcx, 0BD94CECFB2D65119h
+
+
+lea Address: 0x7ff66f88662d
+lea Address - Imagebase: 0xf9662d
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 33 C0 41 39 42 40 4D 8D
+mov Address: 0x7ff66f886634
+mov value: 31DA7CEC5334DB37
+call Address: 0x7ff66f886628
+mov ASM: mov     rcx, 31DA7CEC5334DB37h
+
+
+lea Address: 0x7ff66f886b34
+lea Address - Imagebase: 0xf96b34
+lea sub Hex View: 48 83 EC 48 4C 8B 59 10 33 C9 41 39 4B 38 49 8D
+mov Address: 0x7ff66f886b3b
+mov value: 06843DA7060A026B
+call Address: 0x7ff66f886b2f
+mov ASM: mov     rcx, 6843DA7060A026Bh
+
+
+lea Address: 0x7ff66f886b5b
+lea Address - Imagebase: 0xf96b5b
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 30 49 8D
+mov Address: 0x7ff66f886b62
+mov value: 239A3351AC1DA385
+call Address: 0x7ff66f886b56
+mov ASM: mov     rcx, 239A3351AC1DA385h
+
+
+lea Address: 0x7ff66f886bd0
+lea Address - Imagebase: 0xf96bd0
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 38 49 8D
+mov Address: 0x7ff66f886bd7
+mov value: 203BEFFDBE12E96A
+call Address: 0x7ff66f886bcb
+mov ASM: mov     rcx, 203BEFFDBE12E96Ah
+
+
+lea Address: 0x7ff66f886bf7
+lea Address - Imagebase: 0xf96bf7
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 41 83 78 30 00 49 8D 50
+mov Address: 0x7ff66f886bfe
+mov value: 0918E3565C20F03C
+call Address: 0x7ff66f886bf2
+mov ASM: mov     rcx, 918E3565C20F03Ch
+
+
+lea Address: 0x7ff66f886e8e
+lea Address - Imagebase: 0xf96e8e
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 20 F3 0F 10
+mov Address: 0x7ff66f886e95
+mov value: 100E7007D13E3687
+call Address: 0x7ff66f886e89
+mov ASM: mov     rcx, 100E7007D13E3687h
+
+
+lea Address: 0x7ff66f88714c
+lea Address - Imagebase: 0xf9714c
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 83 79 30 00 44 8B 49 28
+mov Address: 0x7ff66f887153
+mov value: 10B2218320B6F5AC
+call Address: 0x7ff66f887147
+mov ASM: mov     rcx, 10B2218320B6F5ACh
+
+
+lea Address: 0x7ff66f887173
+lea Address - Imagebase: 0xf97173
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 83 79 30 00 44 8B 49 28
+mov Address: 0x7ff66f88717a
+mov value: 824E1C26A14CB817
+call Address: 0x7ff66f88716e
+mov ASM: mov     rcx, 824E1C26A14CB817h
+
+
+lea Address: 0x7ff66f88719a
+lea Address - Imagebase: 0xf9719a
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 C6 44 24 20 01 83 79 28
+mov Address: 0x7ff66f8871a1
+mov value: 069848B3FB3C4426
+call Address: 0x7ff66f887195
+mov ASM: mov     rcx, 69848B3FB3C4426h
+
+
+lea Address: 0x7ff66f8871c1
+lea Address - Imagebase: 0xf971c1
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 C6 44 24 20 00 83 79 28
+mov Address: 0x7ff66f8871c8
+mov value: D136090A9AAAB17D
+call Address: 0x7ff66f8871bc
+mov ASM: mov     rcx, 0D136090A9AAAB17Dh
+
+
+lea Address: 0x7ff66f8877b2
+lea Address - Imagebase: 0xf977b2
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 59 54 01 00 48
+mov Address: 0x7ff66f8877b9
+mov value: D2B9C78537ED5759
+call Address: 0x7ff66f8877ad
+mov ASM: mov     rcx, 0D2B9C78537ED5759h
+
+
+lea Address: 0x7ff66f887827
+lea Address - Imagebase: 0xf97827
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 D5 EA 68 FF 48
+mov Address: 0x7ff66f88782e
+mov value: EAB3D91D30A344F1
+call Address: 0x7ff66f887822
+mov ASM: mov     rcx, 0EAB3D91D30A344F1h
+
+
+lea Address: 0x7ff66f88784e
+lea Address - Imagebase: 0xf9784e
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 E1 ED 68 FF 48
+mov Address: 0x7ff66f887855
+mov value: 37CEB637BA3B1A47
+call Address: 0x7ff66f887849
+mov ASM: mov     rcx, 37CEB637BA3B1A47h
+
+
+lea Address: 0x7ff66f88789c
+lea Address - Imagebase: 0xf9789c
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 A5 6E 9E FF 48
+mov Address: 0x7ff66f8878a3
+mov value: 898586729DB5221D
+call Address: 0x7ff66f887897
+mov ASM: mov     rcx, 898586729DB5221Dh
+
+
+lea Address: 0x7ff66f8878f2
+lea Address - Imagebase: 0xf978f2
+lea sub Hex View: 48 83 EC 28 48 85 C9 74 46 8B 81 9C 00 00 00 25
+mov Address: 0x7ff66f887905
+mov value: 8AE2F981CDDB8FA4
+call Address: 0x7ff66f8878f9
+mov ASM: mov     rcx, 8AE2F981CDDB8FA4h
+
+
+lea Address: 0x7ff66f8880fc
+lea Address - Imagebase: 0xf980fc
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 83 79 30 00 F3 0F 10 41
+mov Address: 0x7ff66f888103
+mov value: 7D6F58F69DA92530
+call Address: 0x7ff66f8880f7
+mov ASM: mov     rcx, 7D6F58F69DA92530h
+
+
+lea Address: 0x7ff66f888123
+lea Address - Imagebase: 0xf98123
+lea sub Hex View: 48 83 EC 48 4C 8B 49 10 41 83 79 38 00 49 8D 51
+mov Address: 0x7ff66f88812a
+mov value: D84A917A64D4D016
+call Address: 0x7ff66f88811e
+mov ASM: mov     rcx, 0D84A917A64D4D016h
+
+
+lea Address: 0x7ff66f88814a
+lea Address - Imagebase: 0xf9814a
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 83 7A 40 00 4D 8D 42
+mov Address: 0x7ff66f888151
+mov value: B7DF150605EEDC9B
+call Address: 0x7ff66f888145
+mov ASM: mov     rcx, 0B7DF150605EEDC9Bh
+
+
+lea Address: 0x7ff66f888171
+lea Address - Imagebase: 0xf98171
+lea sub Hex View: 48 83 EC 48 48 8B 49 10 83 79 38 00 F3 0F 10 41
+mov Address: 0x7ff66f888178
+mov value: 53BA259F3A67A99E
+call Address: 0x7ff66f88816c
+mov ASM: mov     rcx, 53BA259F3A67A99Eh
+
+
+lea Address: 0x7ff66f888198
+lea Address - Imagebase: 0xf98198
+lea sub Hex View: 48 83 EC 58 4C 8B 51 10 41 83 7A 48 00 4D 8D 42
+mov Address: 0x7ff66f88819f
+mov value: 34AE85C7CA4857AA
+call Address: 0x7ff66f888193
+mov ASM: mov     rcx, 34AE85C7CA4857AAh
+
+
+lea Address: 0x7ff66f888506
+lea Address - Imagebase: 0xf98506
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 48 8D 54 24 20 F3 0F 10
+mov Address: 0x7ff66f88850d
+mov value: 0816C31480764AB0
+call Address: 0x7ff66f888501
+mov ASM: mov     rcx, 816C31480764AB0h
+
+
+lea Address: 0x7ff66f88857b
+lea Address - Imagebase: 0xf9857b
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 35 D3 93 00 48
+mov Address: 0x7ff66f888582
+mov value: FB16F08F47B83B4C
+call Address: 0x7ff66f888576
+mov ASM: mov     rcx, 0FB16F08F47B83B4Ch
+
+
+lea Address: 0x7ff66f8887eb
+lea Address - Imagebase: 0xf987eb
+lea sub Hex View: 48 83 EC 48 48 8B 41 10 4C 8D 44 24 30 F3 0F 10
+mov Address: 0x7ff66f8887f2
+mov value: E36D2CB540597EF7
+call Address: 0x7ff66f8887e6
+mov ASM: mov     rcx, 0E36D2CB540597EF7h
+
+
+lea Address: 0x7ff66f889862
+lea Address - Imagebase: 0xf99862
+lea sub Hex View: 48 83 EC 48 48 8B 49 10 F3 0F 10 05 DC E3 39 02
+mov Address: 0x7ff66f889869
+mov value: D2D9E04C0DF927F4
+call Address: 0x7ff66f88985d
+mov ASM: mov     rcx, 0D2D9E04C0DF927F4h
+
+
+lea Address: 0x7ff66f88999a
+lea Address - Imagebase: 0xf9999a
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 45 8B 4A 18
+mov Address: 0x7ff66f8899a1
+mov value: CAAFC225E33B1D15
+call Address: 0x7ff66f889995
+mov ASM: mov     rcx, 0CAAFC225E33B1D15h
+
+
+lea Address: 0x7ff66f8899c1
+lea Address - Imagebase: 0xf999c1
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 45 8B 4A 18
+mov Address: 0x7ff66f8899c8
+mov value: 99AFF17222D4DEB4
+call Address: 0x7ff66f8899bc
+mov ASM: mov     rcx, 99AFF17222D4DEB4h
+
+
+lea Address: 0x7ff66f889a5d
+lea Address - Imagebase: 0xf99a5d
+lea sub Hex View: 48 83 EC 58 48 8B 51 10 83 7A 48 00 F3 0F 10 5A
+mov Address: 0x7ff66f889a64
+mov value: 405224591DF02025
+call Address: 0x7ff66f889a58
+mov ASM: mov     rcx, 405224591DF02025h
+
+
+lea Address: 0x7ff66f889fd9
+lea Address - Imagebase: 0xf99fd9
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 41 B8 04 00 00 00 83 78
+mov Address: 0x7ff66f889fe0
+mov value: 160921255327C591
+call Address: 0x7ff66f889fd4
+mov ASM: mov     rcx, 160921255327C591h
+
+
+lea Address: 0x7ff66f88a000
+lea Address - Imagebase: 0xf9a000
+lea sub Hex View: 48 83 EC 48 4C 8B 41 10 41 83 78 30 00 F3 41 0F
+mov Address: 0x7ff66f88a007
+mov value: D9EDB2E4512D563E
+call Address: 0x7ff66f889ffb
+mov ASM: mov     rcx, 0D9EDB2E4512D563Eh
+
+
+lea Address: 0x7ff66f88a186
+lea Address - Imagebase: 0xf9a186
+lea sub Hex View: 48 83 EC 28 E8 2F 76 3C FF 48 8B C8 E8 E7 F0 3C
+mov Address: 0x7ff66f88a18d
+mov value: CCD9AAD85E1B559E
+call Address: 0x7ff66f88a181
+mov ASM: mov     rcx, 0CCD9AAD85E1B559Eh
+
+
+lea Address: 0x7ff66f88a1ad
+lea Address - Imagebase: 0xf9a1ad
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 4C 8D 44 24 20 83 78 08
+mov Address: 0x7ff66f88a1b4
+mov value: CC23AA1A7CBFE840
+call Address: 0x7ff66f88a1a8
+mov ASM: mov     rcx, 0CC23AA1A7CBFE840h
+
+
+lea Address: 0x7ff66f88a1d4
+lea Address - Imagebase: 0xf9a1d4
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 33 C9 48 8B 10 E8 D6 5D
+mov Address: 0x7ff66f88a1db
+mov value: 21F00E08CBB5F37B
+call Address: 0x7ff66f88a1cf
+mov ASM: mov     rcx, 21F00E08CBB5F37Bh
+
+
+lea Address: 0x7ff66f88a63f
+lea Address - Imagebase: 0xf9a63f
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 83 7A 20 00 F3 0F 10 5A
+mov Address: 0x7ff66f88a646
+mov value: 239879FC61C610CC
+call Address: 0x7ff66f88a63a
+mov ASM: mov     rcx, 239879FC61C610CCh
+
+
+lea Address: 0x7ff66f88a777
+lea Address - Imagebase: 0xf9a777
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 33 C9 48 8B 10 E8 92 54
+mov Address: 0x7ff66f88a77e
+mov value: A10DB07FC234DD12
+call Address: 0x7ff66f88a772
+mov ASM: mov     rcx, 0A10DB07FC234DD12h
+
+
+lea Address: 0x7ff66f88a813
+lea Address - Imagebase: 0xf9a813
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 20 F3 0F 10
+mov Address: 0x7ff66f88a81a
+mov value: 3C61B52B00848C26
+call Address: 0x7ff66f88a80e
+mov ASM: mov     rcx, 3C61B52B00848C26h
+
+
+lea Address: 0x7ff66f88aa83
+lea Address - Imagebase: 0xf9aa83
+lea sub Hex View: 48 83 EC 48 48 8B 49 10 83 79 40 00 F3 0F 10 59
+mov Address: 0x7ff66f88aa8a
+mov value: F708298675ABDC6A
+call Address: 0x7ff66f88aa7e
+mov ASM: mov     rcx, 0F708298675ABDC6Ah
+
+
+lea Address: 0x7ff66f88b026
+lea Address - Imagebase: 0xf9b026
+lea sub Hex View: 48 83 EC 58 48 8B 51 10 8B 42 40 F3 0F 10 4A 20
+mov Address: 0x7ff66f88b02d
+mov value: C0A145540254A840
+call Address: 0x7ff66f88b021
+mov ASM: mov     rcx, 0C0A145540254A840h
+
+
+lea Address: 0x7ff66f88b15e
+lea Address - Imagebase: 0xf9b15e
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 30 48 8D 50
+mov Address: 0x7ff66f88b165
+mov value: 48FE0DB54045B975
+call Address: 0x7ff66f88b159
+mov ASM: mov     rcx, 48FE0DB54045B975h
+
+
+lea Address: 0x7ff66f88b2bd
+lea Address - Imagebase: 0xf9b2bd
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 33 C9 48 8B 10 E8 D6 A5
+mov Address: 0x7ff66f88b2c4
+mov value: 26DD2FB0A88CC412
+call Address: 0x7ff66f88b2b8
+mov ASM: mov     rcx, 26DD2FB0A88CC412h
+
+
+lea Address: 0x7ff66f88b3f5
+lea Address - Imagebase: 0xf9b3f5
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 8B 41 28 44 8B 49 18 44
+mov Address: 0x7ff66f88b3fc
+mov value: 63011D0C7C6519E0
+call Address: 0x7ff66f88b3f0
+mov ASM: mov     rcx, 63011D0C7C6519E0h
+
+
+lea Address: 0x7ff66f88b5f0
+lea Address - Imagebase: 0xf9b5f0
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 48 8D 54 24 30 8B 08 89
+mov Address: 0x7ff66f88b5f7
+mov value: 71845905BCCDE781
+call Address: 0x7ff66f88b5eb
+mov ASM: mov     rcx, 71845905BCCDE781h
+
+
+lea Address: 0x7ff66f88b6da
+lea Address - Imagebase: 0xf9b6da
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 F5 A9 FF FF 48
+mov Address: 0x7ff66f88b6e1
+mov value: 8996FA6AD9FE4E90
+call Address: 0x7ff66f88b6d5
+mov ASM: mov     rcx, 8996FA6AD9FE4E90h
+
+
+lea Address: 0x7ff66f88b9e6
+lea Address - Imagebase: 0xf9b9e6
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 48 8D 4C 24 20 F3 0F 10
+mov Address: 0x7ff66f88b9ed
+mov value: FE7966DF01452F32
+call Address: 0x7ff66f88b9e1
+mov ASM: mov     rcx, 0FE7966DF01452F32h
+
+
+lea Address: 0x7ff66f88ba0d
+lea Address - Imagebase: 0xf9ba0d
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 48 8D 4C 24 20 F3 0F 10
+mov Address: 0x7ff66f88ba14
+mov value: 10C1767B93257480
+call Address: 0x7ff66f88ba08
+mov ASM: mov     rcx, 10C1767B93257480h
+
+
+lea Address: 0x7ff66f88ba5b
+lea Address - Imagebase: 0xf9ba5b
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 48 8D 4C 24 20 F3 0F 10
+mov Address: 0x7ff66f88ba62
+mov value: 085C5B61A0114F32
+call Address: 0x7ff66f88ba56
+mov ASM: mov     rcx, 85C5B61A0114F32h
+
+
+lea Address: 0x7ff66f88ba82
+lea Address - Imagebase: 0xf9ba82
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 48 8D 4C 24 20 F3 0F 10
+mov Address: 0x7ff66f88ba89
+mov value: 1FF8731BE1DFC0C0
+call Address: 0x7ff66f88ba7d
+mov ASM: mov     rcx, 1FF8731BE1DFC0C0h
+
+
+lea Address: 0x7ff66f88bbe1
+lea Address - Imagebase: 0xf9bbe1
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 49 8B 42 20 4D 8B 4A 18
+mov Address: 0x7ff66f88bbe8
+mov value: E92012611461A42A
+call Address: 0x7ff66f88bbdc
+mov ASM: mov     rcx, 0E92012611461A42Ah
+
+
+lea Address: 0x7ff66f8da366
+lea Address - Imagebase: 0xfea366
+lea sub Hex View: 48 83 EC 28 48 8B 51 10 4C 8D 44 24 30 48 8D 0D
+mov Address: 0x7ff66f8da36d
+mov value: 2804658EB7D8A50B
+call Address: 0x7ff66f8da361
+mov ASM: mov     rcx, 2804658EB7D8A50Bh
+
+
+lea Address: 0x7ff66f8da992
+lea Address - Imagebase: 0xfea992
+lea sub Hex View: 48 83 EC 28 48 8B 49 10 83 79 30 00 8B 41 40 75
+mov Address: 0x7ff66f8da999
+mov value: BF1A602B5BA52FEE
+call Address: 0x7ff66f8da98d
+mov ASM: mov     rcx, 0BF1A602B5BA52FEEh
+
+
+lea Address: 0x7ff66f8da9b9
+lea Address - Imagebase: 0xfea9b9
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 33 D2 8B 41 50 39 51 40
+mov Address: 0x7ff66f8da9c0
+mov value: 1A5AA1208AF5DB59
+call Address: 0x7ff66f8da9b4
+mov ASM: mov     rcx, 1A5AA1208AF5DB59h
+
+
+lea Address: 0x7ff66f8da9e0
+lea Address - Imagebase: 0xfea9e0
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 83 78 08 00 8B 48 18 75
+mov Address: 0x7ff66f8da9e7
+mov value: C1799FAFD2FDF52B
+call Address: 0x7ff66f8da9db
+mov ASM: mov     rcx, 0C1799FAFD2FDF52Bh
+
+
+lea Address: 0x7ff66f8daa55
+lea Address - Imagebase: 0xfeaa55
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 41 B9 05 00 00 00 83 79
+mov Address: 0x7ff66f8daa5c
+mov value: 0027501B9F3B407E
+call Address: 0x7ff66f8daa50
+mov ASM: mov     rcx, 27501B9F3B407Eh
+
+
+lea Address: 0x7ff66f8daaa3
+lea Address - Imagebase: 0xfeaaa3
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 83 79 48 00 48 8D 51 18
+mov Address: 0x7ff66f8daaaa
+mov value: 4358BCF14C91761C
+call Address: 0x7ff66f8daa9e
+mov ASM: mov     rcx, 4358BCF14C91761Ch
+
+
+lea Address: 0x7ff66f8db0bb
+lea Address - Imagebase: 0xfeb0bb
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 E5 F0 65 FF 48
+mov Address: 0x7ff66f8db0c2
+mov value: 2C87C3E1C7B96EE2
+call Address: 0x7ff66f8db0b6
+mov ASM: mov     rcx, 2C87C3E1C7B96EE2h
+
+
+lea Address: 0x7ff66f8db5e1
+lea Address - Imagebase: 0xfeb5e1
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 8B 42 20 44 8B 4A 18 F3
+mov Address: 0x7ff66f8db5e8
+mov value: 36E4B61DC56DE77C
+call Address: 0x7ff66f8db5dc
+mov ASM: mov     rcx, 36E4B61DC56DE77Ch
+
+
+lea Address: 0x7ff66f8dbff5
+lea Address - Imagebase: 0xfebff5
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 89 4C 24 30 48 8D
+mov Address: 0x7ff66f8dbffc
+mov value: 95423627A9CA598E
+call Address: 0x7ff66f8dbff0
+mov ASM: mov     rcx, 95423627A9CA598Eh
+
+
+lea Address: 0x7ff66f8dc020
+lea Address - Imagebase: 0xfec020
+lea sub Hex View: 48 83 EC 28 E8 8B D6 2D FF 33 C9 48 83 C4 28 E9
+mov Address: 0x7ff66f8dc027
+mov value: 4759CC730F947C81
+call Address: 0x7ff66f8dc01b
+mov ASM: mov     rcx, 4759CC730F947C81h
+
+
+lea Address: 0x7ff66f8dc04b
+lea Address - Imagebase: 0xfec04b
+lea sub Hex View: 48 83 EC 28 E8 77 D6 2D FF B1 01 48 83 C4 28 E9
+mov Address: 0x7ff66f8dc052
+mov value: BFA6B7731C3BAF02
+call Address: 0x7ff66f8dc046
+mov ASM: mov     rcx, 0BFA6B7731C3BAF02h
+
+
+lea Address: 0x7ff66f8dc0f7
+lea Address - Imagebase: 0xfec0f7
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 48 00 4D 8D 4A
+mov Address: 0x7ff66f8dc0fe
+mov value: 7C00CFC48A782DC0
+call Address: 0x7ff66f8dc0f2
+mov ASM: mov     rcx, 7C00CFC48A782DC0h
+
+
+lea Address: 0x7ff66f8de799
+lea Address - Imagebase: 0xfee799
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 20 F3 0F 10
+mov Address: 0x7ff66f8de7a0
+mov value: DDFAD4DEAA7FA362
+call Address: 0x7ff66f8de794
+mov ASM: mov     rcx, 0DDFAD4DEAA7FA362h
+
+
+lea Address: 0x7ff66f8de7c4
+lea Address - Imagebase: 0xfee7c4
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 20 F3 0F 10
+mov Address: 0x7ff66f8de7cb
+mov value: 966DE09688A1DE39
+call Address: 0x7ff66f8de7bf
+mov ASM: mov     rcx, 966DE09688A1DE39h
+
+
+lea Address: 0x7ff66f8e0a08
+lea Address - Imagebase: 0xff0a08
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 35 08 4C FF 48
+mov Address: 0x7ff66f8e0a0f
+mov value: E735A7DA22E88359
+call Address: 0x7ff66f8e0a03
+mov ASM: mov     rcx, 0E735A7DA22E88359h
+
+
+lea Address: 0x7ff66f8e289a
+lea Address - Imagebase: 0xff289a
+lea sub Hex View: 48 83 EC 48 48 8B 49 10 F3 0F 10 41 40 8B 41 38
+mov Address: 0x7ff66f8e28a1
+mov value: 2DF9038C90AD5264
+call Address: 0x7ff66f8e2895
+mov ASM: mov     rcx, 2DF9038C90AD5264h
+
+
+lea Address: 0x7ff66f8e28c5
+lea Address - Imagebase: 0xff28c5
+lea sub Hex View: 48 83 EC 48 48 8B 49 10 F3 0F 10 41 50 48 8D 51
+mov Address: 0x7ff66f8e28cc
+mov value: B2AFF10216DEFA2F
+call Address: 0x7ff66f8e28c0
+mov ASM: mov     rcx, 0B2AFF10216DEFA2Fh
+
+
+lea Address: 0x7ff66f8e28f0
+lea Address - Imagebase: 0xff28f0
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 20 44 8B 48
+mov Address: 0x7ff66f8e28f7
+mov value: 83ED1FC9DF3411F5
+call Address: 0x7ff66f8e28eb
+mov ASM: mov     rcx, 83ED1FC9DF3411F5h
+
+
+lea Address: 0x7ff66f8e291b
+lea Address - Imagebase: 0xff291b
+lea sub Hex View: 48 83 EC 28 48 8D 0D 4D FF 5D 03 E8 88 67 85 FF
+mov Address: 0x7ff66f8e2922
+mov value: FEE4A5459472A9F8
+call Address: 0x7ff66f8e2916
+mov ASM: mov     rcx, 0FEE4A5459472A9F8h
+
+
+lea Address: 0x7ff66f8e2a48
+lea Address - Imagebase: 0xff2a48
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 8B 42 48 49 8D 52 20
+mov Address: 0x7ff66f8e2a4f
+mov value: C32779C16FCEECD9
+call Address: 0x7ff66f8e2a43
+mov ASM: mov     rcx, 0C32779C16FCEECD9h
+
+
+lea Address: 0x7ff66f8e4986
+lea Address - Imagebase: 0xff4986
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 20 00 45 8B 4A
+mov Address: 0x7ff66f8e498d
+mov value: C412AA1C73111FE0
+call Address: 0x7ff66f8e4981
+mov ASM: mov     rcx, 0C412AA1C73111FE0h
+
+
+lea Address: 0x7ff66f8e4a32
+lea Address - Imagebase: 0xff4a32
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 20 F3 0F 10
+mov Address: 0x7ff66f8e4a39
+mov value: DD9540E7B1C9714F
+call Address: 0x7ff66f8e4a2d
+mov ASM: mov     rcx, 0DD9540E7B1C9714Fh
+
+
+lea Address: 0x7ff66f8e516b
+lea Address - Imagebase: 0xff516b
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 45 8B 4A 18
+mov Address: 0x7ff66f8e5172
+mov value: 2DF59FFE6FFD6044
+call Address: 0x7ff66f8e5166
+mov ASM: mov     rcx, 2DF59FFE6FFD6044h
+
+
+lea Address: 0x7ff66f8e5196
+lea Address - Imagebase: 0xff5196
+lea sub Hex View: 48 83 EC 38 4C 8B 49 10 41 8B 41 20 F3 41 0F 10
+mov Address: 0x7ff66f8e519d
+mov value: F2EA041F1146D75B
+call Address: 0x7ff66f8e5191
+mov ASM: mov     rcx, 0F2EA041F1146D75Bh
+
+
+lea Address: 0x7ff66f8e51c1
+lea Address - Imagebase: 0xff51c1
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 45 8B 4A 18
+mov Address: 0x7ff66f8e51c8
+mov value: 253A63B5BADBC398
+call Address: 0x7ff66f8e51bc
+mov ASM: mov     rcx, 253A63B5BADBC398h
+
+
+lea Address: 0x7ff66f8e6049
+lea Address - Imagebase: 0xff6049
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 11 5D D5 FF 48
+mov Address: 0x7ff66f8e6050
+mov value: 8B44273A92CD406C
+call Address: 0x7ff66f8e6044
+mov ASM: mov     rcx, 8B44273A92CD406Ch
+
+
+lea Address: 0x7ff66f8e6307
+lea Address - Imagebase: 0xff6307
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 F9 B7 E9 FF 48
+mov Address: 0x7ff66f8e630e
+mov value: D4B614179BCD0654
+call Address: 0x7ff66f8e6302
+mov ASM: mov     rcx, 0D4B614179BCD0654h
+
+
+lea Address: 0x7ff66f8e632e
+lea Address - Imagebase: 0xff632e
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 91 3A EA FF 48
+mov Address: 0x7ff66f8e6335
+mov value: 406808610220405B
+call Address: 0x7ff66f8e6329
+mov ASM: mov     rcx, 406808610220405Bh
+
+
+lea Address: 0x7ff66f8e6355
+lea Address - Imagebase: 0xff6355
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 6D 3A EA FF 48
+mov Address: 0x7ff66f8e635c
+mov value: A2B18FF8D39F6D87
+call Address: 0x7ff66f8e6350
+mov ASM: mov     rcx, 0A2B18FF8D39F6D87h
+
+
+lea Address: 0x7ff66f8e63ca
+lea Address - Imagebase: 0xff63ca
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 45 8B 4A 18
+mov Address: 0x7ff66f8e63d1
+mov value: A4DCB3F0DD7488BD
+call Address: 0x7ff66f8e63c5
+mov ASM: mov     rcx, 0A4DCB3F0DD7488BDh
+
+
+lea Address: 0x7ff66f8e63f1
+lea Address - Imagebase: 0xff63f1
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 45 B4 EA FF 48
+mov Address: 0x7ff66f8e63f8
+mov value: D95D777F828B2BBB
+call Address: 0x7ff66f8e63ec
+mov ASM: mov     rcx, 0D95D777F828B2BBBh
+
+
+lea Address: 0x7ff66f8e6418
+lea Address - Imagebase: 0xff6418
+lea sub Hex View: 48 83 EC 28 E8 1F FA D5 FF 48 8B 05 A8 2D A7 03
+mov Address: 0x7ff66f8e641f
+mov value: 92690B0822493CE0
+call Address: 0x7ff66f8e6413
+mov ASM: mov     rcx, 92690B0822493CE0h
+
+
+lea Address: 0x7ff66f8e6502
+lea Address - Imagebase: 0xff6502
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 49 A0 EA FF 48
+mov Address: 0x7ff66f8e6509
+mov value: 7B204F88F6C3D287
+call Address: 0x7ff66f8e64fd
+mov ASM: mov     rcx, 7B204F88F6C3D287h
+
+
+lea Address: 0x7ff66f8e6529
+lea Address - Imagebase: 0xff6529
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 B5 3D EA FF 48
+mov Address: 0x7ff66f8e6530
+mov value: FCC6DB8DBE709BC8
+call Address: 0x7ff66f8e6524
+mov ASM: mov     rcx, 0FCC6DB8DBE709BC8h
+
+
+lea Address: 0x7ff66f8e6550
+lea Address - Imagebase: 0xff6550
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 D9 3D EA FF 48
+mov Address: 0x7ff66f8e6557
+mov value: A8C406C2A56EDC16
+call Address: 0x7ff66f8e654b
+mov ASM: mov     rcx, 0A8C406C2A56EDC16h
+
+
+lea Address: 0x7ff66f8e659e
+lea Address - Imagebase: 0xff659e
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 09 3E EA FF 48
+mov Address: 0x7ff66f8e65a5
+mov value: 6759BEE6762E140B
+call Address: 0x7ff66f8e6599
+mov ASM: mov     rcx, 6759BEE6762E140Bh
+
+
+lea Address: 0x7ff66f8e65c5
+lea Address - Imagebase: 0xff65c5
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 81 C4 EA FF 48
+mov Address: 0x7ff66f8e65cc
+mov value: B65E7F733956CF25
+call Address: 0x7ff66f8e65c0
+mov ASM: mov     rcx, 0B65E7F733956CF25h
+
+
+lea Address: 0x7ff66f8e66b6
+lea Address - Imagebase: 0xff66b6
+lea sub Hex View: 48 83 EC 28 48 8B 0D 1D D3 A5 03 E8 10 3A EB FF
+mov Address: 0x7ff66f8e66c9
+mov value: 7A1BD123E5CDB6E5
+call Address: 0x7ff66f8e66bd
+mov ASM: mov     rcx, 7A1BD123E5CDB6E5h
+
+
+lea Address: 0x7ff66f8e67d3
+lea Address - Imagebase: 0xff67d3
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 39 FC 65 FF 48
+mov Address: 0x7ff66f8e67da
+mov value: EFB5F34CC0953B27
+call Address: 0x7ff66f8e67ce
+mov ASM: mov     rcx, 0EFB5F34CC0953B27h
+
+
+lea Address: 0x7ff66f8e6aca
+lea Address - Imagebase: 0xff6aca
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 10 85 D2 7E 11 48 8B
+mov Address: 0x7ff66f8e6ad1
+mov value: AA5D6B1888E4DB20
+call Address: 0x7ff66f8e6ac5
+mov ASM: mov     rcx, 0AA5D6B1888E4DB20h
+
+
+lea Address: 0x7ff66f8e6af1
+lea Address - Imagebase: 0xff6af1
+lea sub Hex View: 48 83 EC 48 48 8B 49 10 8B 41 30 F3 0F 10 41 28
+mov Address: 0x7ff66f8e6af8
+mov value: 4CFA2B7FAE115ECB
+call Address: 0x7ff66f8e6aec
+mov ASM: mov     rcx, 4CFA2B7FAE115ECBh
+
+
+lea Address: 0x7ff66f8e6c02
+lea Address - Imagebase: 0xff6c02
+lea sub Hex View: 48 83 EC 28 48 8B C1 48 8B 0D 1E 9F 56 03 48 85
+mov Address: 0x7ff66f8e6c09
+mov value: 9C24846D0A4A2776
+call Address: 0x7ff66f8e6bfd
+mov ASM: mov     rcx, 9C24846D0A4A2776h
+
+
+lea Address: 0x7ff66f8e6c29
+lea Address - Imagebase: 0xff6c29
+lea sub Hex View: 48 83 EC 28 48 8B C1 48 8B 0D D6 96 57 03 48 85
+mov Address: 0x7ff66f8e6c30
+mov value: 0CB16D05E03FB525
+call Address: 0x7ff66f8e6c24
+mov ASM: mov     rcx, 0CB16D05E03FB525h
+
+
+lea Address: 0x7ff66f8e6c77
+lea Address - Imagebase: 0xff6c77
+lea sub Hex View: 48 83 EC 48 4C 8B 49 10 41 8B 41 50 49 8D 51 38
+mov Address: 0x7ff66f8e6c7e
+mov value: 21D0890D88DFB0B0
+call Address: 0x7ff66f8e6c72
+mov ASM: mov     rcx, 21D0890D88DFB0B0h
+
+
+lea Address: 0x7ff66f8e6cc5
+lea Address - Imagebase: 0xff6cc5
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 49 8B 42 50 49 8D 52 30
+mov Address: 0x7ff66f8e6ccc
+mov value: 462FF2A432733A44
+call Address: 0x7ff66f8e6cc0
+mov ASM: mov     rcx, 462FF2A432733A44h
+
+
+lea Address: 0x7ff66f8e6cec
+lea Address - Imagebase: 0xff6cec
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 8B 42 50 49 8D 52 30
+mov Address: 0x7ff66f8e6cf3
+mov value: E9CD9A67834985A7
+call Address: 0x7ff66f8e6ce7
+mov ASM: mov     rcx, 0E9CD9A67834985A7h
+
+
+lea Address: 0x7ff66f8e6d13
+lea Address - Imagebase: 0xff6d13
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 28 00 49 8D 52
+mov Address: 0x7ff66f8e6d1a
+mov value: 69C810B72291D831
+call Address: 0x7ff66f8e6d0e
+mov ASM: mov     rcx, 69C810B72291D831h
+
+
+lea Address: 0x7ff66f8e6d3a
+lea Address - Imagebase: 0xff6d3a
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 38 4D 8D 42 10
+mov Address: 0x7ff66f8e6d41
+mov value: B7469CB9AC3C0FD4
+call Address: 0x7ff66f8e6d35
+mov ASM: mov     rcx, 0B7469CB9AC3C0FD4h
+
+
+lea Address: 0x7ff66f8e6d61
+lea Address - Imagebase: 0xff6d61
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 38 00 4D 8D 42
+mov Address: 0x7ff66f8e6d68
+mov value: C64E7A62632AD2FE
+call Address: 0x7ff66f8e6d5c
+mov ASM: mov     rcx, 0C64E7A62632AD2FEh
+
+
+lea Address: 0x7ff66f8e6f83
+lea Address - Imagebase: 0xff6f83
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 83 7A 20 00 F3 0F 10 5A
+mov Address: 0x7ff66f8e6f8a
+mov value: D699E688B49C0FD2
+call Address: 0x7ff66f8e6f7e
+mov ASM: mov     rcx, 0D699E688B49C0FD2h
+
+
+lea Address: 0x7ff66f8e6faa
+lea Address - Imagebase: 0xff6faa
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 20 0F 95
+mov Address: 0x7ff66f8e6fb1
+mov value: BB3E9B073E66C3C9
+call Address: 0x7ff66f8e6fa5
+mov ASM: mov     rcx, 0BB3E9B073E66C3C9h
+
+
+lea Address: 0x7ff66f8e706d
+lea Address - Imagebase: 0xff706d
+lea sub Hex View: 48 83 EC 38 4C 8B 49 10 41 83 79 20 00 F3 41 0F
+mov Address: 0x7ff66f8e7074
+mov value: 3C6490D940FF5D0B
+call Address: 0x7ff66f8e7068
+mov ASM: mov     rcx, 3C6490D940FF5D0Bh
+
+
+lea Address: 0x7ff66f8e7463
+lea Address - Imagebase: 0xff7463
+lea sub Hex View: 48 83 EC 48 4C 8B 41 10 41 83 78 50 00 4D 8D 48
+mov Address: 0x7ff66f8e746a
+mov value: 2E648D16F6E308F3
+call Address: 0x7ff66f8e745e
+mov ASM: mov     rcx, 2E648D16F6E308F3h
+
+
+lea Address: 0x7ff66f8e748a
+lea Address - Imagebase: 0xff748a
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 83 79 48 00 4C 8D 41 20
+mov Address: 0x7ff66f8e7491
+mov value: 8EEDFD8921389928
+call Address: 0x7ff66f8e7485
+mov ASM: mov     rcx, 8EEDFD8921389928h
+
+
+lea Address: 0x7ff66f8e7930
+lea Address - Imagebase: 0xff7930
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 20 00 45 8B 4A
+mov Address: 0x7ff66f8e7937
+mov value: A3DB37EDF9A74635
+call Address: 0x7ff66f8e792b
+mov ASM: mov     rcx, 0A3DB37EDF9A74635h
+
+
+lea Address: 0x7ff66f8e80ce
+lea Address - Imagebase: 0xff80ce
+lea sub Hex View: 48 83 EC 48 4C 8B 41 10 41 83 78 20 00 F3 41 0F
+mov Address: 0x7ff66f8e80d5
+mov value: C4873B053054C04B
+call Address: 0x7ff66f8e80c9
+mov ASM: mov     rcx, 0C4873B053054C04Bh
+
+
+lea Address: 0x7ff66f8e811c
+lea Address - Imagebase: 0xff811c
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 28 F3 0F 10
+mov Address: 0x7ff66f8e8123
+mov value: BA5CA1FEB5DE0DF6
+call Address: 0x7ff66f8e8117
+mov ASM: mov     rcx, 0BA5CA1FEB5DE0DF6h
+
+
+lea Address: 0x7ff66f8e8143
+lea Address - Imagebase: 0xff8143
+lea sub Hex View: 48 83 EC 48 4C 8B 41 10 41 83 78 30 00 F3 41 0F
+mov Address: 0x7ff66f8e814a
+mov value: 0869D499A7848309
+call Address: 0x7ff66f8e813e
+mov ASM: mov     rcx, 869D499A7848309h
+
+
+lea Address: 0x7ff66f8e8191
+lea Address - Imagebase: 0xff8191
+lea sub Hex View: 48 83 EC 48 4C 8B 41 10 41 83 78 30 00 F3 41 0F
+mov Address: 0x7ff66f8e8198
+mov value: AC22AA6DF4D1C1DE
+call Address: 0x7ff66f8e818c
+mov ASM: mov     rcx, 0AC22AA6DF4D1C1DEh
+
+
+lea Address: 0x7ff66f8e83b3
+lea Address - Imagebase: 0xff83b3
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 20 41 8B
+mov Address: 0x7ff66f8e83ba
+mov value: EBB6E27AC2FF32DA
+call Address: 0x7ff66f8e83ae
+mov ASM: mov     rcx, 0EBB6E27AC2FF32DAh
+
+
+lea Address: 0x7ff66f8e881e
+lea Address - Imagebase: 0xff881e
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 49 8B 42 48 4D 8D 4A 28
+mov Address: 0x7ff66f8e8825
+mov value: D48227263E3D06AE
+call Address: 0x7ff66f8e8819
+mov ASM: mov     rcx, 0D48227263E3D06AEh
+
+
+lea Address: 0x7ff66f8e8845
+lea Address - Imagebase: 0xff8845
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 49 8B 42 38 4D 8D 4A 18
+mov Address: 0x7ff66f8e884c
+mov value: 3946FC742AC305CD
+call Address: 0x7ff66f8e8840
+mov ASM: mov     rcx, 3946FC742AC305CDh
+
+
+lea Address: 0x7ff66f8e886c
+lea Address - Imagebase: 0xff886c
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 49 8B 42 50 49 8D 52 30
+mov Address: 0x7ff66f8e8873
+mov value: A28056CD1B04B250
+call Address: 0x7ff66f8e8867
+mov ASM: mov     rcx, 0A28056CD1B04B250h
+
+
+lea Address: 0x7ff66f8e8bed
+lea Address - Imagebase: 0xff8bed
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 20 00 45 8B 4A
+mov Address: 0x7ff66f8e8bf4
+mov value: D5FCC166AEB2FD0F
+call Address: 0x7ff66f8e8be8
+mov ASM: mov     rcx, 0D5FCC166AEB2FD0Fh
+
+
+lea Address: 0x7ff66f8e8de8
+lea Address - Imagebase: 0xff8de8
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 33 C9 39 4A 20 F3 0F 10
+mov Address: 0x7ff66f8e8def
+mov value: 51345AE20F22C261
+call Address: 0x7ff66f8e8de3
+mov ASM: mov     rcx, 51345AE20F22C261h
+
+
+lea Address: 0x7ff66f8e8e0f
+lea Address - Imagebase: 0xff8e0f
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 33 C9 39 4A 20 F3 0F 10
+mov Address: 0x7ff66f8e8e16
+mov value: FA437FA0738C370C
+call Address: 0x7ff66f8e8e0a
+mov ASM: mov     rcx, 0FA437FA0738C370Ch
+
+
+lea Address: 0x7ff66f8e9190
+lea Address - Imagebase: 0xff9190
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 8B 42 28 44 8B 4A 18 F3
+mov Address: 0x7ff66f8e9197
+mov value: 0E1DB1F8F5B561DC
+call Address: 0x7ff66f8e918b
+mov ASM: mov     rcx, 0E1DB1F8F5B561DCh
+
+
+lea Address: 0x7ff66f8e92ef
+lea Address - Imagebase: 0xff92ef
+lea sub Hex View: 48 83 EC 48 4C 8B 59 10 33 C9 41 39 4B 40 49 8D
+mov Address: 0x7ff66f8e92f6
+mov value: DF8822C55EDDA65B
+call Address: 0x7ff66f8e92ea
+mov ASM: mov     rcx, 0DF8822C55EDDA65Bh
+
+
+lea Address: 0x7ff66f8e9adb
+lea Address - Imagebase: 0xff9adb
+lea sub Hex View: 48 83 EC 38 4C 8B 49 10 41 83 79 28 00 F3 41 0F
+mov Address: 0x7ff66f8e9ae2
+mov value: FA0C063C422C4355
+call Address: 0x7ff66f8e9ad6
+mov ASM: mov     rcx, 0FA0C063C422C4355h
+
+
+lea Address: 0x7ff66f8e9f94
+lea Address - Imagebase: 0xff9f94
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 8B 42 28 F3 0F 10 42 20
+mov Address: 0x7ff66f8e9f9b
+mov value: 131E294EF60160DF
+call Address: 0x7ff66f8e9f8f
+mov ASM: mov     rcx, 131E294EF60160DFh
+
+
+lea Address: 0x7ff66f8ea3b1
+lea Address - Imagebase: 0xffa3b1
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 0F 29 74 24 20 8B 08 F3
+mov Address: 0x7ff66f8ea3b8
+mov value: DFC85C5199045026
+call Address: 0x7ff66f8ea3ac
+mov ASM: mov     rcx, 0DFC85C5199045026h
+
+
+lea Address: 0x7ff66f8ea3d8
+lea Address - Imagebase: 0xffa3d8
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 0F 29 74 24 20 8B 08 F3
+mov Address: 0x7ff66f8ea3df
+mov value: 6FA957D1B55941C1
+call Address: 0x7ff66f8ea3d3
+mov ASM: mov     rcx, 6FA957D1B55941C1h
+
+
+lea Address: 0x7ff66f8eae0d
+lea Address - Imagebase: 0xffae0d
+lea sub Hex View: 48 83 EC 28 80 3D 7D 67 2C 04 00 74 14 48 8B 41
+mov Address: 0x7ff66f8eae14
+mov value: 7C32191D9FB2BDEA
+call Address: 0x7ff66f8eae08
+mov ASM: mov     rcx, 7C32191D9FB2BDEAh
+
+
+lea Address: 0x7ff66f8eae5b
+lea Address - Imagebase: 0xffae5b
+lea sub Hex View: 48 83 EC 28 80 3D 85 D7 2C 04 00 74 14 48 8B 41
+mov Address: 0x7ff66f8eae62
+mov value: FB0E622B401884D3
+call Address: 0x7ff66f8eae56
+mov ASM: mov     rcx, 0FB0E622B401884D3h
+
+
+lea Address: 0x7ff66f8eaf6c
+lea Address - Imagebase: 0xffaf6c
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 83 38 03 77 07 8B 08 E8
+mov Address: 0x7ff66f8eaf73
+mov value: 4F0D2256AAE94EDA
+call Address: 0x7ff66f8eaf67
+mov ASM: mov     rcx, 4F0D2256AAE94EDAh
+
+
+lea Address: 0x7ff66f8eb16e
+lea Address - Imagebase: 0xffb16e
+lea sub Hex View: 48 83 EC 28 48 8D 15 01 8B 47 02 E8 84 92 02 00
+mov Address: 0x7ff66f8eb181
+mov value: A1E3171ED0E47564
+call Address: 0x7ff66f8eb175
+mov ASM: mov     rcx, 0A1E3171ED0E47564h
+
+
+lea Address: 0x7ff66f8eb216
+lea Address - Imagebase: 0xffb216
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 59 2C F0 FF 48
+mov Address: 0x7ff66f8eb21d
+mov value: A6E6A66FC4CA4224
+call Address: 0x7ff66f8eb211
+mov ASM: mov     rcx, 0A6E6A66FC4CA4224h
+
+
+lea Address: 0x7ff66f8eb34e
+lea Address - Imagebase: 0xffb34e
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 4C 8D 05 99 66 49 02 8B
+mov Address: 0x7ff66f8eb355
+mov value: 217A54DE2D200305
+call Address: 0x7ff66f8eb349
+mov ASM: mov     rcx, 217A54DE2D200305h
+
+
+lea Address: 0x7ff66f8eb39c
+lea Address - Imagebase: 0xffb39c
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 8B 42 30 45 8B 4A 18
+mov Address: 0x7ff66f8eb3a3
+mov value: B56D41A694E42E86
+call Address: 0x7ff66f8eb397
+mov ASM: mov     rcx, 0B56D41A694E42E86h
+
+
+lea Address: 0x7ff66f8eb3ea
+lea Address - Imagebase: 0xffb3ea
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 8B 42 30 45 8B 4A 18
+mov Address: 0x7ff66f8eb3f1
+mov value: 18262CAFEBB5FBE1
+call Address: 0x7ff66f8eb3e5
+mov ASM: mov     rcx, 18262CAFEBB5FBE1h
+
+
+lea Address: 0x7ff66f8eb411
+lea Address - Imagebase: 0xffb411
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 AD F1 65 FF 48
+mov Address: 0x7ff66f8eb418
+mov value: A1CFB35069D23C23
+call Address: 0x7ff66f8eb40c
+mov ASM: mov     rcx, 0A1CFB35069D23C23h
+
+
+lea Address: 0x7ff66f8eb438
+lea Address - Imagebase: 0xffb438
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 28 45 8B 4A 18
+mov Address: 0x7ff66f8eb43f
+mov value: 2161278C6322F740
+call Address: 0x7ff66f8eb433
+mov ASM: mov     rcx, 2161278C6322F740h
+
+
+lea Address: 0x7ff66f8eb45f
+lea Address - Imagebase: 0xffb45f
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 45 8B 4A 18
+mov Address: 0x7ff66f8eb466
+mov value: F45E46DEECF7DF6E
+call Address: 0x7ff66f8eb45a
+mov ASM: mov     rcx, 0F45E46DEECF7DF6Eh
+
+
+lea Address: 0x7ff66f8eb486
+lea Address - Imagebase: 0xffb486
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 28 45 8B 4A 18
+mov Address: 0x7ff66f8eb48d
+mov value: 8EC7CD701F872F87
+call Address: 0x7ff66f8eb481
+mov ASM: mov     rcx, 8EC7CD701F872F87h
+
+
+lea Address: 0x7ff66f8eb597
+lea Address - Imagebase: 0xffb597
+lea sub Hex View: 48 83 EC 28 E8 B7 23 F3 FF 8B 48 08 48 83 C4 28
+mov Address: 0x7ff66f8eb59e
+mov value: BC90BDF4E5228EA1
+call Address: 0x7ff66f8eb592
+mov ASM: mov     rcx, 0BC90BDF4E5228EA1h
+
+
+lea Address: 0x7ff66f8eb63a
+lea Address - Imagebase: 0xffb63a
+lea sub Hex View: 48 83 EC 28 E8 AB AC 2D 01 48 8B C8 E8 DB E3 35
+mov Address: 0x7ff66f8eb64d
+mov value: C086FF658B2E51DB
+call Address: 0x7ff66f8eb641
+mov ASM: mov     rcx, 0C086FF658B2E51DBh
+
+
+lea Address: 0x7ff66f8ebb06
+lea Address - Imagebase: 0xffbb06
+lea sub Hex View: 48 83 EC 28 89 4C 24 30 48 8D 54 24 30 48 8B 0D
+mov Address: 0x7ff66f8ebb19
+mov value: F3DE57A46D5585E9
+call Address: 0x7ff66f8ebb0d
+mov ASM: mov     rcx, 0F3DE57A46D5585E9h
+
+
+lea Address: 0x7ff66f93b7aa
+lea Address - Imagebase: 0x104b7aa
+lea sub Hex View: 48 83 EC 28 89 4C 24 30 48 8D 54 24 30 48 8B 0D
+mov Address: 0x7ff66f93b7bd
+mov value: 6DFDD665E416B093
+call Address: 0x7ff66f93b7b1
+mov ASM: mov     rcx, 6DFDD665E416B093h
+
+
+lea Address: 0x7ff66f93b8c7
+lea Address - Imagebase: 0x104b8c7
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 48 8D 54 24 30 8B 08 89
+mov Address: 0x7ff66f93b8ce
+mov value: E4509BABE59BD24E
+call Address: 0x7ff66f93b8c2
+mov ASM: mov     rcx, 0E4509BABE59BD24Eh
+
+
+lea Address: 0x7ff66f93b92a
+lea Address - Imagebase: 0x104b92a
+lea sub Hex View: 48 83 EC 28 E8 77 30 31 FF 48 8B C8 E8 CF C1 31
+mov Address: 0x7ff66f93b931
+mov value: 26F6BBEA2CE3E3DC
+call Address: 0x7ff66f93b925
+mov ASM: mov     rcx, 26F6BBEA2CE3E3DCh
+
+
+lea Address: 0x7ff66f93b951
+lea Address - Imagebase: 0x104b951
+lea sub Hex View: 48 83 EC 28 E8 8B 33 31 FF 48 8B C8 E8 E3 C4 31
+mov Address: 0x7ff66f93b958
+mov value: C5C7A2F6567FCCBC
+call Address: 0x7ff66f93b94c
+mov ASM: mov     rcx, 0C5C7A2F6567FCCBCh
+
+
+lea Address: 0x7ff66f93bdbc
+lea Address - Imagebase: 0x104bdbc
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 49 8B 42 20 4D 8B 4A 18
+mov Address: 0x7ff66f93bdc3
+mov value: B981DD2DFAF9B1C9
+call Address: 0x7ff66f93bdb7
+mov ASM: mov     rcx, 0B981DD2DFAF9B1C9h
+
+
+lea Address: 0x7ff66f93c005
+lea Address - Imagebase: 0x104c005
+lea sub Hex View: 48 83 EC 28 E8 CF 1B 31 FF 48 8B C8 E8 1F 9C 31
+mov Address: 0x7ff66f93c00c
+mov value: 160825DADF1B04B3
+call Address: 0x7ff66f93c000
+mov ASM: mov     rcx, 160825DADF1B04B3h
+
+
+lea Address: 0x7ff66f93c164
+lea Address - Imagebase: 0x104c164
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 83 3A 00 48 8B 42 20 4C
+mov Address: 0x7ff66f93c16b
+mov value: CE0D2F5586627CCE
+call Address: 0x7ff66f93c15f
+mov ASM: mov     rcx, 0CE0D2F5586627CCEh
+
+
+lea Address: 0x7ff66f93c99e
+lea Address - Imagebase: 0x104c99e
+lea sub Hex View: 48 83 EC 28 E8 3B 2A 43 FF 48 85 C0 74 12 48 8B
+mov Address: 0x7ff66f93c9b1
+mov value: 13D234A2A3F66E63
+call Address: 0x7ff66f93c9a5
+mov ASM: mov     rcx, 13D234A2A3F66E63h
+
+
+lea Address: 0x7ff66f93cfe9
+lea Address - Imagebase: 0x104cfe9
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 45 33 C0 83 64 24 20 00
+mov Address: 0x7ff66f93cff0
+mov value: 766315A564594401
+call Address: 0x7ff66f93cfe4
+mov ASM: mov     rcx, 766315A564594401h
+
+
+lea Address: 0x7ff66f93d010
+lea Address - Imagebase: 0x104d010
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 45 33 C9 83 64 24 20 00
+mov Address: 0x7ff66f93d017
+mov value: 6A564540FAC12211
+call Address: 0x7ff66f93d00b
+mov ASM: mov     rcx, 6A564540FAC12211h
+
+
+lea Address: 0x7ff66f93d3df
+lea Address - Imagebase: 0x104d3df
+lea sub Hex View: 48 83 EC 38 4C 8B 59 10 33 C9 41 39 4B 28 41 0F
+mov Address: 0x7ff66f93d3e6
+mov value: 644CCB76A76CFBD6
+call Address: 0x7ff66f93d3da
+mov ASM: mov     rcx, 644CCB76A76CFBD6h
+
+
+lea Address: 0x7ff66f93e502
+lea Address - Imagebase: 0x104e502
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 20 00 45 8B 4A
+mov Address: 0x7ff66f93e509
+mov value: F60386770878A98F
+call Address: 0x7ff66f93e4fd
+mov ASM: mov     rcx, 0F60386770878A98Fh
+
+
+lea Address: 0x7ff66f93e529
+lea Address - Imagebase: 0x104e529
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 45 8B 4A 18
+mov Address: 0x7ff66f93e530
+mov value: 785177E4D57D7389
+call Address: 0x7ff66f93e524
+mov ASM: mov     rcx, 785177E4D57D7389h
+
+
+lea Address: 0x7ff66f93e7c0
+lea Address - Imagebase: 0x104e7c0
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 48 8D 54 24 30 8B 48 08
+mov Address: 0x7ff66f93e7c7
+mov value: 22741652985C84D0
+call Address: 0x7ff66f93e7bb
+mov ASM: mov     rcx, 22741652985C84D0h
+
+
+lea Address: 0x7ff66f93e7e7
+lea Address - Imagebase: 0x104e7e7
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 48 8D 54 24 30 8B 48 08
+mov Address: 0x7ff66f93e7ee
+mov value: 9C4352134B2835FB
+call Address: 0x7ff66f93e7e2
+mov ASM: mov     rcx, 9C4352134B2835FBh
+
+
+lea Address: 0x7ff66f93e946
+lea Address - Imagebase: 0x104e946
+lea sub Hex View: 48 83 EC 58 4C 8B 49 10 41 8B 41 40 F3 41 0F 10
+mov Address: 0x7ff66f93e94d
+mov value: EDFC6C1FD1C964F5
+call Address: 0x7ff66f93e941
+mov ASM: mov     rcx, 0EDFC6C1FD1C964F5h
+
+
+lea Address: 0x7ff66f93ee4d
+lea Address - Imagebase: 0x104ee4d
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 48 8D 54 24 30 8B 08 89
+mov Address: 0x7ff66f93ee54
+mov value: 009CF9A29972C298
+call Address: 0x7ff66f93ee48
+mov ASM: mov     rcx, 9CF9A29972C298h
+
+
+lea Address: 0x7ff66f93ef5e
+lea Address - Imagebase: 0x104ef5e
+lea sub Hex View: 48 83 EC 28 48 83 3D 70 B3 86 03 00 74 0C 48 8D
+mov Address: 0x7ff66f93ef65
+mov value: DEA083C16BB91345
+call Address: 0x7ff66f93ef59
+mov ASM: mov     rcx, 0DEA083C16BB91345h
+
+
+lea Address: 0x7ff66f93f132
+lea Address - Imagebase: 0x104f132
+lea sub Hex View: 48 83 EC 28 48 8B 51 10 48 8D 0D 71 B1 86 03 8B
+mov Address: 0x7ff66f93f139
+mov value: F19706B1F8FFA88F
+call Address: 0x7ff66f93f12d
+mov ASM: mov     rcx, 0F19706B1F8FFA88Fh
+
+
+lea Address: 0x7ff66f93f180
+lea Address - Imagebase: 0x104f180
+lea sub Hex View: 48 83 EC 28 48 8B 51 10 48 8D 0D 0D B9 86 03 83
+mov Address: 0x7ff66f93f187
+mov value: C61EDEBF16CD9668
+call Address: 0x7ff66f93f17b
+mov ASM: mov     rcx, 0C61EDEBF16CD9668h
+
+
+lea Address: 0x7ff66f93f2df
+lea Address - Imagebase: 0x104f2df
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 48 8B 08 48 85 C9 74 11
+mov Address: 0x7ff66f93f2e6
+mov value: 9C5BD8C562565CE6
+call Address: 0x7ff66f93f2da
+mov ASM: mov     rcx, 9C5BD8C562565CE6h
+
+
+lea Address: 0x7ff66f93fe03
+lea Address - Imagebase: 0x104fe03
+lea sub Hex View: 48 83 EC 28 E8 9F 2F 31 FF 48 8B C8 E8 DF B8 31
+mov Address: 0x7ff66f93fe0a
+mov value: EE1C7BA69BB74B08
+call Address: 0x7ff66f93fdfe
+mov ASM: mov     rcx, 0EE1C7BA69BB74B08h
+
+
+lea Address: 0x7ff66f93ff3b
+lea Address - Imagebase: 0x104ff3b
+lea sub Hex View: 48 83 EC 28 E8 43 37 31 FF 48 8B C8 E8 B7 15 CA
+mov Address: 0x7ff66f93ff42
+mov value: 9E0AB9AAEE87CE28
+call Address: 0x7ff66f93ff36
+mov ASM: mov     rcx, 9E0AB9AAEE87CE28h
+
+
+lea Address: 0x7ff66f93ff62
+lea Address - Imagebase: 0x104ff62
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 83 79 28 00 44 8B 49 18
+mov Address: 0x7ff66f93ff69
+mov value: 6B44F13D888F770D
+call Address: 0x7ff66f93ff5d
+mov ASM: mov     rcx, 6B44F13D888F770Dh
+
+
+lea Address: 0x7ff66f93ff89
+lea Address - Imagebase: 0x104ff89
+lea sub Hex View: 48 83 EC 28 E8 23 37 31 FF 48 8B C8 E8 2B CE 31
+mov Address: 0x7ff66f93ff90
+mov value: 08FDC6F796E350D1
+call Address: 0x7ff66f93ff84
+mov ASM: mov     rcx, 8FDC6F796E350D1h
+
+
+lea Address: 0x7ff66f93ffd7
+lea Address - Imagebase: 0x104ffd7
+lea sub Hex View: 48 83 EC 28 E8 23 37 31 FF 48 8B C8 E8 2B CE 31
+mov Address: 0x7ff66f93ffde
+mov value: FA8C41E8020D3439
+call Address: 0x7ff66f93ffd2
+mov ASM: mov     rcx, 0FA8C41E8020D3439h
+
+
+lea Address: 0x7ff66f940073
+lea Address - Imagebase: 0x1050073
+lea sub Hex View: 48 83 EC 28 E8 23 1C 31 FF 48 8B C8 E8 2B B3 31
+mov Address: 0x7ff66f94007a
+mov value: A1B4052C2A3DCC1E
+call Address: 0x7ff66f94006e
+mov ASM: mov     rcx, 0A1B4052C2A3DCC1Eh
+
+
+lea Address: 0x7ff66f94015d
+lea Address - Imagebase: 0x105015d
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 8B 42 20 44 8B 4A 18 F3
+mov Address: 0x7ff66f940164
+mov value: 1392105DA88BBFFB
+call Address: 0x7ff66f940158
+mov ASM: mov     rcx, 1392105DA88BBFFBh
+
+
+lea Address: 0x7ff66f940358
+lea Address - Imagebase: 0x1050358
+lea sub Hex View: 48 83 EC 28 E8 C3 DA 30 FF 48 8B C8 E8 D7 47 31
+mov Address: 0x7ff66f94035f
+mov value: 5373DE8E179BC2A0
+call Address: 0x7ff66f940353
+mov ASM: mov     rcx, 5373DE8E179BC2A0h
+
+
+lea Address: 0x7ff66f940490
+lea Address - Imagebase: 0x1050490
+lea sub Hex View: 48 83 EC 28 E8 E3 36 31 FF 48 8B C8 E8 F7 A3 31
+mov Address: 0x7ff66f940497
+mov value: 7C9F4CDF402CA82A
+call Address: 0x7ff66f94048b
+mov ASM: mov     rcx, 7C9F4CDF402CA82Ah
+
+
+lea Address: 0x7ff66f940679
+lea Address - Imagebase: 0x1050679
+lea sub Hex View: 48 83 EC 28 48 8B 0D 4D 12 A6 03 48 85 C9 74 05
+mov Address: 0x7ff66f940680
+mov value: 0876326238914A3F
+call Address: 0x7ff66f940674
+mov ASM: mov     rcx, 876326238914A3Fh
+
+
+lea Address: 0x7ff66f94084d
+lea Address - Imagebase: 0x105084d
+lea sub Hex View: 48 83 EC 28 48 8B 05 9D E9 E5 02 48 8B 48 08 48
+mov Address: 0x7ff66f940854
+mov value: 833E03BAEBADC4B0
+call Address: 0x7ff66f940848
+mov ASM: mov     rcx, 833E03BAEBADC4B0h
+
+
+lea Address: 0x7ff66f940b0b
+lea Address - Imagebase: 0x1050b0b
+lea sub Hex View: 48 83 EC 28 48 8B 0D 55 50 A6 03 48 85 C9 74 05
+mov Address: 0x7ff66f940b12
+mov value: F6DE98516FD3AC9B
+call Address: 0x7ff66f940b06
+mov ASM: mov     rcx, 0F6DE98516FD3AC9Bh
+
+
+lea Address: 0x7ff66f94104d
+lea Address - Imagebase: 0x105104d
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 83 38 4F 77 0E 8B 10 48
+mov Address: 0x7ff66f941054
+mov value: CC3EDC5614B03F61
+call Address: 0x7ff66f941048
+mov ASM: mov     rcx, 0CC3EDC5614B03F61h
+
+
+lea Address: 0x7ff66f94115e
+lea Address - Imagebase: 0x105115e
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 28 F3 41
+mov Address: 0x7ff66f941165
+mov value: 59174F1AFE095B5A
+call Address: 0x7ff66f941159
+mov ASM: mov     rcx, 59174F1AFE095B5Ah
+
+
+lea Address: 0x7ff66f941185
+lea Address - Imagebase: 0x1051185
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 20 00 45 8B 4A
+mov Address: 0x7ff66f94118c
+mov value: 2C6A07AF9AEDABD8
+call Address: 0x7ff66f941180
+mov ASM: mov     rcx, 2C6A07AF9AEDABD8h
+
+
+lea Address: 0x7ff66f941221
+lea Address - Imagebase: 0x1051221
+lea sub Hex View: 48 83 EC 28 8B 15 A6 57 52 03 85 D2 78 0C 48 8D
+mov Address: 0x7ff66f941228
+mov value: D85DFE5C131E4AE9
+call Address: 0x7ff66f94121c
+mov ASM: mov     rcx, 0D85DFE5C131E4AE9h
+
+
+lea Address: 0x7ff66f941248
+lea Address - Imagebase: 0x1051248
+lea sub Hex View: 48 83 EC 28 80 3D 1B 4F 24 04 00 74 0B 48 8B 41
+mov Address: 0x7ff66f94124f
+mov value: CE7690C0A0D1C36D
+call Address: 0x7ff66f941243
+mov ASM: mov     rcx, 0CE7690C0A0D1C36Dh
+
+
+lea Address: 0x7ff66f941728
+lea Address - Imagebase: 0x1051728
+lea sub Hex View: 48 83 EC 28 48 8D 4C 24 38 FF 15 61 9A FD 04 48
+mov Address: 0x7ff66f94172f
+mov value: 1411A7CBC3A6EB7B
+call Address: 0x7ff66f941723
+mov ASM: mov     rcx, 1411A7CBC3A6EB7Bh
+
+
+lea Address: 0x7ff66f941ca4
+lea Address - Imagebase: 0x1051ca4
+lea sub Hex View: 48 83 EC 28 E8 77 F1 E9 FF C6 80 15 07 00 00 01
+mov Address: 0x7ff66f941cab
+mov value: 3D0EAC6385DD6100
+call Address: 0x7ff66f941c9f
+mov ASM: mov     rcx, 3D0EAC6385DD6100h
+
+
+lea Address: 0x7ff66f941d8e
+lea Address - Imagebase: 0x1051d8e
+lea sub Hex View: 48 83 EC 58 48 8B 49 10 33 D2 39 51 68 F3 0F 10
+mov Address: 0x7ff66f941d95
+mov value: 867654CBC7606F2C
+call Address: 0x7ff66f941d89
+mov ASM: mov     rcx, 867654CBC7606F2Ch
+
+
+lea Address: 0x7ff66f9424cd
+lea Address - Imagebase: 0x10524cd
+lea sub Hex View: 48 83 EC 28 8B 41 08 FF C8 85 C0 7E 0E 48 8B 41
+mov Address: 0x7ff66f9424d4
+mov value: FA925AC00EB830B9
+call Address: 0x7ff66f9424c8
+mov ASM: mov     rcx, 0FA925AC00EB830B9h
+
+
+lea Address: 0x7ff66f94262c
+lea Address - Imagebase: 0x105262c
+lea sub Hex View: 48 83 EC 28 E8 67 78 2C 00 48 83 C4 28 E9 66 55
+mov Address: 0x7ff66f942633
+mov value: EA6DC3A8ADD2005F
+call Address: 0x7ff66f942627
+mov ASM: mov     rcx, 0EA6DC3A8ADD2005Fh
+
+
+lea Address: 0x7ff66f942764
+lea Address - Imagebase: 0x1052764
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 83 38 11 73 16 83 78 08
+mov Address: 0x7ff66f94276b
+mov value: 50E52637EF70EF77
+call Address: 0x7ff66f94275f
+mov ASM: mov     rcx, 50E52637EF70EF77h
+
+
+lea Address: 0x7ff66f94278b
+lea Address - Imagebase: 0x105278b
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 83 38 11 73 16 83 78 08
+mov Address: 0x7ff66f942792
+mov value: 66947E61A44DE2C6
+call Address: 0x7ff66f942786
+mov ASM: mov     rcx, 66947E61A44DE2C6h
+
+
+lea Address: 0x7ff66f94284e
+lea Address - Imagebase: 0x105284e
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 85 4F 01 00 48
+mov Address: 0x7ff66f942855
+mov value: 9617B6E5F6537B63
+call Address: 0x7ff66f942849
+mov ASM: mov     rcx, 9617B6E5F6537B63h
+
+
+lea Address: 0x7ff66f942b0c
+lea Address - Imagebase: 0x1052b0c
+lea sub Hex View: 48 83 EC 28 E8 9B 28 8E FF 48 8B C8 48 83 C4 28
+mov Address: 0x7ff66f942b13
+mov value: EF42F56F69877125
+call Address: 0x7ff66f942b07
+mov ASM: mov     rcx, 0EF42F56F69877125h
+
+
+lea Address: 0x7ff66f942b81
+lea Address - Imagebase: 0x1052b81
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 8B 42 38 4D 8B 4A 18
+mov Address: 0x7ff66f942b88
+mov value: 044131118D8DB3CD
+call Address: 0x7ff66f942b7c
+mov ASM: mov     rcx, 44131118D8DB3CDh
+
+
+lea Address: 0x7ff66f9432af
+lea Address - Imagebase: 0x10532af
+lea sub Hex View: 48 83 EC 28 48 8B 51 10 48 8B 0D 81 99 51 03 8B
+mov Address: 0x7ff66f9432b6
+mov value: DE2C3B74D2B3705C
+call Address: 0x7ff66f9432aa
+mov ASM: mov     rcx, 0DE2C3B74D2B3705Ch
+
+
+lea Address: 0x7ff66f94334b
+lea Address - Imagebase: 0x105334b
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 48 8D 54 24 30 8B 08 89
+mov Address: 0x7ff66f943352
+mov value: 154340E87D8CC178
+call Address: 0x7ff66f943346
+mov ASM: mov     rcx, 154340E87D8CC178h
+
+
+lea Address: 0x7ff66f943372
+lea Address - Imagebase: 0x1053372
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 48 8D 54 24 30 8B 08 89
+mov Address: 0x7ff66f943379
+mov value: 94FCADCF9F0C368E
+call Address: 0x7ff66f94336d
+mov ASM: mov     rcx, 94FCADCF9F0C368Eh
+
+
+lea Address: 0x7ff66f9433e7
+lea Address - Imagebase: 0x10533e7
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 10 00 41 8B 42
+mov Address: 0x7ff66f9433ee
+mov value: 48E4D50F87A96AA5
+call Address: 0x7ff66f9433e2
+mov ASM: mov     rcx, 48E4D50F87A96AA5h
+
+
+lea Address: 0x7ff66f9438ce
+lea Address - Imagebase: 0x10538ce
+lea sub Hex View: 48 83 EC 28 8B C1 48 8B 0D 97 AA E4 02 48 85 C9
+mov Address: 0x7ff66f9438e1
+mov value: E54DC27571D5EDC5
+call Address: 0x7ff66f9438d5
+mov ASM: mov     rcx, 0E54DC27571D5EDC5h
+
+
+lea Address: 0x7ff66f9439c4
+lea Address - Imagebase: 0x10539c4
+lea sub Hex View: 48 83 EC 28 48 8B D1 48 8B 0D 4E E7 E5 02 48 85
+mov Address: 0x7ff66f9439cb
+mov value: E824CE7D13FCB300
+call Address: 0x7ff66f9439bf
+mov ASM: mov     rcx, 0E824CE7D13FCB300h
+
+
+lea Address: 0x7ff66f943a12
+lea Address - Imagebase: 0x1053a12
+lea sub Hex View: 48 83 EC 28 48 8B D1 48 8B 0D F2 E6 E5 02 48 85
+mov Address: 0x7ff66f943a19
+mov value: E4E2C581F127A11C
+call Address: 0x7ff66f943a0d
+mov ASM: mov     rcx, 0E4E2C581F127A11Ch
+
+
+lea Address: 0x7ff66f943b4a
+lea Address - Imagebase: 0x1053b4a
+lea sub Hex View: 48 83 EC 28 E8 07 84 6E FF 48 8D 0D 75 A8 2B 02
+mov Address: 0x7ff66f943b51
+mov value: 7F89E15A8FB8DE97
+call Address: 0x7ff66f943b45
+mov ASM: mov     rcx, 7F89E15A8FB8DE97h
+
+
+lea Address: 0x7ff66f943b9e
+lea Address - Imagebase: 0x1053b9e
+lea sub Hex View: 48 83 EC 28 8B 15 B2 61 96 02 B9 01 00 00 00 E8
+mov Address: 0x7ff66f943bb1
+mov value: 0C02DABFA3B98176
+call Address: 0x7ff66f943ba5
+mov ASM: mov     rcx, 0C02DABFA3B98176h
+
+
+lea Address: 0x7ff66f97c131
+lea Address - Imagebase: 0x108c131
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 0D 2C E4 FF 48
+mov Address: 0x7ff66f97c138
+mov value: EA5CCF4EEB2F82D1
+call Address: 0x7ff66f97c12c
+mov ASM: mov     rcx, 0EA5CCF4EEB2F82D1h
+
+
+lea Address: 0x7ff66f97c290
+lea Address - Imagebase: 0x108c290
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 7D 2B E4 FF 48
+mov Address: 0x7ff66f97c297
+mov value: 7B66E89312727274
+call Address: 0x7ff66f97c28b
+mov ASM: mov     rcx, 7B66E89312727274h
+
+
+lea Address: 0x7ff66f97c32c
+lea Address - Imagebase: 0x108c32c
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 20 F3 0F 10
+mov Address: 0x7ff66f97c333
+mov value: 32DF729D8BD3C1C6
+call Address: 0x7ff66f97c327
+mov ASM: mov     rcx, 32DF729D8BD3C1C6h
+
+
+lea Address: 0x7ff66f97c353
+lea Address - Imagebase: 0x108c353
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 20 F3 0F 10
+mov Address: 0x7ff66f97c35a
+mov value: 179DCF71F705DA20
+call Address: 0x7ff66f97c34e
+mov ASM: mov     rcx, 179DCF71F705DA20h
+
+
+lea Address: 0x7ff66f97c5ea
+lea Address - Imagebase: 0x108c5ea
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 11 2D E4 FF 48
+mov Address: 0x7ff66f97c5f1
+mov value: DC6C55DFA2C24EE5
+call Address: 0x7ff66f97c5e5
+mov ASM: mov     rcx, 0DC6C55DFA2C24EE5h
+
+
+lea Address: 0x7ff66f97caa3
+lea Address - Imagebase: 0x108caa3
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 0F 29 74 24 20 8B 08 F3
+mov Address: 0x7ff66f97caaa
+mov value: 0C718001B77CA468
+call Address: 0x7ff66f97ca9e
+mov ASM: mov     rcx, 0C718001B77CA468h
+
+
+lea Address: 0x7ff66f97cf04
+lea Address - Imagebase: 0x108cf04
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 45 8B 4A 18
+mov Address: 0x7ff66f97cf0b
+mov value: F2EAB31979A7F910
+call Address: 0x7ff66f97ceff
+mov ASM: mov     rcx, 0F2EAB31979A7F910h
+
+
+lea Address: 0x7ff66f97d05c
+lea Address - Imagebase: 0x108d05c
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 28 F3 41 0F 10
+mov Address: 0x7ff66f97d063
+mov value: E53D17AD837CBF7C
+call Address: 0x7ff66f97d057
+mov ASM: mov     rcx, 0E53D17AD837CBF7Ch
+
+
+lea Address: 0x7ff66f97d087
+lea Address - Imagebase: 0x108d087
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 28 F3 41 0F 10
+mov Address: 0x7ff66f97d08e
+mov value: A7C6854BB5A4192A
+call Address: 0x7ff66f97d082
+mov ASM: mov     rcx, 0A7C6854BB5A4192Ah
+
+
+lea Address: 0x7ff66f97d0b2
+lea Address - Imagebase: 0x108d0b2
+lea sub Hex View: 48 83 EC 38 4C 8B 49 10 41 8B 41 20 F3 41 0F 10
+mov Address: 0x7ff66f97d0b9
+mov value: E41A09C8DDFF7AA4
+call Address: 0x7ff66f97d0ad
+mov ASM: mov     rcx, 0E41A09C8DDFF7AA4h
+
+
+lea Address: 0x7ff66f97d108
+lea Address - Imagebase: 0x108d108
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 49 8B 42 30 F3 41 0F 10
+mov Address: 0x7ff66f97d10f
+mov value: C20E50AA46D09CA8
+call Address: 0x7ff66f97d103
+mov ASM: mov     rcx, 0C20E50AA46D09CA8h
+
+
+lea Address: 0x7ff66f97d15e
+lea Address - Imagebase: 0x108d15e
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 49 8B 42 38 F3 41 0F 10
+mov Address: 0x7ff66f97d165
+mov value: 92DB0739813C5186
+call Address: 0x7ff66f97d159
+mov ASM: mov     rcx, 92DB0739813C5186h
+
+
+lea Address: 0x7ff66f97d189
+lea Address - Imagebase: 0x108d189
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 28 41 83 7A 10
+mov Address: 0x7ff66f97d190
+mov value: 48E92D3DDE23C23A
+call Address: 0x7ff66f97d184
+mov ASM: mov     rcx, 48E92D3DDE23C23Ah
+
+
+lea Address: 0x7ff66f97d20a
+lea Address - Imagebase: 0x108d20a
+lea sub Hex View: 48 83 EC 58 4C 8B 49 10 41 8B 41 40 4D 8D 41 10
+mov Address: 0x7ff66f97d211
+mov value: E2A2AA2F659D77A7
+call Address: 0x7ff66f97d205
+mov ASM: mov     rcx, 0E2A2AA2F659D77A7h
+
+
+lea Address: 0x7ff66f97d235
+lea Address - Imagebase: 0x108d235
+lea sub Hex View: 48 83 EC 48 4C 8B 41 10 F3 41 0F 10 40 40 49 8D
+mov Address: 0x7ff66f97d23c
+mov value: F0108F01FB105DA2
+call Address: 0x7ff66f97d230
+mov ASM: mov     rcx, 0F0108F01FB105DA2h
+
+
+lea Address: 0x7ff66f97d2e1
+lea Address - Imagebase: 0x108d2e1
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 40 4C 8D 40
+mov Address: 0x7ff66f97d2e8
+mov value: 3FFCD7BBA074CC80
+call Address: 0x7ff66f97d2dc
+mov ASM: mov     rcx, 3FFCD7BBA074CC80h
+
+
+lea Address: 0x7ff66f97d30c
+lea Address - Imagebase: 0x108d30c
+lea sub Hex View: 48 83 EC 48 4C 8B 41 10 41 8B 40 40 49 8D 50 08
+mov Address: 0x7ff66f97d313
+mov value: D76B57B44F1E6F8B
+call Address: 0x7ff66f97d307
+mov ASM: mov     rcx, 0D76B57B44F1E6F8Bh
+
+
+lea Address: 0x7ff66f97d38d
+lea Address - Imagebase: 0x108d38d
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 83 7A 38 00 48 8D 42 08
+mov Address: 0x7ff66f97d394
+mov value: DCA3A13F7A45338B
+call Address: 0x7ff66f97d388
+mov ASM: mov     rcx, 0DCA3A13F7A45338Bh
+
+
+lea Address: 0x7ff66f97d40e
+lea Address - Imagebase: 0x108d40e
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 45 33 C9 F3 0F 10 05 AD
+mov Address: 0x7ff66f97d415
+mov value: 79482C12482A860D
+call Address: 0x7ff66f97d409
+mov ASM: mov     rcx, 79482C12482A860Dh
+
+
+lea Address: 0x7ff66f97d4ba
+lea Address - Imagebase: 0x108d4ba
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 48 20 F3 0F 10
+mov Address: 0x7ff66f97d4c1
+mov value: 0E14C5550DC3CD1D
+call Address: 0x7ff66f97d4b5
+mov ASM: mov     rcx, 0E14C5550DC3CD1Dh
+
+
+lea Address: 0x7ff66f97d4e5
+lea Address - Imagebase: 0x108d4e5
+lea sub Hex View: 48 83 EC 58 4C 8B 51 10 F3 41 0F 10 42 40 41 8B
+mov Address: 0x7ff66f97d4ec
+mov value: C2329B0206426644
+call Address: 0x7ff66f97d4e0
+mov ASM: mov     rcx, 0C2329B0206426644h
+
+
+lea Address: 0x7ff66f97d510
+lea Address - Imagebase: 0x108d510
+lea sub Hex View: 48 83 EC 38 4C 8B 49 10 41 83 79 30 00 4D 8D 41
+mov Address: 0x7ff66f97d517
+mov value: 4AA5AA97C65E4A2F
+call Address: 0x7ff66f97d50b
+mov ASM: mov     rcx, 4AA5AA97C65E4A2Fh
+
+
+lea Address: 0x7ff66f97d612
+lea Address - Imagebase: 0x108d612
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 48 20 F3 0F 10
+mov Address: 0x7ff66f97d619
+mov value: DE0C8B145EA466FF
+call Address: 0x7ff66f97d60d
+mov ASM: mov     rcx, 0DE0C8B145EA466FFh
+
+
+lea Address: 0x7ff66f97d73f
+lea Address - Imagebase: 0x108d73f
+lea sub Hex View: 48 83 EC 48 4C 8B 49 10 41 8B 41 58 4D 8D 41 20
+mov Address: 0x7ff66f97d746
+mov value: 6879FF208ED87F2A
+call Address: 0x7ff66f97d73a
+mov ASM: mov     rcx, 6879FF208ED87F2Ah
+
+
+lea Address: 0x7ff66f97d76a
+lea Address - Imagebase: 0x108d76a
+lea sub Hex View: 48 83 EC 48 4C 8B 49 10 41 8B 41 48 4D 8D 41 10
+mov Address: 0x7ff66f97d771
+mov value: 7B74D8EEDE9B5727
+call Address: 0x7ff66f97d765
+mov ASM: mov     rcx, 7B74D8EEDE9B5727h
+
+
+lea Address: 0x7ff66f97d795
+lea Address - Imagebase: 0x108d795
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 F3 41 0F 10 40 38 49 8D
+mov Address: 0x7ff66f97d79c
+mov value: 94587F17E9C365D5
+call Address: 0x7ff66f97d790
+mov ASM: mov     rcx, 94587F17E9C365D5h
+
+
+lea Address: 0x7ff66f97d7c0
+lea Address - Imagebase: 0x108d7c0
+lea sub Hex View: 48 83 EC 48 4C 8B 41 10 41 8B 40 30 F3 41 0F 10
+mov Address: 0x7ff66f97d7c7
+mov value: 22B0D0E37CCB840D
+call Address: 0x7ff66f97d7bb
+mov ASM: mov     rcx, 22B0D0E37CCB840Dh
+
+
+lea Address: 0x7ff66f97d841
+lea Address - Imagebase: 0x108d841
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 8B 42 40 49 8D 52 08
+mov Address: 0x7ff66f97d848
+mov value: 58428248BF4B64E4
+call Address: 0x7ff66f97d83c
+mov ASM: mov     rcx, 58428248BF4B64E4h
+
+
+lea Address: 0x7ff66f97d86c
+lea Address - Imagebase: 0x108d86c
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 8B 42 30 F3 41 0F 10
+mov Address: 0x7ff66f97d873
+mov value: FD45175A6DFD7CE9
+call Address: 0x7ff66f97d867
+mov ASM: mov     rcx, 0FD45175A6DFD7CE9h
+
+
+lea Address: 0x7ff66f97d897
+lea Address - Imagebase: 0x108d897
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 8B 42 58 4D 8D 4A 28
+mov Address: 0x7ff66f97d89e
+mov value: 390E0B697D25EAF5
+call Address: 0x7ff66f97d892
+mov ASM: mov     rcx, 390E0B697D25EAF5h
+
+
+lea Address: 0x7ff66f97d8c2
+lea Address - Imagebase: 0x108d8c2
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 8B 42 48 4D 8D 4A 18
+mov Address: 0x7ff66f97d8c9
+mov value: 5802E0F910E4CF1D
+call Address: 0x7ff66f97d8bd
+mov ASM: mov     rcx, 5802E0F910E4CF1Dh
+
+
+lea Address: 0x7ff66f97d999
+lea Address - Imagebase: 0x108d999
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 83 7A 30 00 4C 8D 42 10
+mov Address: 0x7ff66f97d9a0
+mov value: D6CFC2D59DA72042
+call Address: 0x7ff66f97d994
+mov ASM: mov     rcx, 0D6CFC2D59DA72042h
+
+
+lea Address: 0x7ff66f97d9c4
+lea Address - Imagebase: 0x108d9c4
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 30 4C 8D 40
+mov Address: 0x7ff66f97d9cb
+mov value: 72997893BFB8ECCC
+call Address: 0x7ff66f97d9bf
+mov ASM: mov     rcx, 72997893BFB8ECCCh
+
+
+lea Address: 0x7ff66f97da45
+lea Address - Imagebase: 0x108da45
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 8B 42 40 4D 8D 42 10
+mov Address: 0x7ff66f97da4c
+mov value: C4C32C31920E1B70
+call Address: 0x7ff66f97da40
+mov ASM: mov     rcx, 0C4C32C31920E1B70h
+
+
+lea Address: 0x7ff66f97da70
+lea Address - Imagebase: 0x108da70
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 41 83 78 38 00 49 8D 50
+mov Address: 0x7ff66f97da77
+mov value: E054346CA3A0F315
+call Address: 0x7ff66f97da6b
+mov ASM: mov     rcx, 0E054346CA3A0F315h
+
+
+lea Address: 0x7ff66f97da9b
+lea Address - Imagebase: 0x108da9b
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 41 83 78 20 00 F3 41 0F
+mov Address: 0x7ff66f97daa2
+mov value: 9FDA168777B28424
+call Address: 0x7ff66f97da96
+mov ASM: mov     rcx, 9FDA168777B28424h
+
+
+lea Address: 0x7ff66f97db72
+lea Address - Imagebase: 0x108db72
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 20 00 45 8B 4A
+mov Address: 0x7ff66f97db79
+mov value: CD181A959CFDD7F4
+call Address: 0x7ff66f97db6d
+mov ASM: mov     rcx, 0CD181A959CFDD7F4h
+
+
+lea Address: 0x7ff66f97dc74
+lea Address - Imagebase: 0x108dc74
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 20 00 45 8B 42
+mov Address: 0x7ff66f97dc7b
+mov value: 21FDF9A25CFE1CE5
+call Address: 0x7ff66f97dc6f
+mov ASM: mov     rcx, 21FDF9A25CFE1CE5h
+
+
+lea Address: 0x7ff66f97dda1
+lea Address - Imagebase: 0x108dda1
+lea sub Hex View: 48 83 EC 48 4C 8B 41 10 F3 41 0F 10 40 40 49 8D
+mov Address: 0x7ff66f97dda8
+mov value: 15D3A79D4E44B913
+call Address: 0x7ff66f97dd9c
+mov ASM: mov     rcx, 15D3A79D4E44B913h
+
+
+lea Address: 0x7ff66f97e2c1
+lea Address - Imagebase: 0x108e2c1
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 83 7A 30 00 49 8D 52
+mov Address: 0x7ff66f97e2c8
+mov value: 5BC448CB78FA3E88
+call Address: 0x7ff66f97e2bc
+mov ASM: mov     rcx, 5BC448CB78FA3E88h
+
+
+lea Address: 0x7ff66f97e4f0
+lea Address - Imagebase: 0x108e4f0
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 F3 41 0F 10 42 28 41 8B
+mov Address: 0x7ff66f97e4f7
+mov value: AE72E7DF013AAA61
+call Address: 0x7ff66f97e4eb
+mov ASM: mov     rcx, 0AE72E7DF013AAA61h
+
+
+lea Address: 0x7ff66f97e51b
+lea Address - Imagebase: 0x108e51b
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 8B 42 30 F3 41 0F 10
+mov Address: 0x7ff66f97e522
+mov value: 72F52AA2D2B172CC
+call Address: 0x7ff66f97e516
+mov ASM: mov     rcx, 72F52AA2D2B172CCh
+
+
+lea Address: 0x7ff66f97e546
+lea Address - Imagebase: 0x108e546
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 8B 42 28 F3 41 0F 10
+mov Address: 0x7ff66f97e54d
+mov value: D61D5E1AD9876DEB
+call Address: 0x7ff66f97e541
+mov ASM: mov     rcx, 0D61D5E1AD9876DEBh
+
+
+lea Address: 0x7ff66f97e6f4
+lea Address - Imagebase: 0x108e6f4
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 38 00 49 8D 52
+mov Address: 0x7ff66f97e6fb
+mov value: 6FA46612594F7973
+call Address: 0x7ff66f97e6ef
+mov ASM: mov     rcx, 6FA46612594F7973h
+
+
+lea Address: 0x7ff66f97e71f
+lea Address - Imagebase: 0x108e71f
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 28 00 45 8B 4A
+mov Address: 0x7ff66f97e726
+mov value: 69F4BE8C8CC4796C
+call Address: 0x7ff66f97e71a
+mov ASM: mov     rcx, 69F4BE8C8CC4796Ch
+
+
+lea Address: 0x7ff66f97e9a4
+lea Address - Imagebase: 0x108e9a4
+lea sub Hex View: 48 83 EC 58 4C 8B 51 10 41 83 7A 40 00 F3 41 0F
+mov Address: 0x7ff66f97e9ab
+mov value: E7FA07624574B79A
+call Address: 0x7ff66f97e99f
+mov ASM: mov     rcx, 0E7FA07624574B79Ah
+
+
+lea Address: 0x7ff66f97eaa6
+lea Address - Imagebase: 0x108eaa6
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 20 41 8B
+mov Address: 0x7ff66f97eaad
+mov value: 14747F4A5971DE4E
+call Address: 0x7ff66f97eaa1
+mov ASM: mov     rcx, 14747F4A5971DE4Eh
+
+
+lea Address: 0x7ff66f97eafc
+lea Address - Imagebase: 0x108eafc
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 28 F3 0F 10
+mov Address: 0x7ff66f97eb03
+mov value: 5AD23D40115353AC
+call Address: 0x7ff66f97eaf7
+mov ASM: mov     rcx, 5AD23D40115353ACh
+
+
+lea Address: 0x7ff66f97eb27
+lea Address - Imagebase: 0x108eb27
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 30 00 49 8D 52
+mov Address: 0x7ff66f97eb2e
+mov value: 6671F3EEC681BDA1
+call Address: 0x7ff66f97eb22
+mov ASM: mov     rcx, 6671F3EEC681BDA1h
+
+
+lea Address: 0x7ff66f97eb52
+lea Address - Imagebase: 0x108eb52
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 30 00 49 8D 52
+mov Address: 0x7ff66f97eb59
+mov value: 4AF1D73861212F52
+call Address: 0x7ff66f97eb4d
+mov ASM: mov     rcx, 4AF1D73861212F52h
+
+
+lea Address: 0x7ff66f97eba8
+lea Address - Imagebase: 0x108eba8
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 30 00 49 8D 52
+mov Address: 0x7ff66f97ebaf
+mov value: 46A6CC01E0826106
+call Address: 0x7ff66f97eba3
+mov ASM: mov     rcx, 46A6CC01E0826106h
+
+
+lea Address: 0x7ff66f97eed9
+lea Address - Imagebase: 0x108eed9
+lea sub Hex View: 48 83 EC 58 4C 8B 51 10 F3 41 0F 10 42 38 41 83
+mov Address: 0x7ff66f97eee0
+mov value: 659427E0EF36BCDE
+call Address: 0x7ff66f97eed4
+mov ASM: mov     rcx, 659427E0EF36BCDEh
+
+
+lea Address: 0x7ff66f97ef04
+lea Address - Imagebase: 0x108ef04
+lea sub Hex View: 48 83 EC 58 4C 8B 49 10 41 83 79 50 00 4D 8D 41
+mov Address: 0x7ff66f97ef0b
+mov value: 7F241A0D14354583
+call Address: 0x7ff66f97eeff
+mov ASM: mov     rcx, 7F241A0D14354583h
+
+
+lea Address: 0x7ff66f97ef2f
+lea Address - Imagebase: 0x108ef2f
+lea sub Hex View: 48 83 EC 48 4C 8B 41 10 F3 41 0F 10 40 40 49 8D
+mov Address: 0x7ff66f97ef36
+mov value: 391073B9D3CCE2BA
+call Address: 0x7ff66f97ef2a
+mov ASM: mov     rcx, 391073B9D3CCE2BAh
+
+
+lea Address: 0x7ff66f97ef85
+lea Address - Imagebase: 0x108ef85
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 45 33 C0 41 8B 42 38 4D
+mov Address: 0x7ff66f97ef8c
+mov value: 089FF2FB965F0A29
+call Address: 0x7ff66f97ef80
+mov ASM: mov     rcx, 89FF2FB965F0A29h
+
+
+lea Address: 0x7ff66f97efb0
+lea Address - Imagebase: 0x108efb0
+lea sub Hex View: 48 83 EC 48 48 8B 51 10 41 B0 01 33 C9 8B 42 30
+mov Address: 0x7ff66f97efb7
+mov value: 6524A8981E8BE7C9
+call Address: 0x7ff66f97efab
+mov ASM: mov     rcx, 6524A8981E8BE7C9h
+
+
+lea Address: 0x7ff66f97f031
+lea Address - Imagebase: 0x108f031
+lea sub Hex View: 48 83 EC 58 4C 8B 51 10 F3 41 0F 10 42 38 41 83
+mov Address: 0x7ff66f97f038
+mov value: 9454528DF15D657A
+call Address: 0x7ff66f97f02c
+mov ASM: mov     rcx, 9454528DF15D657Ah
+
+
+lea Address: 0x7ff66f97f087
+lea Address - Imagebase: 0x108f087
+lea sub Hex View: 48 83 EC 58 4C 8B 51 10 F3 41 0F 10 42 40 41 8B
+mov Address: 0x7ff66f97f08e
+mov value: 0FA6E4B75F302400
+call Address: 0x7ff66f97f082
+mov ASM: mov     rcx, 0FA6E4B75F302400h
+
+
+lea Address: 0x7ff66f97f0b2
+lea Address - Imagebase: 0x108f0b2
+lea sub Hex View: 48 83 EC 58 4C 8B 51 10 41 8B 42 58 49 8D 52 20
+mov Address: 0x7ff66f97f0b9
+mov value: 15C86013127CE63F
+call Address: 0x7ff66f97f0ad
+mov ASM: mov     rcx, 15C86013127CE63Fh
+
+
+lea Address: 0x7ff66f97f108
+lea Address - Imagebase: 0x108f108
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 8B 42 48 4D 8D 4A 18
+mov Address: 0x7ff66f97f10f
+mov value: 2F8AF0E82773A171
+call Address: 0x7ff66f97f103
+mov ASM: mov     rcx, 2F8AF0E82773A171h
+
+
+lea Address: 0x7ff66f97f4e5
+lea Address - Imagebase: 0x108f4e5
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 0F 57 C0 F3 0F 11 44 24
+mov Address: 0x7ff66f97f4ec
+mov value: D04FE6765D990A06
+call Address: 0x7ff66f97f4e0
+mov ASM: mov     rcx, 0D04FE6765D990A06h
+
+
+lea Address: 0x7ff66f97f73f
+lea Address - Imagebase: 0x108f73f
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 38 49 8D
+mov Address: 0x7ff66f97f746
+mov value: 75AC2B60386D89F2
+call Address: 0x7ff66f97f73a
+mov ASM: mov     rcx, 75AC2B60386D89F2h
+
+
+lea Address: 0x7ff66f97f76a
+lea Address - Imagebase: 0x108f76a
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 28 45 8B
+mov Address: 0x7ff66f97f771
+mov value: 84D32B3BEC531324
+call Address: 0x7ff66f97f765
+mov ASM: mov     rcx, 84D32B3BEC531324h
+
+
+lea Address: 0x7ff66f97f795
+lea Address - Imagebase: 0x108f795
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 33 C0 41 39 42 40 4D 8D
+mov Address: 0x7ff66f97f79c
+mov value: D43D95C7A869447F
+call Address: 0x7ff66f97f790
+mov ASM: mov     rcx, 0D43D95C7A869447Fh
+
+
+lea Address: 0x7ff66f97f7c0
+lea Address - Imagebase: 0x108f7c0
+lea sub Hex View: 48 83 EC 48 4C 8B 59 10 33 C0 41 39 43 50 4D 8D
+mov Address: 0x7ff66f97f7c7
+mov value: 39246A6958EF072C
+call Address: 0x7ff66f97f7bb
+mov ASM: mov     rcx, 39246A6958EF072Ch
+
+
+lea Address: 0x7ff66f97f841
+lea Address - Imagebase: 0x108f841
+lea sub Hex View: 48 83 EC 48 4C 8B 49 10 41 83 79 28 00 41 8B 41
+mov Address: 0x7ff66f97f848
+mov value: 1C6CD14A876FFE39
+call Address: 0x7ff66f97f83c
+mov ASM: mov     rcx, 1C6CD14A876FFE39h
+
+
+lea Address: 0x7ff66f97f86c
+lea Address - Imagebase: 0x108f86c
+lea sub Hex View: 48 83 EC 48 4C 8B 49 10 41 83 79 28 00 41 8B 41
+mov Address: 0x7ff66f97f873
+mov value: A05F3F20889D7A5B
+call Address: 0x7ff66f97f867
+mov ASM: mov     rcx, 0A05F3F20889D7A5Bh
+
+
+lea Address: 0x7ff66f97f999
+lea Address - Imagebase: 0x108f999
+lea sub Hex View: 48 83 EC 38 4C 8B 49 10 41 8B 41 38 4D 8D 41 10
+mov Address: 0x7ff66f97f9a0
+mov value: 1FC9B33976BACD6C
+call Address: 0x7ff66f97f994
+mov ASM: mov     rcx, 1FC9B33976BACD6Ch
+
+
+lea Address: 0x7ff66f97f9c4
+lea Address - Imagebase: 0x108f9c4
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 41 8B 40 30 49 8D 50 08
+mov Address: 0x7ff66f97f9cb
+mov value: D2A207EEBDF9889B
+call Address: 0x7ff66f97f9bf
+mov ASM: mov     rcx, 0D2A207EEBDF9889Bh
+
+
+lea Address: 0x7ff66f97fa70
+lea Address - Imagebase: 0x108fa70
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 33 D2 39 51 48 41 0F 95
+mov Address: 0x7ff66f97fa77
+mov value: 45C597097DD7CB81
+call Address: 0x7ff66f97fa6b
+mov ASM: mov     rcx, 45C597097DD7CB81h
+
+
+lea Address: 0x7ff66f97fa9b
+lea Address - Imagebase: 0x108fa9b
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 20 0F 95
+mov Address: 0x7ff66f97faa2
+mov value: EB2ED1DC3AEC0654
+call Address: 0x7ff66f97fa96
+mov ASM: mov     rcx, 0EB2ED1DC3AEC0654h
+
+
+lea Address: 0x7ff66f980280
+lea Address - Imagebase: 0x1090280
+lea sub Hex View: 48 83 EC 58 4C 8B 51 10 33 C9 41 39 4A 48 F3 41
+mov Address: 0x7ff66f980287
+mov value: CCDAE6324B6A821C
+call Address: 0x7ff66f98027b
+mov ASM: mov     rcx, 0CCDAE6324B6A821Ch
+
+
+lea Address: 0x7ff66f9802ab
+lea Address - Imagebase: 0x10902ab
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 83 7A 38 00 F3 41 0F
+mov Address: 0x7ff66f9802b2
+mov value: 0F6641449DD86FBE
+call Address: 0x7ff66f9802a6
+mov ASM: mov     rcx, 0F6641449DD86FBEh
+
+
+lea Address: 0x7ff66f9802d6
+lea Address - Imagebase: 0x10902d6
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 83 7A 30 00 F3 41 0F
+mov Address: 0x7ff66f9802dd
+mov value: 524B54361229154F
+call Address: 0x7ff66f9802d1
+mov ASM: mov     rcx, 524B54361229154Fh
+
+
+lea Address: 0x7ff66f980301
+lea Address - Imagebase: 0x1090301
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 83 7A 30 00 F3 41 0F
+mov Address: 0x7ff66f980308
+mov value: A917E39F2CEFD215
+call Address: 0x7ff66f9802fc
+mov ASM: mov     rcx, 0A917E39F2CEFD215h
+
+
+lea Address: 0x7ff66f98032c
+lea Address - Imagebase: 0x109032c
+lea sub Hex View: 48 83 EC 58 4C 8B 51 10 33 C9 41 39 4A 58 4D 8D
+mov Address: 0x7ff66f980333
+mov value: 4D1F61FC34AF3CD1
+call Address: 0x7ff66f980327
+mov ASM: mov     rcx, 4D1F61FC34AF3CD1h
+
+
+lea Address: 0x7ff66f980403
+lea Address - Imagebase: 0x1090403
+lea sub Hex View: 48 83 EC 48 4C 8B 59 10 33 C0 41 39 43 48 49 8D
+mov Address: 0x7ff66f98040a
+mov value: 322BFDEA666E2B0E
+call Address: 0x7ff66f9803fe
+mov ASM: mov     rcx, 322BFDEA666E2B0Eh
+
+
+lea Address: 0x7ff66f98042e
+lea Address - Imagebase: 0x109042e
+lea sub Hex View: 48 83 EC 48 4C 8B 59 10 33 C0 41 39 43 48 49 8D
+mov Address: 0x7ff66f980435
+mov value: 58E2E0F23F6B76C3
+call Address: 0x7ff66f980429
+mov ASM: mov     rcx, 58E2E0F23F6B76C3h
+
+
+lea Address: 0x7ff66f980484
+lea Address - Imagebase: 0x1090484
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 33 C0 41 39 42 40 49 8D
+mov Address: 0x7ff66f98048b
+mov value: 9FDA1B3D7E7028B3
+call Address: 0x7ff66f98047f
+mov ASM: mov     rcx, 9FDA1B3D7E7028B3h
+
+
+lea Address: 0x7ff66f9804af
+lea Address - Imagebase: 0x10904af
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 33 C0 41 39 42 40 49 8D
+mov Address: 0x7ff66f9804b6
+mov value: 97A28E63F0BA5631
+call Address: 0x7ff66f9804aa
+mov ASM: mov     rcx, 97A28E63F0BA5631h
+
+
+lea Address: 0x7ff66f98065d
+lea Address - Imagebase: 0x109065d
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 33 C9 41 39 4A 30 41 0F
+mov Address: 0x7ff66f980664
+mov value: B8E213D02F37947D
+call Address: 0x7ff66f980658
+mov ASM: mov     rcx, 0B8E213D02F37947Dh
+
+
+lea Address: 0x7ff66f980b92
+lea Address - Imagebase: 0x1090b92
+lea sub Hex View: 48 83 EC 28 4C 8B 41 10 48 8D 54 24 30 41 8B 40
+mov Address: 0x7ff66f980b99
+mov value: FF8AFCA532B500D4
+call Address: 0x7ff66f980b8d
+mov ASM: mov     rcx, 0FF8AFCA532B500D4h
+
+
+lea Address: 0x7ff66f981046
+lea Address - Imagebase: 0x1091046
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 41 8B 40 30 49 8D 50 08
+mov Address: 0x7ff66f98104d
+mov value: 4CF5F55DAC3280A0
+call Address: 0x7ff66f981041
+mov ASM: mov     rcx, 4CF5F55DAC3280A0h
+
+
+lea Address: 0x7ff66f9811c9
+lea Address - Imagebase: 0x10911c9
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 20 0F 95
+mov Address: 0x7ff66f9811d0
+mov value: A21C51255B205245
+call Address: 0x7ff66f9811c4
+mov ASM: mov     rcx, 0A21C51255B205245h
+
+
+lea Address: 0x7ff66f9812cb
+lea Address - Imagebase: 0x10912cb
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 28 41 83 7A 10
+mov Address: 0x7ff66f9812d2
+mov value: 30A768C30D385EC5
+call Address: 0x7ff66f9812c6
+mov ASM: mov     rcx, 30A768C30D385EC5h
+
+
+lea Address: 0x7ff66f98144e
+lea Address - Imagebase: 0x109144e
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 48 4D 8D 4A 28
+mov Address: 0x7ff66f981455
+mov value: 8EDF950167586B7C
+call Address: 0x7ff66f981449
+mov ASM: mov     rcx, 8EDF950167586B7Ch
+
+
+lea Address: 0x7ff66f981525
+lea Address - Imagebase: 0x1091525
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 20 00 45 8B 42
+mov Address: 0x7ff66f98152c
+mov value: BDA5DF49D080FE4E
+call Address: 0x7ff66f981520
+mov ASM: mov     rcx, 0BDA5DF49D080FE4Eh
+
+
+lea Address: 0x7ff66f981550
+lea Address - Imagebase: 0x1091550
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 38 00 4D 8D 4A
+mov Address: 0x7ff66f981557
+mov value: 964B06C88E4C86DB
+call Address: 0x7ff66f98154b
+mov ASM: mov     rcx, 964B06C88E4C86DBh
+
+
+lea Address: 0x7ff66f98167d
+lea Address - Imagebase: 0x109167d
+lea sub Hex View: 48 83 EC 38 4C 8B 49 10 F3 41 0F 10 41 38 4D 8D
+mov Address: 0x7ff66f981684
+mov value: 195AEEB13CEFE2EE
+call Address: 0x7ff66f981678
+mov ASM: mov     rcx, 195AEEB13CEFE2EEh
+
+
+lea Address: 0x7ff66f9817aa
+lea Address - Imagebase: 0x10917aa
+lea sub Hex View: 48 83 EC 68 4C 8B 59 10 41 83 7B 58 00 4D 8D 43
+mov Address: 0x7ff66f9817b1
+mov value: A55547801EB331FC
+call Address: 0x7ff66f9817a5
+mov ASM: mov     rcx, 0A55547801EB331FCh
+
+
+lea Address: 0x7ff66f9817d5
+lea Address - Imagebase: 0x10917d5
+lea sub Hex View: 48 83 EC 68 4C 8B 59 10 41 83 7B 58 00 4D 8D 43
+mov Address: 0x7ff66f9817dc
+mov value: 87BD711FC31EA273
+call Address: 0x7ff66f9817d0
+mov ASM: mov     rcx, 87BD711FC31EA273h
+
+
+lea Address: 0x7ff66f9819d9
+lea Address - Imagebase: 0x10919d9
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 83 7A 30 00 41 8B 42
+mov Address: 0x7ff66f9819e0
+mov value: 0759591819534F7B
+call Address: 0x7ff66f9819d4
+mov ASM: mov     rcx, 759591819534F7Bh
+
+
+lea Address: 0x7ff66f981a04
+lea Address - Imagebase: 0x1091a04
+lea sub Hex View: 48 83 EC 48 4C 8B 41 10 41 83 78 30 00 45 8B 48
+mov Address: 0x7ff66f981a0b
+mov value: BE9B0520BD7C445B
+call Address: 0x7ff66f9819ff
+mov ASM: mov     rcx, 0BE9B0520BD7C445Bh
+
+
+lea Address: 0x7ff66f981a2f
+lea Address - Imagebase: 0x1091a2f
+lea sub Hex View: 48 83 EC 58 4C 8B 49 10 41 83 79 40 00 F3 41 0F
+mov Address: 0x7ff66f981a36
+mov value: 4D2B787BAE9AB760
+call Address: 0x7ff66f981a2a
+mov ASM: mov     rcx, 4D2B787BAE9AB760h
+
+
+lea Address: 0x7ff66f981c5e
+lea Address - Imagebase: 0x1091c5e
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 95 EB 40 FF 48
+mov Address: 0x7ff66f981c65
+mov value: 6599D834B12D0800
+call Address: 0x7ff66f981c59
+mov ASM: mov     rcx, 6599D834B12D0800h
+
+
+lea Address: 0x7ff66f981cb4
+lea Address - Imagebase: 0x1091cb4
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 83 79 20 00 F3 0F 10 59
+mov Address: 0x7ff66f981cbb
+mov value: 5A353B8E6B1095B5
+call Address: 0x7ff66f981caf
+mov ASM: mov     rcx, 5A353B8E6B1095B5h
+
+
+lea Address: 0x7ff66f981de1
+lea Address - Imagebase: 0x1091de1
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 B1 EB 40 FF 48
+mov Address: 0x7ff66f981de8
+mov value: 47EFA040EBB8E2EA
+call Address: 0x7ff66f981ddc
+mov ASM: mov     rcx, 47EFA040EBB8E2EAh
+
+
+lea Address: 0x7ff66f981f0e
+lea Address - Imagebase: 0x1091f0e
+lea sub Hex View: 48 83 EC 68 4C 8B 51 10 41 83 7A 50 00 F3 41 0F
+mov Address: 0x7ff66f981f15
+mov value: 3123FAA6DB1CF7ED
+call Address: 0x7ff66f981f09
+mov ASM: mov     rcx, 3123FAA6DB1CF7EDh
+
+
+lea Address: 0x7ff66f981f39
+lea Address - Imagebase: 0x1091f39
+lea sub Hex View: 48 83 EC 58 4C 8B 51 10 41 83 7A 48 00 F3 41 0F
+mov Address: 0x7ff66f981f40
+mov value: 041D17A9E221AE30
+call Address: 0x7ff66f981f34
+mov ASM: mov     rcx, 41D17A9E221AE30h
+
+
+lea Address: 0x7ff66f982193
+lea Address - Imagebase: 0x1092193
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 41 8B 40 28 41 83 78 18
+mov Address: 0x7ff66f98219a
+mov value: 2D537BA194896636
+call Address: 0x7ff66f98218e
+mov ASM: mov     rcx, 2D537BA194896636h
+
+
+lea Address: 0x7ff66f9821be
+lea Address - Imagebase: 0x10921be
+lea sub Hex View: 48 83 EC 48 4C 8B 49 10 41 8B 41 30 41 83 79 20
+mov Address: 0x7ff66f9821c5
+mov value: 139805C2A67C4795
+call Address: 0x7ff66f9821b9
+mov ASM: mov     rcx, 139805C2A67C4795h
+
+
+lea Address: 0x7ff66f9821e9
+lea Address - Imagebase: 0x10921e9
+lea sub Hex View: 48 83 EC 68 4C 8B 51 10 41 83 7A 70 00 4D 8D 42
+mov Address: 0x7ff66f9821f0
+mov value: 7B6A04F98BBAFB2C
+call Address: 0x7ff66f9821e4
+mov ASM: mov     rcx, 7B6A04F98BBAFB2Ch
+
+
+lea Address: 0x7ff66f98279f
+lea Address - Imagebase: 0x109279f
+lea sub Hex View: 48 83 EC 58 4C 8B 51 10 F3 41 0F 10 42 48 49 8D
+mov Address: 0x7ff66f9827a6
+mov value: 5D5B0D5BC3626E5A
+call Address: 0x7ff66f98279a
+mov ASM: mov     rcx, 5D5B0D5BC3626E5Ah
+
+
+lea Address: 0x7ff66f982922
+lea Address - Imagebase: 0x1092922
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 45 8B 4A 18
+mov Address: 0x7ff66f982929
+mov value: F0B4F759F35CC7F5
+call Address: 0x7ff66f98291d
+mov ASM: mov     rcx, 0F0B4F759F35CC7F5h
+
+
+lea Address: 0x7ff66f9829ce
+lea Address - Imagebase: 0x10929ce
+lea sub Hex View: 48 83 EC 38 4C 8B 49 10 41 8B 41 30 4D 8D 41 10
+mov Address: 0x7ff66f9829d5
+mov value: C7F0B43DCDC57E3D
+call Address: 0x7ff66f9829c9
+mov ASM: mov     rcx, 0C7F0B43DCDC57E3Dh
+
+
+lea Address: 0x7ff66f98373e
+lea Address - Imagebase: 0x109373e
+lea sub Hex View: 48 83 EC 38 4C 8B 49 10 41 8B 41 30 4D 8D 41 10
+mov Address: 0x7ff66f983745
+mov value: 517D01BF27B682D1
+call Address: 0x7ff66f983739
+mov ASM: mov     rcx, 517D01BF27B682D1h
+
+
+lea Address: 0x7ff66f983815
+lea Address - Imagebase: 0x1093815
+lea sub Hex View: 48 83 EC 58 4C 8B 59 10 33 C0 41 39 43 40 41 8B
+mov Address: 0x7ff66f98381c
+mov value: B31A277C1AC7B7FF
+call Address: 0x7ff66f983810
+mov ASM: mov     rcx, 0B31A277C1AC7B7FFh
+
+
+lea Address: 0x7ff66f983840
+lea Address - Imagebase: 0x1093840
+lea sub Hex View: 48 83 EC 58 4C 8B 59 10 33 C0 41 39 43 40 41 8B
+mov Address: 0x7ff66f983847
+mov value: 884E3436CC1F41DD
+call Address: 0x7ff66f98383b
+mov ASM: mov     rcx, 884E3436CC1F41DDh
+
+
+lea Address: 0x7ff66f98399a
+lea Address - Imagebase: 0x109399a
+lea sub Hex View: 48 83 EC 28 8A D1 48 8B 0D 93 BA DF 02 48 85 C9
+mov Address: 0x7ff66f9839ad
+mov value: 9BEE018A63FFFAD9
+call Address: 0x7ff66f9839a1
+mov ASM: mov     rcx, 9BEE018A63FFFAD9h
+
+
+lea Address: 0x7ff66f983a42
+lea Address - Imagebase: 0x1093a42
+lea sub Hex View: 48 83 EC 28 80 3D C9 56 21 04 00 48 8B 41 10 75
+mov Address: 0x7ff66f983a49
+mov value: 8EC7890D446BD9C1
+call Address: 0x7ff66f983a3d
+mov ASM: mov     rcx, 8EC7890D446BD9C1h
+
+
+lea Address: 0x7ff66f983ab7
+lea Address - Imagebase: 0x1093ab7
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 41 83 7A 30 00 45 8B 4A
+mov Address: 0x7ff66f983abe
+mov value: 4C08D2B6D8BE17E4
+call Address: 0x7ff66f983ab2
+mov ASM: mov     rcx, 4C08D2B6D8BE17E4h
+
+
+lea Address: 0x7ff66f983b05
+lea Address - Imagebase: 0x1093b05
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 83 79 20 00 4C 8B 49 18
+mov Address: 0x7ff66f983b0c
+mov value: A2058154357726BB
+call Address: 0x7ff66f983b00
+mov ASM: mov     rcx, 0A2058154357726BBh
+
+
+lea Address: 0x7ff66f983ba1
+lea Address - Imagebase: 0x1093ba1
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 85 C9 74 05 E8 FD
+mov Address: 0x7ff66f983ba8
+mov value: AE693EC3A178F6C2
+call Address: 0x7ff66f983b9c
+mov ASM: mov     rcx, 0AE693EC3A178F6C2h
+
+
+lea Address: 0x7ff66f983c16
+lea Address - Imagebase: 0x1093c16
+lea sub Hex View: 48 83 EC 38 4C 8B 49 10 41 8B 09 41 8B 51 08 45
+mov Address: 0x7ff66f983c1d
+mov value: 217F47761376E16E
+call Address: 0x7ff66f983c11
+mov ASM: mov     rcx, 217F47761376E16Eh
+
+
+lea Address: 0x7ff66f983c3d
+lea Address - Imagebase: 0x1093c3d
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 85 C9 74 05 E8 C5
+mov Address: 0x7ff66f983c44
+mov value: CD6F8A0335D821F9
+call Address: 0x7ff66f983c38
+mov ASM: mov     rcx, 0CD6F8A0335D821F9h
+
+
+lea Address: 0x7ff66f983cb2
+lea Address - Imagebase: 0x1093cb2
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 85 C9 74 15 8B 50
+mov Address: 0x7ff66f983cb9
+mov value: CA9E42F437625A85
+call Address: 0x7ff66f983cad
+mov ASM: mov     rcx, 0CA9E42F437625A85h
+
+
+lea Address: 0x7ff66f983cd9
+lea Address - Imagebase: 0x1093cd9
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 45 8B 4A 18
+mov Address: 0x7ff66f983ce0
+mov value: 2A374E6F0075EE81
+call Address: 0x7ff66f983cd4
+mov ASM: mov     rcx, 2A374E6F0075EE81h
+
+
+lea Address: 0x7ff66f983d00
+lea Address - Imagebase: 0x1093d00
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 45 8B 4A 18
+mov Address: 0x7ff66f983d07
+mov value: 9BD8A9D0A774A6F8
+call Address: 0x7ff66f983cfb
+mov ASM: mov     rcx, 9BD8A9D0A774A6F8h
+
+
+lea Address: 0x7ff66f983d9c
+lea Address - Imagebase: 0x1093d9c
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 30 4D 8D 42 10
+mov Address: 0x7ff66f983da3
+mov value: 3145044F3990D321
+call Address: 0x7ff66f983d97
+mov ASM: mov     rcx, 3145044F3990D321h
+
+
+lea Address: 0x7ff66f983dc3
+lea Address - Imagebase: 0x1093dc3
+lea sub Hex View: 48 83 EC 28 80 3D 79 58 21 04 00 75 0F 48 8B 41
+mov Address: 0x7ff66f983dca
+mov value: F5EAD898EF387E73
+call Address: 0x7ff66f983dbe
+mov ASM: mov     rcx, 0F5EAD898EF387E73h
+
+
+lea Address: 0x7ff66f983e38
+lea Address - Imagebase: 0x1093e38
+lea sub Hex View: 48 83 EC 58 48 8B 49 10 83 79 40 00 44 8B 49 18
+mov Address: 0x7ff66f983e3f
+mov value: DF516E598D966D06
+call Address: 0x7ff66f983e33
+mov ASM: mov     rcx, 0DF516E598D966D06h
+
+
+lea Address: 0x7ff66f983e5f
+lea Address - Imagebase: 0x1093e5f
+lea sub Hex View: 48 83 EC 68 48 8B 49 10 8B 41 50 44 8B 49 18 44
+mov Address: 0x7ff66f983e66
+mov value: B5013EFBB5516867
+call Address: 0x7ff66f983e5a
+mov ASM: mov     rcx, 0B5013EFBB5516867h
+
+
+lea Address: 0x7ff66f983e86
+lea Address - Imagebase: 0x1093e86
+lea sub Hex View: 48 83 EC 48 48 8B 49 10 83 79 30 00 44 8B 49 18
+mov Address: 0x7ff66f983e8d
+mov value: D6CB05DDAEE43AFD
+call Address: 0x7ff66f983e81
+mov ASM: mov     rcx, 0D6CB05DDAEE43AFDh
+
+
+lea Address: 0x7ff66f983ead
+lea Address - Imagebase: 0x1093ead
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 48 8B 50 08 48 85 D2 74
+mov Address: 0x7ff66f983eb4
+mov value: EA323F5E1A4DA2F1
+call Address: 0x7ff66f983ea8
+mov ASM: mov     rcx, 0EA323F5E1A4DA2F1h
+
+
+lea Address: 0x7ff66f983efb
+lea Address - Imagebase: 0x1093efb
+lea sub Hex View: 48 83 EC 28 80 3D 29 59 21 04 00 48 8B 41 10 75
+mov Address: 0x7ff66f983f02
+mov value: E6DC9B21AC7A8729
+call Address: 0x7ff66f983ef6
+mov ASM: mov     rcx, 0E6DC9B21AC7A8729h
+
+
+lea Address: 0x7ff66f983f49
+lea Address - Imagebase: 0x1093f49
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 45 8B 4A 18 49 8D 42 20
+mov Address: 0x7ff66f983f50
+mov value: A72773C3134F9A57
+call Address: 0x7ff66f983f44
+mov ASM: mov     rcx, 0A72773C3134F9A57h
+
+
+lea Address: 0x7ff66f983fbe
+lea Address - Imagebase: 0x1093fbe
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 45 8B 4A 18
+mov Address: 0x7ff66f983fc5
+mov value: F37A2149BC9A8A27
+call Address: 0x7ff66f983fb9
+mov ASM: mov     rcx, 0F37A2149BC9A8A27h
+
+
+lea Address: 0x7ff66f984081
+lea Address - Imagebase: 0x1094081
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 44 8B 40 10 45 85 C0 74
+mov Address: 0x7ff66f984088
+mov value: 2C24AF8EEEEF8A55
+call Address: 0x7ff66f98407c
+mov ASM: mov     rcx, 2C24AF8EEEEF8A55h
+
+
+lea Address: 0x7ff66f9840a8
+lea Address - Imagebase: 0x10940a8
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 44 8B 40 10 45 85 C0 74
+mov Address: 0x7ff66f9840af
+mov value: 16B23D4F7A1F50D9
+call Address: 0x7ff66f9840a3
+mov ASM: mov     rcx, 16B23D4F7A1F50D9h
+
+
+lea Address: 0x7ff66f9840cf
+lea Address - Imagebase: 0x10940cf
+lea sub Hex View: 48 83 EC 58 48 8B 49 10 83 79 48 00 44 8B 41 10
+mov Address: 0x7ff66f9840d6
+mov value: 8127C5AA05C5A210
+call Address: 0x7ff66f9840ca
+mov ASM: mov     rcx, 8127C5AA05C5A210h
+
+
+lea Address: 0x7ff66f984192
+lea Address - Imagebase: 0x1094192
+lea sub Hex View: 48 83 EC 48 48 8B 49 10 8B 41 30 44 8B 49 18 44
+mov Address: 0x7ff66f984199
+mov value: B204BF9F30298D77
+call Address: 0x7ff66f98418d
+mov ASM: mov     rcx, 0B204BF9F30298D77h
+
+
+lea Address: 0x7ff66f984207
+lea Address - Imagebase: 0x1094207
+lea sub Hex View: 48 83 EC 48 48 8B 49 10 83 79 30 00 44 8B 49 18
+mov Address: 0x7ff66f98420e
+mov value: 4AC38DFD286DAD14
+call Address: 0x7ff66f984202
+mov ASM: mov     rcx, 4AC38DFD286DAD14h
+
+
+lea Address: 0x7ff66f9842f1
+lea Address - Imagebase: 0x10942f1
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 8B 41 28 44 8B 49 18 44
+mov Address: 0x7ff66f9842f8
+mov value: 32C2939564D74BFF
+call Address: 0x7ff66f9842ec
+mov ASM: mov     rcx, 32C2939564D74BFFh
+
+
+lea Address: 0x7ff66f984318
+lea Address - Imagebase: 0x1094318
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 8B 41 28 44 8B 49 18 44
+mov Address: 0x7ff66f98431f
+mov value: 621D719C4836292B
+call Address: 0x7ff66f984313
+mov ASM: mov     rcx, 621D719C4836292Bh
+
+
+lea Address: 0x7ff66f984402
+lea Address - Imagebase: 0x1094402
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 83 79 20 00 44 8B 41 10
+mov Address: 0x7ff66f984409
+mov value: 61559675D23D8BD1
+call Address: 0x7ff66f9843fd
+mov ASM: mov     rcx, 61559675D23D8BD1h
+
+
+lea Address: 0x7ff66f984429
+lea Address - Imagebase: 0x1094429
+lea sub Hex View: 48 83 EC 58 48 8B 49 10 8B 41 48 83 79 40 00 44
+mov Address: 0x7ff66f984430
+mov value: 6FB9EA308F302922
+call Address: 0x7ff66f984424
+mov ASM: mov     rcx, 6FB9EA308F302922h
+
+
+lea Address: 0x7ff66f984450
+lea Address - Imagebase: 0x1094450
+lea sub Hex View: 48 83 EC 58 4C 8B 41 10 33 C9 41 39 48 40 F3 41
+mov Address: 0x7ff66f984457
+mov value: 0777D65EE8A17517
+call Address: 0x7ff66f98444b
+mov ASM: mov     rcx, 777D65EE8A17517h
+
+
+lea Address: 0x7ff66f98453a
+lea Address - Imagebase: 0x109453a
+lea sub Hex View: 48 83 EC 48 48 8B 49 10 48 8B 41 30 4C 8B 49 18
+mov Address: 0x7ff66f984541
+mov value: 7207AD471BC9278C
+call Address: 0x7ff66f984535
+mov ASM: mov     rcx, 7207AD471BC9278Ch
+
+
+lea Address: 0x7ff66f984687
+lea Address - Imagebase: 0x1094687
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 33 D2 48 8B 08 E8 1E 73
+mov Address: 0x7ff66f98468e
+mov value: 4ACA10A91F66F1E2
+call Address: 0x7ff66f984682
+mov ASM: mov     rcx, 4ACA10A91F66F1E2h
+
+
+lea Address: 0x7ff66f98491a
+lea Address - Imagebase: 0x109491a
+lea sub Hex View: 48 83 EC 28 89 4C 24 30 48 8D 4C 24 30 E8 06 00
+mov Address: 0x7ff66f98492d
+mov value: 25B7A0206BDFAC76
+call Address: 0x7ff66f984921
+mov ASM: mov     rcx, 25B7A0206BDFAC76h
+
+
+lea Address: 0x7ff66f984a10
+lea Address - Imagebase: 0x1094a10
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 33 D2 8B 08 89 4C 24 30
+mov Address: 0x7ff66f984a17
+mov value: 2FF10C9C3F92277E
+call Address: 0x7ff66f984a0b
+mov ASM: mov     rcx, 2FF10C9C3F92277Eh
+
+
+lea Address: 0x7ff66f984a37
+lea Address - Imagebase: 0x1094a37
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 B2 01 8B 08 89 4C 24 30
+mov Address: 0x7ff66f984a3e
+mov value: 04428420A248A354
+call Address: 0x7ff66f984a32
+mov ASM: mov     rcx, 4428420A248A354h
+
+
+lea Address: 0x7ff66f984aac
+lea Address - Imagebase: 0x1094aac
+lea sub Hex View: 48 83 EC 28 48 8B 0D A5 BE A3 03 48 85 C9 74 0A
+mov Address: 0x7ff66f984ab3
+mov value: AD7B70F7230C5A12
+call Address: 0x7ff66f984aa7
+mov ASM: mov     rcx, 0AD7B70F7230C5A12h
+
+
+lea Address: 0x7ff66f984ad3
+lea Address - Imagebase: 0x1094ad3
+lea sub Hex View: 48 83 EC 28 48 8B 0D E1 AA A3 03 48 85 C9 74 0A
+mov Address: 0x7ff66f984ada
+mov value: 12769EEB8DBD7A7B
+call Address: 0x7ff66f984ace
+mov ASM: mov     rcx, 12769EEB8DBD7A7Bh
+
+
+lea Address: 0x7ff66f984c9a
+lea Address - Imagebase: 0x1094c9a
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 48 8D 54 24 30 8B 08 89
+mov Address: 0x7ff66f984ca1
+mov value: 8E8A2369F48EC839
+call Address: 0x7ff66f984c95
+mov ASM: mov     rcx, 8E8A2369F48EC839h
+
+
+lea Address: 0x7ff66f985177
+lea Address - Imagebase: 0x1095177
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 48 8B 0D D1 54 A3 03 8B
+mov Address: 0x7ff66f98517e
+mov value: 6965469934958D8F
+call Address: 0x7ff66f985172
+mov ASM: mov     rcx, 6965469934958D8Fh
+
+
+lea Address: 0x7ff66f98519e
+lea Address - Imagebase: 0x109519e
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 48 8B 0D FD 54 A3 03 8B
+mov Address: 0x7ff66f9851a5
+mov value: 69684D9936958D8F
+call Address: 0x7ff66f985199
+mov ASM: mov     rcx, 69684D9936958D8Fh
+
+
+lea Address: 0x7ff66f98523a
+lea Address - Imagebase: 0x109523a
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 48 8B 0D B5 55 A3 03 48
+mov Address: 0x7ff66f985241
+mov value: 13E8D7DD08543482
+call Address: 0x7ff66f985235
+mov ASM: mov     rcx, 13E8D7DD08543482h
+
+
+lea Address: 0x7ff66f9852d6
+lea Address - Imagebase: 0x10952d6
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 48 8B 0D 79 54 A3 03 48
+mov Address: 0x7ff66f9852dd
+mov value: A49D6D503E3EA847
+call Address: 0x7ff66f9852d1
+mov ASM: mov     rcx, 0A49D6D503E3EA847h
+
+
+lea Address: 0x7ff66f98534b
+lea Address - Imagebase: 0x109534b
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 33 C0 41 39 42 30 4D 8B
+mov Address: 0x7ff66f985352
+mov value: B43163388484CC87
+call Address: 0x7ff66f985346
+mov ASM: mov     rcx, 0B43163388484CC87h
+
+
+lea Address: 0x7ff66f985372
+lea Address - Imagebase: 0x1095372
+lea sub Hex View: 48 83 EC 48 48 8B 51 10 48 8B 0D 05 57 A3 03 83
+mov Address: 0x7ff66f985379
+mov value: A20398536B7F1134
+call Address: 0x7ff66f98536d
+mov ASM: mov     rcx, 0A20398536B7F1134h
+
+
+lea Address: 0x7ff66f9854f8
+lea Address - Imagebase: 0x10954f8
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 42 20 4D 8B 4A 18
+mov Address: 0x7ff66f9854ff
+mov value: 60C59968E8E87E6B
+call Address: 0x7ff66f9854f3
+mov ASM: mov     rcx, 60C59968E8E87E6Bh
+
+
+lea Address: 0x7ff66f9905b4
+lea Address - Imagebase: 0x10a05b4
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 83 79 10 00 4C 8B 49 18
+mov Address: 0x7ff66f9905bb
+mov value: ED4B0C1057892B2E
+call Address: 0x7ff66f9905af
+mov ASM: mov     rcx, 0ED4B0C1057892B2Eh
+
+
+lea Address: 0x7ff66f9905db
+lea Address - Imagebase: 0x10a05db
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 83 79 10 00 8B 41 20 4C
+mov Address: 0x7ff66f9905e2
+mov value: 9BB83C4DD7BE0802
+call Address: 0x7ff66f9905d6
+mov ASM: mov     rcx, 9BB83C4DD7BE0802h
+
+
+lea Address: 0x7ff66f990602
+lea Address - Imagebase: 0x10a0602
+lea sub Hex View: 48 83 EC 28 E8 9F C5 E3 FF 48 8B C8 48 83 C4 28
+mov Address: 0x7ff66f990609
+mov value: E8346E62FD7FB962
+call Address: 0x7ff66f9905fd
+mov ASM: mov     rcx, 0E8346E62FD7FB962h
+
+
+lea Address: 0x7ff66f9907fd
+lea Address - Imagebase: 0x10a07fd
+lea sub Hex View: 48 83 EC 28 E8 9F C5 E3 FF 48 8B C8 48 83 C4 28
+mov Address: 0x7ff66f990804
+mov value: E0B45E983BFC0768
+call Address: 0x7ff66f9907f8
+mov ASM: mov     rcx, 0E0B45E983BFC0768h
+
+
+lea Address: 0x7ff66f99084b
+lea Address - Imagebase: 0x10a084b
+lea sub Hex View: 48 83 EC 28 E8 9F C5 E3 FF 48 8B C8 48 83 C4 28
+mov Address: 0x7ff66f990852
+mov value: A844FEB5C22C2C74
+call Address: 0x7ff66f990846
+mov ASM: mov     rcx, 0A844FEB5C22C2C74h
+
+
+lea Address: 0x7ff66f990a0c
+lea Address - Imagebase: 0x10a0a0c
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 4C 8D 0D FD 61 3A 02 48
+mov Address: 0x7ff66f990a13
+mov value: C6DFB8C04C86D5A5
+call Address: 0x7ff66f990a07
+mov ASM: mov     rcx, 0C6DFB8C04C86D5A5h
+
+
+lea Address: 0x7ff66f990b6b
+lea Address - Imagebase: 0x10a0b6b
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 33 D2 48 8B 08 E8 12 C9
+mov Address: 0x7ff66f990b72
+mov value: 46ED607DDD40D7FE
+call Address: 0x7ff66f990b66
+mov ASM: mov     rcx, 46ED607DDD40D7FEh
+
+
+lea Address: 0x7ff66f990b92
+lea Address - Imagebase: 0x10a0b92
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 33 D2 48 8B 08 E8 2E BE
+mov Address: 0x7ff66f990b99
+mov value: 0086D3067E1CFD1C
+call Address: 0x7ff66f990b8d
+mov ASM: mov     rcx, 86D3067E1CFD1Ch
+
+
+lea Address: 0x7ff66f990e02
+lea Address - Imagebase: 0x10a0e02
+lea sub Hex View: 48 83 EC 28 E8 C3 7A A4 01 48 8B C8 48 8B 10 48
+mov Address: 0x7ff66f990e09
+mov value: 5E8B6D17FF91CD59
+call Address: 0x7ff66f990dfd
+mov ASM: mov     rcx, 5E8B6D17FF91CD59h
+
+
+lea Address: 0x7ff66f990ffd
+lea Address - Imagebase: 0x10a0ffd
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 C6 44 24 30 00 83 4C 24
+mov Address: 0x7ff66f991004
+mov value: 5AE99C571D5BBE5D
+call Address: 0x7ff66f990ff8
+mov ASM: mov     rcx, 5AE99C571D5BBE5Dh
+
+
+lea Address: 0x7ff66f991024
+lea Address - Imagebase: 0x10a1024
+lea sub Hex View: 48 83 EC 48 48 8B 51 10 B9 01 00 00 00 C6 44 24
+mov Address: 0x7ff66f99102b
+mov value: 8B61C950A148FFA2
+call Address: 0x7ff66f99101f
+mov ASM: mov     rcx, 8B61C950A148FFA2h
+
+
+lea Address: 0x7ff66f991183
+lea Address - Imagebase: 0x10a1183
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 49 8B 42 28 4D 8B 4A 18
+mov Address: 0x7ff66f99118a
+mov value: 1E5B70E53DB661E5
+call Address: 0x7ff66f99117e
+mov ASM: mov     rcx, 1E5B70E53DB661E5h
+
+
+lea Address: 0x7ff66f9911aa
+lea Address - Imagebase: 0x10a11aa
+lea sub Hex View: 48 83 EC 48 4C 8B 41 10 41 8B 40 38 F3 41 0F 10
+mov Address: 0x7ff66f9911b1
+mov value: 29FB4CE89472C3CB
+call Address: 0x7ff66f9911a5
+mov ASM: mov     rcx, 29FB4CE89472C3CBh
+
+
+lea Address: 0x7ff66f991246
+lea Address - Imagebase: 0x10a1246
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 4C 8B 00 4D 85 C0 74 0A
+mov Address: 0x7ff66f99124d
+mov value: E98204D3C25AE14C
+call Address: 0x7ff66f991241
+mov ASM: mov     rcx, 0E98204D3C25AE14Ch
+
+
+lea Address: 0x7ff66f991294
+lea Address - Imagebase: 0x10a1294
+lea sub Hex View: 48 83 EC 28 E8 0B D9 E3 FF 80 88 84 07 00 00 01
+mov Address: 0x7ff66f99129b
+mov value: 4858148E3B8A75D0
+call Address: 0x7ff66f99128f
+mov ASM: mov     rcx, 4858148E3B8A75D0h
+
+
+lea Address: 0x7ff66f991e4e
+lea Address - Imagebase: 0x10a1e4e
+lea sub Hex View: 48 83 EC 28 8B 41 08 4C 8D 44 24 30 89 44 24 30
+mov Address: 0x7ff66f991e61
+mov value: C48FE1971C9743FF
+call Address: 0x7ff66f991e55
+mov ASM: mov     rcx, 0C48FE1971C9743FFh
+
+
+lea Address: 0x7ff66f99218d
+lea Address - Imagebase: 0x10a218d
+lea sub Hex View: 48 83 EC 28 48 8B 51 10 48 8D 4C 24 30 83 7A 18
+mov Address: 0x7ff66f992194
+mov value: 7C2ABF6E556B21FC
+call Address: 0x7ff66f992188
+mov ASM: mov     rcx, 7C2ABF6E556B21FCh
+
+
+lea Address: 0x7ff66f9921b4
+lea Address - Imagebase: 0x10a21b4
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 48 8D 54 24 30 8B 08 89
+mov Address: 0x7ff66f9921bb
+mov value: 8312F09C56149A8A
+call Address: 0x7ff66f9921af
+mov ASM: mov     rcx, 8312F09C56149A8Ah
+
+
+lea Address: 0x7ff66f992277
+lea Address - Imagebase: 0x10a2277
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 89 4C 24 30 48 8D
+mov Address: 0x7ff66f99227e
+mov value: 90E9A5DADBABC918
+call Address: 0x7ff66f992272
+mov ASM: mov     rcx, 90E9A5DADBABC918h
+
+
+lea Address: 0x7ff66f99229e
+lea Address - Imagebase: 0x10a229e
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 5D 81 3D FF 48
+mov Address: 0x7ff66f9922a5
+mov value: F8181B5EF156862C
+call Address: 0x7ff66f992299
+mov ASM: mov     rcx, 0F8181B5EF156862Ch
+
+
+lea Address: 0x7ff66f992313
+lea Address - Imagebase: 0x10a2313
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 FD 84 3D FF 48
+mov Address: 0x7ff66f99231a
+mov value: 262EF7CF49CF1EB9
+call Address: 0x7ff66f99230e
+mov ASM: mov     rcx, 262EF7CF49CF1EB9h
+
+
+lea Address: 0x7ff66f992361
+lea Address - Imagebase: 0x10a2361
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 AD 84 3D FF 48
+mov Address: 0x7ff66f992368
+mov value: B22F05732F72F70C
+call Address: 0x7ff66f99235c
+mov ASM: mov     rcx, 0B22F05732F72F70Ch
+
+
+lea Address: 0x7ff66f992388
+lea Address - Imagebase: 0x10a2388
+lea sub Hex View: 48 83 EC 28 48 8B 51 10 48 8D 4C 24 38 8B 42 08
+mov Address: 0x7ff66f99238f
+mov value: F21A5D66874FCEDD
+call Address: 0x7ff66f992383
+mov ASM: mov     rcx, 0F21A5D66874FCEDDh
+
+
+lea Address: 0x7ff66f9923af
+lea Address - Imagebase: 0x10a23af
+lea sub Hex View: 48 83 EC 28 48 8B 51 10 48 8D 4C 24 38 83 64 24
+mov Address: 0x7ff66f9923b6
+mov value: 3EB2791A1FBC8A42
+call Address: 0x7ff66f9923aa
+mov ASM: mov     rcx, 3EB2791A1FBC8A42h
+
+
+lea Address: 0x7ff66f9923d6
+lea Address - Imagebase: 0x10a23d6
+lea sub Hex View: 48 83 EC 28 83 64 24 38 00 48 8D 4C 24 38 E8 19
+mov Address: 0x7ff66f9923dd
+mov value: DF95DF488A645CE7
+call Address: 0x7ff66f9923d1
+mov ASM: mov     rcx, 0DF95DF488A645CE7h
+
+
+lea Address: 0x7ff66f992472
+lea Address - Imagebase: 0x10a2472
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 89 4C 24 30 48 8D
+mov Address: 0x7ff66f992479
+mov value: CD0D69C65BB0E8B9
+call Address: 0x7ff66f99246d
+mov ASM: mov     rcx, 0CD0D69C65BB0E8B9h
+
+
+lea Address: 0x7ff66f9924e7
+lea Address - Imagebase: 0x10a24e7
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 83 79 20 00 44 8B 49 18
+mov Address: 0x7ff66f9924ee
+mov value: 6123E2832C34243D
+call Address: 0x7ff66f9924e2
+mov ASM: mov     rcx, 6123E2832C34243Dh
+
+
+lea Address: 0x7ff66f99250e
+lea Address - Imagebase: 0x10a250e
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 45 8B 4A 18 49 8D 42 20
+mov Address: 0x7ff66f992515
+mov value: CA41E86545413B5B
+call Address: 0x7ff66f992509
+mov ASM: mov     rcx, 0CA41E86545413B5Bh
+
+
+lea Address: 0x7ff66f9925d1
+lea Address - Imagebase: 0x10a25d1
+lea sub Hex View: 48 83 EC 28 80 3D 81 C8 1D 04 00 48 8B 41 10 74
+mov Address: 0x7ff66f9925d8
+mov value: E5A680A5D8B1F687
+call Address: 0x7ff66f9925cc
+mov ASM: mov     rcx, 0E5A680A5D8B1F687h
+
+
+lea Address: 0x7ff66f992841
+lea Address - Imagebase: 0x10a2841
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 4C 8D 05 B9 7D 3A 02 48
+mov Address: 0x7ff66f992848
+mov value: 00CE6A93324A590B
+call Address: 0x7ff66f99283c
+mov ASM: mov     rcx, 0CE6A93324A590Bh
+
+
+lea Address: 0x7ff66f9938a2
+lea Address - Imagebase: 0x10a38a2
+lea sub Hex View: 48 83 EC 38 48 8B 51 10 48 8D 0D 2D 78 95 02 8B
+mov Address: 0x7ff66f9938a9
+mov value: D346248C1DCE0D76
+call Address: 0x7ff66f99389d
+mov ASM: mov     rcx, 0D346248C1DCE0D76h
+
+
+lea Address: 0x7ff66f993965
+lea Address - Imagebase: 0x10a3965
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 89 4C 24 30 48 8D
+mov Address: 0x7ff66f99396c
+mov value: F11D7CB962FCD747
+call Address: 0x7ff66f993960
+mov ASM: mov     rcx, 0F11D7CB962FCD747h
+
+
+lea Address: 0x7ff66f993a01
+lea Address - Imagebase: 0x10a3a01
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 89 4C 24 30 48 8D
+mov Address: 0x7ff66f993a08
+mov value: 032A14D082A9B269
+call Address: 0x7ff66f9939fc
+mov ASM: mov     rcx, 32A14D082A9B269h
+
+
+lea Address: 0x7ff66f993ce6
+lea Address - Imagebase: 0x10a3ce6
+lea sub Hex View: 48 83 EC 28 48 8B 51 10 4C 8B 42 10 4D 85 C0 74
+mov Address: 0x7ff66f993ced
+mov value: D840C130D7AACFA5
+call Address: 0x7ff66f993ce1
+mov ASM: mov     rcx, 0D840C130D7AACFA5h
+
+
+lea Address: 0x7ff66f9b358b
+lea Address - Imagebase: 0x10c358b
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 44 8B 50 18 8B 08 8B 50
+mov Address: 0x7ff66f9b3592
+mov value: 669E223E64B1903C
+call Address: 0x7ff66f9b3586
+mov ASM: mov     rcx, 669E223E64B1903Ch
+
+
+lea Address: 0x7ff66f9b35b2
+lea Address - Imagebase: 0x10c35b2
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 83 78 28 00 8B 50 18 8B
+mov Address: 0x7ff66f9b35b9
+mov value: E28C13ECC36FF14E
+call Address: 0x7ff66f9b35ad
+mov ASM: mov     rcx, 0E28C13ECC36FF14Eh
+
+
+lea Address: 0x7ff66f9b3b55
+lea Address - Imagebase: 0x10c3b55
+lea sub Hex View: 48 83 EC 28 E8 13 AF 1F 01 48 8B C8 48 83 C4 28
+mov Address: 0x7ff66f9b3b5c
+mov value: D39A72AE5EBD57E5
+call Address: 0x7ff66f9b3b50
+mov ASM: mov     rcx, 0D39A72AE5EBD57E5h
+
+
+lea Address: 0x7ff66f9b3e88
+lea Address - Imagebase: 0x10c3e88
+lea sub Hex View: 48 83 EC 28 E8 5B 95 1F 01 48 8B C8 48 83 C4 28
+mov Address: 0x7ff66f9b3e8f
+mov value: 5B9C6AC118FD4774
+call Address: 0x7ff66f9b3e83
+mov ASM: mov     rcx, 5B9C6AC118FD4774h
+
+
+lea Address: 0x7ff66f9b3efd
+lea Address - Imagebase: 0x10c3efd
+lea sub Hex View: 48 83 EC 28 E8 EF AE 1F 01 48 8B C8 B2 01 48 83
+mov Address: 0x7ff66f9b3f04
+mov value: A4484173759749B1
+call Address: 0x7ff66f9b3ef8
+mov ASM: mov     rcx, 0A4484173759749B1h
+
+
+lea Address: 0x7ff66f9b464d
+lea Address - Imagebase: 0x10c464d
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 83 79 38 00 44 8B 41 20
+mov Address: 0x7ff66f9b4654
+mov value: EA23C49EAA83ACFB
+call Address: 0x7ff66f9b4648
+mov ASM: mov     rcx, 0EA23C49EAA83ACFBh
+
+
+lea Address: 0x7ff66f9b54b1
+lea Address - Imagebase: 0x10c54b1
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 0D 2C 75 FF 48
+mov Address: 0x7ff66f9b54b8
+mov value: 51D99497ABF3F451
+call Address: 0x7ff66f9b54ac
+mov ASM: mov     rcx, 51D99497ABF3F451h
+
+
+lea Address: 0x7ff66f9b58a7
+lea Address - Imagebase: 0x10c58a7
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 49 8B 42 30 4D 8B 4A 18
+mov Address: 0x7ff66f9b58ae
+mov value: 99AAC89C510DEB0D
+call Address: 0x7ff66f9b58a2
+mov ASM: mov     rcx, 99AAC89C510DEB0Dh
+
+
+lea Address: 0x7ff66f9b58ce
+lea Address - Imagebase: 0x10c58ce
+lea sub Hex View: 48 83 EC 38 48 8B 49 10 48 8B 41 38 83 79 18 00
+mov Address: 0x7ff66f9b58d5
+mov value: 5E71E72A94985214
+call Address: 0x7ff66f9b58c9
+mov ASM: mov     rcx, 5E71E72A94985214h
+
+
+lea Address: 0x7ff66f9b601e
+lea Address - Imagebase: 0x10c601e
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 48 8D 4C 24 20 F3 0F 10
+mov Address: 0x7ff66f9b6025
+mov value: FD1AC0B3858F224C
+call Address: 0x7ff66f9b6019
+mov ASM: mov     rcx, 0FD1AC0B3858F224Ch
+
+
+lea Address: 0x7ff66f9b6240
+lea Address - Imagebase: 0x10c6240
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 41 83 78 08 00 41 8B 40
+mov Address: 0x7ff66f9b6247
+mov value: 13F592FC3BF0EA84
+call Address: 0x7ff66f9b623b
+mov ASM: mov     rcx, 13F592FC3BF0EA84h
+
+
+lea Address: 0x7ff66f9b6378
+lea Address - Imagebase: 0x10c6378
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 71 49 8B FF 48
+mov Address: 0x7ff66f9b637f
+mov value: BB1EC8C2EEF33BAA
+call Address: 0x7ff66f9b6373
+mov ASM: mov     rcx, 0BB1EC8C2EEF33BAAh
+
+
+lea Address: 0x7ff66f9b7377
+lea Address - Imagebase: 0x10c7377
+lea sub Hex View: 48 83 EC 28 E8 2B 7D 4E FF 48 8B C8 48 83 C4 28
+mov Address: 0x7ff66f9b737e
+mov value: 814729078AED6D30
+call Address: 0x7ff66f9b7372
+mov ASM: mov     rcx, 814729078AED6D30h
+
+
+lea Address: 0x7ff66f9b7ce9
+lea Address - Imagebase: 0x10c7ce9
+lea sub Hex View: 48 83 EC 48 48 8B 51 10 B9 03 00 00 00 C6 44 24
+mov Address: 0x7ff66f9b7cf0
+mov value: 1BAA028F52EED310
+call Address: 0x7ff66f9b7ce4
+mov ASM: mov     rcx, 1BAA028F52EED310h
+
+
+lea Address: 0x7ff66f9b7d10
+lea Address - Imagebase: 0x10c7d10
+lea sub Hex View: 48 83 EC 48 48 8B 51 10 45 33 C0 44 39 42 18 44
+mov Address: 0x7ff66f9b7d17
+mov value: 19447FCAE97704DC
+call Address: 0x7ff66f9b7d0b
+mov ASM: mov     rcx, 19447FCAE97704DCh
+
+
+lea Address: 0x7ff66f9b8407
+lea Address - Imagebase: 0x10c8407
+lea sub Hex View: 48 83 EC 48 4C 8B 51 10 33 C9 41 39 4A 30 0F 95
+mov Address: 0x7ff66f9b840e
+mov value: D99229FE93B46286
+call Address: 0x7ff66f9b8402
+mov ASM: mov     rcx, 0D99229FE93B46286h
+
+
+lea Address: 0x7ff66f9b8983
+lea Address - Imagebase: 0x10c8983
+lea sub Hex View: 48 83 EC 48 48 8B 51 10 F3 0F 10 42 58 48 8D 42
+mov Address: 0x7ff66f9b898a
+mov value: F6DF6E90DE7DF90F
+call Address: 0x7ff66f9b897e
+mov ASM: mov     rcx, 0F6DF6E90DE7DF90Fh
+
+
+lea Address: 0x7ff66f9b8fe9
+lea Address - Imagebase: 0x10c8fe9
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 C5 10 01 00 8B
+mov Address: 0x7ff66f9b8ff0
+mov value: 27F9D613092159CF
+call Address: 0x7ff66f9b8fe4
+mov ASM: mov     rcx, 27F9D613092159CFh
+
+
+lea Address: 0x7ff66f9b9601
+lea Address - Imagebase: 0x10c9601
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 0F 29 74 24 20 8B 08 F3
+mov Address: 0x7ff66f9b9608
+mov value: CBFBD38F2E0A263B
+call Address: 0x7ff66f9b95fc
+mov ASM: mov     rcx, 0CBFBD38F2E0A263Bh
+
+
+lea Address: 0x7ff66f9d8862
+lea Address - Imagebase: 0x10e8862
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 83 78 10 00 F3 0F 10 40
+mov Address: 0x7ff66f9d8869
+mov value: 75DCED9EEC5769D7
+call Address: 0x7ff66f9d885d
+mov ASM: mov     rcx, 75DCED9EEC5769D7h
+
+
+lea Address: 0x7ff66f9d9075
+lea Address - Imagebase: 0x10e9075
+lea sub Hex View: 48 83 EC 68 4C 8B 51 10 41 8B 42 50 45 8B 4A 18
+mov Address: 0x7ff66f9d907c
+mov value: 7408B5C66BA31ADB
+call Address: 0x7ff66f9d9070
+mov ASM: mov     rcx, 7408B5C66BA31ADBh
+
+
+lea Address: 0x7ff66f9d909c
+lea Address - Imagebase: 0x10e909c
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 0F 29 74 24 20 8B 08 F3
+mov Address: 0x7ff66f9d90a3
+mov value: 41365DB586CD9E8E
+call Address: 0x7ff66f9d9097
+mov ASM: mov     rcx, 41365DB586CD9E8Eh
+
+
+lea Address: 0x7ff66f9d90c3
+lea Address - Imagebase: 0x10e90c3
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 0F 29 74 24 20 8B 08 F3
+mov Address: 0x7ff66f9d90ca
+mov value: D0AABE5B9F8FA589
+call Address: 0x7ff66f9d90be
+mov ASM: mov     rcx, 0D0AABE5B9F8FA589h
+
+
+lea Address: 0x7ff66f9d9186
+lea Address - Imagebase: 0x10e9186
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 79 11 44 00 48
+mov Address: 0x7ff66f9d918d
+mov value: A230A5DDE12ED374
+call Address: 0x7ff66f9d9181
+mov ASM: mov     rcx, 0A230A5DDE12ED374h
+
+
+lea Address: 0x7ff66f9d91ad
+lea Address - Imagebase: 0x10e91ad
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 75 CC 43 00 48
+mov Address: 0x7ff66f9d91b4
+mov value: 0D5FDF0D36FA10CD
+call Address: 0x7ff66f9d91a8
+mov ASM: mov     rcx, 0D5FDF0D36FA10CDh
+
+
+lea Address: 0x7ff66f9d91d4
+lea Address - Imagebase: 0x10e91d4
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 99 CC 43 00 48
+mov Address: 0x7ff66f9d91db
+mov value: E682002DB1F30669
+call Address: 0x7ff66f9d91cf
+mov ASM: mov     rcx, 0E682002DB1F30669h
+
+
+lea Address: 0x7ff66f9d91fb
+lea Address - Imagebase: 0x10e91fb
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 BD CC 43 00 48
+mov Address: 0x7ff66f9d9202
+mov value: 718EB706B6E998A0
+call Address: 0x7ff66f9d91f6
+mov ASM: mov     rcx, 718EB706B6E998A0h
+
+
+lea Address: 0x7ff66f9d9297
+lea Address - Imagebase: 0x10e9297
+lea sub Hex View: 48 83 EC 38 0F 57 C0 48 8D 4C 24 20 0F 57 C9 0F
+mov Address: 0x7ff66f9d929e
+mov value: 4C05B42A8D937796
+call Address: 0x7ff66f9d9292
+mov ASM: mov     rcx, 4C05B42A8D937796h
+
+
+lea Address: 0x7ff66f9d9c7e
+lea Address - Imagebase: 0x10e9c7e
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 20 41 8B
+mov Address: 0x7ff66f9d9c85
+mov value: 06F8A202EB312A3C
+call Address: 0x7ff66f9d9c79
+mov ASM: mov     rcx, 6F8A202EB312A3Ch
+
+
+lea Address: 0x7ff66f9d9ec7
+lea Address - Imagebase: 0x10e9ec7
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 C6 44 24 20 01 83 78 10
+mov Address: 0x7ff66f9d9ece
+mov value: E6C5E2125EB210C1
+call Address: 0x7ff66f9d9ec2
+mov ASM: mov     rcx, 0E6C5E2125EB210C1h
+
+
+lea Address: 0x7ff66f9d9eee
+lea Address - Imagebase: 0x10e9eee
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 41 B1 01 C6 44 24 20 01
+mov Address: 0x7ff66f9d9ef5
+mov value: 3ABFA128F5BF5A70
+call Address: 0x7ff66f9d9ee9
+mov ASM: mov     rcx, 3ABFA128F5BF5A70h
+
+
+lea Address: 0x7ff66f9da46a
+lea Address - Imagebase: 0x10ea46a
+lea sub Hex View: 48 83 EC 38 4C 8B 41 10 41 83 78 30 00 49 8D 50
+mov Address: 0x7ff66f9da471
+mov value: 1D7678F81452BB41
+call Address: 0x7ff66f9da465
+mov ASM: mov     rcx, 1D7678F81452BB41h
+
+
+lea Address: 0x7ff66f9dbc55
+lea Address - Imagebase: 0x10ebc55
+lea sub Hex View: 48 83 EC 38 48 8B 41 10 F3 0F 10 40 20 F3 0F 10
+mov Address: 0x7ff66f9dbc5c
+mov value: 5AADC7BBBB1BCEEB
+call Address: 0x7ff66f9dbc50
+mov ASM: mov     rcx, 5AADC7BBBB1BCEEBh
+
+
+lea Address: 0x7ff66f9dc0d3
+lea Address - Imagebase: 0x10ec0d3
+lea sub Hex View: 48 83 EC 28 80 3D 90 51 1A 04 00 74 12 48 8B 41
+mov Address: 0x7ff66f9dc0da
+mov value: DC9B361CB7776673
+call Address: 0x7ff66f9dc0ce
+mov ASM: mov     rcx, 0DC9B361CB7776673h
+
+
+lea Address: 0x7ff66f9dc0fa
+lea Address - Imagebase: 0x10ec0fa
+lea sub Hex View: 48 83 EC 28 80 3D 7C 53 1A 04 00 74 0C 48 8B 0D
+mov Address: 0x7ff66f9dc101
+mov value: EC8703E4536A9952
+call Address: 0x7ff66f9dc0f5
+mov ASM: mov     rcx, 0EC8703E4536A9952h
+
+
+lea Address: 0x7ff66f9dc148
+lea Address - Imagebase: 0x10ec148
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 83 38 10 73 16 83 78 08
+mov Address: 0x7ff66f9dc14f
+mov value: B6E79850B759A30E
+call Address: 0x7ff66f9dc143
+mov ASM: mov     rcx, 0B6E79850B759A30Eh
+
+
+lea Address: 0x7ff66f9dc23a
+lea Address - Imagebase: 0x10ec23a
+lea sub Hex View: 48 83 EC 38 48 8D 05 F5 8F 2D 02 48 89 44 24 20
+mov Address: 0x7ff66f9dc24d
+mov value: 502022FA1AF9DC86
+call Address: 0x7ff66f9dc241
+mov ASM: mov     rcx, 502022FA1AF9DC86h
+
+
+lea Address: 0x7ff66f9dc4dd
+lea Address - Imagebase: 0x10ec4dd
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 8B 52 08 49 8D 42 40
+mov Address: 0x7ff66f9dc4e4
+mov value: 12FCAA23F2320422
+call Address: 0x7ff66f9dc4d8
+mov ASM: mov     rcx, 12FCAA23F2320422h
+
+
+lea Address: 0x7ff66f9dc504
+lea Address - Imagebase: 0x10ec504
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 BA C6 1A DE 9F 41 8B 0A
+mov Address: 0x7ff66f9dc50b
+mov value: 39816F6F94F385AD
+call Address: 0x7ff66f9dc4ff
+mov ASM: mov     rcx, 39816F6F94F385ADh
+
+
+lea Address: 0x7ff66f9dc52b
+lea Address - Imagebase: 0x10ec52b
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 BA 5B C3 AC 27 41 8B 0A
+mov Address: 0x7ff66f9dc532
+mov value: BCE668AAF83608BE
+call Address: 0x7ff66f9dc526
+mov ASM: mov     rcx, 0BCE668AAF83608BEh
+
+
+lea Address: 0x7ff66f9dc552
+lea Address - Imagebase: 0x10ec552
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 BA 71 0D 3A E6 41 8B 0A
+mov Address: 0x7ff66f9dc559
+mov value: 5B7D7BF36D2DE18B
+call Address: 0x7ff66f9dc54d
+mov ASM: mov     rcx, 5B7D7BF36D2DE18Bh
+
+
+lea Address: 0x7ff66f9dc85e
+lea Address - Imagebase: 0x10ec85e
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 29 D8 53 FF 48
+mov Address: 0x7ff66f9dc865
+mov value: 6D5F9E69BA1BE783
+call Address: 0x7ff66f9dc859
+mov ASM: mov     rcx, 6D5F9E69BA1BE783h
+
+
+lea Address: 0x7ff66f9dc885
+lea Address - Imagebase: 0x10ec885
+lea sub Hex View: 48 83 EC 28 48 8B 41 10 8B 08 E8 59 D8 53 FF 48
+mov Address: 0x7ff66f9dc88c
+mov value: 998202B206872672
+call Address: 0x7ff66f9dc880
+mov ASM: mov     rcx, 998202B206872672h
+
+
+lea Address: 0x7ff66f9dcaa7
+lea Address - Imagebase: 0x10ecaa7
+lea sub Hex View: 48 83 EC 28 48 8B 51 10 4C 8D 44 24 30 48 8B 0D
+mov Address: 0x7ff66f9dcaae
+mov value: B440F4E35393FC39
+call Address: 0x7ff66f9dcaa2
+mov ASM: mov     rcx, 0B440F4E35393FC39h
+
+
+lea Address: 0x7ff66f9dd037
+lea Address - Imagebase: 0x10ed037
+lea sub Hex View: 48 83 EC 58 48 8B 51 10 F3 0F 10 4A 38 F3 0F 10
+mov Address: 0x7ff66f9dd03e
+mov value: C63540AEF8384732
+call Address: 0x7ff66f9dd032
+mov ASM: mov     rcx, 0C63540AEF8384732h
+
+
+lea Address: 0x7ff66f9dd12a
+lea Address - Imagebase: 0x10ed12a
+lea sub Hex View: 48 83 EC 28 89 4C 24 30 48 8D 4C 24 30 E8 02 8E
+mov Address: 0x7ff66f9dd13d
+mov value: 865F36299079FB75
+call Address: 0x7ff66f9dd131
+mov ASM: mov     rcx, 865F36299079FB75h
+
+
+lea Address: 0x7ff66f9dd775
+lea Address - Imagebase: 0x10ed775
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 20 0F 95
+mov Address: 0x7ff66f9dd77c
+mov value: 94A3C1B804D291EC
+call Address: 0x7ff66f9dd770
+mov ASM: mov     rcx, 94A3C1B804D291ECh
+
+
+lea Address: 0x7ff66f9ddc07
+lea Address - Imagebase: 0x10edc07
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 41 83 7A 18 00 41 8B 42
+mov Address: 0x7ff66f9ddc0e
+mov value: B282DC6EBD803C75
+call Address: 0x7ff66f9ddc02
+mov ASM: mov     rcx, 0B282DC6EBD803C75h
+
+
+lea Address: 0x7ff66f9ddcca
+lea Address - Imagebase: 0x10edcca
+lea sub Hex View: 48 83 EC 38 4C 8B 51 10 33 C9 41 39 4A 20 0F 95
+mov Address: 0x7ff66f9ddcd1
+mov value: 0725A4CCFDED9A70
+call Address: 0x7ff66f9ddcc5
+mov ASM: mov     rcx, 725A4CCFDED9A70h
+
+
+lea Address: 0x7ff66fc227ad
+lea Address - Imagebase: 0x13327ad
+lea sub Hex View: 48 83 EC 28 E8 DF 75 22 00 8B 48 14 C1 E9 14 F6
+mov Address: 0x7ff66fc227bc
+mov value: 00007FF6732E1888
+call Address: 0x7ff66fc227b7
+mov ASM: mov     al, cs:byte_7FF6732E1888
+
+
+lea Address: 0x7ff66fc22893
+lea Address - Imagebase: 0x1332893
+lea sub Hex View: 48 83 EC 28 E8 DF 75 22 00 8B 48 14 C1 E9 14 F6
+mov Address: 0x7ff66fc228a2
+mov value: 00007FF6732E1888
+call Address: 0x7ff66fc2289d
+mov ASM: mov     al, cs:byte_7FF6732E1888
+
+
+lea Address: 0x7ff66fe59405
+lea Address - Imagebase: 0x1569405
+lea sub Hex View: 48 83 EC 58 0F 29 74 24 40 F3 0F 6F 71 10 48 8D
+mov Address: 0x7ff66fe59417
+mov value: 00007FF673935180
+call Address: 0x7ff66fe59412
+mov ASM: mov     eax, cs:dword_7FF673935180
+
+
+lea Address: 0x7ff6701ee19f
+lea Address - Imagebase: 0x18fe19f
+lea sub Hex View: 48 83 EC 28 48 85 C9 74 0B 4C 8B 01 BA 01 00 00
+mov Address: 0x7ff6701ee1ae
+mov value: 00007FF6739431E8
+call Address: 0x7ff6701ee1a9
+mov ASM: mov     rbx, cs:qword_7FF6739431E8
+
+
+lea Address: 0x7ff670baf45c
+lea Address - Imagebase: 0x22bf45c
+lea sub Hex View: 48 83 EC 28 48 8D 05 4D 4A 04 00 48 89 05 26 10
+mov Address: 0x7ff670baf474
+mov value: 00007FF6724A77B0
+call Address: 0x7ff670baf46f
+mov ASM: mov     ecx, cs:dword_7FF6724A77B0
+
+
+lea Address: 0x7ff670f884f8
+lea Address - Imagebase: 0x26984f8
+lea sub Hex View: 48 83 EC 28 E8 27 CF 05 00 F0 FF 0D EC 4A 0A 03
+mov Address: 0x7ff670f88523
+mov value: 00007FF672555F0C
+call Address: 0x7ff670f8851e
+mov ASM: mov     ebx, cs:dword_7FF672555F0C
+
+
+lea Address: 0x7ff6712b2594
+lea Address - Imagebase: 0x29c2594
+lea sub Hex View: 48 83 EC 28 48 85 C9 74 05 E8 8A 7F 00 00 48 83
+mov Address: 0x7ff6712b259b
+mov value: 00007FF67278DC38
+call Address: 0x7ff6712b258f
+mov ASM: mov     rcx, cs:qword_7FF67278DC38
+
+
