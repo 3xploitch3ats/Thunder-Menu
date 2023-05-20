@@ -108,8 +108,3 @@ foreach ($class_entry in $classes_sorted) {
     # Écrire le nom de la classe et son contenu dans le fichier
     Add-Content -Path $output_file -Value "$($class_entry.Value.Content)`n"
 }
-pause
-
-#GetClass
-#https://github.com/Yimura/GTAV-Classes 
-#https://pastebin.com/MGftkz0B
