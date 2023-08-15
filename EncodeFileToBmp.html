@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de Motif de Carrés</title>
+</head>
+<body>
+    <h1>Générateur de Motif de Carrés</h1>
+    <input type="file" id="fileInput" style="display: none;">
+    <button id="loadButton">Sélectionner un fichier</button>
+    <button id="generateButton" disabled>Générer</button>
+    <button id="saveButton" disabled>Enregistrer le motif</button>
+    <textarea id="textBox" rows="10" cols="50"></textarea>
+    <div id="pictureBox"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const fileInput = document.getElementById("fileInput");
+            const loadButton = document.getElementById("loadButton");
+            const generateButton = document.getElementById("generateButton");
+            const saveButton = document.getElementById("saveButton");
+            const textBox = document.getElementById("textBox");
+            const pictureBox = document.getElementById("pictureBox");
+
+            loadButton.addEventListener("click", function () {
+                fileInput.click();
+            });
+
+            fileInput.addEventListener("change", function (e) {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function (event) {
+                        const arrayBuffer = event.target.result;
+                        const byteArray = new Uint8Array(arrayBuffer);
+                        let binaryText = "";
+                        byteArray.forEach(function (byte) {
+                            binaryText += byte.toString(2).padStart(8, "0");
+                        });
+                        textBox.value = binaryText;
+                        generateButton.disabled = false;
+                    };
+                    reader.readAsArrayBuffer(file);
+                }
+            });
+
+            generateButton.addEventListener("click", function () {
+                const binaryText = textBox.value;
+                const imageSize = Math.ceil(Math.sqrt(binaryText.length));
+                const bitmap = new ImageData(imageSize, imageSize);
+
+                for (let i = 0; i < binaryText.length; i++) {
+                    const x = i % imageSize;
+                    const y = Math.floor(i / imageSize);
+                    const color = (binaryText[i] === "1") ? [0, 0, 0, 255] : [255, 255, 255, 255];
+                    const index = (x + y * imageSize) * 4;
+                    bitmap.data[index] = color[0];
+                    bitmap.data[index + 1] = color[1];
+                    bitmap.data[index + 2] = color[2];
+                    bitmap.data[index + 3] = color[3];
+                }
+
+                const canvas = document.createElement("canvas");
+                canvas.width = imageSize;
+                canvas.height = imageSize;
+                const context = canvas.getContext("2d");
+                context.putImageData(bitmap, 0, 0);
+
+                pictureBox.innerHTML = "";
+                pictureBox.appendChild(canvas);
+                saveButton.disabled = false;
+            });
+
+            saveButton.addEventListener("click", function () {
+                const canvas = pictureBox.querySelector("canvas");
+                const image = canvas.toDataURL("image/bmp").replace("image/bmp", "image/octet-stream");
+                const a = document.createElement("a");
+                a.href = image;
+                a.download = prompt("Entrez le nom du fichier BMP :", "motif.bmp") || "motif.bmp";
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+            });
+        });
+    </script>
+</body>
+</html>
