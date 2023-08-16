@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compression de Fichiers</title>
+</head>
+<body>
+    <h1>Compression de Fichiers</h1>
+    
+    <input type="file" id="fileInput" multiple>
+    <button id="compressButton" disabled>Compresser et Enregistrer</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const fileInput = document.getElementById("fileInput");
+            const compressButton = document.getElementById("compressButton");
+
+            fileInput.addEventListener("change", function (e) {
+                if (e.target.files.length > 0) {
+                    compressButton.disabled = false;
+                }
+            });
+
+            compressButton.addEventListener("click", function () {
+                const filesToCompress = Array.from(fileInput.files);
+                const zip = new JSZip();
+
+                const promises = filesToCompress.map(file => {
+                    return new Promise(resolve => {
+                        const reader = new FileReader();
+                        reader.onload = function () {
+                            zip.file(file.name, reader.result);
+                            resolve();
+                        };
+                        reader.readAsArrayBuffer(file);
+                    });
+                });
+
+                Promise.all(promises).then(() => {
+                    const zipName = prompt("Entrez le nom du fichier ZIP :") || "compressed.zip";
+                    const saveFileDialog = document.createElement("a");
+                    saveFileDialog.style.display = "none";
+                    saveFileDialog.addEventListener("click", function (e) {
+                        e.target.style.display = "none";
+                    });
+                    document.body.appendChild(saveFileDialog);
+
+                    zip.generateAsync({ type: "blob" }).then(function (content) {
+                        const url = URL.createObjectURL(content);
+                        saveFileDialog.href = url;
+                        saveFileDialog.download = zipName;
+                        saveFileDialog.click();
+                        URL.revokeObjectURL(url);
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
