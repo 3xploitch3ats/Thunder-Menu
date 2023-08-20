@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compression et Compressor de Fichiers</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
+</head>
+<body>
+    <select id="operationSelect">
+        <option value="pakobest" selected>best compressor</option>
+        <option value="compress">Compresser</option>
+        <option value="encode">Encodage</option>
+        <option value="decode">Décodage</option>
+    </select>
+
+    <div id="compressSection" style="display: none;">
+        <h2>Compression de Fichiers</h2>
+        <input type="file" id="fileInput" multiple>
+        <br>
+        <button id="compressButton" disabled>Compresser et Enregistrer</button>
+    </div>
+
+    <div id="encodeSection" style="display: none;">
+        <h2>Générateur de Motif de Carrés - Encodage</h2>
+        <input type="file" id="encodeFileInput" style="display: none;">
+        <br>
+        <button id="loadButton">Sélectionner un fichier</button>
+        <br>
+        <button id="generateButton" disabled>Générer</button>
+        <br>
+
+    <label>
+        <input type="checkbox" id="colorTextCheckbox"> Inclure un texte coloré
+    </label>
+    <br>
+    <!-- Options pour le texte coloré -->
+    <div id="colorTextOptions" style="display: none;">
+    <textarea id="colorTextBox" rows="4" cols="50"></textarea> <!-- Champ de texte pour le texte coloré -->
+    <br>
+    <label for="textSize">Taille du texte :</label>
+    <input type="number" id="textSize" value="80">
+    <br>
+    <label for="verticalPosition">Position verticale :</label>
+    <select id="verticalPosition">
+        <option value="up">Haut</option>
+        <option value="down">Bas</option>
+        <option value="center">Centre</option>
+    </select>
+    <br>
+    <label for="horizontalPosition">Position horizontale :</label>
+    <select id="horizontalPosition">
+        <option value="left">Gauche</option>
+        <option value="right">Droite</option>
+        <option value="center">Centre</option>
+    </select>
+    <br>
+    <button id="addColorTextButton">Ajouter le texte coloré</button>
+    <br>
+    <input type="color" id="colorPicker" value="#FF0000">
+    </div>
+    
+      <br> 
+        <button id="saveButton" disabled>Enregistrer le motif</button>
+        <br>
+        <textarea id="textBox" rows="10" cols="50"></textarea>
+        <br>
+        <div id="encodePictureBox"></div>
+    </div>
+
+    <div id="decodeSection" style="display: none;">
+        <h2>Générateur de Motif de Carrés - Décodage</h2>
+        <input type="file" id="decodeFileInput" class="button">
+        <br>
+        <button id="decodeGenerateButton" class="button" disabled>Générer</button>
+        <br>
+        <button id="decodeSaveButton" class="button" style="display: none;">Enregistrer</button>
+        <br>
+        <textarea id="decodeTextBox" rows="10" cols="50" style="margin-top: 20px;" readonly></textarea>
+        <br>
+        <canvas id="decodePictureBox"></canvas>
+    </div>
+
+    <div id="fileCompressorSection" style="display: none;">
+        <h2>File Compressor</h2>
+        <select id="fileComboBox" size="10"></select>
+        <br>
+        <button onclick="addFilesToComboBox()">Choisir des fichiers</button>
+        <br>
+        <input type="file" id="folderInput" multiple directory="" webkitdirectory="" style="display: none;" onchange="addFoldersToComboBox()">
+        <button onclick="document.getElementById('folderInput').click()">Choisir un dossier</button>
+        <br>
+        <button onclick="clearSelectedItems()">Effacer</button>
+        <br>
+        <button onclick="compressAndSave()">Compresser et Enregistrer</button>
+        <br>
+        <select id="compressionComboBox">
+            <option value="best">Best</option>
+            <option value="store">Store</option>
+            <option value="normal">Normal</option>
+            <option value="maximum">Maximum</option>
+        </select>
+        <br>
+        <select id="extensionComboBox">
+            <option value="zip">.zip</option>
+            <option value="rar">.rar</option>
+            <option value="iso">.iso</option>
+        </select>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        let selectedFiles = [];
+
+        function addFilesToComboBox() {
+            const fileInput = document.createElement("input");
+            fileInput.type = "file";
+            fileInput.multiple = true;
+            fileInput.onchange = function () {
+                const fileComboBox = document.getElementById("fileComboBox");
+
+                for (let i = 0; i < fileInput.files.length; i++) {
+                    selectedFiles.push(fileInput.files[i]);
+
+                    const option = document.createElement("option");
+                    option.text = fileInput.files[i].name;
+                    fileComboBox.add(option);
+                }
+            };
+            fileInput.click();
+        }
+
+        function addFoldersToComboBox() {
+            const folderInput = document.getElementById("folderInput");
+            const fileComboBox = document.getElementById("fileComboBox");
+
+            for (let i = 0; i < folderInput.files.length; i++) {
+                traverseDirectory(folderInput.files[i], "");
+            }
+        }
+
+        async function traverseDirectory(item, parentPath) {
+            if (item.isDirectory) {
+                const reader = item.createReader();
+                const entries = await reader.readEntries();
+                for (const entry of entries) {
+                    const fullPath = `${parentPath}/${entry.name}`;
+                    traverseDirectory(entry, fullPath);
+                }
+            } else {
+                selectedFiles.push(item);
+
+                const option = document.createElement("option");
+                option.text = parentPath + "/" + item.webkitRelativePath;
+                fileComboBox.add(option);
+            }
+        }
+
+        function clearSelectedItems() {
+            const fileComboBox = document.getElementById("fileComboBox");
+            for (let i = fileComboBox.options.length - 1; i >= 0; i--) {
+                if (fileComboBox.options[i].selected) {
+                    selectedFiles.splice(i, 1);
+                    fileComboBox.remove(i);
+                }
+            }
+        }
+
+        async function compressAndSave() {
+            const compressionLevel = document.getElementById("compressionComboBox").value;
+            const selectedExtension = document.getElementById("extensionComboBox").value;
+
+            const compressedData = await compressData(selectedFiles, compressionLevel);
+
+            const blob = new Blob([compressedData], { type: 'application/octet-stream' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+
+            // Demander le nom du fichier compressé sans l'extension
+            const compressedFileName = prompt("Entrer le nom du fichier compressé:", `fichiers_compresses`);
+            if (!compressedFileName) {
+                return; // Annuler la compression si le nom de fichier est vide
+            }
+
+            const fullFileName = `${compressedFileName}.${selectedExtension}`;
+            link.download = fullFileName;
+            link.click();
+        }
+
+        async function compressData(files, compressionLevel) {
+            // Créer un nouveau FormData pour les fichiers et dossiers sélectionnés
+            const zip = new JSZip();
+
+            for (const file of files) {
+                const fileContent = await file.arrayBuffer();
+                const filePath = file.webkitRelativePath || file.name;
+                zip.file(filePath, fileContent);
+            }
+
+            // Utiliser pako pour compresser les données
+            const options = { level: compressionLevel === 'store' ? 0 : (compressionLevel === 'maximum' ? 9 : 5) };
+            const dataToCompress = await zip.generateAsync({ type: "uint8array", compression: "DEFLATE", compressionOptions: options });
+
+            return dataToCompress;
+        }
+    const colorTextCheckbox = document.getElementById("colorTextCheckbox");
+    const colorTextOptions = document.getElementById("colorTextOptions");
+    
+    colorTextCheckbox.addEventListener("change", () => {
+        if (colorTextCheckbox.checked) {
+            colorTextOptions.style.display = "block";
+        } else {
+            colorTextOptions.style.display = "none";
+        }
+    });
+
+$(document).ready(function() {
+    const colorPicker = document.getElementById("colorPicker");
+    const addColorTextButton = document.getElementById("addColorTextButton");
+    const colorTextBox = document.getElementById("colorTextBox");
+    const textSizeInput = document.getElementById("textSize");
+
+    colorTextBox.addEventListener("input", function() {
+        if (colorTextBox.value.trim() !== "") {
+            addColorTextButton.disabled = false;
+        } else {
+            addColorTextButton.disabled = true;
+        }
+    });
+
+    const gridSize = 10; // Taille de la grille pour les carrés
+
+addColorTextButton.addEventListener("click", function () {
+    const canvas = document.getElementById("encodePictureBox").querySelector("canvas");
+    const context = canvas.getContext("2d");
+
+    const text = colorTextBox.value;
+    const textSize = parseInt(textSizeInput.value, 10);
+    const color = colorPicker.value;
+
+    context.font = `${textSize}px sans-serif`;
+    context.fillStyle = color;
+
+    const verticalPositionSelect = document.getElementById("verticalPosition");
+    const horizontalPositionSelect = document.getElementById("horizontalPosition");
+
+    const selectedVerticalPosition = verticalPositionSelect.value;
+    const selectedHorizontalPosition = horizontalPositionSelect.value;
+
+    let textX = 0;
+    let textY = 0;
+
+    switch (selectedVerticalPosition) {
+        case "up":
+            textY = textSize;
+            break;
+        case "down":
+            textY = canvas.height - textSize;
+            break;
+        case "center":
+            textY = canvas.height / 2 + textSize / 2;
+            break;
+        default:
+            break;
+    }
+
+    switch (selectedHorizontalPosition) {
+        case "left":
+            textX = textSize;
+            break;
+        case "right":
+            textX = canvas.width - context.measureText(text).width - textSize;
+            break;
+        case "center":
+            textX = canvas.width / 2 - context.measureText(text).width / 2;
+            break;
+        default:
+            break;
+    }
+
+    // Copier tous les pixels blancs de l'image
+    const whitePixels = copyAllWhitePixels(context);
+
+    // Dessiner le texte à la position calculée
+    context.fillText(text, textX, textY);
+
+    // Restaurer les pixels blancs à leur position d'origine
+    restoreAllWhitePixels(context, whitePixels);
+});
+
+// Copier tous les pixels blancs de l'image
+function copyAllWhitePixels(context) {
+    const imageData = context.getImageData(0, 0, context.canvas.width, context.canvas.height);
+    const whitePixels = [];
+
+    for (let i = 0; i < imageData.data.length; i += 4) {
+        const r = imageData.data[i];
+        const g = imageData.data[i + 1];
+        const b = imageData.data[i + 2];
+
+        if (r === 255 && g === 255 && b === 255) {
+            whitePixels.push({ index: i, data: imageData.data.slice(i, i + 4) });
+            // Réinitialiser les pixels blancs à transparents dans l'image source
+            imageData.data[i] = 0;
+            imageData.data[i + 1] = 0;
+            imageData.data[i + 2] = 0;
+            imageData.data[i + 3] = 0;
+        }
+    }
+
+    // Réintégrer les pixels modifiés dans l'image source
+    context.putImageData(imageData, 0, 0);
+
+    return whitePixels;
+}
+
+// Restaurer les pixels blancs à leur position d'origine
+function restoreAllWhitePixels(context, whitePixels) {
+    for (const pixel of whitePixels) {
+        const x = pixel.index / 4 % context.canvas.width;
+        const y = Math.floor(pixel.index / 4 / context.canvas.width);
+        context.putImageData(new ImageData(new Uint8ClampedArray(pixel.data), 1, 1), x, y);
+    }
+}
+
+            $("#operationSelect").change(function() {
+                const selectedOperation = $(this).val();
+                $("#compressSection, #encodeSection, #decodeSection, #fileCompressorSection").hide();
+
+                if (selectedOperation === "compress") {
+                    $("#compressSection").show();
+                } else if (selectedOperation === "encode") {
+                    $("#encodeSection").show();
+                } else if (selectedOperation === "decode") {
+                    $("#decodeSection").show();
+                } else if (selectedOperation === "pakobest") {
+                    $("#fileCompressorSection").show();
+                }
+            });
+
+            // Gestionnaires d'événements pour la section de compression
+            const fileInput = document.getElementById("fileInput");
+            const compressButton = document.getElementById("compressButton");
+
+            fileInput.addEventListener("change", function (e) {
+                if (e.target.files.length > 0) {
+                    compressButton.disabled = false;
+                }
+            });
+
+
+                loadButton.addEventListener("click", function () {
+        encodeFileInput.click();
+    });
+
+    // Gestionnaire d'événement pour le chargement du fichier d'encodage
+    encodeFileInput.addEventListener("change", function (e) {
+        if (e.target.files.length > 0) {
+            const file = e.target.files[0];
+            const reader = new FileReader();
+            reader.onload = function (event) {
+                // Convertir les données du fichier en binaire
+                const arrayBuffer = event.target.result;
+                const byteArray = new Uint8Array(arrayBuffer);
+                let binaryText = "";
+                byteArray.forEach(function (byte) {
+                    binaryText += byte.toString(2).padStart(8, "0");
+                });
+
+                // Afficher le texte binaire dans la zone de texte
+                const textBox = document.getElementById("textBox");
+                textBox.value = binaryText;
+                generateButton.disabled = false;
+            };
+            reader.readAsArrayBuffer(file);
+        }
+    });
+
+    // Gestionnaire d'événement pour le bouton de génération de motif d'encodage
+    const generateButton = document.getElementById("generateButton");
+
+    generateButton.addEventListener("click", function () {
+        const binaryText = textBox.value;
+        const imageSize = Math.ceil(Math.sqrt(binaryText.length));
+        const bitmap = new ImageData(imageSize, imageSize);
+
+        for (let i = 0; i < binaryText.length; i++) {
+            const x = i % imageSize;
+            const y = Math.floor(i / imageSize);
+            const color = binaryText[i] === "1" ? [0, 0, 0, 255] : [255, 255, 255, 255];
+            const index = (x + y * imageSize) * 4;
+            bitmap.data[index] = color[0];
+            bitmap.data[index + 1] = color[1];
+            bitmap.data[index + 2] = color[2];
+            bitmap.data[index + 3] = color[3];
+        }
+
+        // Créer un élément canvas pour afficher le motif généré
+        const canvas = document.createElement("canvas");
+        canvas.width = imageSize;
+        canvas.height = imageSize;
+        const context = canvas.getContext("2d");
+        context.putImageData(bitmap, 0, 0);
+
+        // Afficher le motif généré dans la section d'encodage
+        const encodePictureBox = document.getElementById("encodePictureBox");
+        encodePictureBox.innerHTML = "";
+        encodePictureBox.appendChild(canvas);
+        saveButton.disabled = false;
+    });
+
+    // Gestionnaire d'événement pour le bouton d'enregistrement du motif d'encodage
+    const saveButton = document.getElementById("saveButton");
+
+    saveButton.addEventListener("click", function () {
+        const canvas = encodePictureBox.querySelector("canvas");
+        const image = canvas.toDataURL("image/bmp").replace("image/bmp", "image/octet-stream");
+        const a = document.createElement("a");
+        const fileName = prompt("Entrez le nom du fichier BMP :", "motif.bmp") || "motif.bmp";
+        a.href = image;
+        a.download = fileName;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    });
+
+    // Gestionnaire d'événement pour le chargement du fichier de décodage
+    const decodeFileInput = document.getElementById("decodeFileInput");
+    const decodeGenerateButton = document.getElementById("decodeGenerateButton");
+    const decodeSaveButton = document.getElementById("decodeSaveButton");
+    const decodePictureBox = document.getElementById("decodePictureBox");
+    const decodeTextBox = document.getElementById("decodeTextBox");
+    const decodeCanvas = decodePictureBox.getContext("2d");
+    let loadedBitmap = null;
+    let binaryText = "";
+
+    decodeFileInput.addEventListener("change", (event) => {
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                const image = new Image();
+                image.src = e.target.result;
+                image.onload = () => {
+                    decodePictureBox.width = image.width;
+                    decodePictureBox.height = image.height;
+                    decodeCanvas.drawImage(image, 0, 0);
+                    loadedBitmap = image;
+                    decodeGenerateButton.disabled = false;
+                };
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+
+    decodeGenerateButton.addEventListener("click", () => {
+        if (!loadedBitmap) {
+            alert("Veuillez charger une image d'abord.");
+            return;
+        }
+
+        const imageData = decodeCanvas.getImageData(0, 0, decodePictureBox.width, decodePictureBox.height);
+        binaryText = generateBinaryPattern(imageData);
+        decodeTextBox.value = binaryText;
+        decodeSaveButton.style.display = "block";
+    });
+
+    decodeSaveButton.addEventListener("click", () => {
+        if (!binaryText.trim()) {
+            alert("Le contenu du TextBox est vide. Veuillez générer le motif d'abord.");
+            return;
+        }
+
+        const binaryBytes = convertBinaryTextToBytes(binaryText);
+        const blob = new Blob([binaryBytes], { type: "application/zip" });
+        const a = document.createElement("a");
+        const fileName = prompt("Entrez le nom du fichier ZIP :", "binary_pattern.zip") || "binary_pattern.zip";
+        a.href = URL.createObjectURL(blob);
+        a.download = fileName;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(a.href);
+    });
+
+            function generateBinaryPattern(imageData) {
+                const threshold = 128;
+                let binaryText = "";
+
+                for (let y = 0; y < imageData.height; y++) {
+                    for (let x = 0; x < imageData.width; x++) {
+                        const index = (y * imageData.width + x) * 4;
+                        const r = imageData.data[index];
+                        const g = imageData.data[index + 1];
+                        const b = imageData.data[index + 2];
+                        const luminance = (0.299 * r + 0.587 * g + 0.114 * b);
+                        binaryText += (luminance < threshold) ? "1" : "0";
+                    }
+                }
+
+                return binaryText;
+            }
+
+            function convertBinaryTextToBytes(binaryText) {
+                const byteCount = Math.ceil(binaryText.length / 8);
+                const bytes = new Uint8Array(byteCount);
+
+                for (let i = 0; i < byteCount; i++) {
+                    const byteStart = i * 8;
+                    const byteEnd = byteStart + 8;
+                    const byte = binaryText.slice(byteStart, byteEnd);
+                    bytes[i] = parseInt(byte, 2);
+                }
+
+                return bytes;
+            }
+    compressButton.addEventListener("click", function () {
+        // Récupérer les fichiers sélectionnés
+        const filesToCompress = Array.from(fileInput.files);
+        // Créer une instance JSZip
+        const zip = new JSZip();
+
+        // Créer un tableau de promesses pour lire les fichiers et les ajouter à l'archive zip
+        const promises = filesToCompress.map(file => {
+            return new Promise(resolve => {
+                const reader = new FileReader();
+                reader.onload = function () {
+                    zip.file(file.name, reader.result);
+                    resolve();
+                };
+                reader.readAsArrayBuffer(file);
+            });
+        });
+
+        // Attendre que toutes les promesses soient résolues, puis générer et télécharger l'archive zip
+        Promise.all(promises).then(() => {
+            const zipName = prompt("Entrez le nom du fichier ZIP :") || "compressed.zip";
+            zip.generateAsync({ type: "blob" }).then(function (content) {
+                // Créer un lien de téléchargement
+                const a = document.createElement("a");
+                a.href = URL.createObjectURL(content);
+                a.download = zipName;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(a.href);
+            });
+        });
+    });
+});
+    </script>
+</body>
+</html>
