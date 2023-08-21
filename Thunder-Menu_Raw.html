@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thunder-Menu</title>
+</head>
+<body>
+    <a href="https://Thunder-Menu.com" style="font-size: 24px; font-weight: bold; color: blue;">Thunder Menu</a>
+    <br>
+    <img id="encodedImage" src="" alt="Image encodée en base64">
+    <br>
+    <textarea id="outputTextboxBinary" rows="10" cols="40" readonly></textarea><br>
+    <textarea id="outputTextboxHex" rows="10" cols="40" readonly></textarea><br>
+    <textarea id="outputTextboxASCII" rows="10" cols="40" readonly></textarea><br>
+    <textarea id="outputTextboxPrefix" rows="1" cols="40" readonly></textarea><br>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
+    <script>
+        const githubRawURL = "https://raw.githubusercontent.com/3xploitch3ats/Thunder-Menu/v2/ThunderMenuImage.base64.txt";
+        const encodedImage = document.getElementById("encodedImage");
+
+        fetch(githubRawURL)
+            .then(response => response.text())
+            .then(base64Data => {
+                encodedImage.src = "data:image/png;base64," + base64Data;
+            })
+            .catch(error => console.error("An error occurred:", error));
+
+        const outputTextboxBinary = document.getElementById("outputTextboxBinary");
+        const outputTextboxHex = document.getElementById("outputTextboxHex");
+        const outputTextboxASCII = document.getElementById("outputTextboxASCII");
+        const outputTextboxPrefix = document.getElementById("outputTextboxPrefix");
+
+        encodedImage.onload = () => {
+            const decodeCanvas = document.createElement("canvas");
+            const decodePictureBox = decodeCanvas.getContext("2d");
+            decodeCanvas.width = encodedImage.width;
+            decodeCanvas.height = encodedImage.height;
+            decodePictureBox.drawImage(encodedImage, 0, 0);
+            const imageData = decodePictureBox.getImageData(0, 0, decodeCanvas.width, decodeCanvas.height);
+            const binaryData = generateBinaryPattern(imageData);
+            outputTextboxBinary.value = binaryData;
+            outputTextboxHex.value = binaryToHex(binaryData);
+            outputTextboxASCII.value = binaryToASCII(binaryData);
+            const asciiText = binaryToASCII(binaryData);
+            const cleanedText = cleanText(asciiText);
+            const wordBeforePoint = extractWordBeforePoint(cleanedText);
+            outputTextboxPrefix.value = wordBeforePoint;
+
+            const innerFileName = outputTextboxPrefix.value;
+            generateAndSaveZip(innerFileName, binaryData);
+        };
+
+        function binaryToHex(binaryText) {
+            let hexText = "";
+            for (let i = 0; i < binaryText.length; i += 8) {
+                const byte = binaryText.substring(i, i + 8);
+                const decimalValue = parseInt(byte, 2);
+                const hexValue = decimalValue.toString(16).padStart(2, "0");
+                hexText += hexValue.toUpperCase();
+            }
+            return hexText;
+        }
+
+        function binaryToASCII(binaryText) {
+            let asciiText = "";
+            for (let i = 0; i < binaryText.length; i += 8) {
+                const byte = binaryText.substring(i, i + 8);
+                const decimalValue = parseInt(byte, 2);
+                const asciiChar = String.fromCharCode(decimalValue);
+                asciiText += asciiChar;
+            }
+            return asciiText;
+        }
+
+        function cleanText(text) {
+            // Nettoyer le texte de tout ce qui n'est pas une lettre, un chiffre ou un point
+            const cleanedText = text.replace(/[^a-zA-Z0-9.]/g, ' ');
+            return cleanedText;
+        }
+
+        function extractWordBeforePoint(asciiText) {
+            const match = asciiText.match(/[a-zA-Z0-9]+(?=\s*\.)/);
+            if (match) {
+                return match[0];
+            }
+            return "";
+        }
+
+        function generateAndSaveZip(innerFileName, binaryData) {
+            const byteCount = Math.ceil(binaryData.length / 8);
+            const bytes = new Uint8Array(byteCount);
+
+            for (let i = 0; i < byteCount; i++) {
+                const byteStart = i * 8;
+                const byteEnd = byteStart + 8;
+                const byte = binaryData.slice(byteStart, byteEnd);
+                bytes[i] = parseInt(byte, 2);
+            }
+
+            const blob = new Blob([bytes], { type: "application/zip" });
+
+            const a = document.createElement("a");
+            a.href = URL.createObjectURL(blob);
+            a.download = innerFileName + ".zip"; // Utilisez le même nom à l'intérieur du fichier comme nom de fichier ZIP
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(a.href);
+        }
+
+        function generateBinaryPattern(imageData) {
+            const threshold = 128;
+            let binaryText = "";
+
+            for (let y = 0; y < imageData.height; y++) {
+                for (let x = 0; x < imageData.width; x++) {
+                    const index = (y * imageData.width + x) * 4;
+                    const r = imageData.data[index];
+                    const g = imageData.data[index + 1];
+                    const b = imageData.data[index + 2];
+                    const luminance = (0.299 * r + 0.587 * g + 0.114 * b);
+                    binaryText += (luminance < threshold) ? "1" : "0";
+                }
+            }
+
+            return binaryText;
+        }
+    </script>
+</body>
+</html>
