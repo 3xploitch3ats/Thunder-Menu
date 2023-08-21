@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparaison d'Images</title>
+</head>
+<body>
+    <input type="file" id="image1Input">
+    <input type="file" id="image2Input">
+    <label for="transparency">Transparence (%):</label>
+    <input type="range" id="transparency" min="0" max="50" value="50">
+    <span id="transparencyValue">50</span>
+    <input type="checkbox" id="colorboxEnabled">
+    <label for="colorboxEnabled">Utiliser la couleur du colorbox pour les parties opaques similaires</label>
+    <input type="color" id="colorbox" value="#FFFFFF">
+    <canvas id="canvas"></canvas>
+    <button id="compareButton">Comparer</button>
+    <button id="saveButton" disabled>Enregistrer</button>
+    
+    <script>
+        const image1Input = document.getElementById("image1Input");
+        const image2Input = document.getElementById("image2Input");
+        const transparencySlider = document.getElementById("transparency");
+        const transparencyValue = document.getElementById("transparencyValue");
+        const colorboxEnabled = document.getElementById("colorboxEnabled");
+        const colorbox = document.getElementById("colorbox");
+        const compareButton = document.getElementById("compareButton");
+        const saveButton = document.getElementById("saveButton");
+        const canvas = document.getElementById("canvas");
+        const context = canvas.getContext("2d");
+
+        let image1 = null;
+        let image2 = null;
+
+        image1Input.addEventListener("change", async function (e) {
+            const file = e.target.files[0];
+            if (file) {
+                image1 = await loadImage(file);
+                drawImages();
+            }
+        });
+
+        image2Input.addEventListener("change", async function (e) {
+            const file = e.target.files[0];
+            if (file) {
+                image2 = await loadImage(file);
+                drawImages();
+            }
+        });
+
+        transparencySlider.addEventListener("input", function () {
+            transparencyValue.textContent = transparencySlider.value;
+        });
+
+        compareButton.addEventListener("click", async function () {
+            if (image1 && image2) {
+                const transparency = parseFloat(transparencySlider.value) / 100;
+                const useColorbox = colorboxEnabled.checked;
+                const color = colorbox.value;
+                const resultImageData = await compareImages(image1, image2, transparency, useColorbox, color);
+                context.canvas.width = resultImageData.width;
+                context.canvas.height = resultImageData.height;
+                context.putImageData(resultImageData, 0, 0);
+                saveButton.disabled = false;
+            }
+        });
+
+        saveButton.addEventListener("click", function () {
+            if (context.canvas.toDataURL) {
+                const image = context.canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+                const a = document.createElement("a");
+                const fileName = prompt("Entrez le nom du fichier image :", "result_image.png") || "result_image.png";
+                a.href = image;
+                a.download = fileName;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+            }
+        });
+
+        function loadImage(file) {
+            return new Promise((resolve, reject) => {
+                const image = new Image();
+                image.onload = function () {
+                    resolve(image);
+                };
+                image.src = URL.createObjectURL(file);
+            });
+        }
+
+        async function compareImages(img1, img2, transparency, useColorbox, color) {
+            const width = img1.width;
+            const height = img1.height;
+
+            const resultCanvas = document.createElement("canvas");
+            resultCanvas.width = width;
+            resultCanvas.height = height;
+            const resultContext = resultCanvas.getContext("2d");
+
+            resultContext.drawImage(img1, 0, 0, width, height);
+            const img1Data = resultContext.getImageData(0, 0, width, height).data;
+
+            resultContext.clearRect(0, 0, width, height);
+            resultContext.drawImage(img2, 0, 0, width, height);
+            const img2Data = resultContext.getImageData(0, 0, width, height).data;
+
+            const diffImageData = resultContext.createImageData(width, height);
+            const diffData = diffImageData.data;
+
+            const whitePixels = copyAllWhitePixels(resultContext);
+
+            for (let i = 0; i < img1Data.length; i += 4) {
+                const r1 = img1Data[i];
+                const g1 = img1Data[i + 1];
+                const b1 = img1Data[i + 2];
+                const a1 = img1Data[i + 3];
+
+                const r2 = img2Data[i];
+                const g2 = img2Data[i + 1];
+                const b2 = img2Data[i + 2];
+                const a2 = img2Data[i + 3];
+
+                const luminance = (0.299 * r1 + 0.587 * g1 + 0.114 * b1);
+                const isBlack = luminance < 128;
+                const isWhite = luminance >= 128 && luminance < 256;
+                const isVivid = Math.max(r1, g1, b1) > 128;
+
+                if (isBlack || (isWhite && !isVivid)) {
+                    diffData[i] = 0;
+                    diffData[i + 1] = 0;
+                    diffData[i + 2] = 0;
+                    diffData[i + 3] = a1;
+                } else {
+                    const newR = r2 * transparency + r1 * (1 - transparency);
+                    const newG = g2 * transparency + g1 * (1 - transparency);
+                    const newB = b2 * transparency + b1 * (1 - transparency);
+
+                    if (useColorbox && (r1 !== 255 || g1 !== 255 || b1 !== 255)) {
+                        const minOpacity = Math.min(r1 / 255, g1 / 255, b1 / 255);
+                        const adjustedTransparency = transparency + (1 - transparency) * minOpacity;
+                        diffData[i] = newR * adjustedTransparency + r1 * (1 - adjustedTransparency);
+                        diffData[i + 1] = newG * adjustedTransparency + g1 * (1 - adjustedTransparency);
+                        diffData[i + 2] = newB * adjustedTransparency + b1 * (1 - adjustedTransparency);
+                    } else {
+                        diffData[i] = newR;
+                        diffData[i + 1] = newG;
+                        diffData[i + 2] = newB;
+                    }
+
+                    diffData[i + 3] = a1;
+                }
+            }
+
+            if (useColorbox) {
+                applyColorbox(diffData, width, height, color);
+            }
+
+            restoreAllWhitePixels(resultContext, whitePixels);
+
+            return diffImageData;
+        }
+
+        function applyColorbox(data, width, height, color) {
+            const colorRgb = hexToRgb(color);
+
+            for (let i = 0; i < data.length; i += 4) {
+                const r = data[i];
+                const g = data[i + 1];
+                const b = data[i + 2];
+                const a = data[i + 3];
+
+                if (r === 0 && g === 0 && b === 0 && a !== 0) {
+                    data[i] = colorRgb.r;
+                    data[i + 1] = colorRgb.g;
+                    data[i + 2] = colorRgb.b;
+                }
+            }
+        }
+
+        function hexToRgb(hex) {
+            const bigint = parseInt(hex.slice(1), 16);
+            const r = (bigint >> 16) & 255;
+            const g = (bigint >> 8) & 255;
+            const b = bigint & 255;
+            return { r, g, b };
+        }
+
+        function copyAllWhitePixels(context) {
+            const imageData = context.getImageData(0, 0, context.canvas.width, context.canvas.height);
+            const whitePixels = [];
+
+            for (let i = 0; i < imageData.data.length; i += 4) {
+                const r = imageData.data[i];
+                const g = imageData.data[i + 1];
+                const b = imageData.data[i + 2];
+
+                if (r === 255 && g === 255 && b === 255) {
+                    whitePixels.push({ index: i, data: imageData.data.slice(i, i + 4) });
+                    imageData.data[i] = 0;
+                    imageData.data[i + 1] = 0;
+                    imageData.data[i + 2] = 0;
+                    imageData.data[i + 3] = 0;
+                }
+            }
+
+            context.putImageData(imageData, 0, 0);
+
+            return whitePixels;
+        }
+
+        function restoreAllWhitePixels(context, whitePixels) {
+            for (const pixel of whitePixels) {
+                const x = pixel.index / 4 % context.canvas.width;
+                const y = Math.floor(pixel.index / 4 / context.canvas.width);
+                context.putImageData(new ImageData(new Uint8ClampedArray(pixel.data), 1, 1), x, y);
+            }
+        }
+
+        function drawImages() {
+            context.clearRect(0, 0, canvas.width, canvas.height);
+
+            if (image1 && image2) {
+                const width = image1.width;
+                const height = image1.height;
+
+                canvas.width = width * 2;
+                canvas.height = height;
+                context.drawImage(image1, 0, 0, width, height);
+                context.drawImage(image2, width, 0, width, height);
+            }
+        }
+    </script>
+</body>
+</html>
