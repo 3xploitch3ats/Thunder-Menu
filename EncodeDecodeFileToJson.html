@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encoder & Décoder des Données Binaires</title>
+</head>
+
+<body>
+
+    <select id="mode" onchange="changeMode()">
+        <option value="encode">Encoder</option>
+        <option value="decode">Décoder</option>
+    </select>
+    <br>
+    <input type="file" id="fileInput" onchange="loadFile(event)">
+    <br>
+    <button onclick="processData()">Traiter les données</button>
+
+    <script>
+        let fileContent = "";
+        let fileName = "";
+        let fileExtension = "";
+
+        function changeMode() {
+            const mode = document.getElementById("mode").value;
+            if (mode === "encode") {
+                document.getElementById("fileInput").setAttribute("accept", "*/*");
+            } else {
+                document.getElementById("fileInput").setAttribute("accept", ".json");
+            }
+        }
+
+        function loadFile(event) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                fileContent = e.target.result;
+            }
+
+            if (document.getElementById("mode").value === "encode") {
+                fileName = event.target.files[0].name.split('.').slice(0, -1).join('.');
+                fileExtension = "." + event.target.files[0].name.split('.').pop();
+                reader.readAsArrayBuffer(event.target.files[0]);
+            } else {
+                reader.readAsText(event.target.files[0]);
+            }
+        }
+
+        function processData() {
+            const mode = document.getElementById("mode").value;
+            if (mode === "encode") {
+                encodeData();
+            } else {
+                decodeData();
+            }
+        }
+
+        function encodeData() {
+            const dataView = new DataView(fileContent);
+            let hexString = '';
+            for (let i = 0; i < dataView.byteLength; i++) {
+                hexString += dataView.getUint8(i).toString(16).padStart(2, '0');
+            }
+            const binaryData = hexString.split('').map((hex) => parseInt(hex, 16).toString(2).padStart(4, '0')).join('');
+
+            const positions = {
+                lastZeroPosition: binaryData.lastIndexOf('0'),
+                fileName: fileName,
+                fileExtension: fileExtension,
+                sequences: []
+            };
+
+            let sequenceCount = 0;
+            let startPosition = 0;
+            let lastPosition = 0;
+
+            for (let i = 0; i < binaryData.length; i++) {
+                if (binaryData[i] === '1') {
+                    if (sequenceCount === 0) startPosition = i;
+                    sequenceCount++;
+                    if (i === binaryData.length - 1 || binaryData[i + 1] === '0') {
+                        let relativeStart = startPosition - lastPosition;
+                        if (sequenceCount > 1) {
+                            positions.sequences.push(relativeStart + "-" + sequenceCount);
+                        } else {
+                            positions.sequences.push(relativeStart.toString());
+                        }
+                        lastPosition = i + 1; // to jump correctly to the next sequence
+                        sequenceCount = 0;
+                    }
+                }
+            }
+
+            const blob = new Blob([JSON.stringify(positions, null, 2)], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "data.json";
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+
+        function decodeData() {
+            const positions = JSON.parse(fileContent);
+            const binaryData = Array(positions.lastZeroPosition + 1).fill('0');
+
+            let currentPosition = 0;
+            for (const seq of positions.sequences) {
+                if (seq.includes('-')) {
+                    const [gap, count] = seq.split('-').map(Number);
+                    currentPosition += gap;
+                    for (let j = 0; j < count; j++) {
+                        binaryData[currentPosition + j] = '1';
+                    }
+                    currentPosition += count;
+                } else {
+                    currentPosition += Number(seq);
+                    binaryData[currentPosition] = '1';
+                    currentPosition++;
+                }
+            }
+
+            const hexString = binaryData.join('').match(/.{4}/g).map((bin) => parseInt(bin, 2).toString(16)).join('');
+            const output = new Uint8Array(hexString.length / 2);
+            for (let i = 0; i < hexString.length; i += 2) {
+                output[i / 2] = parseInt(hexString.substr(i, 2), 16);
+            }
+
+            const blob = new Blob([output.buffer], { type: "application/octet-stream" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = positions.fileName + positions.fileExtension;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+    </script>
+
+</body>
+
+</html>
