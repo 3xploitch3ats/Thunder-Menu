@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chat P2P avec WebRTC</title>
+</head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            <!-- height: 100vh; -->
+            margin: 0;
+        }
+
+        #controls {
+            width: 30%;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #message-controls {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #emoji-list {
+            display: none;
+            flex-wrap: wrap;
+            gap: 5px;
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+            position: absolute;
+            background-color: white;
+            z-index: 1;
+        }
+
+        .emoji {
+            cursor: pointer;
+            width: 20px;
+            height: 20px;
+        }
+
+        .chat-message {
+            margin-bottom: 5px;
+        }
+
+        .username-label {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .user-options {
+            display: none;
+            flex-direction: column;
+            gap: 10px;
+            position: absolute;
+            background-color: white;
+            z-index: 1;
+            padding: 10px;
+        }
+    </style>
+
+<body>
+<body>
+    <br>
+</body>
+
+    Votre ID: <span id="my-id"></span><br>
+    <ul id="online-users"></ul>
+    Ajouter un ID: <input type="text" id="new-id">
+    <button onclick="addId()">Ajouter</button><br>
+    Connecter à l'ID: <select id="connect-id"></select>
+    <button onclick="connectTo()">Connecter</button><br>
+  <button onclick="saveIdsToLocalStorage()">Sauvegarder la liste</button>
+<button onclick="removeSelectedId()">Supprimer l'ID sélectionné</button>
+        <textarea id="messages" rows="10" cols="30" readonly></textarea><br>
+
+    <div id="controls">
+        <div id="message-controls">
+            <textarea id="message" rows="5" cols="40" placeholder="Message"></textarea>
+            <button id="emoji-button">Emojis</button>
+            <button onclick="sendMessage()">Envoyer</button>
+            <textarea id="username" placeholder="Nom d'utilisateur"></textarea>
+            <select id="user-list" size="5"></select>
+
+            <button id="delete-button" onclick="deleteConfig()">Supprimer la configuration</button>
+        </div>
+    </div>
+    <div id="emoji-list"></div>
+    <div id="admin-controls" style="display: none;">
+        <h2>Exclure un Utilisateur</h2>
+        <label for="usernameExclude">Nom d'utilisateur à exclure :</label>
+        <input type="text" id="usernameExclude">
+        <button id="exclude-button">Exclure</button>
+
+        <h2>Vérifier et Supprimer les Exclusions</h2>
+        <label for="usernameCheck">Nom d'utilisateur :</label>
+        <input type="text" id="usernameCheck">
+        <button id="check-button">Vérifier</button>
+        <div id="result"></div>
+        <label for="excludedUsers">Utilisateurs exclus :</label>
+        <select id="excludedUsers"></select>
+        <button id="remove-button">Supprimer l'exclusion</button>
+    </div>
+    <div id="encode-decode" style="display: none;">
+    <h2>Encodage/Décodage Hexadécimal (Format UUID)</h2>
+
+    <label for="conversionType">Choisir une conversion : </label>
+    <select id="conversionType">
+        <option value="encode">Encoder</option>
+        <option value="decode">Décoder</option>
+    </select>
+    <br><br>
+
+    <label for="inputString">Saisir le texte à encoder/décoder : </label>
+    <input type="text" id="inputString" size="40">
+    <br><br>
+
+    <button onclick="convert()">Convertir</button>
+    <br><br>
+
+    <label for="output">Résultat : </label>
+    <br>
+    <textarea id="output" rows="4" cols="50" readonly></textarea>
+    <br>
+    <button id="change-id-button">Change Id by Username</button>
+    </div>
+    <button id="share-screen" onclick="shareScreen()">Partager écran</button>
+    <button onclick="requestScreenShare()">Demander le partage d'écran</button>
+    <br>
+    <label><input type="checkbox" id="show-my-share"> Afficher mon partage</label><br>
+
+    <video id="my-shared-screen" controls style="display: none;"></video>
+    <video id="shared-screen" controls style="display: none;"></video>
+    <br>
+<button id="toggleMicrophoneBtn" onclick="toggleMicrophone()">Activer le micro</button>
+<a id="downloadLink" style="display: none;"></a>
+<div id="file-section" style="display: none;">
+    Sélectionner un fichier: <input type="file" id="file-selector">
+    <span id="file-display">Aucun fichier n’a été sélectionné</span>
+    <button onclick="sendFile()">Envoyer fichier</button>
+</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/peerjs@1.3.2/dist/peerjs.min.js"></script>
+    <script>
+
+let storedPeerId = localStorage.getItem('peerId');
+let peer = storedPeerId ? new Peer(storedPeerId) : new Peer();
+
+let conn = null;
+let myUsername = "VotreNom";
+        let friendUsername = "Ami";
+let screenStream = null;
+
+        let onlineUsers = [];
+	const messages = document.getElementById("messages");
+
+        const userList = document.getElementById("user-list");
+        const usernameInput = document.getElementById("username");
+        const messageInput = document.getElementById("message");
+        const emojiButton = document.getElementById("emoji-button");
+        const emojiList = document.getElementById("emoji-list");
+        const deleteButton = document.getElementById("delete-button");
+
+        const userLabel = document.createElement("label");
+        userLabel.className = "username-label";
+        const savedUsername = localStorage.getItem("chatUsername");
+        userLabel.textContent = savedUsername || "Changer le nom d'utilisateur";
+        userLabel.addEventListener("click", openUserOptions);
+document.body.insertBefore(userLabel, document.getElementById("messages"));
+
+        const userOptionsContainer = document.createElement("div");
+        userOptionsContainer.className = "user-options";
+        userOptionsContainer.style.left = userLabel.offsetLeft + "px";
+        userOptionsContainer.style.top = userLabel.offsetTop + userLabel.offsetHeight + "px";
+        document.body.appendChild(userOptionsContainer);
+
+        const emojis = ["😀", "😄", "😁", "😆", "😅", "🤣", "😂", "🙂", "🙃", "😉"];
+        emojis.forEach(emoji => {
+            const emojiElement = document.createElement("span");
+            emojiElement.className = "emoji";
+            emojiElement.textContent = emoji;
+            emojiElement.addEventListener("click", () => insertEmoji(emoji));
+            emojiList.appendChild(emojiElement);
+        });
+
+        emojiButton.addEventListener("click", toggleEmojiList);
+
+        function toggleEmojiList() {
+            emojiList.style.display = emojiList.style.display === "block" ? "none" : "block";
+        }
+
+peer.on('open', function (id) {
+    $("#my-id").text(id);
+    localStorage.setItem('peerId', id);
+            onlineUsers.push(id);
+            displayOnlineUsers();
+});
+
+peer.on('connection', function (connection) {
+    conn = connection;
+    conn.on('data', handleData);            
+});
+
+function handleData(data) {
+    if (data.message) {
+        const decodedMessage = decodeEmojiFromURI(data.message); // Décodage du message
+
+        $("#messages").val($("#messages").val() + conn.peer + ": " + decodedMessage + "\n");
+        addIdToSelect(conn.peer);
+    } else if (data.type === 'requestScreenShare') {
+        shareScreen();
+    } else if (data.type === 'screenShared') {
+        requestSharedScreenStream();
+    }
+}
+
+function requestSharedScreenStream() {
+    let peerIdToConnect = $("#connect-id").val();
+    mediaConn = peer.call(peerIdToConnect, null);
+    mediaConn.on('stream', function(remoteStream) {
+        displayVideoStream('shared-screen', remoteStream);
+    });
+}
+
+function connectTo() {
+    let peerIdToConnect = $("#connect-id").val();
+    conn = peer.connect(peerIdToConnect);
+    conn.on('data', handleData);
+}
+
+function requestScreenShare() {
+    if (conn) {
+        conn.send({ type: 'requestScreenShare' });
+    }
+}
+document.getElementById('message').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter' && !event.shiftKey) {
+        event.preventDefault(); // Empêche le saut de ligne
+        sendMessage(); // Appelle la fonction pour envoyer le message
+    }
+});
+function sendMessage() {
+    const message = messageInput.value;
+
+    // Vérifiez si le message contient le mot secret
+    if (message === "!More") {
+        document.getElementById("admin-controls").style.display = "block";
+        document.getElementById('file-section').style.display = 'block';
+	document.getElementById('encode-decode').style.display = 'block';
+        messageInput.value = ''; // Videz le champ de saisie en utilisant le DOM natif
+        return;  // Ne pas envoyer le message secret aux autres
+    }
+
+    if (currentUser && message) {
+        const newMessage = document.createElement("div");
+        newMessage.className = "chat-message";
+        newMessage.innerHTML = `<strong>${currentUser}:</strong> ${message}`; // Utilisez la variable 'message' au lieu de 'messages'
+	messages.appendChild(newMessage);
+        saveMessage(currentUser, message);
+        messageInput.value = "";
+        updateUserLastActive(currentUser);
+    }
+
+    const messageData = {
+        type: 'chatMessage',
+        message: encodeEmojiToURI(message) // Utilisez directement la variable 'message' au lieu de jQuery pour obtenir la valeur
+    };
+
+    conn.send(messageData);
+    $("#messages").val($("#messages").val() + peerId + ": " + message + "\n"); // Utilisez 'message' au lieu de 'messageData.message'
+    $("#message").val('');
+}
+
+        function displayOnlineUsers() {
+            $('#online-users').empty();
+            onlineUsers.forEach(id => {
+                $('#online-users').append(`<li>${id}</li>`);
+            });
+        }
+
+function addId() {
+    const newId = $("#new-id").val().trim();
+    addIdToSelect(newId);
+}
+
+// Fonction pour ajouter l'ID sélectionné dans le JSON
+function addIdToJSON(id) {
+    const savedIds = JSON.parse(localStorage.getItem("savedIds")) || {};
+    savedIds[id] = true;
+    localStorage.setItem("savedIds", JSON.stringify(savedIds));
+}
+
+function addIdToSelect(id) {
+    if (id && id !== $("#my-id").text() && !$("#connect-id option[value='" + id + "']").length) {
+        $("#connect-id").append(`<option value="${id}">${id}</option>`);
+        $("#new-id").val('');
+        addIdToJSON(id); // Appel de la fonction pour sauvegarder l'ID
+    }
+}
+// Fonction pour supprimer l'ID sélectionné du JSON
+function deleteIdFromJSON(id) {
+    const savedIds = JSON.parse(localStorage.getItem("savedIds")) || {};
+    if (savedIds[id]) {
+        delete savedIds[id];
+        localStorage.setItem("savedIds", JSON.stringify(savedIds));
+    }
+}
+
+// Utiliser cette fonction pour supprimer l'ID sélectionné lors de l'action de suppression
+function removeSelectedId() {
+    const selectedId = $("#connect-id").val();
+    if (selectedId) {
+        $("#connect-id option[value='" + selectedId + "']").remove();
+        deleteIdFromJSON(selectedId); // Appel de la fonction pour supprimer l'ID
+    }
+}
+
+let mediaConn = null;
+
+async function shareScreen() {
+    try {
+        screenStream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: true });
+        const audioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        let tracks = [...screenStream.getTracks(), ...audioStream.getAudioTracks()];
+        screenStream = new MediaStream(tracks);
+
+        if ($("#show-my-share").is(":checked")) {
+            displayVideoStream('my-shared-screen', screenStream);
+        }
+        sendScreenStreamToPeer();
+    } catch (err) {
+        console.error("Erreur lors du partage d'écran:", err);
+    }
+}
+
+function sendScreenStreamToPeer() {
+    let peerIdToConnect = $("#connect-id").val();
+    mediaConn = peer.call(peerIdToConnect, screenStream);
+}
+
+function displayVideoStream(videoId, stream) {
+    let video = document.getElementById(videoId);
+    video.srcObject = stream;
+    video.play();
+    video.style.display = "block";
+}
+
+$("#show-my-share").change(function(){
+    const myVideo = document.getElementById("my-shared-screen");
+    if (this.checked) {
+        if (screenStream) {
+            displayVideoStream('my-shared-screen', screenStream);
+        }
+    } else {
+        myVideo.style.display = "none";
+    }
+});
+
+peer.on('call', function (incomingCall) {
+    if (screenStream) {
+        incomingCall.answer(screenStream);
+    } else {
+        incomingCall.answer(null);
+    }
+    incomingCall.on('stream', function (remoteStream) {
+        displayVideoStream('shared-screen', remoteStream);
+    });
+});
+
+let isMicrophoneMuted = true;
+
+function toggleMicrophone() {
+    if (isMicrophoneMuted) {
+        unmuteMicrophone();
+        document.getElementById("toggleMicrophoneBtn").innerText = "Désactiver le micro";
+    } else {
+        muteMicrophone();
+        document.getElementById("toggleMicrophoneBtn").innerText = "Activer le micro";
+    }
+    isMicrophoneMuted = !isMicrophoneMuted;
+}
+
+let currentAudioStream;
+
+function muteMicrophone() {
+    if (currentAudioStream) {
+        const audioTracks = currentAudioStream.getAudioTracks();
+        audioTracks.forEach(track => track.enabled = false); // Mettre en pause
+    }
+}
+
+async function unmuteMicrophone() {
+    try {
+        if (!currentAudioStream) {
+            currentAudioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        } else {
+            const audioTracks = currentAudioStream.getAudioTracks();
+            audioTracks.forEach(track => track.enabled = true); // Réactiver
+        }
+    } catch (err) {
+        console.error("Erreur lors de l'activation du micro:", err);
+    }
+}
+
+
+        function insertEmoji(emoji) {
+            messageInput.focus();
+            const startPosition = messageInput.selectionStart;
+            const endPosition = messageInput.selectionEnd;
+            const textBefore = messageInput.value.substring(0, startPosition);
+            const textAfter = messageInput.value.substring(endPosition);
+            messageInput.value = `${textBefore}${emoji}${textAfter}`;
+            messageInput.setSelectionRange(startPosition + emoji.length, startPosition + emoji.length);
+            emojiList.style.display = "none";
+        }
+
+        function deleteConfig() {
+            localStorage.removeItem("chatUsers");
+            localStorage.removeItem("chatUsername");
+            localStorage.removeItem("chatMessages");
+            userList.innerHTML = "";
+            deleteButton.style.display = "none";
+            usernameInput.style.display = "block";
+            loadUserList();
+        }
+
+        function loadUserList() {
+            userList.innerHTML = "";
+    const onlineUsers = getOnlineUsers();
+    onlineUsers.forEach(user => {
+        addUserToComboBox(user);
+    });
+            const savedUsers = JSON.parse(localStorage.getItem("chatUsers")) || [];
+            savedUsers.forEach(user => {
+                addUserToComboBox(user);
+            });
+
+            if (savedUsers.length > 0) {
+                deleteButton.style.display = "block";
+            }
+if (savedUsername) {
+    userList.value = savedUsername;
+}
+
+}
+let currentUser = "";
+
+function addUserToComboBox(username) {
+    const optionExists = [...userList.options].some(option => option.value === username);
+    if (!optionExists) {
+        const newUserOption = new Option(username, username);
+        userList.appendChild(newUserOption);
+    }
+    currentUser = username;
+}
+
+
+
+        function saveUser(user) {
+            const savedUsers = JSON.parse(localStorage.getItem("chatUsers")) || [];
+            if (!savedUsers.includes(user)) {
+                savedUsers.push(user);
+                localStorage.setItem("chatUsers", JSON.stringify(savedUsers));
+                loadUserList();
+            }
+        }
+
+        if (savedUsername) {
+            usernameInput.style.display = "none";
+            saveUser(savedUsername);
+        }
+
+        usernameInput.addEventListener("blur", () => {
+            const newUsername = usernameInput.value.trim();
+            if (newUsername) {
+                usernameInput.style.display = "none";
+                saveUser(newUsername);
+                localStorage.setItem("chatUsername", newUsername);
+                userLabel.textContent = newUsername;
+            }
+        });
+
+        loadMessages();
+
+function loadMessages() {
+messages.innerHTML = '';
+    const savedMessages = JSON.parse(localStorage.getItem("chatMessages")) || {};
+    Object.keys(savedMessages).forEach(user => {
+        savedMessages[user].forEach(message => {
+            const newMessage = document.createElement("div");
+            newMessage.className = "chat-message";
+            newMessage.innerHTML = `<strong>${user}:</strong> ${message}`;
+messages.appendChild(newMessage);
+        });
+    });
+}
+
+
+        function saveMessage(user, message) {
+            const savedMessages = JSON.parse(localStorage.getItem("chatMessages")) || {};
+            if (!savedMessages[user]) {
+                savedMessages[user] = [];
+            }
+            savedMessages[user].push(message);
+            localStorage.setItem("chatMessages", JSON.stringify(savedMessages));
+        }
+
+        loadUserList();
+
+        function openUserOptions() {
+            userOptionsContainer.style.display = "block";
+            const setUsernameOption = document.createElement("button");
+            setUsernameOption.textContent = "Changer le nom d'utilisateur";
+            setUsernameOption.addEventListener("click", changeUsername);
+            userOptionsContainer.appendChild(setUsernameOption);
+
+            const deleteUserOption = document.createElement("button");
+            deleteUserOption.textContent = "Supprimer la configuration";
+            deleteUserOption.addEventListener("click", deleteConfig);
+            userOptionsContainer.appendChild(deleteUserOption);
+
+            document.addEventListener("click", (e) => {
+                if (!userOptionsContainer.contains(e.target) && e.target !== userLabel) {
+                    userOptionsContainer.style.display = "none";
+                    setUsernameOption.remove();
+                    deleteUserOption.remove();
+                }
+            });
+        }
+
+        function changeUsername() {
+            usernameInput.style.display = "block";
+            usernameInput.value = savedUsername;
+            userOptionsContainer.style.display = "none";
+        }
+
+    let excludedUsers = JSON.parse(localStorage.getItem("excludedUsers")) || [];
+    const excludedUsersSelect = document.getElementById("excludedUsers");
+    const resultDiv = document.getElementById("result");
+    const excludeButton = document.getElementById("exclude-button");
+    const checkButton = document.getElementById("check-button");
+
+    if (excludedUsers.includes(localStorage.getItem("chatUsername"))) {
+            document.body.innerHTML = '<a href="about:blank">Vous avez été exclu</a>';
+            throw new Error("L'utilisateur est exclu"); // Arrêter l'exécution du script
+    }
+
+        function refreshExcludedUsersOptions() {
+            excludedUsersSelect.innerHTML = "";
+            excludedUsers.forEach(username => {
+                const option = document.createElement("option");
+                option.text = username;
+                excludedUsersSelect.add(option);
+            });
+        }
+
+        excludeButton.addEventListener("click", excludeUser);
+
+        function excludeUser() {
+            const usernameInput = document.getElementById("usernameExclude");
+            const username = usernameInput.value.trim();
+            if (username) {
+                excludedUsers.push(username);
+                localStorage.setItem("excludedUsers", JSON.stringify(excludedUsers));
+                usernameInput.value = "";
+                refreshExcludedUsersOptions();
+                resultDiv.innerHTML = "<h2>Utilisateur exclu avec succès !</h2>";
+            }
+        }
+
+        checkButton.addEventListener("click", () => {
+            const username = document.getElementById("usernameCheck").value.trim();
+            if (excludedUsers.includes(username)) {
+                resultDiv.innerHTML = "<h2>Utilisateur exclu</h2>";
+            } else {
+                resultDiv.innerHTML = "<h2>Utilisateur non exclu</h2>";
+            }
+        });
+
+        refreshExcludedUsersOptions();
+
+        const removeButton = document.getElementById("remove-button");
+
+        removeButton.addEventListener("click", () => {
+            const selectedUsername = excludedUsersSelect.value;
+            if (selectedUsername) {
+                const index = excludedUsers.indexOf(selectedUsername);
+                if (index !== -1) {
+                    excludedUsers.splice(index, 1);
+                    localStorage.setItem("excludedUsers", JSON.stringify(excludedUsers));
+                    refreshExcludedUsersOptions();
+                    resultDiv.innerHTML = "<h2>Exclusion supprimée avec succès !</h2>";
+                }
+            }
+        });
+
+
+let lastMessageCount = 0; // Variable pour stocker le nombre de messages la dernière fois qu'ils ont été chargés
+const refreshInterval = setInterval(refreshChat, 5000); // 5000ms équivaut à 5 secondes
+
+function refreshChat() {
+    // Vérifier si un nouvel utilisateur a été banni
+    if (excludedUsers.includes(localStorage.getItem("chatUsername"))) {
+        document.body.innerHTML = '<a href="about:blank">Vous avez été exclu</a>';
+        clearInterval(refreshInterval); // Arrêtez le rafraîchissement si l'utilisateur est exclu.
+        return;
+    }
+
+    loadMessages(); // Charger de nouveaux messages
+}
+function updateUserLastActive(username) {
+    const userLastActive = JSON.parse(localStorage.getItem("userLastActive")) || {};
+    userLastActive[username] = Date.now(); // L'heure actuelle en millisecondes
+    localStorage.setItem("userLastActive", JSON.stringify(userLastActive));
+}
+function getOnlineUsers() {
+    const userLastActive = JSON.parse(localStorage.getItem("userLastActive")) || {};
+    const onlineUsers = [];
+    const FIVE_MINUTES = 5 * 1000; // 5 minutes en millisecondes
+
+    for (const user in userLastActive) {
+        if (Date.now() - userLastActive[user] < FIVE_MINUTES) {
+            onlineUsers.push(user);
+        }
+    }
+
+    return onlineUsers;
+}
+
+function encodeToUUIDFormat(text) {
+    const hex = text.split('').map(char => char.charCodeAt(0).toString(16).padStart(2, '0')).join('');
+    const formattedHex = [
+        hex.substr(0, 8).padEnd(8, 'f'),
+        hex.substr(8, 4).padEnd(4, 'f'),
+        hex.substr(12, 4).padEnd(4, 'f'),
+        hex.substr(16, 4).padEnd(4, 'f'),
+        hex.substr(20).padEnd(12, 'f')
+    ].join('-');
+    return formattedHex;
+}
+
+function decodeFromUUIDFormat(uuid) {
+    const hex = uuid.split('-').join('');
+    let decoded = [
+        hex.substr(0, 8),
+        hex.substr(8, 4),
+        hex.substr(12, 4),
+        hex.substr(16, 4),
+        hex.substr(20)
+    ].join('');
+
+    while (decoded.endsWith('f')) {
+        decoded = decoded.slice(0, -1);
+    }
+
+    decoded = decoded.match(/.{2}/g).map(h => String.fromCharCode(parseInt(h, 16))).join('');
+
+    return decoded;
+}
+
+function convert() {
+    const conversionType = document.getElementById("conversionType").value;
+    const inputString = document.getElementById("inputString").value;
+    let output = "";
+
+    if (conversionType === "encode") {
+        output = encodeToUUIDFormat(inputString);
+    } else {
+        output = decodeFromUUIDFormat(inputString);
+    }
+
+    document.getElementById("output").value = output;
+}
+
+
+// Définir la fonction changeId
+function changeId() {
+    const peerId2 = document.getElementById("output").value; // Récupérer la valeur du champ de saisie
+
+    // Stocker la valeur dans le stockage local avec la clé "peerId"
+    localStorage.setItem('peerId', peerId2);
+}
+
+// Associer la fonction à l'événement clic du bouton
+document.getElementById("change-id-button").addEventListener("click", changeId);
+
+function encodeEmojiToURI(emoji) {
+    const encodedEmoji = encodeURIComponent(emoji);
+    return encodedEmoji;
+}
+function decodeEmojiFromURI(encodedEmoji) {
+    const decodedEmoji = decodeURIComponent(encodedEmoji);
+    return decodedEmoji;
+}
+
+        document.addEventListener("DOMContentLoaded", function () {
+            loadIdsFromLocalStorage();
+        });
+
+        function loadIdsFromLocalStorage() {
+            const savedIds = JSON.parse(localStorage.getItem("savedIds")) || {};
+
+            savedIds.forEach(id => {
+                const option = document.createElement('option');
+                option.value = id;
+                option.textContent = id;
+                document.getElementById('connect-id').appendChild(option);
+            });
+        }
+
+        function saveIdsToLocalStorage() {
+            const connectIdElement = document.getElementById('connect-id');
+            const savedIds = Array.from(connectIdElement.options).map(option => option.value);
+
+            localStorage.setItem('savedIds', JSON.stringify(savedIds));
+        }
+setInterval(refreshChat, 5000); // Rafraîchir le chat toutes les 5 secondes
+    </script>
+</body>
+
+</html>
