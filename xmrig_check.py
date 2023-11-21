@@ -51,7 +51,7 @@ if __name__ == "__main__":
     tasklist /NH /FI "IMAGENAME eq {exe_name}" | find /i "{exe_name}" > nul
     if errorlevel 1 (
         cd /d "{xmrig_path}"
-        start /b {exe_name}
+        start "" {exe_name}
     )
     goto Check
     """
