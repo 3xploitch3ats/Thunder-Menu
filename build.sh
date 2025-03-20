@@ -53,8 +53,7 @@ fi
 # Build and install Frei0r
 cd "$FREI0R_DIR"
 # mkdir -p build && cd build
-# cmake -G "MinGW Makefiles" -DCMAKE_INSTALL_PREFIX="${FREI0R_INSTALL_DIR}"
-# cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX="${FREI0R_INSTALL_DIR}" .
+# cmake -G "Visual Studio 17 2022" -A x64
 cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX="${FREI0R_INSTALL_DIR}"
 
 make -j$(nproc)
@@ -116,7 +115,8 @@ cd "$FFMPEG_DIR"
     --enable-libsvtav1 \
     --enable-shared \
     --extra-cflags="-I${FREI0R_DIR}/include" \
-    --extra-ldflags="-L${FREI0R_INSTALL_DIR}/lib/frei0r~1"
+  --extra-ldflags="-L${FREI0R_INSTALL_DIR}./frei0r/src/filter/*/Release"
+    # --extra-ldflags="-L${FREI0R_INSTALL_DIR}/lib/frei0r~1"
 
 # Build and install FFmpeg
 make -j$(nproc)
