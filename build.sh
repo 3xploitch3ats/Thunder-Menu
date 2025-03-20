@@ -125,3 +125,4 @@ cd ..
 
 echo "Installation complete. Frei0r installed in ${FREI0R_INSTALL_DIR}."
 echo "FFmpeg, ffplay, and ffprobe installed in ${FFMPEG_DIR}/FFmpeg."
+read -p "Appuyez sur EntrÃ©e pour continuer..."
