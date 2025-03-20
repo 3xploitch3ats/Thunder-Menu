@@ -53,7 +53,7 @@ fi
 # Build and install Frei0r
 cd "$FREI0R_DIR"
 # mkdir -p build && cd build
-# cmake -G "Visual Studio 17 2022" -A x64
+# cmake -G "Visual Studio 17 2022" -A x64 ..
 cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX="${FREI0R_INSTALL_DIR}"
 
 make -j$(nproc)
