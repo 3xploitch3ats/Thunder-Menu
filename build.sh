@@ -116,7 +116,7 @@ cd "$FFMPEG_DIR"
     --enable-libsvtav1 \
     --enable-shared \
     --extra-cflags="-I${FREI0R_DIR}/include" \
-    --extra-ldflags="-L${FREI0R_INSTALL_DIR}"
+    --extra-ldflags="-L${FREI0R_INSTALL_DIR}/lib/frei0r~1"
 
 # Build and install FFmpeg
 make -j$(nproc)
