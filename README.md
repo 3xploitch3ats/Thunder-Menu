@@ -24,3 +24,8 @@ and . and 9 for the 2 other
 # and the free username and password is Thunder and Menu
 
 https://thunder-menu.com
+
+# Source impulse 2025
+https://github.com/3xploitch3ats/Thunder-Menu/raw/refs/heads/v2/sourceImpulse170(3442).zip
+# Source menyoo 2025
+https://github.com/3xploitch3ats/Thunder-Menu/raw/refs/heads/v2/Source-Menyoo-Online-2017-154-to-2022-163.zip
