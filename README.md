@@ -18,3 +18,8 @@ and . and 9 for the 2 other
 # and the free username and password is Thunder and Menu
 
 https://thunder-menu.com
+
+# xenos source update 2025 and custom injector source
+https://www.mediafire.com/file/inr7wdhz2hqe1ev/Custom-Injector_with_Source.zip/file
+# chronix source code 03-20-2025
+https://www.mediafire.com/file/f34uqmp53rhkijw/Chronix.zip
