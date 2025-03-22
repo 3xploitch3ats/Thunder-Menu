@@ -33,3 +33,14 @@ https://github.com/3xploitch3ats/Thunder-Menu/raw/refs/heads/v2/Source-Menyoo-On
 
 # Install_FFmpeg_Cartoon imgui windows
 https://github.com/3xploitch3ats/Thunder-Menu/tree/Install_FFmpeg_Cartoon
+
+# Custom-Injector_with_Source.zip [80.5 MB]
+https://send.now/5qrvgqerhiqx
+
+# if you try compil
+# turn of the real time protection or it delete 
+# ext\blackbone\src\BlackBoneDrv\bin\x64\Win10Release
+# /BlackBoneDrv10.sys
+
+# //git clone --recursive https://github.com/DarthTon/Xenos
+# //https://github.com/DarthTon/Blackbone
