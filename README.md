@@ -12,3 +12,14 @@ https://www.mediafire.com/file/f34uqmp53rhkijw/Chronix.zip
 https://github.com/3xploitch3ats/Thunder-Menu/raw/refs/heads/v2/sourceImpulse170(3442).zip
 # Source menyoo 2025
 https://github.com/3xploitch3ats/Thunder-Menu/raw/refs/heads/v2/Source-Menyoo-Online-2017-154-to-2022-163.zip
+
+# Custom-Injector_with_Source.zip [80.5 MB]
+https://send.now/5qrvgqerhiqx
+
+# if you try compil
+# turn of the real time protection or it delete 
+# ext\blackbone\src\BlackBoneDrv\bin\x64\Win10Release
+# /BlackBoneDrv10.sys
+
+# //git clone --recursive https://github.com/DarthTon/Xenos
+# //https://github.com/DarthTon/Blackbone
