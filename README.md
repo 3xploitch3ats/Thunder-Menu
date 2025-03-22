@@ -1,3 +1,7 @@
+# msys2
+https://www.msys2.org/
+https://github.com/msys2/msys2-installer/releases/download/2025-02-21/msys2-x86_64-20250221.exe
+
 # Menyoo GTA5
 https://github.com/3xploitch3ats/Thunder-Menu/tree/Menyoo
 # this is F8 for open the menyoo
