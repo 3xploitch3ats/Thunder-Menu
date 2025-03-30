@@ -14,6 +14,7 @@ def patch_file(file_path):
             data = bytearray(f.read())
 
         found = False
+        # Search for the hex pattern in the file
         for i in range(len(data) - len(HEX_PATTERN) + 1):
             if all(data[i + j] == HEX_PATTERN[j] for j in range(len(HEX_PATTERN))):
                 for j in range(len(REPLACEMENT)):
@@ -29,6 +30,7 @@ def patch_file(file_path):
             messagebox.showinfo("Success", f"Patched file created:\n{new_path}")
             return True
         else:
+            # If pattern is not found, show a warning message
             messagebox.showwarning("Error", "Hex pattern not found.")
             return False
     except Exception as e:
