@@ -59,7 +59,9 @@ def rechercher_fonction():
             # Variables pour reconstituer le contenu entre morceaux
             remaining_content = ""
             function_code = ""
-            found = False
+            found_function = False
+            cashondeadbody_pos = -1
+            post_cash_text = ""  # Pour accumuler le texte après cashondeadbody
             
             while True:
                 chunk = file.read(chunk_size)
@@ -68,8 +70,8 @@ def rechercher_fonction():
                 
                 full_content = remaining_content + chunk
                 
-                if not found:
-                    # Recherche de la fonction comme dans votre version originale
+                if not found_function:
+                    # Recherche de la fonction contenant cashondeadbody
                     void_positions = [m.start() for m in re.finditer(r"\bvoid\b", full_content)]
                     cash_positions = [m.start() for m in re.finditer(r"cashondeadbody", full_content)]
                     
@@ -96,10 +98,18 @@ def rechercher_fonction():
                         
                         if brace_count == 0:
                             function_code = full_content[start_pos:end_pos]
-                            found = True
+                            found_function = True
+                            cashondeadbody_pos = cash_pos
+                            # On commence à accumuler le texte après cashondeadbody
+                            post_cash_text = full_content[cash_pos:]
                             break
                 
-                if found:
+                # Si la fonction est trouvée, on continue à accumuler le texte suivant
+                if found_function:
+                    post_cash_text += chunk
+                
+                # On sort de la boucle seulement si on a trouvé la fonction ET assez de texte après
+                if found_function and len(post_cash_text) > 100000:  # On lit 100KB après cashondeadbody
                     break
                 
                 remaining_content = full_content[-1000:] if len(full_content) > 1000 else full_content
@@ -110,37 +120,65 @@ def rechercher_fonction():
                 text_area_function.insert(tk.END, "Fonction contenant cashondeadbody non trouvée")
                 return
             
-            # Afficher la fonction trouvée (identique à votre version)
+            # Afficher la fonction trouvée
             text_area_function.delete("1.0", tk.END)
             text_area_function.insert(tk.END, function_code)
             
-            # Recherche de IS_BIT_SET (identique à votre version)
+            # Recherche de IS_BIT_SET
             is_bit_set_match = re.search(r"IS_BIT_SET\s*\(\s*&?(Global_\d+)", function_code)
             first_global = is_bit_set_match.group(1) if is_bit_set_match else "Non trouvé"
             
-            # RECHERCHE DU DERNIER ELSE (VOTRE CODE ORIGINAL INCHANGÉ)
+            # Recherche du dernier ELSE
             last_else_matches = re.findall(r"else\s*{[^}]*?Global_\d+[^}]*}", function_code)
             last_else = last_else_matches[-1] if last_else_matches else "Non trouvé"
             
-            # Dernière accolade fermante (identique)
+            # Dernière accolade fermante
             last_end = function_code.rfind("}")
 
-            # EXTRAIRE LE DERNIER GLOBAL_ DU BLOC ELSE TROUVÉ
+            # Extraire le dernier Global_ du bloc ELSE trouvé
             if last_else != "Non trouvé":
-                # Trouver tous les Global_ dans le bloc else
                 all_globals = re.findall(r"(Global_\d+)", last_else)
-                # Prendre le dernier Global_ trouvé dans le bloc
                 last_global = all_globals[-1] if all_globals else "Aucun Global_ trouvé"
             else:
                 last_global = "Non trouvé"
             
-            # Affichage des résultats (MODIFIÉ POUR AFFICHER SEULEMENT LE DERNIER GLOBAL_)
+            # RECHERCHE DU GLOBAL_ APRÈS SERVICE_EARN DANS LE TEXTE ACCUMULÉ
+            service_earn_global = "Non trouvé"
+            if cashondeadbody_pos != -1:
+                # Recherche plus robuste avec différentes orthographes possibles
+                service_earn_match = re.search(
+                    r"SERVICE_EARN_COLLECTABLE_COMPLETED_COLLECTION\b.*?(\bGlobal_\d+\b)", 
+                    post_cash_text,
+                    re.DOTALL
+                )
+                
+                # Essai avec une orthographe alternative si non trouvé
+                if not service_earn_match:
+                    service_earn_match = re.search(
+                        r"SERVICE_EARN_COLLECTABLE_COMPLETED_COLLECTION\b.*?(\bGlobal_\d+\b)", 
+                        post_cash_text,
+                        re.DOTALL
+                    )
+                
+                if service_earn_match:
+                    service_earn_global = service_earn_match.group(1)
+            
+            # Affichage des résultats
             text_area_first_global.delete("1.0", tk.END)
             text_area_first_global.insert(tk.END, first_global)
             
             text_area_last_else.delete("1.0", tk.END)
-            text_area_last_else.insert(tk.END, last_global)  # On affiche seulement le dernier Global_
+            text_area_last_else.insert(tk.END, last_global)
             text_area_last_else.insert(tk.END, f"\n\nDernière accolade fermante à la position : {last_end}")
+            
+            # Affichage dans le 5ème textarea avec informations de débogage
+            text_area_service_earn.delete("1.0", tk.END)
+            text_area_service_earn.insert(tk.END, f"Global_ après SERVICE_EARN: {service_earn_global}")
+            
+            if service_earn_global == "Non trouvé":
+                text_area_service_earn.insert(tk.END, "\n\nDEBUG: Texte analysé (100 premiers caractères):")
+                text_area_service_earn.insert(tk.END, f"\n{post_cash_text[:100]}...")
+            
             update_progress(100)
             btn_rechercher.config(state=tk.NORMAL)
     
@@ -149,10 +187,12 @@ def rechercher_fonction():
         text_area_function.insert(tk.END, f"Erreur : {e}")
         btn_rechercher.config(state=tk.NORMAL)
 
-# Interface graphique (identique à votre version)
+# Interface graphique (avec ajout du 5ème textarea)
 root = tk.Tk()
 root.title("Analyse de cashondeadbody")
+root.geometry("1100x950")  # Fenêtre légèrement agrandie
 
+# Boutons
 btn_load = tk.Button(root, text="Charger le fichier", command=charger_fichier)
 btn_load.pack(pady=10)
 
@@ -162,18 +202,21 @@ btn_rechercher.pack(pady=10)
 progress_bar = ttk.Progressbar(root, orient="horizontal", length=400, mode="determinate")
 progress_bar.pack(pady=10)
 
-text_area_full = scrolledtext.ScrolledText(root, height=20, width=100, wrap=tk.WORD)
+# Zones de texte
+text_area_full = scrolledtext.ScrolledText(root, height=20, width=140, wrap=tk.WORD)
 text_area_full.pack(pady=10)
 
-text_area_function = scrolledtext.ScrolledText(root, height=10, width=100, wrap=tk.WORD)
+text_area_function = scrolledtext.ScrolledText(root, height=15, width=140, wrap=tk.WORD)
 text_area_function.pack(pady=10)
 
-text_area_first_global = scrolledtext.ScrolledText(root, height=5, width=100, wrap=tk.WORD)
+text_area_first_global = scrolledtext.ScrolledText(root, height=5, width=140, wrap=tk.WORD)
 text_area_first_global.pack(pady=10)
 
-text_area_last_else = scrolledtext.ScrolledText(root, height=5, width=100, wrap=tk.WORD)
+text_area_last_else = scrolledtext.ScrolledText(root, height=5, width=140, wrap=tk.WORD)
 text_area_last_else.pack(pady=10)
 
-root.mainloop()
+# NOUVEAU 5ème TEXTAREA
+text_area_service_earn = scrolledtext.ScrolledText(root, height=5, width=140, wrap=tk.WORD)
+text_area_service_earn.pack(pady=10)
 
-# SERVICE_EARN_COLLECTABLE_COMPLETED_COLLECTION
+root.mainloop()
