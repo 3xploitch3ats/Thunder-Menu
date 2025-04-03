@@ -2,9 +2,25 @@ import os
 import re
 import tkinter as tk
 from tkinter import scrolledtext, ttk
+import urllib.request
+from tkinter import messagebox
 
 # Définition du fichier local
 fichier_local = os.path.join(os.getcwd(), "freemode.c")
+fichier_url = "https://raw.githubusercontent.com/PlayboyPrime/GTAV-Decompiled-Scripts/main/scripts/freemode.c"
+
+# Fonction pour télécharger le fichier si nécessaire
+def telecharger_fichier():
+    if not os.path.exists(fichier_local):
+        try:
+            update_progress(20)
+            urllib.request.urlretrieve(fichier_url, fichier_local)
+            update_progress(50)
+            return True
+        except Exception as e:
+            messagebox.showerror("Erreur", f"Échec du téléchargement : {e}")
+            return False
+    return True
 
 # Fonction pour mettre à jour la progressbar
 def update_progress(value):
@@ -13,30 +29,24 @@ def update_progress(value):
 
 # Fonction pour charger et afficher le fichier par morceaux
 def charger_fichier():
-    update_progress(10)
-    if not os.path.exists(fichier_local):
-        text_area_full.delete("1.0", tk.END)
-        text_area_full.insert(tk.END, "Erreur : Fichier non trouvé.")
+    if not telecharger_fichier():
         return
-
-    update_progress(30)
-
-    chunk_size = 10 * 1024 * 1024  # 10 MB par morceau
+        
+    update_progress(10)
     try:
         with open(fichier_local, "r", encoding="utf-8") as file:
             text_area_full.delete("1.0", tk.END)
+            chunk_size = 10 * 1024 * 1024  # 10 MB par morceau
             while True:
                 chunk = file.read(chunk_size)
                 if not chunk:
                     break
                 text_area_full.insert(tk.END, chunk)
                 root.update_idletasks()
+        update_progress(100)
     except Exception as e:
         text_area_full.delete("1.0", tk.END)
-        text_area_full.insert(tk.END, f"Erreur de lecture du fichier : {e}")
-        return
-
-    update_progress(100)
+        text_area_full.insert(tk.END, f"Erreur de lecture : {e}")
 
 # Fonction pour rechercher la fonction contenant "cashondeadbody" avec lecture par morceaux
 def rechercher_fonction():
