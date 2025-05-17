@@ -1,3 +1,7 @@
+# pip install opencv-python
+# pip install opencv-contrib-python
+# python -c "import cv2; print(cv2.version)"
+# pip install opencv-python face_recognition
 import sys
 import subprocess
 import importlib
