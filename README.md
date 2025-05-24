@@ -71,3 +71,5 @@ https://github.com/dwep1337/GTAV-Decompiled-Scripts
 #
 https://github.com/PlayboyPrime/GTAV-Decompiled-Scripts
 #
+https://github.com/3xploitch3ats/Thunder-Menu/blob/ScriptHookV/CashOnDeadBody.py
+#
