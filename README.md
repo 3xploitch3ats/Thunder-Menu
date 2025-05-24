@@ -73,10 +73,8 @@ https://github.com/PlayboyPrime/GTAV-Decompiled-Scripts
 #
 https://github.com/3xploitch3ats/Thunder-Menu/blob/ScriptHookV/CashOnDeadBody.py
 #
-
 https://www.mediafire.com/file/1b14wyoj1oit4jn/FSL+local+GTAO+saves.zip
 #
-FSL local GTAO saves.zip [49.7 MB]
-#
+# FSL local GTAO saves.zip [49.7 MB]
 https://send.now/w7vn9cd3cr2z
 #
