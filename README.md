@@ -67,3 +67,7 @@ https://www.mediafire.com/file/8dsbwecpssoykni/SourceMiscellaneous166(2845).zip
 #
 https://www.mediafire.com/file/uopc7usrkdbak9k/Hela_30FPS.zip
 #
+https://github.com/dwep1337/GTAV-Decompiled-Scripts
+#
+https://github.com/PlayboyPrime/GTAV-Decompiled-Scripts
+#
