@@ -1,4 +1,4 @@
-﻿#include <Windows.h>
+#include <Windows.h>
 #include <Windowsx.h>
 #include <thread>
 #include <atomic>
@@ -84,7 +84,7 @@ void MoveMouseTo(int x, int y)
 
 void LeftClick() {
     mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
-    Sleep(5); // petit délai
+    //Sleep(5); // petit délai
     mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
     lastShotTime = GetTickCount();
 }
@@ -1317,6 +1317,13 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
             SetCapture(hwnd);
             return 0;
         }
+        // Déplacement du menu via la souris
+        if (g_allowMoveMenu && PtInRect(&g_menuCorner, pt)) {
+            g_draggingMenu = true;
+            g_dragStart = pt;
+            SetCapture(hwnd); // 👈 Très important pour autoriser le drag hors zone visible
+            return 0;
+        }
 
         break;
     }
@@ -1347,6 +1354,13 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
         g_draggingSlider = SLIDER_NONE;
         g_draggingMenu = false;
         SaveConfig();
+        if (g_draggingMenu) {
+            g_draggingMenu = false;
+            ReleaseCapture();
+            SaveConfig();
+            return 0;
+        }
+
         break;
     }
     /*case WM_TIMER:
