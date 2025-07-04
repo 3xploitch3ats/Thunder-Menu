@@ -221,10 +221,10 @@ struct Color {
     uint8_t r, g, b;
 };
 
-Color blueColor = { 82, 158, 199 };
-Color redColor = { 205, 67, 72 };
-int toleranceRed = 15;
-int toleranceBlue = 25;
+//Color blueColor = { 82, 158, 199 };
+//Color redColor = { 205, 67, 72 };
+//int toleranceRed = 15;
+//int toleranceBlue = 25;
 
 //HWND FocusWindow()
 //{
@@ -361,44 +361,167 @@ void WriteLog(const char* message)
     }
 }
 
-inline bool IsColorMatch(uint8_t r, uint8_t g, uint8_t b, uint8_t tr, uint8_t tg, uint8_t tb, int tolerance) {
-    return abs(r - tr) <= tolerance &&
-        abs(g - tg) <= tolerance &&
-        abs(b - tb) <= tolerance;
-}
+//inline bool IsColorMatch(uint8_t r, uint8_t g, uint8_t b, uint8_t tr, uint8_t tg, uint8_t tb, int tolerance) {
+//    return abs(r - tr) <= tolerance &&
+//        abs(g - tg) <= tolerance &&
+//        abs(b - tb) <= tolerance;
+//}
 
 bool barInside = false;
 
+#include <cstdint>
+#include <cstring>  // memcpy
+#include <windows.h>
 
-bool IsColorMatch(uint8_t r, uint8_t g, uint8_t b, const Color& target, int tolerance) {
-    return abs(r - target.r) <= tolerance && abs(g - target.g) <= tolerance && abs(b - target.b) <= tolerance;
+////bool IsColorMatch(uint8_t r, uint8_t g, uint8_t b, const Color& target, int tolerance) {
+////    return abs(r - target.r) <= tolerance && abs(g - target.g) <= tolerance && abs(b - target.b) <= tolerance;
+////}
+//#define FAST_DIFF(a, b, t) (((unsigned)((a) - (b) + (t)) <= (unsigned)((t)*2)))
+//#define IS_COLOR_MATCH(r,g,b,tr,tg,tb,tol) \
+//    (FAST_DIFF(r, tr, tol) && FAST_DIFF(g, tg, tol) && FAST_DIFF(b, tb, tol))
+//typedef unsigned char u8;
+////inline bool IsColorMatch(u8 r, u8 g, u8 b, u8 tr, u8 tg, u8 tb, int tol) {
+////    return FAST_DIFF(r, tr, tol) &&
+////        FAST_DIFF(g, tg, tol) &&
+////        FAST_DIFF(b, tb, tol);
+////}
+//__forceinline bool IsColorMatch(u8 r, u8 g, u8 b, u8 tr, u8 tg, u8 tb, int tol) {
+//    return FAST_DIFF(r, tr, tol) &&
+//        FAST_DIFF(g, tg, tol) &&
+//        FAST_DIFF(b, tb, tol);
+//}
+__forceinline bool IsColorMatch(uint8_t r, uint8_t g, uint8_t b,
+    uint8_t tr, uint8_t tg, uint8_t tb,
+    int tol) {
+    return (((unsigned)(r - tr + tol) <= (unsigned)(tol * 2)) &&
+        ((unsigned)(g - tg + tol) <= (unsigned)(tol * 2)) &&
+        ((unsigned)(b - tb + tol) <= (unsigned)(tol * 2)));
 }
 
+
+////struct FastRGB {
+////    BYTE b, g, r;
+////};
+//struct RGBA {
+//    uint8_t r, g, b, a;
+//};
+typedef uint8_t u8;
+//typedef uint32_t DWORD;
+
+// Encode RGB en DWORD (sans alpha)
+//constexpr DWORD RGB_HASH(u8 r, u8 g, u8 b) {
+//    return (r << 16) | (g << 8) | b;
+//}
+constexpr DWORD RGB_HASH(u8 r, u8 g, u8 b) {
+    return (DWORD(r) << 16) | (DWORD(g) << 8) | DWORD(b);
+}
+#define PACK_RGB(r, g, b) ((DWORD(r) << 16) | (DWORD(g) << 8) | DWORD(b))
+
+// Test rapide via hash et tolérance
+__forceinline bool IsColorMatchHash(DWORD color, DWORD target, int tol) {
+    u8 r1 = (color >> 16) & 0xFF;
+    u8 g1 = (color >> 8) & 0xFF;
+    u8 b1 = color & 0xFF;
+
+    u8 r2 = (target >> 16) & 0xFF;
+    u8 g2 = (target >> 8) & 0xFF;
+    u8 b2 = target & 0xFF;
+
+    return (((unsigned)(r1 - r2 + tol) <= (unsigned)(tol * 2)) &&
+        ((unsigned)(g1 - g2 + tol) <= (unsigned)(tol * 2)) &&
+        ((unsigned)(b1 - b2 + tol) <= (unsigned)(tol * 2)));
+}
+
+#define PACK_RGB(r, g, b) ((DWORD(r) << 16) | (DWORD(g) << 8) | DWORD(b))
+
+const int toleranceRed = 4;
+const int toleranceBlue = 4;
 void CheckQuickTimeTrigger(RGBQUAD* buffer, int width, int height, RGBQUAD* lastBuffer)
 {
     static DWORD startTick = 0;
     static DWORD lastPressTime = 0;
     static DWORD barTimer = 0;
     static int pressE_count = 0;
+    /*const DWORD redHash = PACK_RGB(205, 67, 72);
+    const DWORD blueHash = PACK_RGB(82, 158, 199);*/
 
-    const BYTE redR = 205, redG = 67, redB = 72, toleranceRed = 12;
-    const BYTE blueR = 82, blueG = 158, blueB = 199, toleranceBlue = 20;
+    const BYTE redR = 205, redG = 67, redB = 72;
+    const BYTE blueR = 82, blueG = 158, blueB = 199;
+    //    const BYTE redR = 203, redG = 66, redB = 72;         // Smooch Rouge
+    //const BYTE blueR = 81, blueG = 157, blueB = 197;     // Canadian Tuxedo
 
-    DWORD now = GetTickCount();
+    //const BYTE knockoutR = 194, knockoutG = 46, knockoutB = 46;
+    //const BYTE smoochR = 203, smoochG = 66, smoochB = 72;
+    //const BYTE blueR = 81, blueG = 157, blueB = 197;
+    ULONGLONG now = GetTickCount64();
+
+    //DWORD now = GetTickCount();
     bool redDetected = false;
+
+    /*for (int i = 0; i < width * height; ++i)
+    {
+        RGBQUAD pixel = buffer[i];
+        RGBQUAD previousPixel = lastBuffer[i];*/
+    /*RGBQUAD* curr = buffer;
+    RGBQUAD* prev = lastBuffer;*/
+
+
+    /*int pixelCount = width * height;
+
+    for (int i = 0; i < pixelCount; ++i) {
+        RGBQUAD& curr = buffer[i];
+        RGBQUAD& prev = lastBuffer[i];*/
+
+    /*for (int y = 0; y < height; ++y) {
+        for (int x = width - 1; x >= 0; --x) { //scan right to left and up to down
+            int i = y * width + x;*/
+
+            /*RGBQUAD curr = buffer[i];
+            RGBQUAD prev = lastBuffer[i];*/
+
+           /* bool isRed = IsColorMatch(curr.rgbRed, curr.rgbGreen, curr.rgbBlue,
+                redR, redG, redB, toleranceRed);
+            bool wasBlue = IsColorMatch(prev.rgbRed, prev.rgbGreen, prev.rgbBlue,
+                blueR, blueG, blueB, toleranceBlue);*/
+    /*for (int i = 0; i < width * height; ++i, ++curr, ++prev)
+    {*/
+    /*const DWORD redHash = RGB_HASH(redR, redG, redB);
+    const DWORD blueHash = RGB_HASH(blueR, blueG, blueB);*/
 
     for (int i = 0; i < width * height; ++i)
     {
-        RGBQUAD pixel = buffer[i];
-        RGBQUAD previousPixel = lastBuffer[i];
+        RGBQUAD& curr = buffer[i];
+        RGBQUAD& prev = lastBuffer[i];
+        /*bool isRed = IsColorMatch(curr.rgbRed, curr.rgbGreen, curr.rgbBlue,
+            redR, redG, redB, toleranceRed);
+        bool wasBlue = IsColorMatch(prev.rgbRed, prev.rgbGreen, prev.rgbBlue,
+            blueR, blueG, blueB, toleranceBlue);*/
+        /*DWORD currHash = RGB_HASH(curr.rgbRed, curr.rgbGreen, curr.rgbBlue);
+        DWORD prevHash = RGB_HASH(prev.rgbRed, prev.rgbGreen, prev.rgbBlue);
 
+        bool isRed = IsColorMatchHash(currHash, redHash, toleranceRed);
+        bool wasBlue = IsColorMatchHash(prevHash, blueHash, toleranceBlue);*/
+        bool isRed = IsColorMatch(curr.rgbRed, curr.rgbGreen, curr.rgbBlue,
+            redR, redG, redB, toleranceRed);
+        bool wasBlue = IsColorMatch(prev.rgbRed, prev.rgbGreen, prev.rgbBlue,
+            blueR, blueG, blueB, toleranceBlue);
+    /*bool isRed = IsColorMatch(curr->rgbRed, curr->rgbGreen, curr->rgbBlue,
+            redR, redG, redB, toleranceRed);
+        bool wasBlue = IsColorMatch(prev->rgbRed, prev->rgbGreen, prev->rgbBlue,
+            blueR, blueG, blueB, toleranceBlue);*/
         /*bool isRed = IsColorMatch(pixel.rgbRed, pixel.rgbGreen, pixel.rgbBlue,
             redR, redG, redB, toleranceRed);
 
         bool wasBlue = IsColorMatch(previousPixel.rgbRed, previousPixel.rgbGreen, previousPixel.rgbBlue,
             blueR, blueG, blueB, toleranceBlue);*/
+       /* bool isRed = FAST_DIFF(pixel.rgbRed, redR, toleranceRed) &&
+            FAST_DIFF(pixel.rgbGreen, redG, toleranceRed) &&
+            FAST_DIFF(pixel.rgbBlue, redB, toleranceRed);
 
-        bool isRed =
+        bool wasBlue = FAST_DIFF(previousPixel.rgbRed, blueR, toleranceBlue) &&
+            FAST_DIFF(previousPixel.rgbGreen, blueG, toleranceBlue) &&
+            FAST_DIFF(previousPixel.rgbBlue, blueB, toleranceBlue);*/
+        /*bool isRed =
             abs(pixel.rgbRed - redR) <= toleranceRed &&
             abs(pixel.rgbGreen - redG) <= toleranceRed &&
             abs(pixel.rgbBlue - redB) <= toleranceRed;
@@ -406,13 +529,18 @@ void CheckQuickTimeTrigger(RGBQUAD* buffer, int width, int height, RGBQUAD* last
         bool wasBlue =
             abs(previousPixel.rgbRed - blueR) <= toleranceBlue &&
             abs(previousPixel.rgbGreen - blueG) <= toleranceBlue &&
-            abs(previousPixel.rgbBlue - blueB) <= toleranceBlue;
+            abs(previousPixel.rgbBlue - blueB) <= toleranceBlue;*/
+
+        /*bool isRed = IsColorMatch(pixel.rgbRed, pixel.rgbGreen, pixel.rgbBlue,
+            redR, redG, redB, toleranceRed);
+        bool wasBlue = IsColorMatch(previousPixel.rgbRed, previousPixel.rgbGreen, previousPixel.rgbBlue,
+            blueR, blueG, blueB, toleranceBlue);*/
 
         if (isRed && wasBlue)
         {
             redDetected = true;
 
-            if (!barInside && (now - lastPressTime > 500))
+            if (!barInside && (now - lastPressTime > 100))
             {
                 HWND hwnd = FocusWindow();
                 if (hwnd)
@@ -436,11 +564,12 @@ void CheckQuickTimeTrigger(RGBQUAD* buffer, int width, int height, RGBQUAD* last
     }
 
     // Reset barInside after timeout
-    if (!redDetected && barInside && (now - barTimer > 1000)) {
+    if (!redDetected && barInside && (now - barTimer > 200)) {
         barInside = false;
-    }
 
+    }
     memcpy(lastBuffer, buffer, width * height * sizeof(RGBQUAD));
+
 }
 
 static RGBQUAD* lastBuffer = nullptr;
@@ -456,7 +585,7 @@ BOOL WINAPI hkBitBlt(HDC hdcDest, int xDest, int yDest, int w, int h,
     isCapturing = true;
 
     const int captureWidth = 200;
-    const int captureHeight = 100;
+    const int captureHeight = 200;
     static RGBQUAD* lastBuffer = new RGBQUAD[captureWidth * captureHeight]{};
 
     // Calcul de la position centrale
@@ -1403,20 +1532,36 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 
 HWND CreateOverlayWindow(HINSTANCE hInstance)
 {
-    WNDCLASSEX wc = { sizeof(WNDCLASSEX) };
+    /*WNDCLASSEX wc = { sizeof(WNDCLASSEX) };
     wc.lpfnWndProc = WndProc;
     wc.hInstance = hInstance;
-    wc.lpszClassName = L"OverlayWindowClass";
+    wc.lpszClassName = L"Thunder-Menu";
     wc.hCursor = LoadCursor(NULL, IDC_ARROW);
     wc.hbrBackground = (HBRUSH)GetStockObject(NULL_BRUSH);
+    RegisterClassEx(&wc);*/
+
+    WNDCLASSEX wc = { 0 };
+    wc.cbSize = sizeof(WNDCLASSEX);
+    wc.style = CS_HREDRAW | CS_VREDRAW;
+    wc.lpfnWndProc = WndProc;
+    wc.hInstance = hInstance;
+    wc.hCursor = LoadCursor(NULL, IDC_ARROW);
+    wc.hbrBackground = (HBRUSH)GetStockObject(NULL_BRUSH);
+    wc.lpszClassName = L"Thunder-Menu"; //ico alt+tab
+
+    // Icônes pour Alt+Tab et barre de titre
+    wc.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON1));     // pour Alt+Tab
+    wc.hIconSm = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON1));   // coin supérieur gauche
+
     RegisterClassEx(&wc);
+
 
     //DWORD exStyle = WS_EX_TOPMOST | WS_EX_LAYERED | WS_EX_TOOLWINDOW | WS_EX_TRANSPARENT; //no visible
     DWORD exStyle = WS_EX_TOPMOST | WS_EX_LAYERED | WS_EX_TRANSPARENT; //visible
 
     HWND hwnd = CreateWindowEx(
         exStyle,
-        wc.lpszClassName, L"Overlay", WS_POPUP,
+        wc.lpszClassName, L"Thunder-Menu", WS_POPUP,
         0, 0, GetSystemMetrics(SM_CXSCREEN), GetSystemMetrics(SM_CYSCREEN),
         NULL, NULL, hInstance, NULL
     );
@@ -1538,7 +1683,6 @@ DWORD WINAPI MainThread(LPVOID)
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int)
 {
-    //createico(hInstance);
     DisableThreadLibraryCalls(hInstance);
     CreateThread(NULL, 0, MainThread, NULL, 0, NULL);
 
