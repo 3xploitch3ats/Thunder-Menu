@@ -582,33 +582,14 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
         case IDC_CREATE:
             CreateScheduledTask(hwnd);
             break;
-        //case IDC_MANAGE_TASKS:
-        //{
-        //    // Relancer en admin si nécessaire
-        //    int argc = __argc;
-        //    wchar_t** argv = __wargv;
-        //    RelaunchAsAdmin(argc, argv);
-
-        //    // Ouvrir la fenêtre gestionnaire de tâches
-        //    WNDCLASSW wc = { 0 };
-        //    wc.lpfnWndProc = TaskManagerWndProc;
-        //    wc.hInstance = GetModuleHandle(NULL);
-        //    wc.lpszClassName = L"TaskManagerWinClass";
-        //    wc.hCursor = LoadCursor(NULL, IDC_ARROW);
-        //    RegisterClassW(&wc);
-
-        //    HWND hTaskManagerWnd = CreateWindowW(wc.lpszClassName, L"Gestionnaire de Tâches Planifiées",
-        //        WS_OVERLAPPEDWINDOW & ~WS_THICKFRAME,
-        //        CW_USEDEFAULT, CW_USEDEFAULT, 800, 650,
-        //        NULL, NULL, GetModuleHandle(NULL), NULL);
-
-        //    ShowWindow(hTaskManagerWnd, SW_SHOW);
-        //    UpdateWindow(hTaskManagerWnd);
-        //}
-        //break;
         case IDC_MANAGE_TASKS:
         {
-            // Ouvre juste la fenêtre gestionnaire de tâches, sans rien relancer ni redémarrer admin
+            // Relancer en admin si nécessaire
+            int argc = __argc;
+            wchar_t** argv = __wargv;
+            RelaunchAsAdmin(argc, argv);
+
+            // Ouvrir la fenêtre gestionnaire de tâches
             WNDCLASSW wc = { 0 };
             wc.lpfnWndProc = TaskManagerWndProc;
             wc.hInstance = GetModuleHandle(NULL);
@@ -617,14 +598,33 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
             RegisterClassW(&wc);
 
             HWND hTaskManagerWnd = CreateWindowW(wc.lpszClassName, L"Gestionnaire de Tâches Planifiées",
-                WS_OVERLAPPEDWINDOW,
-                CW_USEDEFAULT, CW_USEDEFAULT, 500, 400,
-                hwnd, NULL, GetModuleHandle(NULL), NULL);
+                WS_OVERLAPPEDWINDOW & ~WS_THICKFRAME,
+                CW_USEDEFAULT, CW_USEDEFAULT, 800, 650,
+                NULL, NULL, GetModuleHandle(NULL), NULL);
 
             ShowWindow(hTaskManagerWnd, SW_SHOW);
             UpdateWindow(hTaskManagerWnd);
         }
         break;
+        //case IDC_MANAGE_TASKS:
+        //{
+        //    // Ouvre juste la fenêtre gestionnaire de tâches, sans rien relancer ni redémarrer admin
+        //    WNDCLASSW wc = { 0 };
+        //    wc.lpfnWndProc = TaskManagerWndProc;
+        //    wc.hInstance = GetModuleHandle(NULL);
+        //    wc.lpszClassName = L"TaskManagerWinClass";
+        //    wc.hCursor = LoadCursor(NULL, IDC_ARROW);
+        //    RegisterClassW(&wc);
+
+        //    HWND hTaskManagerWnd = CreateWindowW(wc.lpszClassName, L"Gestionnaire de Tâches Planifiées",
+        //        WS_OVERLAPPEDWINDOW,
+        //        CW_USEDEFAULT, CW_USEDEFAULT, 500, 400,
+        //        hwnd, NULL, GetModuleHandle(NULL), NULL);
+
+        //    ShowWindow(hTaskManagerWnd, SW_SHOW);
+        //    UpdateWindow(hTaskManagerWnd);
+        //}
+        //break;
 
         case IDC_OPENFILE:
             BrowseForFile(hwnd);
@@ -720,4 +720,4 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
 
     return 0;
 }
-//Scheduler.exe \PixelBot_BayLife "C:\Users\jason\OneDrive\Bureau\PixelBot_BayLife\x64\Release\PixelBot.exe" 0 0 5
+//Scheduler.exe PixelBot "C:\Users\jason\OneDrive\Bureau\PixelBot_BayLife\x64\Release\PixelBot.exe" 0 0 5
