@@ -1,8 +1,8 @@
-import json
 import os
+import json
 import sys
 from PIL import Image
-from tkinter import filedialog, Tk, Label, Entry, Scale, Checkbutton, Button, IntVar, HORIZONTAL, StringVar
+from tkinter import filedialog, Tk, Label, Entry, Scale, Checkbutton, Button, IntVar, HORIZONTAL, StringVar, Frame
 
 HISTORY_JSON = "conversion_history.json"
 
@@ -53,15 +53,15 @@ def image_to_html(image_path, output_file, width, height, autosize):
     try:
         with open(output_file, "w", encoding="utf-8") as f:
             f.write('\n'.join(html))
-        print(f"✅ Image convertie avec succès : {output_file}")
-        os.system(f'start "" "{output_file}"')  # Ouvre automatiquement sous Windows
+        print(f"Image convertie avec succès : {output_file}")
+        os.system(f'start "" "{output_file}"')
     except Exception as e:
         print(f"❌ Erreur d’écriture du fichier HTML : {e}")
 
 def launch_gui():
     root = Tk()
     root.title("Image vers HTML")
-    root.geometry("400x360")
+    root.geometry("400x400")
 
     selected_image = StringVar()
     output_name = StringVar(value="output.html")
@@ -81,7 +81,6 @@ def launch_gui():
                 w, h = img.size
                 image_dimensions["width"] = w
                 image_dimensions["height"] = h
-
                 if not autosize_var.get():
                     width_slider.set(w)
                     height_slider.set(h)
@@ -89,15 +88,12 @@ def launch_gui():
                 print("❌ Erreur de chargement de l'image.")
 
     def on_autosize_toggle():
-        if autosize_var.get():
-            width_slider.config(state="disabled")
-            height_slider.config(state="disabled")
-        else:
-            width_slider.config(state="normal")
-            height_slider.config(state="normal")
-            if selected_image.get():
-                width_slider.set(image_dimensions["width"])
-                height_slider.set(image_dimensions["height"])
+        state = "disabled" if autosize_var.get() else "normal"
+        width_slider.config(state=state)
+        height_slider.config(state=state)
+        if not autosize_var.get() and selected_image.get():
+            width_slider.set(image_dimensions["width"])
+            height_slider.set(image_dimensions["height"])
 
     def on_ok():
         path = selected_image.get()
@@ -121,14 +117,22 @@ def launch_gui():
     Checkbutton(root, text="Auto Size (taille réelle de l’image)", variable=autosize_var, command=on_autosize_toggle).pack(pady=5)
 
     Label(root, text="Largeur (Width)").pack()
-    width_slider = Scale(root, from_=10, to=1000, orient=HORIZONTAL)
+    width_frame = Frame(root)
+    width_frame.pack()
+    Button(width_frame, text="-", width=2, command=lambda: width_slider.set(max(10, width_slider.get() - 1))).pack(side="left")
+    width_slider = Scale(width_frame, from_=10, to=1000, orient=HORIZONTAL)
     width_slider.set(100)
-    width_slider.pack()
+    width_slider.pack(side="left")
+    Button(width_frame, text="+", width=2, command=lambda: width_slider.set(min(1000, width_slider.get() + 1))).pack(side="left")
 
     Label(root, text="Hauteur (Height)").pack()
-    height_slider = Scale(root, from_=10, to=1000, orient=HORIZONTAL)
+    height_frame = Frame(root)
+    height_frame.pack()
+    Button(height_frame, text="-", width=2, command=lambda: height_slider.set(max(10, height_slider.get() - 1))).pack(side="left")
+    height_slider = Scale(height_frame, from_=10, to=1000, orient=HORIZONTAL)
     height_slider.set(100)
-    height_slider.pack()
+    height_slider.pack(side="left")
+    Button(height_frame, text="+", width=2, command=lambda: height_slider.set(min(1000, height_slider.get() + 1))).pack(side="left")
 
     Label(root, text="Nom du fichier HTML").pack()
     Entry(root, textvariable=output_name).pack(pady=5)
@@ -150,9 +154,7 @@ if __name__ == "__main__":
         if not output_file.lower().endswith(".html"):
             output_file += ".html"
 
-        # Sauvegarde JSON
         save_json_unique(image_path, width, height, output_file)
-        # Conversion
         image_to_html(image_path, output_file, width, height, autosize=False)
 
     elif len(sys.argv) == 1:
@@ -161,5 +163,5 @@ if __name__ == "__main__":
     else:
         print("Usage: python script.py \"chemin/image.png\" width height output.html")
         sys.exit(1)
-
-# ImageHtml1.py "LOGO-BAYLIFE1.bmp" 200 200 result.html
+        
+# Image_To_Text_Html.py "LOGO-BAYLIFE1.bmp" 150 80 _BAYLIFE_.html
