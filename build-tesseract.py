@@ -7,13 +7,19 @@ import tkinter as tk
 from tkinter import filedialog
 
 BUILD_TYPE = "Release"
-CONFIG_FILE = os.path.join(os.path.dirname(__file__), "msys2_config.json")
+
+def get_config_path():
+    if getattr(sys, 'frozen', False):
+        # Compilé avec PyInstaller
+        base_path = os.path.dirname(sys.executable)
+    else:
+        base_path = os.path.dirname(__file__)
+    return os.path.join(base_path, "msys2_config.json")
+
+CONFIG_FILE = get_config_path()
 
 REQUIRED_PACKAGES = [
-    "git",
-    "cmake",
-    "ninja",
-    "make",
+    "git", "cmake", "ninja", "make",
     "mingw-w64-x86_64-cmake",
     "mingw-w64-x86_64-toolchain",
     "mingw-w64-x86_64-leptonica",
@@ -92,17 +98,21 @@ def check_and_install_packages(msys_path, bash_exe):
             missing.append(pkg)
 
     if missing:
-        show_message("Missing packages detected: " + ", ".join(missing), "cyan")
+        show_message("Missing packages: " + ", ".join(missing), "cyan")
         show_message("→ Running: pacman -Syu", "yellow")
         subprocess.run([bash_exe, "-lc", "pacman -Syu --noconfirm"])
         for pkg in missing:
             show_message(f"→ Installing {pkg}", "cyan")
             subprocess.run([bash_exe, "-lc", f"pacman -S --needed --noconfirm {pkg}"])
     else:
-        show_message("All required packages already installed.", "green")
+        show_message("All required packages are already installed.", "green")
 
 def main():
-    script_root = os.path.dirname(__file__)
+    if getattr(sys, 'frozen', False):
+        script_root = os.path.dirname(sys.executable)
+    else:
+        script_root = os.path.dirname(__file__)
+
     msys_path = get_msys2_path()
     mingw_path = os.path.join(msys_path, "mingw64")
     cmake_exe = os.path.join(mingw_path, "bin", "cmake.exe")
