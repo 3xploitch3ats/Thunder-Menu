@@ -33,13 +33,13 @@ def show_message(message, color="white"):
     timestamp = datetime.datetime.now().strftime('%H:%M:%S')
     print(f"[{timestamp}] {message}")
 
-def load_msys2_config():
+def load_msys2_config(force_use=False):
     if os.path.exists(CONFIG_FILE):
         try:
             with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
                 conf = json.load(f)
                 msys_path = conf.get("MSYS2Path", "")
-                if os.path.exists(os.path.join(msys_path, "msys2.exe")):
+                if force_use or os.path.exists(os.path.join(msys_path, "msys2.exe")):
                     return msys_path
         except Exception:
             pass
@@ -66,7 +66,7 @@ def select_msys2():
         sys.exit(1)
 
 def get_msys2_path():
-    stored = load_msys2_config()
+    stored = load_msys2_config(force_use=True)
     if stored:
         return stored
 
