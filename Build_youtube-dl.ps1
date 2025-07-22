@@ -478,6 +478,7 @@ def compile_file(file_path):
         sys.executable, "-m", "PyInstaller",
         "--clean",
         "--onefile",
+	"--name", "youtube-dl",
         "--distpath", script_dir,
         "--workpath", os.path.join(script_dir, "build"),
         "--specpath", script_dir,
