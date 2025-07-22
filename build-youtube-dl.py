@@ -429,7 +429,7 @@ def pyinstaller_compile_with_cmd(python_exe, source_dir, main_py):
         "--clean",
         "-y",
         "--onefile",
-        "--name", "youtube_dl",
+        "--name", "youtube-dl",
         f"--distpath={dist_dir}",
         f"--workpath={build_dir}",
         f"--specpath={source_dir}",
