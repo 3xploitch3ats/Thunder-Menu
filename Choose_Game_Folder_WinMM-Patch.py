@@ -1,4 +1,5 @@
 import os
+import shutil
 import urllib.request
 import zipfile
 import tkinter as tk
@@ -31,6 +32,13 @@ print("✅ FSL.zip téléchargé.")
 
 # Extraction dans %APPDATA%
 appdata_folder = os.getenv("APPDATA")
+fsl_folder = os.path.join(appdata_folder, "FSL")
+
+# Supprimer le dossier FSL s'il existe déjà
+if os.path.exists(fsl_folder):
+    print(f"🗑 Suppression du dossier existant : {fsl_folder}")
+    shutil.rmtree(fsl_folder)
+
 print(f"📂 Extraction de FSL.zip dans {appdata_folder}...")
 with zipfile.ZipFile(zip_path, "r") as zip_ref:
     zip_ref.extractall(appdata_folder)
